@@ -154,6 +154,26 @@ PLATFORM_WEIBO = "platform-weibo"
 PLATFORM_ZHIHU = "platform-zhihu"
 PLATFORM_BILIBILI = "platform-bilibili"
 
+# Max content age (days) and sort strategy per category
+CATEGORY_MAX_AGE_DAYS: dict[str, int] = {
+    "daily": 3,
+    "weekly": 14,
+    "monthly": 45,
+    "crs": 30,
+    "odi": 30,
+    "overseas_asset": 30,
+    "overseas_company": 30,
+}
+CATEGORY_SORT_MODE: dict[str, str] = {
+    "daily": "recency",
+    "weekly": "blended",
+    "monthly": "blended",
+    "crs": "blended",
+    "odi": "blended",
+    "overseas_asset": "blended",
+    "overseas_company": "blended",
+}
+
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -205,12 +225,72 @@ def make_detail(title: str, summary: str, points: list[str] | None = None) -> st
     return html
 
 
+def _to_bjt(ts: int | float | None) -> datetime | None:
+    """Convert unix timestamp to timezone-aware Beijing datetime."""
+    if not ts:
+        return None
+    try:
+        return datetime.fromtimestamp(int(ts), BJT)
+    except (ValueError, TypeError, OSError):
+        return None
+
+
+def parse_weibo_created_at(raw: str | None) -> datetime | None:
+    """Parse Weibo ``created_at`` like ``Sun Mar 30 12:00:00 +0800 2026``."""
+    if not raw:
+        return None
+    try:
+        from email.utils import parsedate_to_datetime
+        dt = parsedate_to_datetime(raw)
+        return dt.astimezone(BJT)
+    except (ValueError, TypeError):
+        return None
+
+
+def parse_publish_time(*candidates: int | float | str | datetime | None) -> datetime | None:
+    """Return the first valid publish datetime from mixed platform fields."""
+    for value in candidates:
+        if value is None:
+            continue
+        if isinstance(value, datetime):
+            return value.astimezone(BJT) if value.tzinfo else value.replace(tzinfo=BJT)
+        if isinstance(value, (int, float)):
+            dt = _to_bjt(value)
+            if dt:
+                return dt
+        if isinstance(value, str):
+            dt = parse_weibo_created_at(value)
+            if dt:
+                return dt
+    return None
+
+
+def content_age_days(published_at: datetime | None) -> float | None:
+    if published_at is None:
+        return None
+    return (NOW - published_at).total_seconds() / 86400
+
+
 def topic_dict(
     title: str, summary: str, source: str, platform_class: str,
     author: str, url: str, heat: int, discussions, tags: list[str],
     is_hot: bool, detail: str | None = None,
+    published_at: datetime | None = None,
+    *,
+    assume_now_if_missing: bool = False,
 ) -> dict:
-    return {
+    """Build a topic record. Search results must pass real ``published_at``."""
+    published_ts: int | None = None
+    if published_at is not None:
+        published = published_at.astimezone(BJT)
+        published_ts = int(published.timestamp())
+    elif assume_now_if_missing:
+        published = NOW
+        published_ts = int(NOW.timestamp())
+    else:
+        published = NOW
+
+    payload = {
         "id": make_id(source, title),
         "title": title,
         "summary": summary,
@@ -218,13 +298,67 @@ def topic_dict(
         "platform_class": platform_class,
         "author": author,
         "url": url,
-        "time": NOW.strftime("%Y-%m-%d %H:%M"),
+        "time": published.strftime("%Y-%m-%d %H:%M"),
         "heat": int(heat),
         "discussions": discussions if isinstance(discussions, str) else format_discussions(discussions),
         "tags": tags,
         "isHot": is_hot,
         "detail": detail or make_detail(title, summary),
     }
+    if published_ts is not None:
+        payload["published_at"] = published.isoformat()
+        payload["_published_ts"] = published_ts
+    return payload
+
+
+def _sort_topics(items: list[dict], mode: str) -> None:
+    """Sort topics in-place by recency and/or heat."""
+    if mode == "recency":
+        items.sort(key=lambda x: (x.get("_published_ts", 0), x["heat"]), reverse=True)
+        return
+
+    def blended_key(item: dict) -> tuple[float, int, int]:
+        ts = item.get("_published_ts", 0)
+        age_days = content_age_days(_to_bjt(ts)) if ts else 999.0
+        recency_boost = max(0.0, 1.0 - age_days / 30.0)
+        score = item["heat"] * (0.55 + 0.45 * recency_boost)
+        return (score, ts, item["heat"])
+
+    items.sort(key=blended_key, reverse=True)
+
+
+def _finalize_topics(items: list[dict], category_name: str) -> list[dict]:
+    """Filter by age, sort, mark hot, and strip internal fields."""
+    max_age = CATEGORY_MAX_AGE_DAYS.get(category_name, 30)
+    sort_mode = CATEGORY_SORT_MODE.get(category_name, "blended")
+
+    filtered: list[dict] = []
+    dropped_old = 0
+    dropped_unknown = 0
+    for item in items:
+        ts = item.get("_published_ts")
+        if not ts:
+            dropped_unknown += 1
+            continue
+        age = content_age_days(_to_bjt(ts))
+        if age is None or age > max_age:
+            dropped_old += 1
+            continue
+        filtered.append(item)
+
+    if dropped_old or dropped_unknown:
+        logger.info(
+            "[%s] filtered out %d old and %d undated items (max_age=%dd)",
+            category_name, dropped_old, dropped_unknown, max_age,
+        )
+
+    _sort_topics(filtered, sort_mode)
+
+    for i, item in enumerate(filtered):
+        item["isHot"] = i < 3
+        item.pop("_published_ts", None)
+
+    return filtered
 
 
 def make_client() -> httpx.AsyncClient:
@@ -277,6 +411,7 @@ async def collect_weibo_hotlist(keywords: list[str], phrases: list[str]) -> list
                     discussions=format_discussions(raw_heat),
                     tags=extract_tags(combined, keywords),
                     is_hot=raw_heat > 500000,
+                    assume_now_if_missing=True,
                 ))
     except Exception as e:
         logger.warning("Weibo hotlist collection failed: %s", e)
@@ -324,6 +459,7 @@ async def collect_weibo_search(search_terms: list[str], keywords: list[str],
                             heat = int(attitudes * 2 + comments * 5 + reposts * 3)
                             user_info = mblog.get("user", {}) or {}
                             mid = mblog.get("mid", "") or mblog.get("id", "")
+                            published_at = parse_publish_time(mblog.get("created_at"))
                             results.append(topic_dict(
                                 title=title,
                                 summary=text_plain[:200].strip(),
@@ -335,6 +471,7 @@ async def collect_weibo_search(search_terms: list[str], keywords: list[str],
                                 discussions=format_discussions(comments),
                                 tags=extract_tags(text_plain, keywords),
                                 is_hot=attitudes > 10000,
+                                published_at=published_at,
                             ))
                 except Exception as e:
                     logger.warning("Weibo search '%s' failed: %s", term, e)
@@ -380,6 +517,7 @@ async def collect_zhihu_hotlist(keywords: list[str], phrases: list[str]) -> list
                     discussions=format_discussions(answer_count),
                     tags=extract_tags(combined, keywords),
                     is_hot=heat_num > 1000000,
+                    assume_now_if_missing=True,
                 ))
     except Exception as e:
         logger.warning("Zhihu hotlist collection failed: %s", e)
@@ -439,6 +577,12 @@ async def collect_zhihu_search(search_terms: list[str], keywords: list[str],
                             continue
 
                         heat = int(follower_count * 0.5 + answer_count * 10)
+                        published_at = parse_publish_time(
+                            obj.get("updated_time"),
+                            obj.get("created_time"),
+                            question.get("updated_time"),
+                            question.get("created_time"),
+                        )
                         results.append(topic_dict(
                             title=title,
                             summary=excerpt[:200] if excerpt else title,
@@ -450,6 +594,7 @@ async def collect_zhihu_search(search_terms: list[str], keywords: list[str],
                             discussions=format_discussions(answer_count),
                             tags=extract_tags(title + " " + excerpt, keywords),
                             is_hot=follower_count > 5000,
+                            published_at=published_at,
                         ))
                 except Exception as e:
                     logger.warning("Zhihu search '%s' failed: %s", term, e)
@@ -486,6 +631,7 @@ async def collect_bilibili_ranking(keywords: list[str], phrases: list[str]) -> l
                 reply = stat.get("reply", 0)
                 heat = int(view * 0.1 + like * 2 + reply * 5 + danmaku * 1)
                 bvid = item.get("bvid", "")
+                published_at = parse_publish_time(item.get("pubdate"))
                 results.append(topic_dict(
                     title=title,
                     summary=desc[:200] if desc else title,
@@ -497,6 +643,7 @@ async def collect_bilibili_ranking(keywords: list[str], phrases: list[str]) -> l
                     discussions=format_discussions(danmaku + reply),
                     tags=extract_tags(combined, keywords),
                     is_hot=view > 500000,
+                    published_at=published_at,
                 ))
     except Exception as e:
         logger.warning("Bilibili ranking collection failed: %s", e)
@@ -513,7 +660,10 @@ async def collect_bilibili_search(search_terms: list[str], keywords: list[str],
                 await random_delay(1.0, 3.0)
                 url = "https://api.bilibili.com/x/web-interface/search/all/v2"
                 try:
-                    resp = await client.get(url, params={"keyword": term})
+                    resp = await client.get(
+                        url,
+                        params={"keyword": term, "order": "pubdate", "page": 1},
+                    )
                     if resp.status_code != 200:
                         logger.warning("Bilibili search '%s' returned HTTP %s", term, resp.status_code)
                         continue
@@ -540,6 +690,10 @@ async def collect_bilibili_search(search_terms: list[str], keywords: list[str],
                             heat = int(view * 0.1 + like * 2 + review * 5 + danmaku * 1)
                             bvid = item.get("bvid", "")
                             arcurl = item.get("arcurl", "")
+                            published_at = parse_publish_time(
+                                item.get("pubdate"),
+                                item.get("senddate"),
+                            )
                             results.append(topic_dict(
                                 title=title,
                                 summary=desc[:200] if desc else title,
@@ -551,6 +705,7 @@ async def collect_bilibili_search(search_terms: list[str], keywords: list[str],
                                 discussions=format_discussions(danmaku + review),
                                 tags=extract_tags(title + " " + desc, keywords),
                                 is_hot=view > 100000,
+                                published_at=published_at,
                             ))
                 except Exception as e:
                     logger.warning("Bilibili search '%s' failed: %s", term, e)
@@ -618,23 +773,23 @@ async def collect_category(category_name: str) -> list[dict]:
         logger.info("[%s] %s returned %d items", category_name, label, len(result))
         all_items.extend(result)
 
-    # Deduplicate by title (normalized)
-    seen: set[str] = set()
-    unique: list[dict] = []
+    # Deduplicate by title (normalized), keep the newer duplicate
+    seen: dict[str, dict] = {}
     for item in all_items:
         norm_title = item["title"].strip().lower()
-        if norm_title not in seen:
-            seen.add(norm_title)
-            unique.append(item)
+        prev = seen.get(norm_title)
+        if prev is None:
+            seen[norm_title] = item
+            continue
+        prev_ts = prev.get("_published_ts", 0)
+        new_ts = item.get("_published_ts", 0)
+        if new_ts > prev_ts:
+            seen[norm_title] = item
 
-    # Sort by heat descending
-    unique.sort(key=lambda x: x["heat"], reverse=True)
+    unique = list(seen.values())
+    unique = _finalize_topics(unique, category_name)
 
-    # Mark top 3 as hot
-    for i, item in enumerate(unique):
-        item["isHot"] = i < 3
-
-    logger.info("[%s] %d unique topics after dedup", category_name, len(unique))
+    logger.info("[%s] %d unique topics after dedup/filter", category_name, len(unique))
     return unique
 
 
