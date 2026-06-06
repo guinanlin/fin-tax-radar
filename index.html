@@ -390,6 +390,7 @@ body {
 .platform-zhihu { background: #0066ff; }
 .platform-bilibili { background: #00a1d6; }
 .platform-shipinhao { background: #07c160; }
+.platform-official { background: #4b5563; }
 
 .topic-actions {
   display: flex;
@@ -696,13 +697,10 @@ body {
   <!-- NAV -->
   <nav class="nav-section fade-in fade-in-2">
     <div class="tab-group">
-      <button class="tab-btn active" data-tab="daily" onclick="switchTab('daily')">每日热点<span class="tab-count">15</span></button>
-      <button class="tab-btn" data-tab="weekly" onclick="switchTab('weekly')">每周汇总<span class="tab-count">TOP20</span></button>
-      <button class="tab-btn" data-tab="monthly" onclick="switchTab('monthly')">每月汇总<span class="tab-count">TOP30</span></button>
-      <button class="tab-btn" data-tab="crs" onclick="switchTab('crs')">CRS热点<span class="tab-count">10</span></button>
-      <button class="tab-btn" data-tab="odi" onclick="switchTab('odi')">ODI热点<span class="tab-count">10</span></button>
-      <button class="tab-btn" data-tab="overseas_asset" onclick="switchTab('overseas_asset')">海外资产<span class="tab-count">10</span></button>
-      <button class="tab-btn" data-tab="overseas_company" onclick="switchTab('overseas_company')">海外公司注册<span class="tab-count">10</span></button>
+      <button class="tab-btn active" data-tab="policy" onclick="switchTab('policy')">政策法规<span class="tab-count">NEW</span></button>
+      <button class="tab-btn" data-tab="tax" onclick="switchTab('tax')">税务动态<span class="tab-count">NEW</span></button>
+      <button class="tab-btn" data-tab="finance" onclick="switchTab('finance')">财务实务<span class="tab-count">NEW</span></button>
+      <button class="tab-btn" data-tab="macro" onclick="switchTab('macro')">宏观财经<span class="tab-count">NEW</span></button>
     </div>
     <div class="controls">
       <div class="search-box">
@@ -715,12 +713,14 @@ body {
       </select>
       <select class="source-select" id="sourceSelect" onchange="filterTopics()">
         <option value="all">全部来源</option>
-        <option value="微信公众号">微信公众号</option>
-        <option value="微信视频号">微信视频号</option>
-        <option value="微博">微博</option>
-        <option value="抖音">抖音</option>
-        <option value="小红书">小红书</option>
-        <option value="知乎">知乎</option>
+        <option value="国家税务总局">国家税务总局</option>
+        <option value="财政部">财政部</option>
+        <option value="12366纳税服务">12366纳税服务</option>
+        <option value="税屋">税屋</option>
+        <option value="中国会计视野">中国会计视野</option>
+        <option value="中国税务网">中国税务网</option>
+        <option value="巨潮资讯网">巨潮资讯网</option>
+        <option value="国家法律法规数据库">国家法律法规数据库</option>
         <option value="B站">B站</option>
       </select>
     </div>
@@ -729,24 +729,26 @@ body {
   <!-- SOURCE TAGS -->
   <div class="source-tags fade-in fade-in-3">
     <button class="source-tag active" onclick="toggleSource(this, 'all')">全部</button>
-    <button class="source-tag" onclick="toggleSource(this, '微信公众号')">微信公众号</button>
-    <button class="source-tag" onclick="toggleSource(this, '微信视频号')">微信视频号</button>
-    <button class="source-tag" onclick="toggleSource(this, '微博')">微博</button>
-    <button class="source-tag" onclick="toggleSource(this, '抖音')">抖音</button>
-    <button class="source-tag" onclick="toggleSource(this, '小红书')">小红书</button>
-    <button class="source-tag" onclick="toggleSource(this, '知乎')">知乎</button>
+    <button class="source-tag" onclick="toggleSource(this, '国家税务总局')">国家税务总局</button>
+    <button class="source-tag" onclick="toggleSource(this, '财政部')">财政部</button>
+    <button class="source-tag" onclick="toggleSource(this, '12366纳税服务')">12366纳税服务</button>
+    <button class="source-tag" onclick="toggleSource(this, '税屋')">税屋</button>
+    <button class="source-tag" onclick="toggleSource(this, '中国会计视野')">中国会计视野</button>
+    <button class="source-tag" onclick="toggleSource(this, '中国税务网')">中国税务网</button>
+    <button class="source-tag" onclick="toggleSource(this, '巨潮资讯网')">巨潮资讯网</button>
+    <button class="source-tag" onclick="toggleSource(this, '国家法律法规数据库')">国家法律法规数据库</button>
     <button class="source-tag" onclick="toggleSource(this, 'B站')">B站</button>
   </div>
 
   <!-- STATS -->
   <div class="stats-bar fade-in fade-in-3" id="statsBar">
     <div class="stat-item">
-      <span class="stat-label">今日热点</span>
+      <span class="stat-label">政策法规</span>
       <span class="stat-value" id="statTotal">15</span>
     </div>
     <div class="stat-item">
       <span class="stat-label">覆盖平台</span>
-      <span class="stat-value">7</span>
+      <span class="stat-value">9</span>
     </div>
     <div class="stat-item">
       <span class="stat-label">总讨论量</span>
@@ -1138,20 +1140,17 @@ const OVERSEAS_COMPANY_DATA = [
 ];
 
 // === STATE ===
-let currentTab = 'daily';
+let currentTab = 'policy';
 let currentSource = 'all';
 let currentSort = 'heat';
 let currentSearch = '';
 
 // === RENDER FUNCTIONS ===
 function getData() {
-  if (currentTab === 'daily') return DAILY_DATA;
-  if (currentTab === 'weekly') return WEEKLY_DATA;
-  if (currentTab === 'monthly') return MONTHLY_DATA;
-  if (currentTab === 'crs') return CRS_DATA;
-  if (currentTab === 'odi') return ODI_DATA;
-  if (currentTab === 'overseas_asset') return OVERSEAS_ASSET_DATA;
-  if (currentTab === 'overseas_company') return OVERSEAS_COMPANY_DATA;
+  if (currentTab === 'policy') return DAILY_DATA;
+  if (currentTab === 'tax') return WEEKLY_DATA;
+  if (currentTab === 'finance') return MONTHLY_DATA;
+  if (currentTab === 'macro') return CRS_DATA;
   return DAILY_DATA;
 }
 
@@ -1236,16 +1235,15 @@ function switchTab(tab) {
   currentTab = tab;
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   document.querySelector(`[data-tab="${tab}"]`).classList.add('active');
-
-  document.getElementById('weeklyBanner').classList.toggle('show', tab === 'weekly');
-  document.getElementById('monthlyBanner').classList.toggle('show', tab === 'monthly');
-  document.getElementById('crsBanner').classList.toggle('show', tab === 'crs');
-  document.getElementById('odiBanner').classList.toggle('show', tab === 'odi');
-  document.getElementById('overseasAssetBanner').classList.toggle('show', tab === 'overseas_asset');
-  document.getElementById('overseasCompanyBanner').classList.toggle('show', tab === 'overseas_company');
+  // 旧专题 banner 不再用于新四分类
+  ['weeklyBanner', 'monthlyBanner', 'crsBanner', 'odiBanner', 'overseasAssetBanner', 'overseasCompanyBanner']
+    .forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.classList.remove('show');
+    });
 
   const statsLabel = document.querySelector('.stat-item:first-child .stat-label');
-  const labels = { daily: '今日热点', weekly: '本周热点', monthly: '本月热点', crs: 'CRS热点', odi: 'ODI热点', overseas_asset: '海外资产', overseas_company: '海外公司注册' };
+  const labels = { policy: '政策法规', tax: '税务动态', finance: '财务实务', macro: '宏观财经' };
   statsLabel.textContent = labels[tab] || '热点';
 
   renderTopics();
@@ -1352,13 +1350,10 @@ function updateTimestamp() {
 
 // === DATA LOADING FROM JSON FILES ===
 const DATA_BASE = './data';
-let realDailyData = null;
-let realWeeklyData = null;
-let realMonthlyData = null;
-let realCrsData = null;
-let realOdiData = null;
-let realOverseasAssetData = null;
-let realOverseasCompanyData = null;
+let realPolicyData = null;
+let realTaxData = null;
+let realFinanceData = null;
+let realMacroData = null;
 let liveDataActive = false;
 
 function getISOWeek(d) {
@@ -1379,54 +1374,29 @@ async function tryFetchJSON(url) {
 
 async function loadJSONData() {
   try {
-    const today = new Date();
-    const dateStr = fmtDate(today);
-    const yesterday = new Date(today); yesterday.setDate(yesterday.getDate() - 1);
-    const yesterdayStr = fmtDate(yesterday);
-    const isoWeek = getISOWeek(today);
-    const lastWeek = getISOWeek(yesterday);
-    const monthStr = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}`;
-    const lastMonth = new Date(today); lastMonth.setMonth(lastMonth.getMonth() - 1);
-    const lastMonthStr = `${lastMonth.getFullYear()}-${String(lastMonth.getMonth()+1).padStart(2,'0')}`;
-
-    const [daily, weekly, monthly, crs, odi, overseasAsset, overseasCompany] = await Promise.allSettled([
-      tryFetchJSON(`${DATA_BASE}/daily/${dateStr}.json`).then(d => d || tryFetchJSON(`${DATA_BASE}/daily/${yesterdayStr}.json`)),
-      tryFetchJSON(`${DATA_BASE}/weekly/${isoWeek}.json`).then(d => d || tryFetchJSON(`${DATA_BASE}/weekly/${lastWeek}.json`)),
-      tryFetchJSON(`${DATA_BASE}/monthly/${monthStr}.json`).then(d => d || tryFetchJSON(`${DATA_BASE}/monthly/${lastMonthStr}.json`)),
-      tryFetchJSON(`${DATA_BASE}/crs/latest.json`),
-      tryFetchJSON(`${DATA_BASE}/odi/latest.json`),
-      tryFetchJSON(`${DATA_BASE}/overseas_asset/latest.json`),
-      tryFetchJSON(`${DATA_BASE}/overseas_company/latest.json`),
+    const [policy, tax, finance, macro] = await Promise.allSettled([
+      tryFetchJSON(`${DATA_BASE}/policy/latest.json`),
+      tryFetchJSON(`${DATA_BASE}/tax/latest.json`),
+      tryFetchJSON(`${DATA_BASE}/finance/latest.json`),
+      tryFetchJSON(`${DATA_BASE}/macro/latest.json`),
     ]);
 
-    if (daily.status === 'fulfilled' && daily.value && daily.value.topics && daily.value.topics.length) {
-      realDailyData = daily.value.topics;
+    if (policy.status === 'fulfilled' && policy.value && policy.value.topics && policy.value.topics.length) {
+      realPolicyData = policy.value.topics;
       liveDataActive = true;
-      const ts = daily.value.updated_at ? daily.value.updated_at.slice(0, 16).replace('T', ' ') : dateStr;
+      const ts = policy.value.updated_at ? policy.value.updated_at.slice(0, 16).replace('T', ' ') : '';
       document.getElementById('lastUpdate').textContent = `UPDATED ${ts}`;
     }
-    if (weekly.status === 'fulfilled' && weekly.value && weekly.value.topics && weekly.value.topics.length) {
-      realWeeklyData = weekly.value.topics;
+    if (tax.status === 'fulfilled' && tax.value && tax.value.topics && tax.value.topics.length) {
+      realTaxData = tax.value.topics;
       liveDataActive = true;
     }
-    if (monthly.status === 'fulfilled' && monthly.value && monthly.value.topics && monthly.value.topics.length) {
-      realMonthlyData = monthly.value.topics;
+    if (finance.status === 'fulfilled' && finance.value && finance.value.topics && finance.value.topics.length) {
+      realFinanceData = finance.value.topics;
       liveDataActive = true;
     }
-    if (crs.status === 'fulfilled' && crs.value && crs.value.topics && crs.value.topics.length) {
-      realCrsData = crs.value.topics;
-      liveDataActive = true;
-    }
-    if (odi.status === 'fulfilled' && odi.value && odi.value.topics && odi.value.topics.length) {
-      realOdiData = odi.value.topics;
-      liveDataActive = true;
-    }
-    if (overseasAsset.status === 'fulfilled' && overseasAsset.value && overseasAsset.value.topics && overseasAsset.value.topics.length) {
-      realOverseasAssetData = overseasAsset.value.topics;
-      liveDataActive = true;
-    }
-    if (overseasCompany.status === 'fulfilled' && overseasCompany.value && overseasCompany.value.topics && overseasCompany.value.topics.length) {
-      realOverseasCompanyData = overseasCompany.value.topics;
+    if (macro.status === 'fulfilled' && macro.value && macro.value.topics && macro.value.topics.length) {
+      realMacroData = macro.value.topics;
       liveDataActive = true;
     }
 
@@ -1442,13 +1412,10 @@ async function loadJSONData() {
 // Override getData to prefer real data, fall back to mock
 const _origGetData = getData;
 getData = function() {
-  if (currentTab === 'daily' && realDailyData) return realDailyData;
-  if (currentTab === 'weekly' && realWeeklyData) return realWeeklyData;
-  if (currentTab === 'monthly' && realMonthlyData) return realMonthlyData;
-  if (currentTab === 'crs' && realCrsData) return realCrsData;
-  if (currentTab === 'odi' && realOdiData) return realOdiData;
-  if (currentTab === 'overseas_asset' && realOverseasAssetData) return realOverseasAssetData;
-  if (currentTab === 'overseas_company' && realOverseasCompanyData) return realOverseasCompanyData;
+  if (currentTab === 'policy' && realPolicyData) return realPolicyData;
+  if (currentTab === 'tax' && realTaxData) return realTaxData;
+  if (currentTab === 'finance' && realFinanceData) return realFinanceData;
+  if (currentTab === 'macro' && realMacroData) return realMacroData;
   return _origGetData();
 };
 

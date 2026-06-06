@@ -1,13 +1,21 @@
 #!/usr/bin/env python3
 """
 tax-radar1 -- Self-contained data collector for GitHub Actions.
-Scrapes fiscal/tax hot topics from Chinese social-media platforms
-and writes JSON files consumed by the GitHub Pages frontend.
+Collects fiscal/tax information from official sites + Bilibili and writes JSON
+files consumed by the GitHub Pages frontend.
 
-Platforms: Weibo, Zhihu, Bilibili (both hot-lists and keyword search).
-No API keys required -- uses only public endpoints.
+Primary sites:
+- 国家税务总局
+- 财政部
+- 12366 纳税服务
+- 税屋
+- 中国会计视野
+- 中国税务网
+- 巨潮资讯网
+- 国家法律法规数据库
+- Bilibili (kept as requested)
 
-Categories: daily, weekly, monthly, crs, odi, overseas_asset, overseas_company
+Categories: policy, tax, finance, macro
 """
 
 import asyncio
@@ -20,7 +28,7 @@ import re
 import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 
 import httpx
 from bs4 import BeautifulSoup
@@ -47,131 +55,73 @@ USER_AGENT = (
 )
 
 # ---------------------------------------------------------------------------
-# Keyword definitions per category
+# Category/source definitions
 # ---------------------------------------------------------------------------
-TAX_KEYWORDS = [
-    "增值税", "企业所得税", "个人所得税", "个税", "消费税", "房产税",
-    "土地增值税", "印花税", "关税", "车辆购置税", "资源税", "城建税",
-    "契税", "环境保护税", "烟叶税", "船舶吨税", "耕地占用税",
-    "税收", "税务", "纳税", "退税", "免税", "减税", "避税", "节税",
-    "税负", "税率", "税基", "税制", "税改", "税法", "税筹", "税务筹划",
-    "发票", "数电发票", "专票", "普票", "进项", "销项",
-    "留抵退税", "加计扣除", "即征即退", "先征后退",
-    "汇算清缴", "纳税申报", "税务登记", "税收优惠",
-    "小规模纳税人", "一般纳税人", "核定征收", "查账征收",
-    "财务", "会计", "审计", "财报", "报表", "资产负债", "利润表",
-    "现金流", "会计准则", "财务核算", "成本核算", "做账", "记账",
-    "应收账款", "应付账款", "固定资产", "折旧", "摊销",
-    "CPA", "注册会计师", "税务师", "CMA", "中级会计", "初级会计",
-    "财政", "地方财政", "财政收入", "财政支出", "国债", "地方债",
-    "转移支付", "预算", "财政部",
-    "税务总局", "国家税务", "税务局", "海关总署",
-    "报税", "开票", "抵扣", "税前扣除", "专项附加扣除",
-    "出口退税", "跨境电商税", "电商税", "直播税",
-    "股权转让税", "分红税", "工资税", "年终奖税",
-    "社保", "公积金", "五险一金",
+BASE_KEYWORDS = [
+    "税收", "税务", "财税", "财政", "会计", "纳税", "发票",
+    "增值税", "所得税", "税收政策", "税法", "财务",
+]
+BASE_PHRASES = [
+    "税收政策", "税务动态", "财税改革", "政策法规",
+    "财务实务", "宏观财经",
 ]
 
-TAX_PHRASES = [
-    "税收政策", "财税新规", "财税改革", "税务合规",
-    "企业报税", "个税申报", "增值税发票", "所得税汇算",
-    "减税降费", "税收征管", "税务稽查", "税务检查",
-    "营商环境", "税收营商", "涉税风险", "税务风险",
+OFFICIAL_SOURCES = [
+    {"name": "国家税务总局", "domain": "chinatax.gov.cn"},
+    {"name": "财政部", "domain": "mof.gov.cn"},
+    {"name": "12366纳税服务", "domain": "12366.chinatax.gov.cn"},
+    {"name": "税屋", "domain": "shui5.cn"},
+    {"name": "中国会计视野", "domain": "esnai.com"},
+    {"name": "中国税务网", "domain": "ctaxnews.com.cn"},
+    {"name": "巨潮资讯网", "domain": "cninfo.com.cn"},
+    {"name": "国家法律法规数据库", "domain": "flk.npc.gov.cn"},
 ]
+SOURCE_NAME_BY_DOMAIN = {s["domain"]: s["name"] for s in OFFICIAL_SOURCES}
 
-CRS_KEYWORDS = [
-    "CRS申报", "共同申报准则", "税务信息交换", "海外账户申报",
-    "AEOI", "金融账户涉税", "CRS合规", "涉税信息交换",
-    "非居民金融账户", "尽职调查", "自动交换",
-]
-
-ODI_KEYWORDS = [
-    "ODI备案", "境外投资备案", "对外直接投资", "境外投资管理",
-    "37号文", "返程投资", "海外投资架构", "境外投资审批",
-    "对外投资合规", "发改委境外投资",
-]
-
-OVERSEAS_ASSET_KEYWORDS = [
-    "海外资产申报", "境外资产申报", "海外房产税", "全球征税",
-    "海外信托", "境外所得申报", "海外资产配置税务",
-    "境外收入纳税", "海外资产合规", "个人境外所得",
-]
-
-OVERSEAS_COMPANY_KEYWORDS = [
-    "海外公司注册", "离岸公司注册", "香港公司注册", "新加坡公司注册",
-    "BVI公司注册", "经济实质法", "离岸架构搭建",
-    "开曼公司", "海外公司税务", "注册离岸公司",
-]
-
-# Search keywords per category (subset used for active search queries)
+# Search keywords per category
 CATEGORY_CONFIG = {
-    "daily": {
-        "keywords": TAX_KEYWORDS,
-        "search_terms": ["税收政策", "个人所得税", "增值税", "减税降费", "税务筹划"],
-        "filter_keywords": TAX_KEYWORDS,
-        "filter_phrases": TAX_PHRASES,
+    "policy": {
+        "search_terms": ["财税政策法规", "税收优惠政策", "会计准则更新", "税法修订"],
+        "filter_keywords": BASE_KEYWORDS + ["政策", "法规", "法律", "修订", "公告", "通知", "办法"],
+        "filter_phrases": BASE_PHRASES + ["政策法规", "税法修订"],
+        "site_domains": ["chinatax.gov.cn", "mof.gov.cn", "flk.npc.gov.cn", "shui5.cn"],
     },
-    "weekly": {
-        "keywords": TAX_KEYWORDS,
-        "search_terms": ["税收政策", "财税改革", "纳税申报"],
-        "filter_keywords": TAX_KEYWORDS,
-        "filter_phrases": TAX_PHRASES,
+    "tax": {
+        "search_terms": ["税务新闻动态", "纳税申报新规", "税务稽查案例", "增值税改革"],
+        "filter_keywords": BASE_KEYWORDS + ["稽查", "征管", "申报", "退税", "办税", "征收"],
+        "filter_phrases": BASE_PHRASES + ["税务动态", "纳税服务"],
+        "site_domains": ["chinatax.gov.cn", "12366.chinatax.gov.cn", "ctaxnews.com.cn"],
     },
-    "monthly": {
-        "keywords": TAX_KEYWORDS,
-        "search_terms": ["税收", "财税新规", "税务"],
-        "filter_keywords": TAX_KEYWORDS,
-        "filter_phrases": TAX_PHRASES,
+    "finance": {
+        "search_terms": ["财务会计实务", "企业财税筹划", "发票管理新规", "企业税务合规"],
+        "filter_keywords": BASE_KEYWORDS + ["实务", "合规", "会计准则", "做账", "申报", "票据"],
+        "filter_phrases": BASE_PHRASES + ["财务实务", "企业税务合规"],
+        "site_domains": ["shui5.cn", "esnai.com", "ctaxnews.com.cn"],
     },
-    "crs": {
-        "keywords": CRS_KEYWORDS,
-        "search_terms": ["CRS申报 税务", "共同申报准则", "海外账户涉税申报"],
-        "filter_keywords": CRS_KEYWORDS,
-        "filter_phrases": [],
-    },
-    "odi": {
-        "keywords": ODI_KEYWORDS,
-        "search_terms": ["ODI备案 境外投资", "境外投资备案流程", "海外投资架构 税务"],
-        "filter_keywords": ODI_KEYWORDS,
-        "filter_phrases": [],
-    },
-    "overseas_asset": {
-        "keywords": OVERSEAS_ASSET_KEYWORDS,
-        "search_terms": ["海外资产申报 税务", "境外资产 全球征税", "海外信托 税务"],
-        "filter_keywords": OVERSEAS_ASSET_KEYWORDS,
-        "filter_phrases": [],
-    },
-    "overseas_company": {
-        "keywords": OVERSEAS_COMPANY_KEYWORDS,
-        "search_terms": ["离岸公司注册 税务", "香港公司注册 税务", "海外公司注册"],
-        "filter_keywords": OVERSEAS_COMPANY_KEYWORDS,
-        "filter_phrases": [],
+    "macro": {
+        "search_terms": ["宏观经济政策", "财政数据发布", "GDP经济增长", "财政收支数据"],
+        "filter_keywords": BASE_KEYWORDS + ["宏观", "经济", "GDP", "财政收支", "预算", "国债"],
+        "filter_phrases": BASE_PHRASES + ["宏观财经", "财政数据"],
+        "site_domains": ["mof.gov.cn", "cninfo.com.cn", "chinatax.gov.cn"],
     },
 }
 
 # Platform CSS classes
-PLATFORM_WEIBO = "platform-weibo"
-PLATFORM_ZHIHU = "platform-zhihu"
+PLATFORM_OFFICIAL = "platform-official"
 PLATFORM_BILIBILI = "platform-bilibili"
 
 # Max content age (days) and sort strategy per category
 CATEGORY_MAX_AGE_DAYS: dict[str, int] = {
-    "daily": 3,
-    "weekly": 14,
-    "monthly": 45,
-    "crs": 30,
-    "odi": 30,
-    "overseas_asset": 30,
-    "overseas_company": 30,
+    "policy": 3650,
+    "tax": 3650,
+    "finance": 3650,
+    "macro": 3650,
 }
 CATEGORY_SORT_MODE: dict[str, str] = {
-    "daily": "recency",
-    "weekly": "blended",
-    "monthly": "blended",
-    "crs": "blended",
-    "odi": "blended",
-    "overseas_asset": "blended",
-    "overseas_company": "blended",
+    "policy": "recency",
+    "tax": "blended",
+    "finance": "blended",
+    "macro": "blended",
 }
 
 
@@ -361,6 +311,20 @@ def _finalize_topics(items: list[dict], category_name: str) -> list[dict]:
     return filtered
 
 
+def _rebalance_sources(items: list[dict], category_name: str) -> list[dict]:
+    """Avoid one source (typically B站) overwhelming official sources."""
+    official_items = [x for x in items if x.get("source") != "B站"]
+    bilibili_items = [x for x in items if x.get("source") == "B站"]
+    if not official_items:
+        # If no official hits, keep original order.
+        return items
+
+    bili_cap = max(10, min(30, len(official_items) * 2))
+    mixed = official_items + bilibili_items[:bili_cap]
+    _sort_topics(mixed, CATEGORY_SORT_MODE.get(category_name, "blended"))
+    return mixed
+
+
 def make_client() -> httpx.AsyncClient:
     return httpx.AsyncClient(
         timeout=30.0,
@@ -518,6 +482,106 @@ def _append_weibo_mblog(
 async def random_delay(lo: float = 0.5, hi: float = 2.0) -> None:
     """Sleep a random duration to avoid rate limiting."""
     await asyncio.sleep(random.uniform(lo, hi))
+
+
+# ---------------------------------------------------------------------------
+# Official-site collectors (Bing RSS based)
+# ---------------------------------------------------------------------------
+def _infer_source_name(link: str) -> str:
+    host = (urlparse(link).hostname or "").lower()
+    for domain, name in SOURCE_NAME_BY_DOMAIN.items():
+        if host == domain or host.endswith("." + domain):
+            return name
+    return host or "未知来源"
+
+
+def _is_allowed_domain(link: str, allowed_domains: list[str]) -> bool:
+    host = (urlparse(link).hostname or "").lower()
+    if not host:
+        return False
+    for domain in allowed_domains:
+        d = domain.lower()
+        if host == d or host.endswith("." + d):
+            return True
+    return False
+
+
+def parse_rfc822_time(raw: str | None) -> datetime | None:
+    if not raw:
+        return None
+    try:
+        from email.utils import parsedate_to_datetime
+        dt = parsedate_to_datetime(raw)
+        return dt.astimezone(BJT)
+    except (ValueError, TypeError):
+        return None
+
+
+def _bing_rss_url(query: str, domain: str) -> str:
+    q = f"site:{domain} {query}"
+    return f"https://www.bing.com/search?q={quote(q)}&format=rss&setlang=zh-cn"
+
+
+async def collect_official_rss(
+    category_name: str, search_terms: list[str], keywords: list[str], phrases: list[str],
+    site_domains: list[str],
+) -> list[dict]:
+    """Collect official news via Bing RSS site-restricted search."""
+    results: list[dict] = []
+    try:
+        async with make_client() as client:
+            for domain in site_domains:
+                for term in search_terms:
+                    await random_delay(0.2, 0.8)
+                    url = _bing_rss_url(term, domain)
+                    try:
+                        resp = await client.get(
+                            url,
+                            headers={"User-Agent": USER_AGENT, "Referer": "https://www.bing.com/"},
+                        )
+                        if resp.status_code != 200:
+                            logger.warning(
+                                "Official RSS '%s' site '%s' returned HTTP %s",
+                                term, domain, resp.status_code,
+                            )
+                            continue
+                        soup = BeautifulSoup(resp.text, "xml")
+                        for item in soup.find_all("item"):
+                            title = (item.title.text if item.title else "").strip()
+                            desc = (item.description.text if item.description else "").strip()
+                            link = (item.link.text if item.link else "").strip()
+                            if not title or not link:
+                                continue
+                            if not _is_allowed_domain(link, site_domains):
+                                continue
+                            combined = f"{title} {desc}"
+                            if not is_tax_related(combined, keywords, phrases):
+                                continue
+                            pub_dt = parse_rfc822_time(item.pubDate.text if item.pubDate else None)
+                            source_name = _infer_source_name(link)
+                            heat = max(100, int(5000 - min(content_age_days(pub_dt) or 365, 365) * 10))
+                            results.append(topic_dict(
+                                title=title,
+                                summary=desc[:220] if desc else title,
+                                source=source_name,
+                                platform_class=PLATFORM_OFFICIAL,
+                                author=source_name,
+                                url=link,
+                                heat=heat,
+                                discussions=format_discussions(max(10, heat // 20)),
+                                tags=extract_tags(combined, keywords),
+                                is_hot=False,
+                                published_at=pub_dt,
+                                assume_now_if_missing=True,
+                            ))
+                    except Exception as e:
+                        logger.warning(
+                            "Official RSS '%s' site '%s' failed: %s",
+                            term, domain, e,
+                        )
+    except Exception as e:
+        logger.warning("[%s] official RSS collection failed: %s", category_name, e)
+    return results
 
 
 # ---------------------------------------------------------------------------
@@ -1047,46 +1111,28 @@ async def collect_category(category_name: str) -> list[dict]:
     kw = config["filter_keywords"]
     phrases = config["filter_phrases"]
     search_terms = config["search_terms"]
+    site_domains = config["site_domains"]
 
-    logger.info("Collecting category '%s' with %d search terms...", category_name, len(search_terms))
+    logger.info(
+        "Collecting category '%s' with %d terms, %d official sites...",
+        category_name, len(search_terms), len(site_domains),
+    )
 
-    weibo_client = make_client()
-    zhihu_client = make_client()
-    await bootstrap_weibo(weibo_client)
-    await bootstrap_zhihu(zhihu_client)
+    tasks = [
+        collect_official_rss(category_name, search_terms, kw, phrases, site_domains),
+        collect_bilibili_search(search_terms, kw, phrases),
+        collect_bilibili_ranking(kw, phrases),
+    ]
+    labels = ["Official-RSS", "Bilibili-search", "Bilibili-ranking"]
+    results_raw = await asyncio.gather(*tasks, return_exceptions=True)
 
-    try:
-        search_tasks = [
-            collect_weibo_search(search_terms, kw, phrases, client=weibo_client),
-            collect_zhihu_search(search_terms, kw, phrases, client=zhihu_client),
-            collect_bilibili_search(search_terms, kw, phrases),
-        ]
-
-        hotlist_tasks: list = []
-        if category_name in ("daily", "weekly", "monthly"):
-            hotlist_tasks = [
-                collect_weibo_hotlist(kw, phrases, client=weibo_client),
-                collect_zhihu_hotlist(kw, phrases, client=zhihu_client),
-                collect_bilibili_ranking(kw, phrases),
-            ]
-
-        all_tasks = search_tasks + hotlist_tasks
-        task_labels = [
-            "Weibo-search", "Zhihu-search", "Bilibili-search",
-        ] + (["Weibo-hotlist", "Zhihu-hotlist", "Bilibili-ranking"] if hotlist_tasks else [])
-
-        results_raw = await asyncio.gather(*all_tasks, return_exceptions=True)
-
-        all_items: list[dict] = []
-        for label, result in zip(task_labels, results_raw):
-            if isinstance(result, Exception):
-                logger.error("[%s] %s raised: %s", category_name, label, result)
-                continue
-            logger.info("[%s] %s returned %d items", category_name, label, len(result))
-            all_items.extend(result)
-    finally:
-        await weibo_client.aclose()
-        await zhihu_client.aclose()
+    all_items: list[dict] = []
+    for label, result in zip(labels, results_raw):
+        if isinstance(result, Exception):
+            logger.error("[%s] %s raised: %s", category_name, label, result)
+            continue
+        logger.info("[%s] %s returned %d items", category_name, label, len(result))
+        all_items.extend(result)
 
     # Deduplicate by title (normalized), keep the newer duplicate
     seen: dict[str, dict] = {}
@@ -1102,6 +1148,7 @@ async def collect_category(category_name: str) -> list[dict]:
             seen[norm_title] = item
 
     unique = list(seen.values())
+    unique = _rebalance_sources(unique, category_name)
     unique = _finalize_topics(unique, category_name)
 
     source_counts: dict[str, int] = {}
@@ -1113,8 +1160,8 @@ async def collect_category(category_name: str) -> list[dict]:
     )
     if unique and len(source_counts) == 1 and "B站" in source_counts:
         logger.warning(
-            "[%s] only Bilibili data collected; Weibo/Zhihu may be blocked by anti-bot "
-            "(common on GitHub Actions overseas runners or datacenter IPs)",
+            "[%s] only Bilibili data collected; official-site RSS queries may be blocked "
+            "or returned empty for current keywords/IP",
             category_name,
         )
     return unique
@@ -1128,21 +1175,9 @@ async def collect_all() -> dict[str, list[dict]]:
     """Collect all categories. Returns {category_name: [topics]}."""
     results: dict[str, list[dict]] = {}
     # Collect categories sequentially to be gentle on rate limits.
-    # daily/weekly/monthly share the same sources so collect once and reuse.
-    daily_topics = await collect_category("daily")
-    results["daily"] = daily_topics
-
-    # Weekly and monthly reuse daily data (same keywords, different file paths)
-    # but we re-collect with their own (smaller) search term sets for variety.
-    for cat in ("weekly", "monthly"):
+    for cat in ("policy", "tax", "finance", "macro"):
         await random_delay(2.0, 4.0)
         results[cat] = await collect_category(cat)
-
-    # Specialty categories
-    for cat in ("crs", "odi", "overseas_asset", "overseas_company"):
-        await random_delay(2.0, 4.0)
-        results[cat] = await collect_category(cat)
-
     return results
 
 
@@ -1155,20 +1190,12 @@ def save_all(results: dict[str, list[dict]]) -> None:
     base = Path(os.getenv("DATA_DIR", "data"))
     now = NOW
 
-    date_str = now.strftime("%Y-%m-%d")
-    iso_cal = now.isocalendar()
-    week_str = f"{iso_cal[0]}-W{iso_cal[1]:02d}"
-    month_str = now.strftime("%Y-%m")
-
     # Map category -> (subdirectory, filename)
     file_map: dict[str, tuple[str, str]] = {
-        "daily": ("daily", f"{date_str}.json"),
-        "weekly": ("weekly", f"{week_str}.json"),
-        "monthly": ("monthly", f"{month_str}.json"),
-        "crs": ("crs", "latest.json"),
-        "odi": ("odi", "latest.json"),
-        "overseas_asset": ("overseas_asset", "latest.json"),
-        "overseas_company": ("overseas_company", "latest.json"),
+        "policy": ("policy", "latest.json"),
+        "tax": ("tax", "latest.json"),
+        "finance": ("finance", "latest.json"),
+        "macro": ("macro", "latest.json"),
     }
 
     # Always create all directories, even if no topics
