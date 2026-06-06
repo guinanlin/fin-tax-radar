@@ -367,10 +367,152 @@ def make_client() -> httpx.AsyncClient:
         headers={
             "User-Agent": USER_AGENT,
             "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-            "Accept": "application/json, text/html, */*",
+            "Accept": "application/json, text/plain, */*",
+            "Connection": "keep-alive",
         },
         follow_redirects=True,
     )
+
+
+def _weibo_headers() -> dict[str, str]:
+    return {
+        "User-Agent": USER_AGENT,
+        "Referer": "https://m.weibo.cn/",
+        "X-Requested-With": "XMLHttpRequest",
+        "Accept": "application/json, text/plain, */*",
+    }
+
+
+def _zhihu_headers(referer: str = "https://www.zhihu.com/") -> dict[str, str]:
+    return {
+        "User-Agent": USER_AGENT,
+        "Referer": referer,
+        "Accept": "application/json, text/plain, */*",
+        "x-requested-with": "fetch",
+    }
+
+
+async def _safe_json(resp: httpx.Response, label: str) -> dict | list | None:
+    try:
+        return resp.json()
+    except Exception:
+        ctype = resp.headers.get("content-type", "")
+        logger.warning(
+            "%s returned non-JSON payload (HTTP %s, %s, %d bytes)",
+            label, resp.status_code, ctype, len(resp.content),
+        )
+        return None
+
+
+async def bootstrap_weibo(client: httpx.AsyncClient) -> None:
+    """Acquire guest cookies required by m.weibo.cn APIs."""
+    headers = _weibo_headers()
+    try:
+        await client.get("https://m.weibo.cn/", headers=headers)
+        fp = json.dumps({
+            "os": "1",
+            "browser": "chrome",
+            "fonts": "undefined",
+            "screenInfo": "1920*1080*24",
+            "plugins": "",
+        })
+        resp = await client.post(
+            "https://passport.weibo.com/visitor/genvisitor2",
+            data={"cb": "gen_callback", "fp": fp},
+            headers={
+                "User-Agent": USER_AGENT,
+                "Referer": "https://passport.weibo.com/visitor/visitor",
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+        )
+        match = re.search(r"gen_callback\((\{.*\})\)", resp.text)
+        if not match:
+            logger.warning("Weibo guest bootstrap: genvisitor2 parse failed")
+            return
+        payload = json.loads(match.group(1)).get("data", {})
+        if not payload.get("tid"):
+            logger.warning("Weibo guest bootstrap: missing tid")
+            return
+        await client.get(
+            "https://passport.weibo.com/visitor/visitor",
+            params={
+                "a": "incarnate",
+                "t": payload["tid"],
+                "w": 2,
+                "cb": "cross_domain",
+                "from": "weibo",
+                "c": payload.get("new_tid", payload["tid"]),
+                "_rand": str(random.random()),
+            },
+            headers=headers,
+        )
+        await client.get("https://m.weibo.cn/api/config", headers=headers)
+    except Exception as e:
+        logger.warning("Weibo guest bootstrap failed: %s", e)
+
+
+async def bootstrap_zhihu(client: httpx.AsyncClient) -> None:
+    """Warm Zhihu cookies before API/HTML requests."""
+    try:
+        await client.get("https://www.zhihu.com/", headers=_zhihu_headers())
+    except Exception as e:
+        logger.warning("Zhihu bootstrap failed: %s", e)
+
+
+def _extract_zhihu_initial_data(html: str) -> dict | None:
+    match = re.search(
+        r'<script id="js-initialData" type="text/json">(.*?)</script>',
+        html,
+        re.S,
+    )
+    if not match:
+        return None
+    try:
+        return json.loads(match.group(1))
+    except json.JSONDecodeError:
+        return None
+
+
+def _zhihu_question_url(link: str | None, fallback_id: str | int | None = None) -> str:
+    if link:
+        if link.startswith("http"):
+            return link
+        return f"https://www.zhihu.com{link}"
+    if fallback_id:
+        return f"https://www.zhihu.com/question/{fallback_id}"
+    return "https://www.zhihu.com/hot"
+
+
+def _append_weibo_mblog(
+    results: list[dict], mblog: dict, keywords: list[str], phrases: list[str],
+) -> None:
+    text_raw = mblog.get("text", "")
+    text_plain = re.sub(r"<[^>]+>", "", text_raw)
+    title = text_plain[:80].strip()
+    if not title:
+        return
+    if not is_tax_related(text_plain, keywords, phrases):
+        return
+    reposts = mblog.get("reposts_count", 0)
+    comments = mblog.get("comments_count", 0)
+    attitudes = mblog.get("attitudes_count", 0)
+    heat = int(attitudes * 2 + comments * 5 + reposts * 3)
+    user_info = mblog.get("user", {}) or {}
+    mid = mblog.get("mid", "") or mblog.get("id", "")
+    published_at = parse_publish_time(mblog.get("created_at"))
+    results.append(topic_dict(
+        title=title,
+        summary=text_plain[:200].strip(),
+        source="微博",
+        platform_class=PLATFORM_WEIBO,
+        author=user_info.get("screen_name", ""),
+        url=f"https://m.weibo.cn/detail/{mid}",
+        heat=heat,
+        discussions=format_discussions(comments),
+        tags=extract_tags(text_plain, keywords),
+        is_hot=attitudes > 10000,
+        published_at=published_at,
+    ))
 
 
 async def random_delay(lo: float = 0.5, hi: float = 2.0) -> None:
@@ -382,119 +524,273 @@ async def random_delay(lo: float = 0.5, hi: float = 2.0) -> None:
 # Weibo collectors
 # ---------------------------------------------------------------------------
 # PLACEHOLDER: weibo_hotlist
-async def collect_weibo_hotlist(keywords: list[str], phrases: list[str]) -> list[dict]:
+async def collect_weibo_hotlist(
+    keywords: list[str], phrases: list[str], client: httpx.AsyncClient | None = None,
+) -> list[dict]:
     """Weibo hot-search: filter for matching keywords."""
-    url = "https://weibo.com/ajax/side/hotSearch"
     results: list[dict] = []
+    owns_client = client is None
     try:
-        async with make_client() as client:
-            resp = await client.get(url)
-            if resp.status_code != 200:
-                logger.warning("Weibo hotlist returned HTTP %s", resp.status_code)
-                return results
-            data = resp.json()
-            for item in data.get("data", {}).get("realtime", []):
-                word = item.get("word", "")
-                note = item.get("note", "")
-                raw_heat = item.get("raw_hot", 0) or item.get("num", 0)
-                combined = word + " " + note
-                if not is_tax_related(combined, keywords, phrases):
-                    continue
-                results.append(topic_dict(
-                    title=word,
-                    summary=note or word,
-                    source="微博",
-                    platform_class=PLATFORM_WEIBO,
-                    author="微博热搜",
-                    url=f"https://s.weibo.com/weibo?q=%23{quote(word)}%23",
-                    heat=raw_heat,
-                    discussions=format_discussions(raw_heat),
-                    tags=extract_tags(combined, keywords),
-                    is_hot=raw_heat > 500000,
-                    assume_now_if_missing=True,
-                ))
+        if owns_client:
+            client = make_client()
+            await bootstrap_weibo(client)
+
+        # Primary: mobile hot band
+        resp = await client.get(
+            "https://m.weibo.cn/api/container/getIndex",
+            params={"containerid": "102803"},
+            headers=_weibo_headers(),
+        )
+        data = await _safe_json(resp, "Weibo hotlist(mobile)")
+        if isinstance(data, dict):
+            for card in data.get("data", {}).get("cards", []):
+                for cg in card.get("card_group", []) or [card]:
+                    desc = cg.get("desc", "")
+                    note = cg.get("note", "")
+                    title = desc or note
+                    if not title:
+                        continue
+                    combined = f"{title} {note}"
+                    if not is_tax_related(combined, keywords, phrases):
+                        continue
+                    scheme = cg.get("scheme", "")
+                    raw_heat = int(re.sub(r"[^\d]", "", note or "0") or "0")
+                    results.append(topic_dict(
+                        title=title,
+                        summary=note or title,
+                        source="微博",
+                        platform_class=PLATFORM_WEIBO,
+                        author="微博热搜",
+                        url=scheme or f"https://s.weibo.com/weibo?q={quote(title)}",
+                        heat=max(raw_heat, 1000),
+                        discussions=format_discussions(max(raw_heat, 1000)),
+                        tags=extract_tags(combined, keywords),
+                        is_hot=True,
+                        assume_now_if_missing=True,
+                    ))
+
+        # Fallback: desktop hot search API
+        if not results:
+            resp = await client.get(
+                "https://weibo.com/ajax/side/hotSearch",
+                headers={"User-Agent": USER_AGENT, "Referer": "https://weibo.com/"},
+            )
+            data = await _safe_json(resp, "Weibo hotlist(desktop)")
+            if isinstance(data, dict):
+                for item in data.get("data", {}).get("realtime", []):
+                    word = item.get("word", "")
+                    note = item.get("note", "")
+                    raw_heat = item.get("raw_hot", 0) or item.get("num", 0)
+                    combined = word + " " + note
+                    if not is_tax_related(combined, keywords, phrases):
+                        continue
+                    results.append(topic_dict(
+                        title=word,
+                        summary=note or word,
+                        source="微博",
+                        platform_class=PLATFORM_WEIBO,
+                        author="微博热搜",
+                        url=f"https://s.weibo.com/weibo?q=%23{quote(word)}%23",
+                        heat=raw_heat,
+                        discussions=format_discussions(raw_heat),
+                        tags=extract_tags(combined, keywords),
+                        is_hot=raw_heat > 500000,
+                        assume_now_if_missing=True,
+                    ))
     except Exception as e:
         logger.warning("Weibo hotlist collection failed: %s", e)
+    finally:
+        if owns_client and client is not None:
+            await client.aclose()
     return results
 
 # PLACEHOLDER: weibo_search
-async def collect_weibo_search(search_terms: list[str], keywords: list[str],
-                                phrases: list[str]) -> list[dict]:
+async def collect_weibo_search(
+    search_terms: list[str], keywords: list[str], phrases: list[str],
+    client: httpx.AsyncClient | None = None,
+) -> list[dict]:
     """Search Weibo for specific keywords."""
     results: list[dict] = []
+    owns_client = client is None
     try:
-        async with make_client() as client:
-            for term in search_terms:
-                await random_delay(1.0, 3.0)
-                encoded = quote(term)
-                url = (
-                    f"https://m.weibo.cn/api/container/getIndex"
-                    f"?containerid=100103type%3D1%26q%3D{encoded}"
+        if owns_client:
+            client = make_client()
+            await bootstrap_weibo(client)
+
+        for term in search_terms:
+            await random_delay(1.0, 3.0)
+            try:
+                resp = await client.get(
+                    "https://m.weibo.cn/api/container/getIndex",
+                    params={"containerid": f"100103type=1&q={term}"},
+                    headers=_weibo_headers(),
                 )
-                try:
-                    resp = await client.get(url)
-                    if resp.status_code != 200:
-                        logger.warning("Weibo search '%s' returned HTTP %s", term, resp.status_code)
-                        continue
-                    data = resp.json()
-                    cards = data.get("data", {}).get("cards", [])
-                    for card in cards:
-                        card_group = card.get("card_group", [])
-                        if not card_group:
-                            # Single card (not grouped)
-                            card_group = [card]
-                        for cg in card_group:
-                            mblog = cg.get("mblog")
-                            if not mblog:
-                                continue
-                            text_raw = mblog.get("text", "")
-                            # Strip HTML tags for plain text
-                            text_plain = re.sub(r"<[^>]+>", "", text_raw)
-                            title = text_plain[:80].strip()
-                            if not title:
-                                continue
-                            reposts = mblog.get("reposts_count", 0)
-                            comments = mblog.get("comments_count", 0)
-                            attitudes = mblog.get("attitudes_count", 0)
-                            heat = int(attitudes * 2 + comments * 5 + reposts * 3)
-                            user_info = mblog.get("user", {}) or {}
-                            mid = mblog.get("mid", "") or mblog.get("id", "")
-                            published_at = parse_publish_time(mblog.get("created_at"))
-                            results.append(topic_dict(
-                                title=title,
-                                summary=text_plain[:200].strip(),
-                                source="微博",
-                                platform_class=PLATFORM_WEIBO,
-                                author=user_info.get("screen_name", ""),
-                                url=f"https://m.weibo.cn/detail/{mid}",
-                                heat=heat,
-                                discussions=format_discussions(comments),
-                                tags=extract_tags(text_plain, keywords),
-                                is_hot=attitudes > 10000,
-                                published_at=published_at,
-                            ))
-                except Exception as e:
-                    logger.warning("Weibo search '%s' failed: %s", term, e)
+                if resp.status_code != 200:
+                    logger.warning("Weibo search '%s' returned HTTP %s", term, resp.status_code)
+                    continue
+                data = await _safe_json(resp, f"Weibo search '{term}'")
+                if not isinstance(data, dict):
+                    continue
+                if data.get("ok") not in (1, "1"):
+                    logger.warning(
+                        "Weibo search '%s' API rejected request (ok=%s, msg=%s)",
+                        term, data.get("ok"), data.get("msg") or "unknown",
+                    )
+                    continue
+                cards = data.get("data", {}).get("cards", [])
+                for card in cards:
+                    card_group = card.get("card_group", []) or [card]
+                    for cg in card_group:
+                        mblog = cg.get("mblog")
+                        if mblog:
+                            _append_weibo_mblog(results, mblog, keywords, phrases)
+            except Exception as e:
+                logger.warning("Weibo search '%s' failed: %s", term, e)
     except Exception as e:
         logger.warning("Weibo search collection failed: %s", e)
+    finally:
+        if owns_client and client is not None:
+            await client.aclose()
     return results
 
 
 # ---------------------------------------------------------------------------
 # Zhihu collectors
 # ---------------------------------------------------------------------------
-# PLACEHOLDER: zhihu_hotlist
-async def collect_zhihu_hotlist(keywords: list[str], phrases: list[str]) -> list[dict]:
-    """Zhihu hot-list: filter for matching keywords."""
-    url = "https://www.zhihu.com/api/v3/feed/topstory/hot-lists/total"
+def _append_zhihu_search_object(
+    results: list[dict], obj: dict, term: str, keywords: list[str],
+) -> None:
+    title = re.sub(r"<[^>]+>", "", obj.get("title", "") or "")
+    excerpt = re.sub(
+        r"<[^>]+>", "",
+        obj.get("excerpt", "") or obj.get("description", "") or "",
+    )
+    if not title:
+        return
+    author_info = obj.get("author", {}) or {}
+    author_name = author_info.get("name", "")
+    question = obj.get("question", {}) or {}
+    qid = question.get("id", "") or obj.get("id", "")
+    answer_count = question.get("answer_count", 0) or 0
+    follower_count = question.get("follower_count", 0) or 0
+    obj_type = obj.get("type", "")
+    if obj_type == "answer":
+        result_url = (
+            f"https://www.zhihu.com/question/{question.get('id', '')}"
+            f"/answer/{obj.get('id', '')}"
+        )
+    elif obj_type == "article":
+        result_url = f"https://zhuanlan.zhihu.com/p/{obj.get('id', '')}"
+    else:
+        result_url = f"https://www.zhihu.com/question/{qid}"
+    heat = int(follower_count * 0.5 + answer_count * 10)
+    published_at = parse_publish_time(
+        obj.get("updated_time"),
+        obj.get("created_time"),
+        question.get("updated_time"),
+        question.get("created_time"),
+    )
+    results.append(topic_dict(
+        title=title,
+        summary=excerpt[:200] if excerpt else title,
+        source="知乎",
+        platform_class=PLATFORM_ZHIHU,
+        author=author_name,
+        url=result_url or f"https://www.zhihu.com/search?type=content&q={quote(term)}",
+        heat=heat,
+        discussions=format_discussions(answer_count),
+        tags=extract_tags(title + " " + excerpt, keywords),
+        is_hot=follower_count > 5000,
+        published_at=published_at,
+    ))
+
+
+def _zhihu_hotlist_from_html(html: str, keywords: list[str], phrases: list[str]) -> list[dict]:
+    data = _extract_zhihu_initial_data(html)
+    if not data:
+        return []
     results: list[dict] = []
+    hot_list = data.get("initialState", {}).get("topstory", {}).get("hotList", [])
+    for item in hot_list:
+        target = item.get("target", {})
+        title = (target.get("titleArea") or {}).get("text") or target.get("title", "")
+        excerpt = (target.get("excerptArea") or {}).get("text") or target.get("excerpt", "")
+        combined = f"{title} {excerpt}"
+        if not title or not is_tax_related(combined, keywords, phrases):
+            continue
+        detail_text = item.get("detailText", "") or item.get("detail_text", "0")
+        heat_num = int(re.sub(r"[^\d]", "", detail_text) or "0")
+        link = (target.get("link") or {}).get("url")
+        qid_match = re.search(r"/question/(\d+)", link or "")
+        qid = qid_match.group(1) if qid_match else target.get("id", "")
+        results.append(topic_dict(
+            title=title,
+            summary=excerpt[:200] if excerpt else title,
+            source="知乎",
+            platform_class=PLATFORM_ZHIHU,
+            author="知乎热榜",
+            url=_zhihu_question_url(link, qid),
+            heat=max(heat_num, 1000),
+            discussions=format_discussions(max(heat_num, 1000)),
+            tags=extract_tags(combined, keywords),
+            is_hot=heat_num > 1000000,
+            assume_now_if_missing=True,
+        ))
+    return results
+
+
+def _zhihu_search_from_html(
+    html: str, term: str, keywords: list[str], phrases: list[str],
+) -> list[dict]:
+    data = _extract_zhihu_initial_data(html)
+    if not data:
+        return []
+    state = data.get("initialState", {})
+    entities = state.get("entities", {})
+    results: list[dict] = []
+    search_entities = (
+        state.get("search", {}).get("entities", {}).get("content", [])
+        or state.get("search", {}).get("data", [])
+    )
+    for entry in search_entities:
+        if isinstance(entry, str):
+            obj = entities.get("questions", {}).get(entry) or entities.get("answers", {}).get(entry)
+            if not obj:
+                continue
+            combined = f"{obj.get('title', '')} {obj.get('excerpt', '')}"
+            if not is_tax_related(combined, keywords, phrases):
+                continue
+            _append_zhihu_search_object(results, obj, term, keywords)
+            continue
+        obj = entry.get("object", entry)
+        if not isinstance(obj, dict):
+            continue
+        combined = f"{obj.get('title', '')} {obj.get('excerpt', '')} {obj.get('description', '')}"
+        if not is_tax_related(combined, keywords, phrases):
+            continue
+        _append_zhihu_search_object(results, obj, term, keywords)
+    return results
+
+
+# PLACEHOLDER: zhihu_hotlist
+async def collect_zhihu_hotlist(
+    keywords: list[str], phrases: list[str], client: httpx.AsyncClient | None = None,
+) -> list[dict]:
+    """Zhihu hot-list: filter for matching keywords."""
+    results: list[dict] = []
+    owns_client = client is None
     try:
-        async with make_client() as client:
-            resp = await client.get(url, params={"limit": 50})
-            if resp.status_code != 200:
-                logger.warning("Zhihu hotlist returned HTTP %s", resp.status_code)
-                return results
-            data = resp.json()
+        if owns_client:
+            client = make_client()
+            await bootstrap_zhihu(client)
+
+        resp = await client.get(
+            "https://www.zhihu.com/api/v3/feed/topstory/hot-lists/total",
+            params={"limit": 50},
+            headers=_zhihu_headers("https://www.zhihu.com/hot"),
+        )
+        data = await _safe_json(resp, "Zhihu hotlist(api)")
+        if isinstance(data, dict):
             for item in data.get("data", []):
                 target = item.get("target", {})
                 title = target.get("title", "")
@@ -519,87 +815,99 @@ async def collect_zhihu_hotlist(keywords: list[str], phrases: list[str]) -> list
                     is_hot=heat_num > 1000000,
                     assume_now_if_missing=True,
                 ))
+
+        if not results:
+            html_resp = await client.get(
+                "https://www.zhihu.com/hot",
+                headers=_zhihu_headers("https://www.zhihu.com/hot"),
+            )
+            if html_resp.status_code == 200:
+                results = _zhihu_hotlist_from_html(html_resp.text, keywords, phrases)
+                if results:
+                    logger.info("Zhihu hotlist recovered via HTML fallback (%d items)", len(results))
+            else:
+                logger.warning("Zhihu hotlist HTML fallback returned HTTP %s", html_resp.status_code)
     except Exception as e:
         logger.warning("Zhihu hotlist collection failed: %s", e)
+    finally:
+        if owns_client and client is not None:
+            await client.aclose()
     return results
 
 # PLACEHOLDER: zhihu_search
-async def collect_zhihu_search(search_terms: list[str], keywords: list[str],
-                                phrases: list[str]) -> list[dict]:
+async def collect_zhihu_search(
+    search_terms: list[str], keywords: list[str], phrases: list[str],
+    client: httpx.AsyncClient | None = None,
+) -> list[dict]:
     """Search Zhihu for specific keywords."""
     results: list[dict] = []
+    owns_client = client is None
     try:
-        async with make_client() as client:
-            for term in search_terms:
-                await random_delay(1.0, 3.0)
-                url = "https://www.zhihu.com/api/v4/search_v3"
-                try:
-                    resp = await client.get(url, params={"t": "general", "q": term})
-                    if resp.status_code != 200:
-                        logger.warning("Zhihu search '%s' returned HTTP %s", term, resp.status_code)
-                        continue
-                    data = resp.json()
-                    for item in data.get("data", []):
-                        obj = item.get("object", {})
-                        item_type = item.get("type", "")
-                        title = ""
-                        excerpt = ""
-                        author_name = ""
-                        qid = ""
-                        answer_count = 0
-                        follower_count = 0
-                        result_url = ""
+        if owns_client:
+            client = make_client()
+            await bootstrap_zhihu(client)
 
-                        if item_type == "search_result":
-                            # Could be question, answer, or article
-                            title = obj.get("title", "") or ""
-                            # Strip HTML highlight tags
-                            title = re.sub(r"<[^>]+>", "", title)
-                            excerpt = obj.get("excerpt", "") or obj.get("description", "") or ""
-                            excerpt = re.sub(r"<[^>]+>", "", excerpt)
-                            author_info = obj.get("author", {}) or {}
-                            author_name = author_info.get("name", "")
-                            question = obj.get("question", {}) or {}
-                            qid = question.get("id", "") or obj.get("id", "")
-                            answer_count = question.get("answer_count", 0) or 0
-                            follower_count = question.get("follower_count", 0) or 0
-                            obj_type = obj.get("type", "")
-                            if obj_type == "answer":
-                                result_url = f"https://www.zhihu.com/question/{question.get('id', '')}/answer/{obj.get('id', '')}"
-                            elif obj_type == "article":
-                                result_url = f"https://zhuanlan.zhihu.com/p/{obj.get('id', '')}"
-                            else:
-                                result_url = f"https://www.zhihu.com/question/{qid}"
-                        else:
-                            continue
+        for term in search_terms:
+            await random_delay(1.0, 3.0)
+            try:
+                resp = await client.get(
+                    "https://www.zhihu.com/api/v4/search_v3",
+                    params={
+                        "t": "general",
+                        "q": term,
+                        "correction": 1,
+                        "offset": 0,
+                        "limit": 20,
+                        "filter_fields": "",
+                        "lc_idx": 0,
+                        "show_all_topics": 0,
+                        "search_source": "Filter",
+                    },
+                    headers=_zhihu_headers(
+                        f"https://www.zhihu.com/search?type=content&q={quote(term)}"
+                    ),
+                )
+                term_results: list[dict] = []
+                if resp.status_code == 200:
+                    data = await _safe_json(resp, f"Zhihu search '{term}'")
+                    if isinstance(data, dict):
+                        for item in data.get("data", []):
+                            if item.get("type") != "search_result":
+                                continue
+                            obj = item.get("object", {})
+                            combined = (
+                                f"{obj.get('title', '')} {obj.get('excerpt', '')}"
+                                f" {obj.get('description', '')}"
+                            )
+                            if not is_tax_related(combined, keywords, phrases):
+                                continue
+                            _append_zhihu_search_object(term_results, obj, term, keywords)
+                if term_results:
+                    results.extend(term_results)
+                    continue
 
-                        if not title:
-                            continue
-
-                        heat = int(follower_count * 0.5 + answer_count * 10)
-                        published_at = parse_publish_time(
-                            obj.get("updated_time"),
-                            obj.get("created_time"),
-                            question.get("updated_time"),
-                            question.get("created_time"),
-                        )
-                        results.append(topic_dict(
-                            title=title,
-                            summary=excerpt[:200] if excerpt else title,
-                            source="知乎",
-                            platform_class=PLATFORM_ZHIHU,
-                            author=author_name,
-                            url=result_url or f"https://www.zhihu.com/search?type=content&q={quote(term)}",
-                            heat=heat,
-                            discussions=format_discussions(answer_count),
-                            tags=extract_tags(title + " " + excerpt, keywords),
-                            is_hot=follower_count > 5000,
-                            published_at=published_at,
-                        ))
-                except Exception as e:
-                    logger.warning("Zhihu search '%s' failed: %s", term, e)
+                html_resp = await client.get(
+                    f"https://www.zhihu.com/search?type=content&q={quote(term)}",
+                    headers=_zhihu_headers(
+                        f"https://www.zhihu.com/search?type=content&q={quote(term)}"
+                    ),
+                )
+                if html_resp.status_code == 200:
+                    html_items = _zhihu_search_from_html(html_resp.text, term, keywords, phrases)
+                    if html_items:
+                        results.extend(html_items)
+                        logger.info("Zhihu search '%s' recovered via HTML fallback (%d items)", term, len(html_items))
+                    else:
+                        logger.warning("Zhihu search '%s' API/HTML both empty (HTTP %s)", term, resp.status_code)
+                else:
+                    logger.warning("Zhihu search '%s' returned HTTP %s", term, resp.status_code)
+            except Exception as e:
+                logger.warning("Zhihu search '%s' failed: %s", term, e)
     except Exception as e:
         logger.warning("Zhihu search collection failed: %s", e)
+    finally:
+        if owns_client and client is not None:
+            await client.aclose()
     return results
 
 
@@ -742,36 +1050,43 @@ async def collect_category(category_name: str) -> list[dict]:
 
     logger.info("Collecting category '%s' with %d search terms...", category_name, len(search_terms))
 
-    # Run search-based collectors concurrently (more reliable from non-China IPs)
-    search_tasks = [
-        collect_weibo_search(search_terms, kw, phrases),
-        collect_zhihu_search(search_terms, kw, phrases),
-        collect_bilibili_search(search_terms, kw, phrases),
-    ]
+    weibo_client = make_client()
+    zhihu_client = make_client()
+    await bootstrap_weibo(weibo_client)
+    await bootstrap_zhihu(zhihu_client)
 
-    # Also run hotlist/ranking collectors as fallback (only for daily/weekly/monthly)
-    hotlist_tasks: list = []
-    if category_name in ("daily", "weekly", "monthly"):
-        hotlist_tasks = [
-            collect_weibo_hotlist(kw, phrases),
-            collect_zhihu_hotlist(kw, phrases),
-            collect_bilibili_ranking(kw, phrases),
+    try:
+        search_tasks = [
+            collect_weibo_search(search_terms, kw, phrases, client=weibo_client),
+            collect_zhihu_search(search_terms, kw, phrases, client=zhihu_client),
+            collect_bilibili_search(search_terms, kw, phrases),
         ]
 
-    all_tasks = search_tasks + hotlist_tasks
-    task_labels = [
-        "Weibo-search", "Zhihu-search", "Bilibili-search",
-    ] + (["Weibo-hotlist", "Zhihu-hotlist", "Bilibili-ranking"] if hotlist_tasks else [])
+        hotlist_tasks: list = []
+        if category_name in ("daily", "weekly", "monthly"):
+            hotlist_tasks = [
+                collect_weibo_hotlist(kw, phrases, client=weibo_client),
+                collect_zhihu_hotlist(kw, phrases, client=zhihu_client),
+                collect_bilibili_ranking(kw, phrases),
+            ]
 
-    results_raw = await asyncio.gather(*all_tasks, return_exceptions=True)
+        all_tasks = search_tasks + hotlist_tasks
+        task_labels = [
+            "Weibo-search", "Zhihu-search", "Bilibili-search",
+        ] + (["Weibo-hotlist", "Zhihu-hotlist", "Bilibili-ranking"] if hotlist_tasks else [])
 
-    all_items: list[dict] = []
-    for label, result in zip(task_labels, results_raw):
-        if isinstance(result, Exception):
-            logger.error("[%s] %s raised: %s", category_name, label, result)
-            continue
-        logger.info("[%s] %s returned %d items", category_name, label, len(result))
-        all_items.extend(result)
+        results_raw = await asyncio.gather(*all_tasks, return_exceptions=True)
+
+        all_items: list[dict] = []
+        for label, result in zip(task_labels, results_raw):
+            if isinstance(result, Exception):
+                logger.error("[%s] %s raised: %s", category_name, label, result)
+                continue
+            logger.info("[%s] %s returned %d items", category_name, label, len(result))
+            all_items.extend(result)
+    finally:
+        await weibo_client.aclose()
+        await zhihu_client.aclose()
 
     # Deduplicate by title (normalized), keep the newer duplicate
     seen: dict[str, dict] = {}
@@ -789,7 +1104,19 @@ async def collect_category(category_name: str) -> list[dict]:
     unique = list(seen.values())
     unique = _finalize_topics(unique, category_name)
 
-    logger.info("[%s] %d unique topics after dedup/filter", category_name, len(unique))
+    source_counts: dict[str, int] = {}
+    for item in unique:
+        source_counts[item["source"]] = source_counts.get(item["source"], 0) + 1
+    logger.info(
+        "[%s] %d unique topics after dedup/filter, by source: %s",
+        category_name, len(unique), source_counts or "none",
+    )
+    if unique and len(source_counts) == 1 and "B站" in source_counts:
+        logger.warning(
+            "[%s] only Bilibili data collected; Weibo/Zhihu may be blocked by anti-bot "
+            "(common on GitHub Actions overseas runners or datacenter IPs)",
+            category_name,
+        )
     return unique
 
 
