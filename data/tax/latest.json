@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-23T09:10:19.346196+08:00",
-  "count": 12,
+  "updated_at": "2026-06-23T19:06:38.288010+08:00",
+  "count": 21,
   "topics": [
     {
       "id": "b16a2fc01f55",
@@ -39,22 +39,23 @@
       "published_at": "2020-02-10T00:21:32+08:00"
     },
     {
-      "id": "ebf13070d723",
-      "title": "国家税务总局",
-      "summary": "国家税务总局召开党委理论学习中心组学习（扩大）会议 深入学习贯彻习近平党建思想牢固树立和践行正确政绩观 胡静林在内蒙古调研税务工作时强调 扎实开展税务系统学习教育 以实绩实效服务高质量发展",
+      "id": "64ee969dc1aa",
+      "title": "国家税务总局陕西省税务局",
+      "summary": "国家税务总局陕西省税务局提供全面税务服务和政策资讯，助力纳税人高效便捷办理涉税业务。",
       "source": "国家税务总局",
       "platform_class": "platform-official",
       "author": "国家税务总局",
-      "url": "https://www.chinatax.gov.cn/",
-      "time": "2026-06-23 09:10",
+      "url": "https://shaanxi.chinatax.gov.cn/",
+      "time": "2026-06-23 19:06",
       "heat": 1350,
       "discussions": "67",
       "tags": [
-        "税务"
+        "税务",
+        "纳税"
       ],
       "isHot": true,
-      "detail": "<p>国家税务总局召开党委理论学习中心组学习（扩大）会议 深入学习贯彻习近平党建思想牢固树立和践行正确政绩观 胡静林在内蒙古调研税务工作时强调 扎实开展税务系统学习教育 以实绩实效服务高质量发展</p>",
-      "published_at": "2026-06-23T09:10:19.346196+08:00"
+      "detail": "<p>国家税务总局陕西省税务局提供全面税务服务和政策资讯，助力纳税人高效便捷办理涉税业务。</p>",
+      "published_at": "2026-06-23T19:06:38.288010+08:00"
     },
     {
       "id": "d654684c611c",
@@ -64,7 +65,7 @@
       "platform_class": "platform-official",
       "author": "国家税务总局",
       "url": "https://etax.zhejiang.chinatax.gov.cn:8443/",
-      "time": "2026-06-23 09:10",
+      "time": "2026-06-23 19:06",
       "heat": 1350,
       "discussions": "67",
       "tags": [
@@ -74,7 +75,104 @@
       ],
       "isHot": false,
       "detail": "<p>居民企业（查账征收）企业所得税月（季）度申... 实行查账征收方式的企业在月或季度终了之日起15日内，进行月（季）度 ...</p>",
-      "published_at": "2026-06-23T09:10:19.346196+08:00"
+      "published_at": "2026-06-23T19:06:38.288010+08:00"
+    },
+    {
+      "id": "ebf13070d723",
+      "title": "国家税务总局",
+      "summary": "国家税务总局召开党委理论学习中心组学习（扩大）会议 深入学习贯彻习近平党建思想牢固树立和践行正确政绩观 胡静林在内蒙古调研税务工作时强调 扎实开展税务系统学习教育 以实绩实效服务高质量发展",
+      "source": "国家税务总局",
+      "platform_class": "platform-official",
+      "author": "国家税务总局",
+      "url": "https://www.chinatax.gov.cn/",
+      "time": "2026-06-23 19:06",
+      "heat": 1350,
+      "discussions": "67",
+      "tags": [
+        "税务"
+      ],
+      "isHot": false,
+      "detail": "<p>国家税务总局召开党委理论学习中心组学习（扩大）会议 深入学习贯彻习近平党建思想牢固树立和践行正确政绩观 胡静林在内蒙古调研税务工作时强调 扎实开展税务系统学习教育 以实绩实效服务高质量发展</p>",
+      "published_at": "2026-06-23T19:06:38.288010+08:00"
+    },
+    {
+      "id": "ab60948573b4",
+      "title": "网上办税 - 国家税务总局12366纳税服务平台",
+      "summary": "辽宁省税务局 大连市税务局 广东省税务局 深圳市税务局 福建省税务局 厦门市税务局 浙江省税务局 宁波市税务局 山东省税务局 青岛市税务局 北京市税务局 天津市税务局 上海市税务局",
+      "source": "国家税务总局",
+      "platform_class": "platform-official",
+      "author": "国家税务总局",
+      "url": "https://12366.chinatax.gov.cn/bsfw/onlinetaxation/main",
+      "time": "2026-06-23 19:06",
+      "heat": 1350,
+      "discussions": "67",
+      "tags": [
+        "税务",
+        "纳税",
+        "办税"
+      ],
+      "isHot": false,
+      "detail": "<p>辽宁省税务局 大连市税务局 广东省税务局 深圳市税务局 福建省税务局 厦门市税务局 浙江省税务局 宁波市税务局 山东省税务局 青岛市税务局 北京市税务局 天津市税务局 上海市税务局</p>",
+      "published_at": "2026-06-23T19:06:38.288010+08:00"
+    },
+    {
+      "id": "166d0ce19828",
+      "title": "国家税务总局12366纳税服务平台",
+      "summary": "热点问题 最新法规 视频点播 开业第一课 智能咨询 网上留言 在线咨询 办税地图 办税日历 申报缴纳资源税（水资源税除外）、按期汇总缴纳纳税人和电子应税凭证纳税人申报缴纳 当日无需申报 文字访谈 您即将离开12366纳税服务平台网站，",
+      "source": "国家税务总局",
+      "platform_class": "platform-official",
+      "author": "国家税务总局",
+      "url": "http://12366.chinatax.gov.cn/",
+      "time": "2026-06-23 19:06",
+      "heat": 1350,
+      "discussions": "67",
+      "tags": [
+        "税务",
+        "纳税",
+        "申报"
+      ],
+      "isHot": false,
+      "detail": "<p>热点问题 最新法规 视频点播 开业第一课 智能咨询 网上留言 在线咨询 办税地图 办税日历 申报缴纳资源税（水资源税除外）、按期汇总缴纳纳税人和电子应税凭证纳税人申报缴纳 当日无需申报 文字访谈 您即将离开12366纳税服务平台网站，</p>",
+      "published_at": "2026-06-23T19:06:38.288010+08:00"
+    },
+    {
+      "id": "ce992d93d85a",
+      "title": "自然人电子税务局",
+      "summary": "国家税务总局令第57号：《个人所得税综合所得汇算清缴管理办法》 点击查看 关于《个人所得税综合所得汇算清缴管理办法》的解读 点击查看 个人退税的这些陷阱你必须知道 点击查看 关于近期虚假退税宣传的温馨提示 点击查看",
+      "source": "国家税务总局",
+      "platform_class": "platform-official",
+      "author": "国家税务总局",
+      "url": "http://www.etax.chinatax.gov.cn/",
+      "time": "2026-06-23 19:06",
+      "heat": 1350,
+      "discussions": "67",
+      "tags": [
+        "税务",
+        "所得税",
+        "退税"
+      ],
+      "isHot": false,
+      "detail": "<p>国家税务总局令第57号：《个人所得税综合所得汇算清缴管理办法》 点击查看 关于《个人所得税综合所得汇算清缴管理办法》的解读 点击查看 个人退税的这些陷阱你必须知道 点击查看 关于近期虚假退税宣传的温馨提示 点击查看</p>",
+      "published_at": "2026-06-23T19:06:38.288010+08:00"
+    },
+    {
+      "id": "f330dcc10d09",
+      "title": "纳税服务_国家税务总局",
+      "summary": "访问统计 | 网站管理 | 联系我们 | 网站地图 | 主办单位：国家税务总局版权所有：国家税务总局 地址：北京市海淀区羊坊店西路5号 网站标识码：bm29000002 京ICP备13021685号-2 京公网安备 11040102700073号",
+      "source": "国家税务总局",
+      "platform_class": "platform-official",
+      "author": "国家税务总局",
+      "url": "https://www.chinatax.gov.cn/chinatax/n810346/index.html",
+      "time": "2026-06-23 19:06",
+      "heat": 1350,
+      "discussions": "67",
+      "tags": [
+        "税务",
+        "纳税"
+      ],
+      "isHot": false,
+      "detail": "<p>访问统计 | 网站管理 | 联系我们 | 网站地图 | 主办单位：国家税务总局版权所有：国家税务总局 地址：北京市海淀区羊坊店西路5号 网站标识码：bm29000002 京ICP备13021685号-2 京公网安备 11040102700073号</p>",
+      "published_at": "2026-06-23T19:06:38.288010+08:00"
     },
     {
       "id": "582a6ec43eff",
@@ -94,6 +192,24 @@
       "isHot": false,
       "detail": "<p>操作教程：个体工商户网上如何做税务报到？如何网上做核定征收？</p>",
       "published_at": "2022-03-09T20:30:00+08:00"
+    },
+    {
+      "id": "6f031d935b65",
+      "title": "国家税务总局武冈市税务局工间操比赛",
+      "summary": "国家税务总局武冈市税务局工间操比赛",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "Cwen_陈文",
+      "url": "http://www.bilibili.com/video/av842612034",
+      "time": "2020-10-24 18:19",
+      "heat": 1379,
+      "discussions": "6",
+      "tags": [
+        "税务"
+      ],
+      "isHot": false,
+      "detail": "<p>国家税务总局武冈市税务局工间操比赛</p>",
+      "published_at": "2020-10-24T18:19:55+08:00"
     },
     {
       "id": "1dfc235375b4",
@@ -122,7 +238,7 @@
       "author": "青春普陀",
       "url": "http://www.bilibili.com/video/av589676927",
       "time": "2021-08-06 15:44",
-      "heat": 883,
+      "heat": 884,
       "discussions": "0",
       "tags": [
         "税务"
@@ -130,6 +246,45 @@
       "isHot": false,
       "detail": "<p>青声说#永远跟党走，建功新时代#，看区税务局第一税务所青年罗群的演讲《党徽熠熠照我行》</p>",
       "published_at": "2021-08-06T15:44:55+08:00"
+    },
+    {
+      "id": "94368a875ce1",
+      "title": "国家税务总局重庆市税务局稽查局《黑名单》短剧",
+      "summary": "剧情讲述企业有能力纳税而拒绝纳税，从而企业法人被纳入黑名单。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "重庆沃尔克斯传媒",
+      "url": "http://www.bilibili.com/video/av80607961",
+      "time": "2019-12-25 16:04",
+      "heat": 694,
+      "discussions": "6",
+      "tags": [
+        "税务",
+        "纳税",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>剧情讲述企业有能力纳税而拒绝纳税，从而企业法人被纳入黑名单。</p>",
+      "published_at": "2019-12-25T16:04:49+08:00"
+    },
+    {
+      "id": "3a9dc43e29d8",
+      "title": "会计实务mg动画教学|第八章2企业所得税",
+      "summary": "会计实务mg动画教学|第八章2企业所得税",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "中财国培",
+      "url": "http://www.bilibili.com/video/av620314828",
+      "time": "2023-11-04 10:49",
+      "heat": 647,
+      "discussions": "2",
+      "tags": [
+        "会计",
+        "所得税"
+      ],
+      "isHot": false,
+      "detail": "<p>会计实务mg动画教学|第八章2企业所得税</p>",
+      "published_at": "2023-11-04T10:49:00+08:00"
     },
     {
       "id": "f40faa68f262",
@@ -152,41 +307,23 @@
       "published_at": "2022-05-02T11:59:24+08:00"
     },
     {
-      "id": "a57c7add06a6",
-      "title": "电子税务局更新税收分类编码，生产生活服务正式登场",
-      "summary": "电子税务局更新税收分类编码，生产生活服务正式登场",
+      "id": "abdb8e170956",
+      "title": "北大荒补稅，上市公司集体倒查税务，新一轮的税务征收来了",
+      "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "计学计会",
-      "url": "http://www.bilibili.com/video/av116664767159291",
-      "time": "2026-05-31 07:00",
-      "heat": 217,
-      "discussions": "6",
+      "author": "曹多鱼talk",
+      "url": "http://www.bilibili.com/video/av116798397681924",
+      "time": "2026-06-23 16:12",
+      "heat": 168,
+      "discussions": "3",
       "tags": [
-        "税收",
-        "税务"
+        "税务",
+        "征收"
       ],
       "isHot": false,
-      "detail": "<p>电子税务局更新税收分类编码，生产生活服务正式登场</p>",
-      "published_at": "2026-05-31T07:00:00+08:00"
-    },
-    {
-      "id": "b36af2dbe124",
-      "title": "新公司税务报道流程",
-      "summary": "新注册公司税务报道流程和需要的资料，请看视频吧！有什么不懂的，可以私信UP主哦",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "swh888123",
-      "url": "http://www.bilibili.com/video/av810799032",
-      "time": "2022-04-19 09:41",
-      "heat": 248,
-      "discussions": "11",
-      "tags": [
-        "税务"
-      ],
-      "isHot": false,
-      "detail": "<p>新注册公司税务报道流程和需要的资料，请看视频吧！有什么不懂的，可以私信UP主哦</p>",
-      "published_at": "2022-04-19T09:41:32+08:00"
+      "detail": "<p>-</p>",
+      "published_at": "2026-06-23T16:12:22+08:00"
     },
     {
       "id": "09725d138be3",
@@ -216,7 +353,7 @@
       "author": "永磁-老鼠",
       "url": "http://www.bilibili.com/video/av115365455595949",
       "time": "2025-10-13 14:36",
-      "heat": 178,
+      "heat": 179,
       "discussions": "2",
       "tags": [
         "税务"
@@ -224,6 +361,43 @@
       "isHot": false,
       "detail": "<p>中国税务之歌\n作词：集体\n作曲：印青\n中国税务意气风发\n为了祖国富强贡献力量\n中国税务奋进昂扬\n为了民族复兴共筑梦想\n为国聚财是我们的责任\n为民收税是我们的荣光\n忠诚担当崇法守纪\n兴税强国初心不忘\n我们是共和国的税务人\n前进的号角在征途上吹响\n我们是共和国的税务人\n信仰的旗帜在新时代飞扬</p>",
       "published_at": "2025-10-13T14:36:37+08:00"
+    },
+    {
+      "id": "97c98ea16454",
+      "title": "税务报道的注意事项！",
+      "summary": "税务报道的注意事项！看看有哪些吧！",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "财税职场会计实操",
+      "url": "http://www.bilibili.com/video/av683965862",
+      "time": "2022-05-08 19:18",
+      "heat": 164,
+      "discussions": "0",
+      "tags": [
+        "税务"
+      ],
+      "isHot": false,
+      "detail": "<p>税务报道的注意事项！看看有哪些吧！</p>",
+      "published_at": "2022-05-08T19:18:08+08:00"
+    },
+    {
+      "id": "9df5ec635217",
+      "title": "【国家税务局】【动画】发票无小事，违法必追究",
+      "summary": "国家税务局",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "上海求职地图",
+      "url": "http://www.bilibili.com/video/av841915247",
+      "time": "2020-09-02 11:14",
+      "heat": 147,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "发票"
+      ],
+      "isHot": false,
+      "detail": "<p>国家税务局</p>",
+      "published_at": "2020-09-02T11:14:32+08:00"
     }
   ]
 }
