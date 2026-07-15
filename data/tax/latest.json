@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-07-14T18:34:55.444062+08:00",
+  "updated_at": "2026-07-15T08:44:25.467514+08:00",
   "count": 12,
   "topics": [
+    {
+      "id": "d1e208c66480",
+      "title": "2024.9.20 王头头税务局教学：）",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "144moon",
+      "url": "http://www.bilibili.com/video/av113204868944163",
+      "time": "2024-09-27 00:48",
+      "heat": 6775,
+      "discussions": "34",
+      "tags": [
+        "税务"
+      ],
+      "isHot": true,
+      "detail": "<p>-</p>",
+      "published_at": "2024-09-27T00:48:07+08:00"
+    },
     {
       "id": "2cedf9968acb",
       "title": "财华国际 ACCA F6 税务 备考视频网课",
@@ -21,24 +39,24 @@
       "published_at": "2020-02-10T00:21:32+08:00"
     },
     {
-      "id": "ce992d93d85a",
-      "title": "自然人电子税务局",
-      "summary": "国家税务总局令第57号：《个人所得税综合所得汇算清缴管理办法》 点击查看 关于《个人所得税综合所得汇算清缴管理办法》的解读 点击查看 个人退税的这些陷阱你必须知道 点击查看 关于近期虚假退税宣传的温馨提示 点击查看",
+      "id": "be9c6a66781d",
+      "title": "国家税务总局上海市税务局 - 上海市电子税务局",
+      "summary": "国家税务总局上海市税务局第三稽查局依法查处自然人吴华涛虚假填报、违规享受优惠政策偷逃个人所得税案件 · 虹口税务：学法赋能优服务 精准辅导助发展 07-13 · 普陀税务：常态共建聚合力 靶向护航助发展 07-10 · 徐汇税务：税务合规为企业稳健发展筑牢 ...",
       "source": "国家税务总局",
       "platform_class": "platform-official",
       "author": "国家税务总局",
-      "url": "http://www.etax.chinatax.gov.cn/",
-      "time": "2026-07-14 18:34",
+      "url": "https://shanghai.chinatax.gov.cn/index.html",
+      "time": "2026-07-15 08:44",
       "heat": 1350,
       "discussions": "67",
       "tags": [
         "税务",
         "所得税",
-        "退税"
+        "稽查"
       ],
       "isHot": true,
-      "detail": "<p>国家税务总局令第57号：《个人所得税综合所得汇算清缴管理办法》 点击查看 关于《个人所得税综合所得汇算清缴管理办法》的解读 点击查看 个人退税的这些陷阱你必须知道 点击查看 关于近期虚假退税宣传的温馨提示 点击查看</p>",
-      "published_at": "2026-07-14T18:34:55.444062+08:00"
+      "detail": "<p>国家税务总局上海市税务局第三稽查局依法查处自然人吴华涛虚假填报、违规享受优惠政策偷逃个人所得税案件 · 虹口税务：学法赋能优服务 精准辅导助发展 07-13 · 普陀税务：常态共建聚合力 靶向护航助发展 07-10 · 徐汇税务：税务合规为企业稳健发展筑牢 ...</p>",
+      "published_at": "2026-07-15T08:44:25.467514+08:00"
     },
     {
       "id": "ebf13070d723",
@@ -48,16 +66,35 @@
       "platform_class": "platform-official",
       "author": "国家税务总局",
       "url": "https://www.chinatax.gov.cn/",
-      "time": "2026-07-14 18:34",
+      "time": "2026-07-15 08:44",
       "heat": 1350,
       "discussions": "67",
       "tags": [
         "税务",
         "纳税"
       ],
-      "isHot": true,
+      "isHot": false,
       "detail": "<p>胡静林在内蒙古调研税务工作时强调 扎实开展税务系统学习教育 以实绩实效服务高质量发展 税务部门曝光7起网红网店偷税案件 平台内经营者应依法诚信纳税 多起网红和网店偷税案件再次被曝光！ 网红和网店应将合规经营作为立身之本</p>",
-      "published_at": "2026-07-14T18:34:55.444062+08:00"
+      "published_at": "2026-07-15T08:44:25.467514+08:00"
+    },
+    {
+      "id": "582a6ec43eff",
+      "title": "操作教程：个体工商户网上如何做税务报到？如何网上做核定征收？",
+      "summary": "操作教程：个体工商户网上如何做税务报到？如何网上做核定征收？",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "税易办",
+      "url": "http://www.bilibili.com/video/av382182674",
+      "time": "2022-03-09 20:30",
+      "heat": 2296,
+      "discussions": "50",
+      "tags": [
+        "税务",
+        "征收"
+      ],
+      "isHot": false,
+      "detail": "<p>操作教程：个体工商户网上如何做税务报到？如何网上做核定征收？</p>",
+      "published_at": "2022-03-09T20:30:00+08:00"
     },
     {
       "id": "1dfc235375b4",
@@ -169,24 +206,6 @@
       "published_at": "2023-03-09T12:55:00+08:00"
     },
     {
-      "id": "a276a5c53e30",
-      "title": "税务公文写作与处理",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "bili_31509487556",
-      "url": "http://www.bilibili.com/video/av327667647",
-      "time": "2020-04-07 16:41",
-      "heat": 187,
-      "discussions": "1",
-      "tags": [
-        "税务"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2020-04-07T16:41:14+08:00"
-    },
-    {
       "id": "97c98ea16454",
       "title": "税务报道的注意事项！",
       "summary": "税务报道的注意事项！看看有哪些吧！",
@@ -203,24 +222,6 @@
       "isHot": false,
       "detail": "<p>税务报道的注意事项！看看有哪些吧！</p>",
       "published_at": "2022-05-08T19:18:08+08:00"
-    },
-    {
-      "id": "a767f93dd316",
-      "title": "附录一《财税公告2026年第10号》（2）",
-      "summary": "附录一《财税公告2026年第10号》（2）",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "东奥会计实操",
-      "url": "http://www.bilibili.com/video/av116327981252709",
-      "time": "2026-04-05 17:00",
-      "heat": 120,
-      "discussions": "1",
-      "tags": [
-        "财税"
-      ],
-      "isHot": false,
-      "detail": "<p>附录一《财税公告2026年第10号》（2）</p>",
-      "published_at": "2026-04-05T17:00:00+08:00"
     }
   ]
 }
