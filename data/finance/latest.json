@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-24T18:42:50.619993+08:00",
-  "count": 77,
+  "updated_at": "2026-07-25T08:50:33.720743+08:00",
+  "count": 78,
   "topics": [
     {
       "id": "cd78724b523a",
@@ -11,7 +11,7 @@
       "author": "之了课堂",
       "url": "http://www.bilibili.com/video/av53836971",
       "time": "2019-05-28 10:03",
-      "heat": 4834916,
+      "heat": 4835142,
       "discussions": "15.7万",
       "tags": [
         "会计",
@@ -23,24 +23,40 @@
       "published_at": "2019-05-28T10:03:13+08:00"
     },
     {
-      "id": "55b5eaba8a08",
-      "title": "【老梁完整版】中级会计职称会计师实务精讲班课程网课|中级会计老梁老师一凡|中级会计实务经济法中级财务管理|对啊网课堂 (2025非马勇刘忠刘阳洋)",
-      "summary": "学习请到 “对啊课堂” 下载配套讲义和习题，含考试重点、背诵口诀、学霸真题、考前密题。",
+      "id": "f4da56ac61e3",
+      "title": "会计实操： 实务、做账（50个行业的全盘账务处理）、报税（增值税、企业所得税、个人所得税等25种税费）、报表、发票、新政策解读、税务筹划与稽查、预算、财税热点",
+      "summary": "这是近200门收费课的免费试听课，想学习完整版会计实操课，V我：fewone001",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "对啊网",
-      "url": "http://www.bilibili.com/video/av864742572",
-      "time": "2023-02-20 16:25",
-      "heat": 364664,
-      "discussions": "1.3万",
+      "author": "跟刘老师学会计实操",
+      "url": "http://www.bilibili.com/video/av838338435",
+      "time": "2020-05-30 00:12",
+      "heat": 117558,
+      "discussions": "366",
       "tags": [
-        "会计",
-        "财务",
-        "实务"
+        "税务",
+        "财税",
+        "会计"
       ],
       "isHot": true,
-      "detail": "<p>学习请到 “对啊课堂” 下载配套讲义和习题，含考试重点、背诵口诀、学霸真题、考前密题。</p>",
-      "published_at": "2023-02-20T16:25:30+08:00"
+      "detail": "<p>这是近200门收费课的免费试听课，想学习完整版会计实操课，V我：fewone001</p>",
+      "published_at": "2020-05-30T00:12:31+08:00"
+    },
+    {
+      "id": "80deccdc8e04",
+      "title": "开公司，要交哪些税？",
+      "summary": "开公司，要交哪些税？",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "小辉教你开公司",
+      "url": "http://www.bilibili.com/video/av747946955",
+      "time": "2023-11-03 11:00",
+      "heat": 26144,
+      "discussions": "249",
+      "tags": [],
+      "isHot": true,
+      "detail": "<p>开公司，要交哪些税？</p>",
+      "published_at": "2023-11-03T11:00:00+08:00"
     },
     {
       "id": "b945c6198e45",
@@ -51,14 +67,14 @@
       "author": "爱学习的小刚子",
       "url": "http://www.bilibili.com/video/av114131524918726",
       "time": "2025-03-09 16:33",
-      "heat": 21787,
+      "heat": 21803,
       "discussions": "35",
       "tags": [
         "财政",
         "会计",
         "实务"
       ],
-      "isHot": true,
+      "isHot": false,
       "detail": "<p>参考资料：\n童光辉、周克清等，《政府会计》（第三版），中国人民大学出版社，2025。ISBN：9787300342917\n\n来源：西南财经大学\n主讲教师：周克清 童光辉 王积慧 孙琪敏\n本课程是会计类、财政类与公共管理类专业的重要课程，主要介绍《政府会计准则—基本准则》及后续各项准则，帮助学习者掌握政府会计处理相关实务技能。</p>",
       "published_at": "2025-03-09T16:33:07+08:00"
     },
@@ -71,7 +87,7 @@
       "author": "财税会计实操UP主",
       "url": "http://www.bilibili.com/video/av798990793",
       "time": "2021-02-05 15:14",
-      "heat": 21079,
+      "heat": 21082,
       "discussions": "364",
       "tags": [
         "会计"
@@ -89,7 +105,7 @@
       "author": "马勇老师讲会计",
       "url": "http://www.bilibili.com/video/av114623885870459",
       "time": "2025-06-04 20:00",
-      "heat": 20143,
+      "heat": 20157,
       "discussions": "241",
       "tags": [
         "会计",
@@ -119,6 +135,26 @@
       "published_at": "2020-05-06T19:13:46+08:00"
     },
     {
+      "id": "2d505b54d0eb",
+      "title": "【对啊网】会计实操实务小白入门｜工业企业全盘账实训做账｜用友财务做账软件｜社保公积金成本结转｜企业报税财务报表实务｜",
+      "summary": "关注“对啊课堂” 微信公众号，下载配套讲义和习题，含考试重点、背诵口诀、学霸真题、考前密题。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "对啊网",
+      "url": "http://www.bilibili.com/video/av431559638",
+      "time": "2022-10-12 17:04",
+      "heat": 13546,
+      "discussions": "451",
+      "tags": [
+        "会计",
+        "财务",
+        "实务"
+      ],
+      "isHot": false,
+      "detail": "<p>关注“对啊课堂” 微信公众号，下载配套讲义和习题，含考试重点、背诵口诀、学霸真题、考前密题。</p>",
+      "published_at": "2022-10-12T17:04:43+08:00"
+    },
+    {
       "id": "185701130fb7",
       "title": "1小时带你考前复习初级实务全书重要知识点",
       "summary": "1小时带你考前复习初级实务全书重要知识点",
@@ -127,7 +163,7 @@
       "author": "高红瑞讲会计",
       "url": "http://www.bilibili.com/video/av116549927044904",
       "time": "2026-05-10 19:00",
-      "heat": 9970,
+      "heat": 9971,
       "discussions": "89",
       "tags": [
         "实务"
@@ -145,7 +181,7 @@
       "author": "uffo349",
       "url": "http://www.bilibili.com/video/av113716389484034",
       "time": "2024-12-26 09:05",
-      "heat": 9386,
+      "heat": 9398,
       "discussions": "228",
       "tags": [
         "会计",
@@ -175,6 +211,26 @@
       "published_at": "2023-02-25T10:57:47+08:00"
     },
     {
+      "id": "3d090f0005f3",
+      "title": "财务实操|财务知识入门|财务主管成长训练营|税务筹划|税务会计实操|财务自由之路",
+      "summary": "关注公主号：中欣财经视野，回复：“666”，即可免费领取学习资料 网课及题库",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "中欣财经网校",
+      "url": "http://www.bilibili.com/video/av713250479",
+      "time": "2020-12-28 15:35",
+      "heat": 7573,
+      "discussions": "294",
+      "tags": [
+        "税务",
+        "会计",
+        "财务"
+      ],
+      "isHot": false,
+      "detail": "<p>关注公主号：中欣财经视野，回复：“666”，即可免费领取学习资料 网课及题库</p>",
+      "published_at": "2020-12-28T15:35:30+08:00"
+    },
+    {
       "id": "bc7e780e0531",
       "title": "会计实操：纳税筹划（税务筹划）技巧与案例精讲",
       "summary": "这是试听课，完整版共计36节，一直有效，免费更新，了解完整课程V我15221199445或13818768033",
@@ -195,6 +251,80 @@
       "published_at": "2020-09-28T14:44:08+08:00"
     },
     {
+      "id": "2f5772f08034",
+      "title": "电商会计实操（做账、风险、筹划、报税、报表）",
+      "summary": "电商会计实操（做账、风险、筹划、报税、报表）",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "张洁财税工作室",
+      "url": "http://www.bilibili.com/video/av114840144251888",
+      "time": "2025-07-12 20:03",
+      "heat": 7107,
+      "discussions": "98",
+      "tags": [
+        "会计",
+        "做账"
+      ],
+      "isHot": false,
+      "detail": "<p>电商会计实操（做账、风险、筹划、报税、报表）</p>",
+      "published_at": "2025-07-12T20:03:38+08:00"
+    },
+    {
+      "id": "f8526cf2a7ef",
+      "title": "【公司法务课程】企业合规与风险管控",
+      "summary": "【公司法务课程】企业合规与风险管控",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "法卒",
+      "url": "http://www.bilibili.com/video/av371421073",
+      "time": "2020-07-26 10:14",
+      "heat": 6196,
+      "discussions": "65",
+      "tags": [
+        "合规"
+      ],
+      "isHot": false,
+      "detail": "<p>【公司法务课程】企业合规与风险管控</p>",
+      "published_at": "2020-07-26T10:14:38+08:00"
+    },
+    {
+      "id": "9c91fc9b4552",
+      "title": "事业单位必看系列——政府会计（一）",
+      "summary": "事业单位必看系列——政府会计（一）",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "半月讲坛公考",
+      "url": "http://www.bilibili.com/video/av114667909287151",
+      "time": "2025-06-12 10:05",
+      "heat": 4776,
+      "discussions": "46",
+      "tags": [
+        "会计"
+      ],
+      "isHot": false,
+      "detail": "<p>事业单位必看系列——政府会计（一）</p>",
+      "published_at": "2025-06-12T10:05:22+08:00"
+    },
+    {
+      "id": "4bcbffb13abe",
+      "title": "2026全能会计做账、报税、上岗实战课程 共18章节大合集",
+      "summary": "2026全能会计做账、报税、上岗实战课程 共18章节大合集",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "黑马网络资料整理站",
+      "url": "http://www.bilibili.com/video/av116747562653311",
+      "time": "2026-06-17 08:41",
+      "heat": 3901,
+      "discussions": "22",
+      "tags": [
+        "会计",
+        "做账"
+      ],
+      "isHot": false,
+      "detail": "<p>2026全能会计做账、报税、上岗实战课程 共18章节大合集</p>",
+      "published_at": "2026-06-17T08:41:00+08:00"
+    },
+    {
       "id": "8257b0b35fb4",
       "title": "2025年新版电子税务局税务注销全流程",
       "summary": "-",
@@ -203,7 +333,7 @@
       "author": "晗妈会计",
       "url": "http://www.bilibili.com/video/av114640730195595",
       "time": "2025-06-07 14:50",
-      "heat": 3769,
+      "heat": 3770,
       "discussions": "132",
       "tags": [
         "税务"
@@ -211,6 +341,42 @@
       "isHot": false,
       "detail": "<p>-</p>",
       "published_at": "2025-06-07T14:50:23+08:00"
+    },
+    {
+      "id": "7080b3f6847a",
+      "title": "电商的会计一塌糊涂",
+      "summary": "电商的会计一塌糊涂",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "正保高志谦",
+      "url": "http://www.bilibili.com/video/av116164688610978",
+      "time": "2026-03-03 18:10",
+      "heat": 3457,
+      "discussions": "86",
+      "tags": [
+        "会计"
+      ],
+      "isHot": false,
+      "detail": "<p>电商的会计一塌糊涂</p>",
+      "published_at": "2026-03-03T18:10:53+08:00"
+    },
+    {
+      "id": "d7f618d6883f",
+      "title": "数电发票以后进项发票勾选认证抵扣详细流程",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "晗妈会计",
+      "url": "http://www.bilibili.com/video/av660800727",
+      "time": "2023-09-11 19:24",
+      "heat": 3319,
+      "discussions": "59",
+      "tags": [
+        "发票"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2023-09-11T19:24:12+08:00"
     },
     {
       "id": "20cdab3b3e43",
@@ -221,7 +387,7 @@
       "author": "财税会计实操UP主",
       "url": "http://www.bilibili.com/video/av413531088",
       "time": "2020-06-17 12:38",
-      "heat": 3285,
+      "heat": 3286,
       "discussions": "32",
       "tags": [
         "财税"
@@ -247,25 +413,6 @@
       "published_at": "2024-04-02T22:43:18+08:00"
     },
     {
-      "id": "8a5bb6c70d3f",
-      "title": "全电发票来了，财务工作者却懵了！Excel居然不能核对发票号了",
-      "summary": "全电发票来了，财务工作者却懵了！Excel居然不能核对发票号了",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "Excel从零到一",
-      "url": "http://www.bilibili.com/video/av910826309",
-      "time": "2023-05-05 20:25",
-      "heat": 2686,
-      "discussions": "21",
-      "tags": [
-        "发票",
-        "财务"
-      ],
-      "isHot": false,
-      "detail": "<p>全电发票来了，财务工作者却懵了！Excel居然不能核对发票号了</p>",
-      "published_at": "2023-05-05T20:25:52+08:00"
-    },
-    {
       "id": "0fbe0fb4e397",
       "title": "2026最新财税系统课：零基础入门到实战（含企业+个税），127集构建完整知识框架，破解知识碎片化难题，助你快速构建职场硬技能，实现升职加薪",
       "summary": "制作不易，大家觉得视频对你有帮助记得点点关注，一键三连呀【点赞、投币、收藏】感谢支持！\n本视频针对财税零基础快速入门教程，手把手教学，无论是新手小白还是有一定经验的选手都可以查漏补缺，温故而知新。\n注：本视频仅供学习，请遵守《网络安全法》！\n注：本视频不含任何广告营销内容，所有课程配套资料无偿分享。\nps：相关源码，案例和学习笔记看评论区。",
@@ -274,7 +421,7 @@
       "author": "财务番茄酱小姐",
       "url": "http://www.bilibili.com/video/av115919925807009",
       "time": "2026-01-20 19:30",
-      "heat": 2663,
+      "heat": 2665,
       "discussions": "105",
       "tags": [
         "财税"
@@ -292,7 +439,7 @@
       "author": "财经类考试备考",
       "url": "http://www.bilibili.com/video/av116735063625074",
       "time": "2026-06-12 12:05",
-      "heat": 2629,
+      "heat": 2664,
       "discussions": "14",
       "tags": [
         "税务",
@@ -331,8 +478,8 @@
       "author": "学考易通",
       "url": "http://www.bilibili.com/video/av116420625173178",
       "time": "2026-04-17 23:06",
-      "heat": 2386,
-      "discussions": "37",
+      "heat": 2405,
+      "discussions": "38",
       "tags": [
         "财税"
       ],
@@ -349,7 +496,7 @@
       "author": "胖虎会计屋",
       "url": "http://www.bilibili.com/video/av115655885987292",
       "time": "2025-12-03 21:44",
-      "heat": 2146,
+      "heat": 2148,
       "discussions": "32",
       "tags": [
         "会计"
@@ -395,78 +542,62 @@
       "published_at": "2023-02-22T19:16:50+08:00"
     },
     {
-      "id": "737ad6daa114",
-      "title": "企业合规体系建设+法律检索+实务操作 (新公司法时代）#李建伟合集",
-      "summary": "企业合规体系建设+法律检索+实务操作 (新公司法时代）#李建伟合集  完整视频课程学习后台丝 ❤ L取~\n\n声明：资源收集于网络，仅用于试学及购买课程之参考，切勿用于其他用途！如若侵权，请留言告知删除，谢谢！投稿为自制是为了防止二次搬运添加水印，敬请理解。",
+      "id": "086292bb6a8f",
+      "title": "【2026老板必修】齐昊财务思维实战课｜民企老板十大财税痛点全解析｜看懂利润、税务、现金流与企业增长底层逻辑",
+      "summary": "【2026老板必修】齐昊财务思维实战课｜民企老板十大财税痛点全解析｜看懂利润、税务、现金流与企业增长底层逻辑",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "法学工坊kwd813",
-      "url": "http://www.bilibili.com/video/av114312970574162",
-      "time": "2025-04-10 17:41",
-      "heat": 1616,
-      "discussions": "3",
+      "author": "奋进学堂",
+      "url": "http://www.bilibili.com/video/av116555564191490",
+      "time": "2026-05-11 19:11",
+      "heat": 1593,
+      "discussions": "4",
       "tags": [
-        "实务",
-        "合规"
+        "税务",
+        "财税",
+        "财务"
       ],
       "isHot": false,
-      "detail": "<p>企业合规体系建设+法律检索+实务操作 (新公司法时代）#李建伟合集  完整视频课程学习后台丝 ❤ L取~\n\n声明：资源收集于网络，仅用于试学及购买课程之参考，切勿用于其他用途！如若侵权，请留言告知删除，谢谢！投稿为自制是为了防止二次搬运添加水印，敬请理解。</p>",
-      "published_at": "2025-04-10T17:41:34+08:00"
+      "detail": "<p>【2026老板必修】齐昊财务思维实战课｜民企老板十大财税痛点全解析｜看懂利润、税务、现金流与企业增长底层逻辑</p>",
+      "published_at": "2026-05-11T19:11:13+08:00"
     },
     {
-      "id": "ac868270195a",
-      "title": "发票开错了，怎么办？别慌，跟着做就行！",
-      "summary": "发票开错了，怎么办？别慌，跟着做就行！",
+      "id": "0ffef484487f",
+      "title": "工业企业成本核算及会计实务全套课程",
+      "summary": "工业企业成本核算及会计实务全套课程",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "计学计会",
-      "url": "http://www.bilibili.com/video/av115378004956481",
-      "time": "2025-10-16 07:00",
-      "heat": 1577,
-      "discussions": "19",
-      "tags": [
-        "发票"
-      ],
-      "isHot": false,
-      "detail": "<p>发票开错了，怎么办？别慌，跟着做就行！</p>",
-      "published_at": "2025-10-16T07:00:00+08:00"
-    },
-    {
-      "id": "51fdc56e9fe6",
-      "title": "【全24讲】李军：国企合规管理实务指南（23年国企改革业务专家精讲）李军合集",
-      "summary": "国企合规管理实务指南（23年国企改革业务专家精讲）李军合集；更多课看祝、业、详~~情~~\n声明：资源收集于网络，仅用于试学及购买课程之参考，切勿用于其他用途！如若侵权，请留言告知删除，谢谢！投稿为自制是为了防止二次搬运添加水印，敬请理解。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "法学工坊kwd813",
-      "url": "http://www.bilibili.com/video/av114504381765179",
-      "time": "2025-05-14 17:45",
-      "heat": 1378,
+      "author": "小鹿智学",
+      "url": "http://www.bilibili.com/video/av116689010167716",
+      "time": "2026-06-04 14:43",
+      "heat": 1225,
       "discussions": "2",
       "tags": [
-        "实务",
-        "合规"
+        "会计",
+        "实务"
       ],
       "isHot": false,
-      "detail": "<p>国企合规管理实务指南（23年国企改革业务专家精讲）李军合集；更多课看祝、业、详~~情~~\n声明：资源收集于网络，仅用于试学及购买课程之参考，切勿用于其他用途！如若侵权，请留言告知删除，谢谢！投稿为自制是为了防止二次搬运添加水印，敬请理解。</p>",
-      "published_at": "2025-05-14T17:45:00+08:00"
+      "detail": "<p>工业企业成本核算及会计实务全套课程</p>",
+      "published_at": "2026-06-04T14:43:00+08:00"
     },
     {
-      "id": "cc045f43a4f3",
-      "title": "会计人员继续教育详细完整流程",
-      "summary": "-",
+      "id": "0eca89124601",
+      "title": "2026税务师-税务师考试-【涉税服务实务】【税务师笔试】",
+      "summary": "2026税务师-税务师考试-【涉税服务实务】【税务师笔试】",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "晗妈会计",
-      "url": "http://www.bilibili.com/video/av115722759965283",
-      "time": "2025-12-15 17:04",
-      "heat": 1305,
-      "discussions": "20",
+      "author": "财经类考试备考",
+      "url": "http://www.bilibili.com/video/av116736506529386",
+      "time": "2026-06-12 20:06",
+      "heat": 1223,
+      "discussions": "2",
       "tags": [
-        "会计"
+        "税务",
+        "实务"
       ],
       "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2025-12-15T17:04:42+08:00"
+      "detail": "<p>2026税务师-税务师考试-【涉税服务实务】【税务师笔试】</p>",
+      "published_at": "2026-06-12T20:06:33+08:00"
     },
     {
       "id": "54be68274e23",
@@ -495,7 +626,7 @@
       "author": "B站知识学院",
       "url": "http://www.bilibili.com/video/av116333970851041",
       "time": "2026-04-17 15:33",
-      "heat": 1022,
+      "heat": 1024,
       "discussions": "3",
       "tags": [],
       "isHot": false,
@@ -511,7 +642,7 @@
       "author": "会计实操帆帆老师",
       "url": "http://www.bilibili.com/video/av1754026214",
       "time": "2024-05-06 11:55",
-      "heat": 965,
+      "heat": 966,
       "discussions": "29",
       "tags": [
         "会计",
@@ -523,41 +654,6 @@
       "published_at": "2024-05-06T11:55:43+08:00"
     },
     {
-      "id": "6135dbb68684",
-      "title": "合伙企业会计实操（律师事务所等）--政策、全盘账务处理、报税（增值税、经营所得个税预缴与汇算清缴、附加税费、印花税）",
-      "summary": "这是试听课，想学习完整版V我：fewone001",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "跟刘老师学会计实操",
-      "url": "http://www.bilibili.com/video/av113719426155694",
-      "time": "2024-12-26 21:49",
-      "heat": 945,
-      "discussions": "11",
-      "tags": [
-        "会计",
-        "增值税"
-      ],
-      "isHot": false,
-      "detail": "<p>这是试听课，想学习完整版V我：fewone001</p>",
-      "published_at": "2024-12-26T21:49:32+08:00"
-    },
-    {
-      "id": "439bc3c6762c",
-      "title": "7月1日的社保新规落地了",
-      "summary": "7月1日的社保新规落地了",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "娜姐有个财税公司",
-      "url": "http://www.bilibili.com/video/av116877854508007",
-      "time": "2026-07-07 16:59",
-      "heat": 692,
-      "discussions": "16",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>7月1日的社保新规落地了</p>",
-      "published_at": "2026-07-07T16:59:36+08:00"
-    },
-    {
       "id": "d1f02af02aba",
       "title": "学校事业单位会计_事业单位会计包括_行政事业单位会计做账培训",
       "summary": "学校事业单位会计_事业单位会计包括_行政事业单位会计做账培训",
@@ -566,7 +662,7 @@
       "author": "15804997819",
       "url": "http://www.bilibili.com/video/av36060447",
       "time": "2018-11-16 13:14",
-      "heat": 842,
+      "heat": 843,
       "discussions": "2",
       "tags": [
         "会计",
@@ -595,58 +691,22 @@
       "published_at": "2025-03-18T11:11:08+08:00"
     },
     {
-      "id": "a562ca768bcf",
-      "title": "2026年最新：建筑施工企业会计（一般纳税人）--政策解读、全盘账务处理，报税（6税2费）、发票开具",
-      "summary": "这是试听课，想想学完整版V我：fewone001",
+      "id": "50618f536292",
+      "title": "投诉税务，慎用！",
+      "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "跟刘老师学会计实操",
-      "url": "http://www.bilibili.com/video/av116141217286356",
-      "time": "2026-02-27 14:48",
-      "heat": 761,
-      "discussions": "6",
-      "tags": [
-        "会计",
-        "纳税",
-        "发票"
-      ],
-      "isHot": false,
-      "detail": "<p>这是试听课，想想学完整版V我：fewone001</p>",
-      "published_at": "2026-02-27T14:48:30+08:00"
-    },
-    {
-      "id": "013f11a542e1",
-      "title": "税务筹划 01税筹自述",
-      "summary": "税务筹划 01税筹自述",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "bili_56988169334",
-      "url": "http://www.bilibili.com/video/av115484221578993",
-      "time": "2025-11-03 14:08",
-      "heat": 725,
-      "discussions": "14",
+      "author": "明律讲劳动_龙江尔滨",
+      "url": "http://www.bilibili.com/video/av114913057969505",
+      "time": "2025-07-25 17:06",
+      "heat": 638,
+      "discussions": "11",
       "tags": [
         "税务"
       ],
       "isHot": false,
-      "detail": "<p>税务筹划 01税筹自述</p>",
-      "published_at": "2025-11-03T14:08:16+08:00"
-    },
-    {
-      "id": "6452b532d1db",
-      "title": "数电票被控票原因是什么？尽量避免吧，调额度太难",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "晗妈会计",
-      "url": "http://www.bilibili.com/video/av1104084545",
-      "time": "2024-05-05 13:30",
-      "heat": 648,
-      "discussions": "24",
-      "tags": [],
-      "isHot": false,
       "detail": "<p>-</p>",
-      "published_at": "2024-05-05T13:30:09+08:00"
+      "published_at": "2025-07-25T17:06:56+08:00"
     },
     {
       "id": "a8209f52275a",
@@ -665,44 +725,6 @@
       "isHot": false,
       "detail": "<p>“王翔讲职位”-财税顾问-天使和魔鬼只在一念之间</p>",
       "published_at": "2023-12-16T23:53:12+08:00"
-    },
-    {
-      "id": "9032feb29382",
-      "title": "电子税务局注册教程",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "涡阳天扬",
-      "url": "http://www.bilibili.com/video/av114515337287128",
-      "time": "2025-05-16 11:20",
-      "heat": 477,
-      "discussions": "15",
-      "tags": [
-        "税务"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2025-05-16T11:20:39+08:00"
-    },
-    {
-      "id": "24352d376d8c",
-      "title": "纳税筹划（税务筹划）技巧与案例分析--增值税、企业所得税、个税、印花税等",
-      "summary": "这是试听课，想学习完整版V我：fewone001",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "跟刘老师学会计实操",
-      "url": "http://www.bilibili.com/video/av115811578609953",
-      "time": "2025-12-31 09:28",
-      "heat": 464,
-      "discussions": "1",
-      "tags": [
-        "税务",
-        "纳税",
-        "增值税"
-      ],
-      "isHot": false,
-      "detail": "<p>这是试听课，想学习完整版V我：fewone001</p>",
-      "published_at": "2025-12-31T09:28:22+08:00"
     },
     {
       "id": "a63287956acc",
@@ -744,41 +766,22 @@
       "published_at": "2017-02-25T23:32:54+08:00"
     },
     {
-      "id": "bcc2b34d2114",
-      "title": "税务合规成企业难题，税务师专业人才日后将定是供不应求！",
-      "summary": "税务合规成企业难题，税务师专业人才日后将定是供不应求！",
+      "id": "8666c7d73410",
+      "title": "发票提额居然这么麻烦，早知道就不提额了",
+      "summary": "发票提额居然这么麻烦，早知道就不提额了",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "马勇老师讲会计",
-      "url": "http://www.bilibili.com/video/av115524033839160",
-      "time": "2025-11-10 21:00",
+      "author": "懂点税",
+      "url": "http://www.bilibili.com/video/av115428621883302",
+      "time": "2025-10-24 18:23",
       "heat": 407,
-      "discussions": "4",
+      "discussions": "14",
       "tags": [
-        "税务",
-        "合规"
+        "发票"
       ],
       "isHot": false,
-      "detail": "<p>税务合规成企业难题，税务师专业人才日后将定是供不应求！</p>",
-      "published_at": "2025-11-10T21:00:00+08:00"
-    },
-    {
-      "id": "dcc8bc70f21a",
-      "title": "财税销售要赚钱，一定要做这件事",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "牛哥聊企服",
-      "url": "http://www.bilibili.com/video/av1352369477",
-      "time": "2024-03-27 02:56",
-      "heat": 392,
-      "discussions": "3",
-      "tags": [
-        "财税"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2024-03-27T02:56:48+08:00"
+      "detail": "<p>发票提额居然这么麻烦，早知道就不提额了</p>",
+      "published_at": "2025-10-24T18:23:29+08:00"
     },
     {
       "id": "da686c3c412d",
@@ -818,41 +821,22 @@
       "published_at": "2024-07-07T15:59:05+08:00"
     },
     {
-      "id": "2cfff308ced3",
-      "title": "2025年3月企业合规师考试：《财税合规基础知识 》第一章 绪论",
-      "summary": "2025年3月企业合规师职业能力水平考试，合规研学社督学班视频课件，更多备考资料请联系班长进督学群。",
+      "id": "31a54de74f91",
+      "title": "全集31集 慕有枝-财税俯瞰",
+      "summary": "BILIBILI",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "合规研学社",
-      "url": "http://www.bilibili.com/video/av113617974334963",
-      "time": "2024-12-08 23:52",
-      "heat": 331,
-      "discussions": "4",
+      "author": "重生之我读书破万卷",
+      "url": "http://www.bilibili.com/video/av116124557508726",
+      "time": "2026-02-26 07:00",
+      "heat": 339,
+      "discussions": "0",
       "tags": [
-        "财税",
-        "合规"
+        "财税"
       ],
       "isHot": false,
-      "detail": "<p>2025年3月企业合规师职业能力水平考试，合规研学社督学班视频课件，更多备考资料请联系班长进督学群。</p>",
-      "published_at": "2024-12-08T23:52:25+08:00"
-    },
-    {
-      "id": "5282905757a5",
-      "title": "免费零代码！用飞书多维表格和kimi搭建发票管理系统",
-      "summary": "还在手动处理发票？今天教你用飞书多维表格 + AI 工具 Kimi，10 分钟搭建全自动报销系统！✨\n✅ 批量上传秒提取：导入发票图片，Kimi 自动识别开票日期、金额、税率等信息，精准度超高！\n✅ 智能公式算数据：文本金额一键转数字，自动计算含税 / 不含税金额，告别手动计算错误！\n✅ 团队协作超轻松：分享表格给同事，上传信息实时同步，行政再也不用催单～\n✅ 定时提醒不遗漏：设置每月报销闹钟，系",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "六六AI研究所",
-      "url": "http://www.bilibili.com/video/av114529128153163",
-      "time": "2025-05-18 21:45",
-      "heat": 291,
-      "discussions": "3",
-      "tags": [
-        "发票"
-      ],
-      "isHot": false,
-      "detail": "<p>还在手动处理发票？今天教你用飞书多维表格 + AI 工具 Kimi，10 分钟搭建全自动报销系统！✨\n✅ 批量上传秒提取：导入发票图片，Kimi 自动识别开票日期、金额、税率等信息，精准度超高！\n✅ 智能公式算数据：文本金额一键转数字，自动计算含税 / 不含税金额，告别手动计算错误！\n✅ 团队协作超轻松：分享表格给同事，上传信息实时同步，行政再也不用催单～\n✅ 定时提醒不遗漏：设置每月报销闹钟，系</p>",
-      "published_at": "2025-05-18T21:45:16+08:00"
+      "detail": "<p>BILIBILI</p>",
+      "published_at": "2026-02-26T07:00:00+08:00"
     },
     {
       "id": "3599d9e7bbb9",
@@ -863,7 +847,7 @@
       "author": "b站学习提升必修站",
       "url": "http://www.bilibili.com/video/av116663659795544",
       "time": "2026-05-31 09:21",
-      "heat": 270,
+      "heat": 277,
       "discussions": "0",
       "tags": [
         "财税",
@@ -872,6 +856,22 @@
       "isHot": false,
       "detail": "<p>建筑业必学财税课_富尊财务咨询-建筑企业全盘账务处理与业财税融合</p>",
       "published_at": "2026-05-31T09:21:00+08:00"
+    },
+    {
+      "id": "de6f8ea33c5a",
+      "title": "开票报税大练兵-开票业务1",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "学而时习芝士年糕1",
+      "url": "http://www.bilibili.com/video/av116341738576538",
+      "time": "2026-04-04 00:37",
+      "heat": 270,
+      "discussions": "2",
+      "tags": [],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-04-04T00:37:56+08:00"
     },
     {
       "id": "f9c221088bbd",
@@ -894,6 +894,24 @@
       "published_at": "2023-11-01T11:45:10+08:00"
     },
     {
+      "id": "28fa7f65e477",
+      "title": "邓金华：公司经营法律风险与合规指引",
+      "summary": "邓金华：公司经营法律风险与合规指引",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "法师小帮手",
+      "url": "http://www.bilibili.com/video/av115785523601082",
+      "time": "2025-12-26 19:20",
+      "heat": 229,
+      "discussions": "1",
+      "tags": [
+        "合规"
+      ],
+      "isHot": false,
+      "detail": "<p>邓金华：公司经营法律风险与合规指引</p>",
+      "published_at": "2025-12-26T19:20:35+08:00"
+    },
+    {
       "id": "84e405f3db10",
       "title": "于文晶会计——初级会计实务｜第一章第一节 会计基本理论",
       "summary": "于文晶会计——初级会计实务｜第一章第一节 会计基本理论",
@@ -913,26 +931,6 @@
       "published_at": "2025-02-04T17:47:31+08:00"
     },
     {
-      "id": "1c74f30f38d8",
-      "title": "[税收筹划 11-3]公司房产出租的税务筹划",
-      "summary": "筹划方式：\n\n房产尚未购买：\n成立个独或个体户，购买房产，出租\n年租金≤120，小规模纳税人，增值税免\n小规模纳税人6税两费：减免20%\n个体户：年应纳税所得额≤200w，减半征收个税（可扣除房产及设备折旧费）\n\n房产已经购买在公司名下：\n成立个独或个体小规模\n卖房给个独/个体户（增值税进项不能抵扣），\n或者低价转租",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "麦麦麦麦旋风风风",
-      "url": "http://www.bilibili.com/video/av326356876",
-      "time": "2024-01-19 08:00",
-      "heat": 189,
-      "discussions": "11",
-      "tags": [
-        "税收",
-        "税务",
-        "纳税"
-      ],
-      "isHot": false,
-      "detail": "<p>筹划方式：\n\n房产尚未购买：\n成立个独或个体户，购买房产，出租\n年租金≤120，小规模纳税人，增值税免\n小规模纳税人6税两费：减免20%\n个体户：年应纳税所得额≤200w，减半征收个税（可扣除房产及设备折旧费）\n\n房产已经购买在公司名下：\n成立个独或个体小规模\n卖房给个独/个体户（增值税进项不能抵扣），\n或者低价转租</p>",
-      "published_at": "2024-01-19T08:00:00+08:00"
-    },
-    {
       "id": "1bb26f282d38",
       "title": "2026零基础学会计/初级/会计实务/会计基础/会计实务/经济法基础/会计实操",
       "summary": "2026零基础学会计/初级/会计实务/会计基础/会计实务/经济法基础/会计实操",
@@ -941,7 +939,7 @@
       "author": "B站修身立德研习社",
       "url": "http://www.bilibili.com/video/av116961237274931",
       "time": "2026-07-23 09:35",
-      "heat": 97,
+      "heat": 121,
       "discussions": "0",
       "tags": [
         "会计",
@@ -952,6 +950,41 @@
       "published_at": "2026-07-23T09:35:00+08:00"
     },
     {
+      "id": "a6560f8ff65c",
+      "title": "最新政策支付即开票来了",
+      "summary": "最新政策支付即开票来了",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "娜姐有个财税公司",
+      "url": "http://www.bilibili.com/video/av116843863869104",
+      "time": "2026-07-01 16:55",
+      "heat": 151,
+      "discussions": "0",
+      "tags": [],
+      "isHot": false,
+      "detail": "<p>最新政策支付即开票来了</p>",
+      "published_at": "2026-07-01T16:55:37+08:00"
+    },
+    {
+      "id": "a0fcb73e8e0f",
+      "title": "税务合规的意义",
+      "summary": "税务合规的意义",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "懂点税",
+      "url": "http://www.bilibili.com/video/av362599828",
+      "time": "2023-08-22 17:55",
+      "heat": 165,
+      "discussions": "3",
+      "tags": [
+        "税务",
+        "合规"
+      ],
+      "isHot": false,
+      "detail": "<p>税务合规的意义</p>",
+      "published_at": "2023-08-22T17:55:10+08:00"
+    },
+    {
       "id": "77bcde1682d2",
       "title": "纳税筹划（税务筹划）技巧与案例精讲",
       "summary": "这是试听课，想学习完整版V：fewone001",
@@ -960,7 +993,7 @@
       "author": "跟刘老师学会计实操",
       "url": "http://www.bilibili.com/video/av116850138548147",
       "time": "2026-07-02 19:31",
-      "heat": 129,
+      "heat": 130,
       "discussions": "2",
       "tags": [
         "税务",
@@ -979,7 +1012,7 @@
       "author": "国资国企高老师",
       "url": "http://www.bilibili.com/video/av116912264582660",
       "time": "2026-07-13 20:20",
-      "heat": 101,
+      "heat": 102,
       "discussions": "0",
       "tags": [
         "合规"
@@ -987,25 +1020,6 @@
       "isHot": false,
       "detail": "<p>国企合规必学！“三重一大” 决策留痕，是审计的核心，更是你履职的 “护身符”。你是否担心会议纪要被认定为走过场？是否害怕决策流程存在合规瑕疵？\n本期视频将系统梳理审计巡视中最常见的四大合规雷区，教你如何构建完整的合规证据链，并提供覆盖重大决策、人事、项目、资金的标准化留痕清单。掌握三大核心准则，让你的每一项决策都经得起最严格的审计检验，全面规避履职风险！</p>",
       "published_at": "2026-07-13T20:20:00+08:00"
-    },
-    {
-      "id": "86adae66a7ab",
-      "title": "2026年中级会计-会计实务-习题班（资料领取在评论区）",
-      "summary": "学习v：zlfb2256，手机端可长按复制该段文字",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "学考易通",
-      "url": "http://www.bilibili.com/video/av116951372269079",
-      "time": "2026-07-20 16:36",
-      "heat": 84,
-      "discussions": "1",
-      "tags": [
-        "会计",
-        "实务"
-      ],
-      "isHot": false,
-      "detail": "<p>学习v：zlfb2256，手机端可长按复制该段文字</p>",
-      "published_at": "2026-07-20T16:36:33+08:00"
     },
     {
       "id": "4dfc9cd4bacb",
@@ -1072,7 +1086,7 @@
       "author": "一路向前飞666",
       "url": "http://www.bilibili.com/video/av116888122168833",
       "time": "2026-07-09 12:27",
-      "heat": 89,
+      "heat": 92,
       "discussions": "2",
       "tags": [
         "会计",
@@ -1083,23 +1097,22 @@
       "published_at": "2026-07-09T12:27:33+08:00"
     },
     {
-      "id": "44cdf4e4ef6c",
-      "title": "2026年国企财务会计专业网课（1）",
-      "summary": "准备会计、财务专业考试的小伙伴都可以参考下，共计22课时",
+      "id": "2434f61beb8e",
+      "title": "发票额度不够，如何申请调整？",
+      "summary": "发票额度不够，如何申请调整？",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "辅政军老师",
-      "url": "http://www.bilibili.com/video/av116447669914212",
-      "time": "2026-04-22 17:39",
-      "heat": 95,
-      "discussions": "0",
+      "author": "计学计会",
+      "url": "http://www.bilibili.com/video/av116924444905733",
+      "time": "2026-07-16 07:00",
+      "heat": 61,
+      "discussions": "1",
       "tags": [
-        "会计",
-        "财务"
+        "发票"
       ],
       "isHot": false,
-      "detail": "<p>准备会计、财务专业考试的小伙伴都可以参考下，共计22课时</p>",
-      "published_at": "2026-04-22T17:39:30+08:00"
+      "detail": "<p>发票额度不够，如何申请调整？</p>",
+      "published_at": "2026-07-16T07:00:00+08:00"
     },
     {
       "id": "4761428509d8",
@@ -1122,22 +1135,41 @@
       "published_at": "2016-10-28T19:50:51+08:00"
     },
     {
-      "id": "aefcbc2d1dc0",
-      "title": "建筑企业税务筹划",
-      "summary": "建筑企业税务筹划",
+      "id": "a08e30e2bf3c",
+      "title": "金税四期如何查企业？以及企业合规应对！财务必看",
+      "summary": "金税四期如何查企业？以及企业合规应对！财务必看",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "风雪韵梅",
-      "url": "http://www.bilibili.com/video/av115449844993909",
-      "time": "2025-10-28 12:23",
-      "heat": 63,
-      "discussions": "1",
+      "author": "小财分享师",
+      "url": "http://www.bilibili.com/video/av116402690196026",
+      "time": "2026-04-14 18:56",
+      "heat": 67,
+      "discussions": "0",
       "tags": [
-        "税务"
+        "财务",
+        "合规"
       ],
       "isHot": false,
-      "detail": "<p>建筑企业税务筹划</p>",
-      "published_at": "2025-10-28T12:23:20+08:00"
+      "detail": "<p>金税四期如何查企业？以及企业合规应对！财务必看</p>",
+      "published_at": "2026-04-14T18:56:19+08:00"
+    },
+    {
+      "id": "9d177b49d9bd",
+      "title": "发票盒子APP｜打工人/报销人必备！智能收集发票+自动生成报销单+合并打印发票，这个发票管理工具也太香了吧！",
+      "summary": "发票满天飞？报销单难填？打印格式总出错？\n打工人救星来了！「发票盒子APP」一站式解决发票难题~\n\n智能收集：自动归集微信、邮箱的电子发票，告别手动保存\n一键报销：自动生成标准报销单，告别手动制表\n合并打印：多张发票智能排版到一张纸，省纸省事\n\n操作简单，早用早享受，赶紧体验~",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "发票盒子APP",
+      "url": "http://www.bilibili.com/video/av115778560989712",
+      "time": "2025-12-25 13:31",
+      "heat": 64,
+      "discussions": "2",
+      "tags": [
+        "发票"
+      ],
+      "isHot": false,
+      "detail": "<p>发票满天飞？报销单难填？打印格式总出错？\n打工人救星来了！「发票盒子APP」一站式解决发票难题~\n\n智能收集：自动归集微信、邮箱的电子发票，告别手动保存\n一键报销：自动生成标准报销单，告别手动制表\n合并打印：多张发票智能排版到一张纸，省纸省事\n\n操作简单，早用早享受，赶紧体验~</p>",
+      "published_at": "2025-12-25T13:31:03+08:00"
     },
     {
       "id": "b4a251691dfd",
@@ -1158,60 +1190,6 @@
       "published_at": "2023-10-17T01:44:29+08:00"
     },
     {
-      "id": "35a402cd1e9d",
-      "title": "孙丽伟老师《企业财税合规及风险应对》",
-      "summary": "孙丽伟老师《企业财税合规及风险应对》",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "学培2",
-      "url": "http://www.bilibili.com/video/av116963216983883",
-      "time": "2026-07-22 18:46",
-      "heat": 27,
-      "discussions": "0",
-      "tags": [
-        "财税",
-        "合规"
-      ],
-      "isHot": false,
-      "detail": "<p>孙丽伟老师《企业财税合规及风险应对》</p>",
-      "published_at": "2026-07-22T18:46:45+08:00"
-    },
-    {
-      "id": "176754b07120",
-      "title": "2026注册税务师-涉税实务陈立文-基础精讲班",
-      "summary": "仅供交流，侵删",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "备考助教",
-      "url": "http://www.bilibili.com/video/av116961052790860",
-      "time": "2026-07-22 09:36",
-      "heat": 24,
-      "discussions": "0",
-      "tags": [
-        "税务",
-        "实务"
-      ],
-      "isHot": false,
-      "detail": "<p>仅供交流，侵删</p>",
-      "published_at": "2026-07-22T09:36:29+08:00"
-    },
-    {
-      "id": "6bd24acf79d4",
-      "title": "裁量新规—税总拟出新规，9类66项涉税违规如何罚？",
-      "summary": "裁量新规—税总拟出新规，9类66项涉税违规如何罚？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "税务律师李芳",
-      "url": "http://www.bilibili.com/video/av116929058576378",
-      "time": "2026-07-23 11:00",
-      "heat": 22,
-      "discussions": "1",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>裁量新规—税总拟出新规，9类66项涉税违规如何罚？</p>",
-      "published_at": "2026-07-23T11:00:00+08:00"
-    },
-    {
       "id": "5eec0382ac6d",
       "title": "会计开票新规定",
       "summary": "-",
@@ -1220,7 +1198,7 @@
       "author": "财会实操李老师",
       "url": "http://www.bilibili.com/video/av116706190037332",
       "time": "2026-06-07 09:23",
-      "heat": 37,
+      "heat": 38,
       "discussions": "0",
       "tags": [
         "会计"
@@ -1250,42 +1228,23 @@
       "published_at": "2026-04-19T09:26:23+08:00"
     },
     {
-      "id": "7534bf72cc42",
-      "title": "加油站100%的开票率反成大数据稽查的突破口#税务案例#财税知识#企业合规",
-      "summary": "-",
+      "id": "9a7303fc6efb",
+      "title": "大白话说“财税合规”，是什么？怎么做？有什么好处？",
+      "summary": "大白话说“财税合规”，是什么？怎么做？有什么好处？",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "土肥柴",
-      "url": "http://www.bilibili.com/video/av114778001380388",
-      "time": "2025-07-01 20:39",
-      "heat": 35,
-      "discussions": "1",
+      "author": "税易办",
+      "url": "http://www.bilibili.com/video/av116894447179327",
+      "time": "2026-07-10 19:00",
+      "heat": 26,
+      "discussions": "0",
       "tags": [
-        "税务",
         "财税",
         "合规"
       ],
       "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2025-07-01T20:39:20+08:00"
-    },
-    {
-      "id": "0a71786ad99a",
-      "title": "发票管理办法实施细则，修改原因及修改内容（一）",
-      "summary": "发票管理办法实施细则，修改原因及修改内容（一）",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "简言帐务",
-      "url": "http://www.bilibili.com/video/av1350040561",
-      "time": "2024-01-31 19:18",
-      "heat": 34,
-      "discussions": "0",
-      "tags": [
-        "发票"
-      ],
-      "isHot": false,
-      "detail": "<p>发票管理办法实施细则，修改原因及修改内容（一）</p>",
-      "published_at": "2024-01-31T19:18:14+08:00"
+      "detail": "<p>大白话说“财税合规”，是什么？怎么做？有什么好处？</p>",
+      "published_at": "2026-07-10T19:00:00+08:00"
     },
     {
       "id": "480c68799379",
@@ -1307,38 +1266,24 @@
       "published_at": "2026-07-10T12:31:33+08:00"
     },
     {
-      "id": "d1b36c1b135b",
-      "title": "被税务局约谈的原因，企业老板必看",
-      "summary": "-",
+      "id": "76c719a83ae7",
+      "title": "推广费核算与税务筹划详解",
+      "summary": "很多电商会计和商家都卡在推广费财税问题上：千川、直通车、达人佣金、预充值投流不知道怎么入账，汇算时广告费超营收15%要大额调增，无票投放不能抵扣，每年白白多交税。\n\n本期完整拆解全平台电商推广费",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "JC财务",
-      "url": "http://www.bilibili.com/video/av116968216659804",
-      "time": "2026-07-23 15:57",
-      "heat": 18,
+      "author": "多乐电商财务",
+      "url": "http://www.bilibili.com/video/av116854970385415",
+      "time": "2026-07-03 20:30",
+      "heat": 25,
       "discussions": "0",
       "tags": [
-        "税务"
+        "税务",
+        "财税",
+        "会计"
       ],
       "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-07-23T15:57:45+08:00"
-    },
-    {
-      "id": "70f1479cb6d9",
-      "title": "开票系统升级后的开票风险如何规避？",
-      "summary": "开票系统升级后的开票风险如何规避？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "金筱禾",
-      "url": "http://www.bilibili.com/video/av116968065605483",
-      "time": "2026-07-23 15:19",
-      "heat": 17,
-      "discussions": "0",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>开票系统升级后的开票风险如何规避？</p>",
-      "published_at": "2026-07-23T15:19:35+08:00"
+      "detail": "<p>很多电商会计和商家都卡在推广费财税问题上：千川、直通车、达人佣金、预充值投流不知道怎么入账，汇算时广告费超营收15%要大额调增，无票投放不能抵扣，每年白白多交税。\n\n本期完整拆解全平台电商推广费</p>",
+      "published_at": "2026-07-03T20:30:00+08:00"
     },
     {
       "id": "2b4c38819fcd",
@@ -1386,7 +1331,7 @@
       "author": "老赵说税",
       "url": "http://www.bilibili.com/video/av116972780002873",
       "time": "2026-07-24 11:18",
-      "heat": 13,
+      "heat": 15,
       "discussions": "0",
       "tags": [
         "税务",
@@ -1398,24 +1343,78 @@
       "published_at": "2026-07-24T11:18:40+08:00"
     },
     {
-      "id": "e06d865a726e",
-      "title": "费耘发票管理系统-企业发票合规解决方案",
-      "summary": "现如今企业财务发票管理面临巨大挑战，长期纸质发票和电子发票并存的状态，加上税务局监管查处力度大，财税风险难管控，财务工作量大等因素，企业财务无法做到高效合规的管理发票,视频教你这样做~",
+      "id": "1dd68c983f3d",
+      "title": "税务稽查定案正确处理方式，3 个违规避雷点",
+      "summary": "收到税务处罚别乱操作！拖延、闹事、转股避责全行不通，合规听证申辩才是唯一出路！",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "erdeng123",
-      "url": "http://www.bilibili.com/video/av670153050",
-      "time": "2020-11-11 18:00",
-      "heat": 22,
-      "discussions": "1",
+      "author": "财税大白话",
+      "url": "http://www.bilibili.com/video/av116973602146852",
+      "time": "2026-07-24 18:00",
+      "heat": 12,
+      "discussions": "0",
       "tags": [
         "税务",
-        "财税",
+        "合规"
+      ],
+      "isHot": false,
+      "detail": "<p>收到税务处罚别乱操作！拖延、闹事、转股避责全行不通，合规听证申辩才是唯一出路！</p>",
+      "published_at": "2026-07-24T18:00:10+08:00"
+    },
+    {
+      "id": "7fe9693a5b3a",
+      "title": "中华人民共和国发票管理办法第1节",
+      "summary": "中华人民共和国发票管理办法第1节",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "点点yu滴滴",
+      "url": "http://www.bilibili.com/video/av114345316976725",
+      "time": "2025-04-16 10:39",
+      "heat": 15,
+      "discussions": "0",
+      "tags": [
         "发票"
       ],
       "isHot": false,
-      "detail": "<p>现如今企业财务发票管理面临巨大挑战，长期纸质发票和电子发票并存的状态，加上税务局监管查处力度大，财税风险难管控，财务工作量大等因素，企业财务无法做到高效合规的管理发票,视频教你这样做~</p>",
-      "published_at": "2020-11-11T18:00:51+08:00"
+      "detail": "<p>中华人民共和国发票管理办法第1节</p>",
+      "published_at": "2025-04-16T10:39:49+08:00"
+    },
+    {
+      "id": "ce5fa353d8fc",
+      "title": "金税四期和CRS2.0税务合规最后总结",
+      "summary": "金税四期和CRS2.0税务合规最后总结",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "张弛有度说财商",
+      "url": "http://www.bilibili.com/video/av116911845213941",
+      "time": "2026-07-13 17:05",
+      "heat": 9,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "合规"
+      ],
+      "isHot": false,
+      "detail": "<p>金税四期和CRS2.0税务合规最后总结</p>",
+      "published_at": "2026-07-13T17:05:19+08:00"
+    },
+    {
+      "id": "3d0c5c1e1acb",
+      "title": "最新税总局公布12条开票红线，政策合规解读",
+      "summary": "最新税总局公布12条开票红线，政策合规解读",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "晓涛聊电商财税",
+      "url": "http://www.bilibili.com/video/av116778264959598",
+      "time": "2026-06-25 21:00",
+      "heat": 10,
+      "discussions": "0",
+      "tags": [
+        "合规"
+      ],
+      "isHot": false,
+      "detail": "<p>最新税总局公布12条开票红线，政策合规解读</p>",
+      "published_at": "2026-06-25T21:00:00+08:00"
     },
     {
       "id": "e1df26c8418d",
@@ -1426,7 +1425,7 @@
       "author": "yzshshy",
       "url": "http://www.bilibili.com/video/av116974256460804",
       "time": "2026-07-24 17:34",
-      "heat": 0,
+      "heat": 2,
       "discussions": "0",
       "tags": [
         "财税",
@@ -1435,6 +1434,25 @@
       "isHot": false,
       "detail": "<p>企业财税风险防范与合规思路</p>",
       "published_at": "2026-07-24T17:34:47+08:00"
+    },
+    {
+      "id": "ad80ef6e9112",
+      "title": "公司异常怎么注销？2026合规避坑流程 #公司税务异常 #公司注销 #公司税务合规 #安税邦",
+      "summary": "公司异常怎么注销？2026合规避坑流程 #公司税务异常 #公司注销 #公司税务合规 #安税邦",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "安税邦财税",
+      "url": "http://www.bilibili.com/video/av116974826819686",
+      "time": "2026-07-24 19:58",
+      "heat": 0,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "合规"
+      ],
+      "isHot": false,
+      "detail": "<p>公司异常怎么注销？2026合规避坑流程 #公司税务异常 #公司注销 #公司税务合规 #安税邦</p>",
+      "published_at": "2026-07-24T19:58:44+08:00"
     }
   ]
 }
