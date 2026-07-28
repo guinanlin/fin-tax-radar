@@ -1,82 +1,43 @@
 {
-  "updated_at": "2026-07-28T08:47:40.213258+08:00",
-  "count": 11,
+  "updated_at": "2026-07-28T18:51:07.109881+08:00",
+  "count": 80,
   "topics": [
     {
-      "id": "441ac9e1510b",
-      "title": "《宏观经济学》重难点精讲合集（已完结）",
-      "summary": "宏观经济学",
+      "id": "989eb0541138",
+      "title": "各省净上缴中央税收排行",
+      "summary": "感谢观看",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "华理月",
+      "url": "http://www.bilibili.com/video/av751591016",
+      "time": "2024-01-21 23:07",
+      "heat": 89190,
+      "discussions": "4202",
+      "tags": [
+        "税收"
+      ],
+      "isHot": true,
+      "detail": "<p>感谢观看</p>",
+      "published_at": "2024-01-21T23:07:13+08:00"
+    },
+    {
+      "id": "2bd6d02892b1",
+      "title": "【宏观经济学】经济增长",
+      "summary": "【宏观经济学】经济增长",
       "source": "B站",
       "platform_class": "platform-bilibili",
       "author": "小卷毛爱学习",
-      "url": "http://www.bilibili.com/video/av329110360",
-      "time": "2020-08-02 04:51",
-      "heat": 741383,
-      "discussions": "4.8万",
+      "url": "http://www.bilibili.com/video/av333265053",
+      "time": "2021-05-30 09:53",
+      "heat": 39972,
+      "discussions": "2097",
       "tags": [
         "宏观",
         "经济"
       ],
       "isHot": true,
-      "detail": "<p>宏观经济学</p>",
-      "published_at": "2020-08-02T04:51:13+08:00"
-    },
-    {
-      "id": "ed6e4561a2be",
-      "title": "温铁军 《十次危机》完整版：经济危机及其应对政策的国际比较",
-      "summary": "https://mooc1-2.chaoxing.com/course/206199750.html#courseDes\nup主十分尊敬温铁军教授，推崇他的的观点和理论，曾经买过《八次危机》和《去依附》等著作，这次在福建农林大学的网站上找到的《经济危机及其应对政策的国际比较》网络课程内容涵盖了新中国建国以来的十次系统性经济危机的分析。本来有93个视频，但因为尺度原因不能全部发出来，尝试过一次结果被",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "Surface2025",
-      "url": "http://www.bilibili.com/video/av667780018",
-      "time": "2020-04-15 15:01",
-      "heat": 586267,
-      "discussions": "2.8万",
-      "tags": [
-        "经济"
-      ],
-      "isHot": true,
-      "detail": "<p>https://mooc1-2.chaoxing.com/course/206199750.html#courseDes\nup主十分尊敬温铁军教授，推崇他的的观点和理论，曾经买过《八次危机》和《去依附》等著作，这次在福建农林大学的网站上找到的《经济危机及其应对政策的国际比较》网络课程内容涵盖了新中国建国以来的十次系统性经济危机的分析。本来有93个视频，但因为尺度原因不能全部发出来，尝试过一次结果被</p>",
-      "published_at": "2020-04-15T15:01:15+08:00"
-    },
-    {
-      "id": "90ddbe0201f2",
-      "title": "【宏观经济学】西南财经大学公开课（合集）",
-      "summary": "西方经济学中研究一国经济总量、总需求与总供给、国民收入总量及构成、货币与财政、人口与就业、要素与禀赋、经济周期与经济增长、经济预期与经济政策、国际贸易与国际经济等宏观经济现象的学科。\n参考书目：《西方经济学》（马工程版）,人民出版社 高教出版社.\n该课程适合入门宏观经济学，希望大家在学习研究过程中能够有所启发。\n个人学习研究用，侵删。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "荟呀荟学习",
-      "url": "http://www.bilibili.com/video/av757993907",
-      "time": "2021-05-04 19:51",
-      "heat": 379641,
-      "discussions": "2.3万",
-      "tags": [
-        "财政",
-        "宏观",
-        "经济"
-      ],
-      "isHot": true,
-      "detail": "<p>西方经济学中研究一国经济总量、总需求与总供给、国民收入总量及构成、货币与财政、人口与就业、要素与禀赋、经济周期与经济增长、经济预期与经济政策、国际贸易与国际经济等宏观经济现象的学科。\n参考书目：《西方经济学》（马工程版）,人民出版社 高教出版社.\n该课程适合入门宏观经济学，希望大家在学习研究过程中能够有所启发。\n个人学习研究用，侵删。</p>",
-      "published_at": "2021-05-04T19:51:29+08:00"
-    },
-    {
-      "id": "1db2d4e90e43",
-      "title": "【宏观经济学】全集",
-      "summary": "宏观经济学合集",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "经管老邢",
-      "url": "http://www.bilibili.com/video/av316870624",
-      "time": "2023-08-05 08:18",
-      "heat": 266950,
-      "discussions": "1.3万",
-      "tags": [
-        "宏观",
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>宏观经济学合集</p>",
-      "published_at": "2023-08-05T08:18:46+08:00"
+      "detail": "<p>【宏观经济学】经济增长</p>",
+      "published_at": "2021-05-30T09:53:08+08:00"
     },
     {
       "id": "5a7701f5dd76",
@@ -87,15 +48,423 @@
       "author": "小卷毛爱学习",
       "url": "http://www.bilibili.com/video/av418213646",
       "time": "2021-05-23 23:44",
-      "heat": 39839,
+      "heat": 39844,
       "discussions": "1232",
       "tags": [
         "宏观",
         "经济"
       ],
-      "isHot": false,
+      "isHot": true,
       "detail": "<p>宏观经济政策（1）</p>",
       "published_at": "2021-05-23T23:44:58+08:00"
+    },
+    {
+      "id": "c22663c04daa",
+      "title": "GDP可能注水，但税收不敢造假，这才是中国城市30强！",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "失眠者听书馆",
+      "url": "http://www.bilibili.com/video/av1455851598",
+      "time": "2024-06-24 09:50",
+      "heat": 37021,
+      "discussions": "531",
+      "tags": [
+        "税收",
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2024-06-24T09:50:07+08:00"
+    },
+    {
+      "id": "38b465d2382e",
+      "title": "【宏观经济学】宏观经济政策（2）[主要知识点：货币创造乘数]",
+      "summary": "【宏观经济学】宏观经济政策（2）[主要知识点：货币创造乘数]",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "小卷毛爱学习",
+      "url": "http://www.bilibili.com/video/av375762833",
+      "time": "2021-05-25 00:17",
+      "heat": 32643,
+      "discussions": "1220",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>【宏观经济学】宏观经济政策（2）[主要知识点：货币创造乘数]</p>",
+      "published_at": "2021-05-25T00:17:37+08:00"
+    },
+    {
+      "id": "93af13d6fa5d",
+      "title": "一季度经济超预期，2026年我们政策重心有什么变化？｜当前宏观经济形势与热点分析",
+      "summary": "一季度经济超预期，2026年我们政策重心有什么变化？｜当前宏观经济形势与热点分析",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "靳卫萍老师",
+      "url": "http://www.bilibili.com/video/av116500501430370",
+      "time": "2026-05-03 08:00",
+      "heat": 32429,
+      "discussions": "470",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>一季度经济超预期，2026年我们政策重心有什么变化？｜当前宏观经济形势与热点分析</p>",
+      "published_at": "2026-05-03T08:00:00+08:00"
+    },
+    {
+      "id": "660b0ac4ed0e",
+      "title": "2025年增速最缓慢的城市TOP12【航拍】",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "极客数据CuFeS2",
+      "url": "http://www.bilibili.com/video/av116045771705498",
+      "time": "2026-02-10 18:10",
+      "heat": 26926,
+      "discussions": "1044",
+      "tags": [],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-02-10T18:10:45+08:00"
+    },
+    {
+      "id": "a14053a77af2",
+      "title": "【酷温】全国财政收支大公开 是赚还是亏？",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "酷温Coolwin",
+      "url": "http://www.bilibili.com/video/av113900754313014",
+      "time": "2025-02-01 18:18",
+      "heat": 23083,
+      "discussions": "530",
+      "tags": [
+        "财政",
+        "财政收支"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2025-02-01T18:18:00+08:00"
+    },
+    {
+      "id": "c0ea99da5586",
+      "title": "【宏观计算】第六部分：宏观经济政策",
+      "summary": "【宏观计算】第六部分：宏观经济政策",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "小卷毛爱学习",
+      "url": "http://www.bilibili.com/video/av817088256",
+      "time": "2022-10-29 20:20",
+      "heat": 17877,
+      "discussions": "936",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>【宏观计算】第六部分：宏观经济政策</p>",
+      "published_at": "2022-10-29T20:20:58+08:00"
+    },
+    {
+      "id": "7b228cc5c5f8",
+      "title": "2024年全国净上缴中央税收城市TOP20",
+      "summary": "2024年全国净上缴中央税收城市TOP20",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "美美的圳",
+      "url": "http://www.bilibili.com/video/av115812551623033",
+      "time": "2026-01-02 17:30",
+      "heat": 9679,
+      "discussions": "312",
+      "tags": [
+        "税收"
+      ],
+      "isHot": false,
+      "detail": "<p>2024年全国净上缴中央税收城市TOP20</p>",
+      "published_at": "2026-01-02T17:30:00+08:00"
+    },
+    {
+      "id": "519dd6ff38fb",
+      "title": "高盛研报：上半年查税力度持续加大，6月税收增长11%，主要由企业和个人所得税贡献，对冲土地出让金42%的同比下滑。政府总收入增速高于总支出，财政政策有紧缩趋势",
+      "summary": "高盛研报：上半年查税力度持续加大，6月税收增长11%，主要由企业和个人所得税贡献，对冲土地出让金42%的同比下滑。政府总收入增速高于总支出，财政政策有紧缩趋势",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "oranger0214",
+      "url": "http://www.bilibili.com/video/av116978467473765",
+      "time": "2026-07-25 12:00",
+      "heat": 5289,
+      "discussions": "170",
+      "tags": [
+        "税收",
+        "财政",
+        "所得税"
+      ],
+      "isHot": false,
+      "detail": "<p>高盛研报：上半年查税力度持续加大，6月税收增长11%，主要由企业和个人所得税贡献，对冲土地出让金42%的同比下滑。政府总收入增速高于总支出，财政政策有紧缩趋势</p>",
+      "published_at": "2026-07-25T12:00:00+08:00"
+    },
+    {
+      "id": "71907ae5caa7",
+      "title": "【维多利亚3】GDP增长原理——帝坎离课堂",
+      "summary": "为苦恼或疑惑于GDP难以提升的观众朋友提供思路。\nps：换了个配音老师",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "帝坎离",
+      "url": "http://www.bilibili.com/video/av113238121385802",
+      "time": "2024-10-02 21:47",
+      "heat": 8863,
+      "discussions": "382",
+      "tags": [
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>为苦恼或疑惑于GDP难以提升的观众朋友提供思路。\nps：换了个配音老师</p>",
+      "published_at": "2024-10-02T21:47:58+08:00"
+    },
+    {
+      "id": "e37792943ea8",
+      "title": "宏观经济学速成第十五章 宏观经济政策（IS-LM模型的应用）",
+      "summary": "笔记保持更新，链接在P2简介里",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "AAA_舜耕路人力小马达",
+      "url": "http://www.bilibili.com/video/av295000866",
+      "time": "2021-12-24 00:36",
+      "heat": 6982,
+      "discussions": "228",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>笔记保持更新，链接在P2简介里</p>",
+      "published_at": "2021-12-24T00:36:42+08:00"
+    },
+    {
+      "id": "09999c58ba80",
+      "title": "谁是真发达地区？近70年全国各省财政收入排名，前5均是沿海省市",
+      "summary": "谁是真发达地区？近70年全国各省财政收入排名，前5均是沿海省市",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "星球数据",
+      "url": "http://www.bilibili.com/video/av579363795",
+      "time": "2023-12-05 17:07",
+      "heat": 6522,
+      "discussions": "9",
+      "tags": [
+        "财政"
+      ],
+      "isHot": false,
+      "detail": "<p>谁是真发达地区？近70年全国各省财政收入排名，前5均是沿海省市</p>",
+      "published_at": "2023-12-05T17:07:24+08:00"
+    },
+    {
+      "id": "94ac089c26cb",
+      "title": "宏观经济 1.2 GDP定义/三种计算方式（附带例题）",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "仙踪匿迹",
+      "url": "http://www.bilibili.com/video/av594614910",
+      "time": "2022-03-08 09:41",
+      "heat": 6416,
+      "discussions": "101",
+      "tags": [
+        "宏观",
+        "经济",
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2022-03-08T09:41:08+08:00"
+    },
+    {
+      "id": "111cce8271b9",
+      "title": "第一集   秦朝财政体系解读",
+      "summary": "第一集   秦朝财政体系解读",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "二黑嘿阿",
+      "url": "http://www.bilibili.com/video/av114682237029531",
+      "time": "2025-06-14 22:52",
+      "heat": 6402,
+      "discussions": "146",
+      "tags": [
+        "财政"
+      ],
+      "isHot": false,
+      "detail": "<p>第一集   秦朝财政体系解读</p>",
+      "published_at": "2025-06-14T22:52:43+08:00"
+    },
+    {
+      "id": "48a92a50516d",
+      "title": "最强地级市——苏州市各区县GDP、人均GDP分布图（2025）",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "丶rcissu-_-",
+      "url": "http://www.bilibili.com/video/av116623679751360",
+      "time": "2026-05-23 19:39",
+      "heat": 6398,
+      "discussions": "291",
+      "tags": [
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-05-23T19:39:51+08:00"
+    },
+    {
+      "id": "30dd6902fea1",
+      "title": "地方政府是如何实现财政收支平衡的？【会员直播片段】",
+      "summary": "https://cf.wlfx8.cn/s/?r=eg5",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "蒙面财经Maskfinance",
+      "url": "http://www.bilibili.com/video/av682044788",
+      "time": "2022-03-06 16:01",
+      "heat": 5692,
+      "discussions": "94",
+      "tags": [
+        "财政",
+        "财政收支"
+      ],
+      "isHot": false,
+      "detail": "<p>https://cf.wlfx8.cn/s/?r=eg5</p>",
+      "published_at": "2022-03-06T16:01:59+08:00"
+    },
+    {
+      "id": "4f53aa0b2aa3",
+      "title": "2025年上半年财政收支情况分析",
+      "summary": "本期深度解读2025年上半年财政收支情况：\n（1）个人所得税收入为什么高速增长；\n（2）增值税和企业所得税的背离说明了什么；\n（3）财政非税收入下降的影响；\n（4）财政支出和基建投资出现背离的影响；\n（5）上半年专项债使用情况分析",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "大道有李",
+      "url": "http://www.bilibili.com/video/av114947669365696",
+      "time": "2025-07-31 20:06",
+      "heat": 4977,
+      "discussions": "69",
+      "tags": [
+        "税收",
+        "财政",
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>本期深度解读2025年上半年财政收支情况：\n（1）个人所得税收入为什么高速增长；\n（2）增值税和企业所得税的背离说明了什么；\n（3）财政非税收入下降的影响；\n（4）财政支出和基建投资出现背离的影响；\n（5）上半年专项债使用情况分析</p>",
+      "published_at": "2025-07-31T20:06:47+08:00"
+    },
+    {
+      "id": "c903238e434d",
+      "title": "【宏观经济学】名义GDP和实际GDP",
+      "summary": "【宏观经济学】名义GDP和实际GDP",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "经管老邢",
+      "url": "http://www.bilibili.com/video/av817591548",
+      "time": "2022-11-12 19:15",
+      "heat": 4968,
+      "discussions": "22",
+      "tags": [
+        "宏观",
+        "经济",
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>【宏观经济学】名义GDP和实际GDP</p>",
+      "published_at": "2022-11-12T19:15:00+08:00"
+    },
+    {
+      "id": "a5f8949b2609",
+      "title": "6月数据，再次掉入通缩",
+      "summary": "通胀数据连续两个月转正之后，上月又落入通缩区间。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "王叔言财",
+      "url": "http://www.bilibili.com/video/av116901996923230",
+      "time": "2026-07-12 08:00",
+      "heat": 3508,
+      "discussions": "149",
+      "tags": [],
+      "isHot": false,
+      "detail": "<p>通胀数据连续两个月转正之后，上月又落入通缩区间。</p>",
+      "published_at": "2026-07-12T08:00:00+08:00"
+    },
+    {
+      "id": "69178789a2ad",
+      "title": "2022 中央部属高校 财政拨款 排行榜, 前10所大学都有哪些?",
+      "summary": "2022 中央部属高校 财政拨款 排行榜, 前10所大学都有哪些?",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "人间视频",
+      "url": "http://www.bilibili.com/video/av941618081",
+      "time": "2022-08-03 10:11",
+      "heat": 4397,
+      "discussions": "104",
+      "tags": [
+        "财政"
+      ],
+      "isHot": false,
+      "detail": "<p>2022 中央部属高校 财政拨款 排行榜, 前10所大学都有哪些?</p>",
+      "published_at": "2022-08-03T10:11:05+08:00"
+    },
+    {
+      "id": "55a972130672",
+      "title": "当你的城市GDP增速是：",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "1个在广东的人08-07",
+      "url": "http://www.bilibili.com/video/av116972813617912",
+      "time": "2026-07-24 11:30",
+      "heat": 2383,
+      "discussions": "230",
+      "tags": [
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-07-24T11:30:07+08:00"
+    },
+    {
+      "id": "1bc672021e5d",
+      "title": "沿海财政四强省哪个市政府最有钱(不含直辖市)？粤苏鲁浙各市历年财政收入排行【数据可视化】",
+      "summary": "*本榜的数据均按现在的行政区划统计(济南2019年前数据不含莱芜)\n*1994年及以后的数据(地方一般公共预算收入)与之前年份的数据(财政总收入)统计口径不同\n数据来源：广东五十年 数据见证辉煌——江苏60年 辉煌山东70年 浙江60年统计资料汇编 各市统计年鉴、统计公报等\nBGM：Doctor Vox - Frontier\n最高支持1080P画质与60帧速率\n数据收集&amp;视频制作不易，各位",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "Azusa-Hau",
+      "url": "http://www.bilibili.com/video/av218865619",
+      "time": "2022-10-07 15:27",
+      "heat": 3934,
+      "discussions": "209",
+      "tags": [
+        "财政",
+        "预算"
+      ],
+      "isHot": false,
+      "detail": "<p>*本榜的数据均按现在的行政区划统计(济南2019年前数据不含莱芜)\n*1994年及以后的数据(地方一般公共预算收入)与之前年份的数据(财政总收入)统计口径不同\n数据来源：广东五十年 数据见证辉煌——江苏60年 辉煌山东70年 浙江60年统计资料汇编 各市统计年鉴、统计公报等\nBGM：Doctor Vox - Frontier\n最高支持1080P画质与60帧速率\n数据收集&amp;视频制作不易，各位</p>",
+      "published_at": "2022-10-07T15:27:04+08:00"
+    },
+    {
+      "id": "580c303fe50e",
+      "title": "海定波宁——宁波市各区县GDP、人均GDP分布图（2025）",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "丶rcissu-_-",
+      "url": "http://www.bilibili.com/video/av116883743313240",
+      "time": "2026-07-08 17:56",
+      "heat": 2788,
+      "discussions": "216",
+      "tags": [
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-07-08T17:56:22+08:00"
     },
     {
       "id": "a8835b351379",
@@ -117,80 +486,450 @@
       "published_at": "2023-04-03T20:25:17+08:00"
     },
     {
-      "id": "03b84a6de43f",
-      "title": "中华人民共和国财政部",
-      "summary": "图片报道 部领导动态 郭婷婷出席财政部司局级领导干部任职培训班开班式 蓝佛安部长会见巴西财政部部长杜里甘 财政部内部控制委员会召开会议研究部署财政内... 宋其超副部长在卢森堡出席欧元主权债券发行活动 蓝佛安会见印度尼西亚财政部部长普尔巴亚",
-      "source": "财政部",
-      "platform_class": "platform-official",
-      "author": "财政部",
-      "url": "https://www.mof.gov.cn/index.htm",
-      "time": "2026-07-28 08:47",
-      "heat": 1350,
-      "discussions": "67",
-      "tags": [
-        "财政"
-      ],
-      "isHot": false,
-      "detail": "<p>图片报道 部领导动态 郭婷婷出席财政部司局级领导干部任职培训班开班式 蓝佛安部长会见巴西财政部部长杜里甘 财政部内部控制委员会召开会议研究部署财政内... 宋其超副部长在卢森堡出席欧元主权债券发行活动 蓝佛安会见印度尼西亚财政部部长普尔巴亚</p>",
-      "published_at": "2026-07-28T08:47:40.213258+08:00"
-    },
-    {
-      "id": "b6c6123e763b",
-      "title": "《公基-宏观经济》16分钟快速记一遍——查漏补缺",
-      "summary": "-",
+      "id": "021c5b9e056c",
+      "title": "2024年Q1季度地级市税局国内税收排名TOP20",
+      "summary": "2024年Q1季度地级市税局国内税收排名TOP20",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "啃杂了的饭桶",
-      "url": "http://www.bilibili.com/video/av115140959669878",
-      "time": "2025-09-04 17:20",
-      "heat": 1431,
-      "discussions": "3",
+      "author": "美美的圳",
+      "url": "http://www.bilibili.com/video/av1705115191",
+      "time": "2024-05-29 17:30",
+      "heat": 3297,
+      "discussions": "140",
       "tags": [
-        "宏观",
-        "经济"
+        "税收"
       ],
       "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2025-09-04T17:20:03+08:00"
+      "detail": "<p>2024年Q1季度地级市税局国内税收排名TOP20</p>",
+      "published_at": "2024-05-29T17:30:00+08:00"
     },
     {
-      "id": "183ce9d70306",
-      "title": "高鸿业《西方经济学（宏观部分）》精讲！",
-      "summary": "高鸿业先生的《西方经济学》是国内经典的经济学教材，也是大多数院校经济学专业研究生招生的指定参考书目。本视频精讲了中国人民大学出版社第八版的高鸿业《西方经济学（宏观部分）》，可供各位经济学考研er或经济学本科生学习。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "经济学考研-宣哥",
-      "url": "http://www.bilibili.com/video/av115291182865923",
-      "time": "2025-10-01 14:00",
-      "heat": 1220,
-      "discussions": "32",
-      "tags": [
-        "宏观",
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>高鸿业先生的《西方经济学》是国内经典的经济学教材，也是大多数院校经济学专业研究生招生的指定参考书目。本视频精讲了中国人民大学出版社第八版的高鸿业《西方经济学（宏观部分）》，可供各位经济学考研er或经济学本科生学习。</p>",
-      "published_at": "2025-10-01T14:00:00+08:00"
-    },
-    {
-      "id": "2db255071294",
-      "title": "2026年7月份政治局会议展望：财政支出将加速，8000亿政策工具有望落地｜外需强、内需弱、地产惨——2026年上半年宏观数据全解读",
-      "summary": "本文系2026年7月政治局会议前的宏观经济展望。上半年GDP增速4.7%，基本达标，但二季度已回落至4.3%，趋势走弱。核心矛盾是供给强、需求弱，外需强、内需弱：出口和汇率表现亮眼，但消费、民间投资持续疲软，房地产开发投资占GDP比重已跌至历史最低。财政方面，地方政府&quot;没油了&quot;——土地出让金收入大跌31.5%，专项债发行节奏偏慢，广义财政支出6月同比下降11.9%，是二季度经济",
+      "id": "592bfe4f790f",
+      "title": "透过政府财政收支看中国宏观政策变化：点评2025年上半年中国财政支出数据，规模扩大，支出方向有调整",
+      "summary": "看一个人是否爱你，不要看他说了什么，关键看他做了什么。如果一个人每天都是甜言蜜语，但是既不舍得为你花钱，也舍得为你花钱，那这个人大概率是个渣男或者渣女。对于一个政府而言，也是如此。看政府的政策取向不要看他在各种新闻发布会上、各种文件中说了什么，关键看他落实了什么。\n\n政府的财政收支体现了政府的意志。这个视频我们透过2025年上半年财政收支的规模以及结构的变化，来看一下中国政府的宏观政策取向发生了什",
       "source": "B站",
       "platform_class": "platform-bilibili",
       "author": "货币法则研习社",
-      "url": "http://www.bilibili.com/video/av116981017742283",
-      "time": "2026-07-25 22:19",
-      "heat": 619,
-      "discussions": "25",
+      "url": "http://www.bilibili.com/video/av114987464920931",
+      "time": "2025-08-07 20:27",
+      "heat": 3260,
+      "discussions": "127",
+      "tags": [
+        "财政",
+        "宏观",
+        "财政收支"
+      ],
+      "isHot": false,
+      "detail": "<p>看一个人是否爱你，不要看他说了什么，关键看他做了什么。如果一个人每天都是甜言蜜语，但是既不舍得为你花钱，也舍得为你花钱，那这个人大概率是个渣男或者渣女。对于一个政府而言，也是如此。看政府的政策取向不要看他在各种新闻发布会上、各种文件中说了什么，关键看他落实了什么。\n\n政府的财政收支体现了政府的意志。这个视频我们透过2025年上半年财政收支的规模以及结构的变化，来看一下中国政府的宏观政策取向发生了什</p>",
+      "published_at": "2025-08-07T20:27:33+08:00"
+    },
+    {
+      "id": "b50770a68e6e",
+      "title": "二战，但是德国走经济增长优先",
+      "summary": "二战，但是德国走经济增长优先",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "ChocolateCurtis",
+      "url": "http://www.bilibili.com/video/av116833311070906",
+      "time": "2026-06-29 20:15",
+      "heat": 2337,
+      "discussions": "61",
+      "tags": [
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>二战，但是德国走经济增长优先</p>",
+      "published_at": "2026-06-29T20:15:10+08:00"
+    },
+    {
+      "id": "726c2770b7da",
+      "title": "[全员负增长]三明市各区县人均GDP、GDP分布图（2025）",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "丶rcissu-_-",
+      "url": "http://www.bilibili.com/video/av116594604903226",
+      "time": "2026-05-18 16:48",
+      "heat": 2275,
+      "discussions": "227",
+      "tags": [
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-05-18T16:48:00+08:00"
+    },
+    {
+      "id": "2c0c9fd8f48e",
+      "title": "【GDP】增速不佳？2026年上半年广西自治区GDP数据公布",
+      "summary": "【GDP】增速不佳？2026年上半年广西自治区GDP数据公布",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "CHN-中国",
+      "url": "http://www.bilibili.com/video/av116968585696474",
+      "time": "2026-07-23 17:33",
+      "heat": 1264,
+      "discussions": "166",
+      "tags": [
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>【GDP】增速不佳？2026年上半年广西自治区GDP数据公布</p>",
+      "published_at": "2026-07-23T17:33:30+08:00"
+    },
+    {
+      "id": "0fc7c99f9df5",
+      "title": "2026上半年，四川21城经济增长排名",
+      "summary": "2026上半年，四川21城经济增长排名",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "西部城事",
+      "url": "http://www.bilibili.com/video/av116991369150494",
+      "time": "2026-07-27 18:06",
+      "heat": 1160,
+      "discussions": "34",
+      "tags": [
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>2026上半年，四川21城经济增长排名</p>",
+      "published_at": "2026-07-27T18:06:41+08:00"
+    },
+    {
+      "id": "416439304b1a",
+      "title": "7.2.4IS-LM模型与财政政策效果-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
+      "summary": "IS-LM模型与财政政策效果-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "有我你不樊",
+      "url": "http://www.bilibili.com/video/av294666279",
+      "time": "2021-12-06 20:57",
+      "heat": 1985,
+      "discussions": "52",
       "tags": [
         "财政",
         "宏观",
         "经济"
       ],
       "isHot": false,
-      "detail": "<p>本文系2026年7月政治局会议前的宏观经济展望。上半年GDP增速4.7%，基本达标，但二季度已回落至4.3%，趋势走弱。核心矛盾是供给强、需求弱，外需强、内需弱：出口和汇率表现亮眼，但消费、民间投资持续疲软，房地产开发投资占GDP比重已跌至历史最低。财政方面，地方政府&quot;没油了&quot;——土地出让金收入大跌31.5%，专项债发行节奏偏慢，广义财政支出6月同比下降11.9%，是二季度经济</p>",
-      "published_at": "2026-07-25T22:19:17+08:00"
+      "detail": "<p>IS-LM模型与财政政策效果-宏观经济学-高鸿业、马工程《西方经济学》-板书授课</p>",
+      "published_at": "2021-12-06T20:57:27+08:00"
+    },
+    {
+      "id": "aa1133f9e41b",
+      "title": "7.1宏观经济政策目标-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
+      "summary": "宏观经济政策目标-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "有我你不樊",
+      "url": "http://www.bilibili.com/video/av764705383",
+      "time": "2021-12-06 20:00",
+      "heat": 1816,
+      "discussions": "140",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>宏观经济政策目标-宏观经济学-高鸿业、马工程《西方经济学》-板书授课</p>",
+      "published_at": "2021-12-06T20:00:43+08:00"
+    },
+    {
+      "id": "a828e31496da",
+      "title": "广东各地市2022财政自给率排名，东莞市88%，梅州市19%",
+      "summary": "省流：\n广东省梅州市\n广东省揭阳市\n广东省汕尾市\n广东省河源市\n广东省潮州市\n广东省韶关市\n广东省茂名市\n广东省湛江市\n广东省阳江市\n广东省汕头市\n广东省清远市\n广东省云浮市\n广东省肇庆市\n广东省江门市\n广东省珠海市\n广东省广州市\n广东省惠州市\n广东省中山市\n广东省佛山市\n广东省深圳市\n广东省东莞市",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "数看南方",
+      "url": "http://www.bilibili.com/video/av921308586",
+      "time": "2023-11-24 05:33",
+      "heat": 1783,
+      "discussions": "94",
+      "tags": [
+        "财政"
+      ],
+      "isHot": false,
+      "detail": "<p>省流：\n广东省梅州市\n广东省揭阳市\n广东省汕尾市\n广东省河源市\n广东省潮州市\n广东省韶关市\n广东省茂名市\n广东省湛江市\n广东省阳江市\n广东省汕头市\n广东省清远市\n广东省云浮市\n广东省肇庆市\n广东省江门市\n广东省珠海市\n广东省广州市\n广东省惠州市\n广东省中山市\n广东省佛山市\n广东省深圳市\n广东省东莞市</p>",
+      "published_at": "2023-11-24T05:33:44+08:00"
+    },
+    {
+      "id": "5190ecb1624a",
+      "title": "7.3.1货币政策-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
+      "summary": "货币政策-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "有我你不樊",
+      "url": "http://www.bilibili.com/video/av934736263",
+      "time": "2021-12-08 20:20",
+      "heat": 1779,
+      "discussions": "56",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>货币政策-宏观经济学-高鸿业、马工程《西方经济学》-板书授课</p>",
+      "published_at": "2021-12-08T20:20:49+08:00"
+    },
+    {
+      "id": "295e7ea5a7d4",
+      "title": "【2026 IVL 夏季赛】W8D4赛事数据发布（第五人格BWIKI）",
+      "summary": "【2026 IVL 夏季赛】W8D4赛事数据发布（第五人格BWIKI）",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "夜莺小姐档案馆",
+      "url": "http://www.bilibili.com/video/av116986654754066",
+      "time": "2026-07-26 22:13",
+      "heat": 866,
+      "discussions": "24",
+      "tags": [],
+      "isHot": false,
+      "detail": "<p>【2026 IVL 夏季赛】W8D4赛事数据发布（第五人格BWIKI）</p>",
+      "published_at": "2026-07-26T22:13:12+08:00"
+    },
+    {
+      "id": "69b73413b981",
+      "title": "各城市2028年GDP个人向预测（排名版）",
+      "summary": "航拍素材来源于网络，直辖市和特区全部拍摄于当前城市，其余全部拍摄于当前城市所在省的省会。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "火柴人列扎",
+      "url": "http://www.bilibili.com/video/av116701056207674",
+      "time": "2026-06-06 11:50",
+      "heat": 1285,
+      "discussions": "90",
+      "tags": [
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>航拍素材来源于网络，直辖市和特区全部拍摄于当前城市，其余全部拍摄于当前城市所在省的省会。</p>",
+      "published_at": "2026-06-06T11:50:28+08:00"
+    },
+    {
+      "id": "1bf90888eaeb",
+      "title": "【慧考智学】2026年咨询工程师-宏观经济政策与发展规划-课程精讲班-付子健，讲义题库视频课程",
+      "summary": "一键三连，免费领讲义、题库\n【慧考智学】2026年咨询工程师-宏观经济政策与发展规划-课程精讲班-付子健，讲义题库视频课程",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "慧考智学官网课程",
+      "url": "http://www.bilibili.com/video/av116199383899716",
+      "time": "2026-03-09 21:20",
+      "heat": 1208,
+      "discussions": "10",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>一键三连，免费领讲义、题库\n【慧考智学】2026年咨询工程师-宏观经济政策与发展规划-课程精讲班-付子健，讲义题库视频课程</p>",
+      "published_at": "2026-03-09T21:20:49+08:00"
+    },
+    {
+      "id": "bd5d98fde7bf",
+      "title": "【GDP】增速不敌大盘！2026年上半年石家庄GDP数据公布",
+      "summary": "【GDP】增速不敌大盘！2026年上半年石家庄GDP数据公布",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "China-上海",
+      "url": "http://www.bilibili.com/video/av116963653191227",
+      "time": "2026-07-22 20:36",
+      "heat": 712,
+      "discussions": "127",
+      "tags": [
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>【GDP】增速不敌大盘！2026年上半年石家庄GDP数据公布</p>",
+      "published_at": "2026-07-22T20:36:43+08:00"
+    },
+    {
+      "id": "df54172bcd83",
+      "title": "6.2.7浮动汇率制下的宏观经济政策-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
+      "summary": "浮动汇率制下扩张性财政政策和货币政策的效果分析-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "有我你不樊",
+      "url": "http://www.bilibili.com/video/av807045937",
+      "time": "2021-11-30 18:12",
+      "heat": 1151,
+      "discussions": "14",
+      "tags": [
+        "财政",
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>浮动汇率制下扩张性财政政策和货币政策的效果分析-宏观经济学-高鸿业、马工程《西方经济学》-板书授课</p>",
+      "published_at": "2021-11-30T18:12:44+08:00"
+    },
+    {
+      "id": "7d38eca8907a",
+      "title": "各地财政自给率，最后一个你肯定想不到。",
+      "summary": "各地财政自给率，最后一个你肯定想不到。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "快乐光束Oj",
+      "url": "http://www.bilibili.com/video/av525018327",
+      "time": "2023-02-27 00:49",
+      "heat": 1063,
+      "discussions": "27",
+      "tags": [
+        "财政"
+      ],
+      "isHot": false,
+      "detail": "<p>各地财政自给率，最后一个你肯定想不到。</p>",
+      "published_at": "2023-02-27T00:49:39+08:00"
+    },
+    {
+      "id": "6572fd70190c",
+      "title": "【网课录屏】马工程宏观经济学第十六章宏观经济政策",
+      "summary": "【网课录屏】马工程宏观经济学第十六章宏观经济政策",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "有理想的楠璟君",
+      "url": "http://www.bilibili.com/video/av968227525",
+      "time": "2020-05-19 18:17",
+      "heat": 1049,
+      "discussions": "6",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>【网课录屏】马工程宏观经济学第十六章宏观经济政策</p>",
+      "published_at": "2020-05-19T18:17:33+08:00"
+    },
+    {
+      "id": "c8ac9b4a013a",
+      "title": "7.3.5货币政策规则-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
+      "summary": "货币政策规则-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "有我你不樊",
+      "url": "http://www.bilibili.com/video/av549746956",
+      "time": "2021-12-08 21:26",
+      "heat": 882,
+      "discussions": "13",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>货币政策规则-宏观经济学-高鸿业、马工程《西方经济学》-板书授课</p>",
+      "published_at": "2021-12-08T21:26:42+08:00"
+    },
+    {
+      "id": "8e25a97ed03c",
+      "title": "7.4.1财政政策的局限性-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
+      "summary": "财政政策的局限性-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "有我你不樊",
+      "url": "http://www.bilibili.com/video/av807345310",
+      "time": "2021-12-15 21:58",
+      "heat": 873,
+      "discussions": "10",
+      "tags": [
+        "财政",
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>财政政策的局限性-宏观经济学-高鸿业、马工程《西方经济学》-板书授课</p>",
+      "published_at": "2021-12-15T21:58:42+08:00"
+    },
+    {
+      "id": "f5a2417cf213",
+      "title": "2025年中国部分地铁企业财政补贴情况榜单TOP30",
+      "summary": "2025年中国部分地铁企业财政补贴情况榜单TOP30",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "剑轻吟呀",
+      "url": "http://www.bilibili.com/video/av116952882419283",
+      "time": "2026-07-20 23:01",
+      "heat": 537,
+      "discussions": "17",
+      "tags": [
+        "财政"
+      ],
+      "isHot": false,
+      "detail": "<p>2025年中国部分地铁企业财政补贴情况榜单TOP30</p>",
+      "published_at": "2026-07-20T23:01:02+08:00"
+    },
+    {
+      "id": "e5ba883a99c0",
+      "title": "一个视频告诉你都市天际线2城市财政收支！",
+      "summary": "一个视频告诉你都市天际线2城市财政收支！",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "杭电光头学长",
+      "url": "http://www.bilibili.com/video/av113728099981012",
+      "time": "2024-12-28 10:38",
+      "heat": 651,
+      "discussions": "20",
+      "tags": [
+        "财政",
+        "财政收支"
+      ],
+      "isHot": false,
+      "detail": "<p>一个视频告诉你都市天际线2城市财政收支！</p>",
+      "published_at": "2024-12-28T10:38:53+08:00"
+    },
+    {
+      "id": "e46d052b0db5",
+      "title": "财政科普 | 快速查找全国财政预算和决算数据的方法",
+      "summary": "感谢支持，会持续更新！",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "经济小分子",
+      "url": "http://www.bilibili.com/video/av894843182",
+      "time": "2022-03-17 14:44",
+      "heat": 612,
+      "discussions": "12",
+      "tags": [
+        "财政",
+        "预算"
+      ],
+      "isHot": false,
+      "detail": "<p>感谢支持，会持续更新！</p>",
+      "published_at": "2022-03-17T14:44:55+08:00"
+    },
+    {
+      "id": "922265a47fbb",
+      "title": "中国宏观税负13.8%，低于主要经济体！宏观税负的三个统计口径",
+      "summary": "中国宏观税负13.8%，低于主要经济体！宏观税负的三个统计口径",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "红蓝白郁金香",
+      "url": "http://www.bilibili.com/video/av907040283",
+      "time": "2023-02-18 22:33",
+      "heat": 541,
+      "discussions": "3",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>中国宏观税负13.8%，低于主要经济体！宏观税负的三个统计口径</p>",
+      "published_at": "2023-02-18T22:33:49+08:00"
+    },
+    {
+      "id": "12fa389fd303",
+      "title": "2025年河北省各市GDP排名",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "该昵称已存在ethr",
+      "url": "http://www.bilibili.com/video/av116830945412768",
+      "time": "2026-06-29 10:11",
+      "heat": 459,
+      "discussions": "25",
+      "tags": [
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-06-29T10:11:57+08:00"
     },
     {
       "id": "e8ab2f327914",
@@ -210,6 +949,558 @@
       "isHot": false,
       "detail": "<p>【课程学习】马工程宏观经济学-第15章宏观经济政策</p>",
       "published_at": "2025-02-03T17:12:19+08:00"
+    },
+    {
+      "id": "dc370c6ccce4",
+      "title": "经济学基础-第十章-宏观经济调控-货币政策",
+      "summary": "经济学基础-第十章-宏观经济调控-货币政策",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "笨重小飞象Applejuan",
+      "url": "http://www.bilibili.com/video/av772835289",
+      "time": "2022-09-07 17:55",
+      "heat": 407,
+      "discussions": "1",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>经济学基础-第十章-宏观经济调控-货币政策</p>",
+      "published_at": "2022-09-07T17:55:24+08:00"
+    },
+    {
+      "id": "b07e97c8acc2",
+      "title": "宏观调控之货币政策和财政政策，一个视频讲清楚！必修2 经济与社会最难知识点！",
+      "summary": "宏观调控之货币政策和财政政策，一个视频讲清楚！必修2 经济与社会最难知识点！",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "FredTao高考政治",
+      "url": "http://www.bilibili.com/video/av116975044921325",
+      "time": "2026-07-24 20:57",
+      "heat": 235,
+      "discussions": "7",
+      "tags": [
+        "财政",
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>宏观调控之货币政策和财政政策，一个视频讲清楚！必修2 经济与社会最难知识点！</p>",
+      "published_at": "2026-07-24T20:57:08+08:00"
+    },
+    {
+      "id": "3522bfbc00ea",
+      "title": "2024年我国政府财政速览（收支\\政府性基金\\国有资本经营\\社会保险基金\\债务）以及2025年一般公共预算收入预计和支出安排",
+      "summary": "连续周更第325周",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "侃侃乱侃",
+      "url": "http://www.bilibili.com/video/av114211367688353",
+      "time": "2025-03-23 18:56",
+      "heat": 301,
+      "discussions": "11",
+      "tags": [
+        "财政",
+        "预算"
+      ],
+      "isHot": false,
+      "detail": "<p>连续周更第325周</p>",
+      "published_at": "2025-03-23T18:56:30+08:00"
+    },
+    {
+      "id": "f0f00f44cdf4",
+      "title": "GDP增速5.8%，秒杀重庆 广州今年强的可怕",
+      "summary": "GDP增速5.8%，秒杀重庆 广州今年强的可怕",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "猫爷聊财经",
+      "url": "http://www.bilibili.com/video/av116974373898328",
+      "time": "2026-07-24 18:03",
+      "heat": 161,
+      "discussions": "0",
+      "tags": [
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>GDP增速5.8%，秒杀重庆 广州今年强的可怕</p>",
+      "published_at": "2026-07-24T18:03:20+08:00"
+    },
+    {
+      "id": "7358fae431f8",
+      "title": "2024年度中央预算执行和其他财政收支的审计工作报告：过头税费889.97亿、税费流失726.6亿",
+      "summary": "2024年度中央审计报告：过头税费、税费流失",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "懂点税",
+      "url": "http://www.bilibili.com/video/av114799593657589",
+      "time": "2025-07-05 18:30",
+      "heat": 215,
+      "discussions": "0",
+      "tags": [
+        "财政",
+        "财政收支",
+        "预算"
+      ],
+      "isHot": false,
+      "detail": "<p>2024年度中央审计报告：过头税费、税费流失</p>",
+      "published_at": "2025-07-05T18:30:00+08:00"
+    },
+    {
+      "id": "d909c2b0609f",
+      "title": "【GDP】2026年上半年中山市GDP",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "CHN-苏可",
+      "url": "http://www.bilibili.com/video/av116976621982178",
+      "time": "2026-07-25 03:37",
+      "heat": 121,
+      "discussions": "4",
+      "tags": [
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-07-25T03:37:15+08:00"
+    },
+    {
+      "id": "effc34b281c0",
+      "title": "樊纲：宏观经济理论与宏观经济政策20241106",
+      "summary": "樊纲：宏观经济理论与宏观经济政策20241106",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "唯爱在b站",
+      "url": "http://www.bilibili.com/video/av113830189342697",
+      "time": "2025-01-22 03:00",
+      "heat": 199,
+      "discussions": "1",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>樊纲：宏观经济理论与宏观经济政策20241106</p>",
+      "published_at": "2025-01-22T03:00:00+08:00"
+    },
+    {
+      "id": "5b944df59df2",
+      "title": "[GDP速报]稳定增长？锦州市辽阳市2026上半年GDP数据公布",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "征服卐纪元",
+      "url": "http://www.bilibili.com/video/av116996452715310",
+      "time": "2026-07-28 15:37",
+      "heat": 78,
+      "discussions": "18",
+      "tags": [
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-07-28T15:37:54+08:00"
+    },
+    {
+      "id": "6af64b376356",
+      "title": "Access数据库图表作品：2019年中央地方财政收支情况",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "宇哥玩Access数据库",
+      "url": "http://www.bilibili.com/video/av673097000",
+      "time": "2021-05-16 09:37",
+      "heat": 92,
+      "discussions": "3",
+      "tags": [
+        "财政",
+        "财政收支"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2021-05-16T09:37:02+08:00"
+    },
+    {
+      "id": "1243bae27a22",
+      "title": "初级会计人员总数曝光！中高级注会财政部也均发布！",
+      "summary": "免费领取并时时更新  初级&amp;中级&amp;注会&amp;税务师 讲义/易错易混点/知识点总结/学习计划/历年真题/跨考对比等备考资料大全，快戳链接详细了解一下吧👉https://www.bilibili.com/opus/942027976066727976",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "东奥初级会计职称",
+      "url": "http://www.bilibili.com/video/av116957160480282",
+      "time": "2026-07-22 20:30",
+      "heat": 52,
+      "discussions": "1",
+      "tags": [
+        "税务",
+        "财政",
+        "会计"
+      ],
+      "isHot": false,
+      "detail": "<p>免费领取并时时更新  初级&amp;中级&amp;注会&amp;税务师 讲义/易错易混点/知识点总结/学习计划/历年真题/跨考对比等备考资料大全，快戳链接详细了解一下吧👉https://www.bilibili.com/opus/942027976066727976</p>",
+      "published_at": "2026-07-22T20:30:00+08:00"
+    },
+    {
+      "id": "b3b1c5974ce0",
+      "title": "上半年财政收支数据，中央财政补位",
+      "summary": "上半年财政收支数据，中央财政补位",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "大李很想有银工司",
+      "url": "http://www.bilibili.com/video/av114919349425717",
+      "time": "2025-07-26 19:43",
+      "heat": 77,
+      "discussions": "1",
+      "tags": [
+        "财政",
+        "财政收支"
+      ],
+      "isHot": false,
+      "detail": "<p>上半年财政收支数据，中央财政补位</p>",
+      "published_at": "2025-07-26T19:43:17+08:00"
+    },
+    {
+      "id": "d1300b47ed84",
+      "title": "2024年财政收支数据分析",
+      "summary": "中国的财政总收入等于公共预算收入加政府性基金收入，公共预算收入主要是税收收入和非税收入，这里边儿税收收入达到了8成以上，政府性基金收入主要就是卖地的收入和卖彩票的收入，卖地收入占到九成以上。我们看三个关键性的税种：增值税降幅达到5.6%，这一部分主要对应商品的流转；\n第二是企业所得税，降幅5.5%，这部分主要对应企业的利润；\n第三部分为个人所得税，降幅为5.7%，这主要是个人的劳动所得。\n他们三个",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "账号已注销",
+      "url": "http://www.bilibili.com/video/av112885732740044",
+      "time": "2024-08-01 16:16",
+      "heat": 77,
+      "discussions": "0",
+      "tags": [
+        "税收",
+        "财政",
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>中国的财政总收入等于公共预算收入加政府性基金收入，公共预算收入主要是税收收入和非税收入，这里边儿税收收入达到了8成以上，政府性基金收入主要就是卖地的收入和卖彩票的收入，卖地收入占到九成以上。我们看三个关键性的税种：增值税降幅达到5.6%，这一部分主要对应商品的流转；\n第二是企业所得税，降幅5.5%，这部分主要对应企业的利润；\n第三部分为个人所得税，降幅为5.7%，这主要是个人的劳动所得。\n他们三个</p>",
+      "published_at": "2024-08-01T16:16:29+08:00"
+    },
+    {
+      "id": "545fdcc2c8c9",
+      "title": "Access数据库-2019年各省财政收支查询",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "宇哥玩Access数据库",
+      "url": "http://www.bilibili.com/video/av460714078",
+      "time": "2021-05-20 23:27",
+      "heat": 72,
+      "discussions": "3",
+      "tags": [
+        "财政",
+        "财政收支"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2021-05-20T23:27:46+08:00"
+    },
+    {
+      "id": "2cde6ee579ac",
+      "title": "E02 GDP与经济增长",
+      "summary": "GDP and Economic Growth\n\n在上期中，我们介绍了经济学的一些概念，同时也介绍了两位主人公给大家认识。她们分别是美国的贝基和埃塞俄比亚的德斯塔。两位主人公有着截然不同的生活状态，这一定程度上是他们国家经济发展程度的体现。当我们来衡量、探讨一个国家的经济发展程度时，我们通常会使用GDP这个概念。 虽然GDP这个词我们耳熟能详，但是GDP究竟是什么？它和经济增长又有什么关系？\n\n【",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "若木之庭",
+      "url": "http://www.bilibili.com/video/av116969625946919",
+      "time": "2026-07-23 21:58",
+      "heat": 38,
+      "discussions": "0",
+      "tags": [
+        "经济",
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>GDP and Economic Growth\n\n在上期中，我们介绍了经济学的一些概念，同时也介绍了两位主人公给大家认识。她们分别是美国的贝基和埃塞俄比亚的德斯塔。两位主人公有着截然不同的生活状态，这一定程度上是他们国家经济发展程度的体现。当我们来衡量、探讨一个国家的经济发展程度时，我们通常会使用GDP这个概念。 虽然GDP这个词我们耳熟能详，但是GDP究竟是什么？它和经济增长又有什么关系？\n\n【</p>",
+      "published_at": "2026-07-23T21:58:45+08:00"
+    },
+    {
+      "id": "b42532a0d89f",
+      "title": "中美人工智能和地方财政收支、几个美国消息和俄乌战争进展",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "北京陈叔",
+      "url": "http://www.bilibili.com/video/av116996754639077",
+      "time": "2026-07-28 16:59",
+      "heat": 30,
+      "discussions": "0",
+      "tags": [
+        "财政",
+        "财政收支"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-07-28T16:59:13+08:00"
+    },
+    {
+      "id": "a26ad2aa722e",
+      "title": "2025年我国普通地级市财政收入前十强",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "南山知事客",
+      "url": "http://www.bilibili.com/video/av116861496856898",
+      "time": "2026-07-04 19:38",
+      "heat": 46,
+      "discussions": "0",
+      "tags": [
+        "财政"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-07-04T19:38:28+08:00"
+    },
+    {
+      "id": "397cf5768e3c",
+      "title": "2024中国31省财政收入排名",
+      "summary": "2024中国31省财政收入排名\n\n📊 数据来源：权威机构 官方2024年发布的最新中国排名\n🎬 视频内容：完整 Top 排名 + 学校 Logo / 国旗 / 总分 / 排名变化\n\n🏆 Top 5 预览：\n  1. 广东 (得分 1.35 万亿 · 华南)\n  2. 江苏 (得分 1.00 万亿 · 华东)\n  3. 浙江 (得分 ¥8,706 亿 · 华东)\n  4. 上海 (得分 ¥8,374",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "杂音频道",
+      "url": "http://www.bilibili.com/video/av116491290811840",
+      "time": "2026-04-30 10:32",
+      "heat": 53,
+      "discussions": "1",
+      "tags": [
+        "财政"
+      ],
+      "isHot": false,
+      "detail": "<p>2024中国31省财政收入排名\n\n📊 数据来源：权威机构 官方2024年发布的最新中国排名\n🎬 视频内容：完整 Top 排名 + 学校 Logo / 国旗 / 总分 / 排名变化\n\n🏆 Top 5 预览：\n  1. 广东 (得分 1.35 万亿 · 华南)\n  2. 江苏 (得分 1.00 万亿 · 华东)\n  3. 浙江 (得分 ¥8,706 亿 · 华东)\n  4. 上海 (得分 ¥8,374</p>",
+      "published_at": "2026-04-30T10:32:37+08:00"
+    },
+    {
+      "id": "ed0501f635fa",
+      "title": "6月23日，审计署发布《2025年度中央预算执行和其他财政收支审计工作报告》。该报告完整揭露了当前中药行业的全链条顽疾，为医药行业长效监管敲响警钟 。",
+      "summary": "6月23日，审计署发布《2025年度中央预算执行和其他财政收支审计工作报告》。该报告完整揭露了当前中药行业的全链条顽疾，为医药行业长效监管敲响警钟 。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "医药研究社",
+      "url": "http://www.bilibili.com/video/av116839434749155",
+      "time": "2026-06-30 22:09",
+      "heat": 45,
+      "discussions": "0",
+      "tags": [
+        "财政",
+        "财政收支",
+        "预算"
+      ],
+      "isHot": false,
+      "detail": "<p>6月23日，审计署发布《2025年度中央预算执行和其他财政收支审计工作报告》。该报告完整揭露了当前中药行业的全链条顽疾，为医药行业长效监管敲响警钟 。</p>",
+      "published_at": "2026-06-30T22:09:14+08:00"
+    },
+    {
+      "id": "1fe5d925114f",
+      "title": "2024年“国家账本”出炉财政收支均将达历史新高",
+      "summary": "2024年“国家账本”出炉财政收支均\n将达历史新高\n央视新闻客户端\n每年两会期间，预算报告都是社会关注的焦点之一，因为它直接关系到经济社会发展的方方面面。根据预算报告，财政收支均将达到历史新高，而差额相比去年进一步扩大。根据预算报告，2024年，全国一般公共预算收入223950亿元，增长3.3%。全国一般公共预算支出285490亿元，增长4%。\n粤开证券研究院院长中国税务学会常务理事罗志恒表示，财",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "账号已注销",
+      "url": "http://www.bilibili.com/video/av1551531274",
+      "time": "2024-03-13 11:55",
+      "heat": 36,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "财政",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>2024年“国家账本”出炉财政收支均\n将达历史新高\n央视新闻客户端\n每年两会期间，预算报告都是社会关注的焦点之一，因为它直接关系到经济社会发展的方方面面。根据预算报告，财政收支均将达到历史新高，而差额相比去年进一步扩大。根据预算报告，2024年，全国一般公共预算收入223950亿元，增长3.3%。全国一般公共预算支出285490亿元，增长4%。\n粤开证券研究院院长中国税务学会常务理事罗志恒表示，财</p>",
+      "published_at": "2024-03-13T11:55:33+08:00"
+    },
+    {
+      "id": "1d7adf1c5890",
+      "title": "本年1-4月财政收支数据解读",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "愚者不郁",
+      "url": "http://www.bilibili.com/video/av953868939",
+      "time": "2023-05-19 23:31",
+      "heat": 35,
+      "discussions": "1",
+      "tags": [
+        "财政",
+        "财政收支"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2023-05-19T23:31:33+08:00"
+    },
+    {
+      "id": "b1e14bed72a8",
+      "title": "XX市202X年度本级预算执行和其他财政收支的审计工作报告",
+      "summary": "XX市202X年度本级预算执行和其他财政收支的审计工作报告",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "公文写作啊",
+      "url": "http://www.bilibili.com/video/av1550326420",
+      "time": "2024-02-08 12:31",
+      "heat": 28,
+      "discussions": "0",
+      "tags": [
+        "财政",
+        "财政收支",
+        "预算"
+      ],
+      "isHot": false,
+      "detail": "<p>XX市202X年度本级预算执行和其他财政收支的审计工作报告</p>",
+      "published_at": "2024-02-08T12:31:18+08:00"
+    },
+    {
+      "id": "3621259bb228",
+      "title": "GDP构成及经济增长",
+      "summary": "GDP构成及经济增长",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "潇雨了无痕",
+      "url": "http://www.bilibili.com/video/av116862100703559",
+      "time": "2026-07-04 22:13",
+      "heat": 23,
+      "discussions": "0",
+      "tags": [
+        "经济",
+        "GDP"
+      ],
+      "isHot": false,
+      "detail": "<p>GDP构成及经济增长</p>",
+      "published_at": "2026-07-04T22:13:04+08:00"
+    },
+    {
+      "id": "aac4b0bd60eb",
+      "title": "2025年1-10月财政收支分析1124",
+      "summary": "2025年1-10月财政收支分析1124\n报告核心论点是中国财政结构正经历“总量扩张”向“质量整固”的微妙转向，其中一般公共预算收入的温和增长掩盖了税收与非税收入的剧烈结构性分化。报告重点剖析了个人所得税11.5%的异常增长，将其解读为经济“K型复苏”的税收镜像，即高技术与资本要素所有者财富加速积累，而同时国有土地出让收入加速下跌（-7.4%），宣告了“土地财政”时代的终结。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "呆猫移动",
+      "url": "http://www.bilibili.com/video/av115602702212006",
+      "time": "2025-11-24 12:10",
+      "heat": 23,
+      "discussions": "0",
+      "tags": [
+        "税收",
+        "财政",
+        "所得税"
+      ],
+      "isHot": false,
+      "detail": "<p>2025年1-10月财政收支分析1124\n报告核心论点是中国财政结构正经历“总量扩张”向“质量整固”的微妙转向，其中一般公共预算收入的温和增长掩盖了税收与非税收入的剧烈结构性分化。报告重点剖析了个人所得税11.5%的异常增长，将其解读为经济“K型复苏”的税收镜像，即高技术与资本要素所有者财富加速积累，而同时国有土地出让收入加速下跌（-7.4%），宣告了“土地财政”时代的终结。</p>",
+      "published_at": "2025-11-24T12:10:25+08:00"
+    },
+    {
+      "id": "114372c6559a",
+      "title": "当天杀号数据在封机前一个小时发布！",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "山有桥松12",
+      "url": "http://www.bilibili.com/video/av116996955967778",
+      "time": "2026-07-28 17:45",
+      "heat": 7,
+      "discussions": "0",
+      "tags": [],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-07-28T17:45:35+08:00"
+    },
+    {
+      "id": "1c2b10031908",
+      "title": "2020地方财政收支排行榜",
+      "summary": "微博",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "穹哥阿悠",
+      "url": "http://www.bilibili.com/video/av886542947",
+      "time": "2021-02-06 10:18",
+      "heat": 12,
+      "discussions": "0",
+      "tags": [
+        "财政",
+        "财政收支"
+      ],
+      "isHot": false,
+      "detail": "<p>微博</p>",
+      "published_at": "2021-02-06T10:18:11+08:00"
+    },
+    {
+      "id": "1e569fcc10f5",
+      "title": "第二节  宏观经济调控手段及政策",
+      "summary": "第二节  宏观经济调控手段及政策",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "公基教材主编位彦鲁",
+      "url": "http://www.bilibili.com/video/av116984524117003",
+      "time": "2026-07-26 13:08",
+      "heat": 6,
+      "discussions": "0",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>第二节  宏观经济调控手段及政策</p>",
+      "published_at": "2026-07-26T13:08:01+08:00"
+    },
+    {
+      "id": "d93e8511ec9b",
+      "title": "近50年国家财政收支总额及增长速度",
+      "summary": "近50年国家财政收支总额及增长速度",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "小仙儿玩游戏",
+      "url": "http://www.bilibili.com/video/av647722410",
+      "time": "2022-11-15 18:33",
+      "heat": 9,
+      "discussions": "0",
+      "tags": [
+        "财政",
+        "财政收支"
+      ],
+      "isHot": false,
+      "detail": "<p>近50年国家财政收支总额及增长速度</p>",
+      "published_at": "2022-11-15T18:33:45+08:00"
+    },
+    {
+      "id": "e8b1bd893715",
+      "title": "山东2024年度省级预算执行和其他财政收支审计整改金额158.9亿元【权威发布】",
+      "summary": "山东新闻联播",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "电梯爱好者工作室",
+      "url": "http://www.bilibili.com/video/av115581747597440",
+      "time": "2025-11-20 19:24",
+      "heat": 2,
+      "discussions": "0",
+      "tags": [
+        "财政",
+        "财政收支",
+        "预算"
+      ],
+      "isHot": false,
+      "detail": "<p>山东新闻联播</p>",
+      "published_at": "2025-11-20T19:24:07+08:00"
+    },
+    {
+      "id": "f02772df28b3",
+      "title": "宏观经济货币政策利率通胀行业政策解读影响股市完整分析课程",
+      "summary": "宏观经济货币政策利率通胀行业政策解读影响股市完整分析课程",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "bili_65020214661",
+      "url": "http://www.bilibili.com/video/av116967629392096",
+      "time": "2026-07-26 01:39",
+      "heat": 0,
+      "discussions": "0",
+      "tags": [
+        "宏观",
+        "经济"
+      ],
+      "isHot": false,
+      "detail": "<p>宏观经济货币政策利率通胀行业政策解读影响股市完整分析课程</p>",
+      "published_at": "2026-07-26T01:39:00+08:00"
     }
   ]
 }
