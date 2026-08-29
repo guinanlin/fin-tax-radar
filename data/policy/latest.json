@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T14:54:31.298868+08:00",
+  "updated_at": "2026-08-29T22:56:11.385009+08:00",
   "count": 11,
   "topics": [
     {
@@ -10,7 +10,7 @@
       "platform_class": "platform-official",
       "author": "财政部",
       "url": "http://kzp.mof.gov.cn/",
-      "time": "2026-08-29 14:54",
+      "time": "2026-08-29 22:56",
       "heat": 1350,
       "discussions": "67",
       "tags": [
@@ -20,7 +20,25 @@
       ],
       "isHot": true,
       "detail": "<p>财政部会计财务评价中心成立于2001年8月，负责组织全国会计资格考试与会计人员水平评价工作；建立考试信息系统和合格人员库，开展考试后优秀会计人员跟踪评价；建立会计人员流动配置平台；研究提出会计职称制度改革政策建议、会计人员水平评价指标体系以及高级会计资格考试后评审指引；开展会计资格考试与评价国际交流与合作。</p>",
-      "published_at": "2026-08-29T14:54:31.298868+08:00"
+      "published_at": "2026-08-29T22:56:11.385009+08:00"
+    },
+    {
+      "id": "202e880b1b0a",
+      "title": "分税制之后，最重要的一次财税重构来了｜中央与地方，重新算账",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "账房观潮人",
+      "url": "http://www.bilibili.com/video/av117172898630146",
+      "time": "2026-08-28 19:29",
+      "heat": 394,
+      "discussions": "23",
+      "tags": [
+        "财税"
+      ],
+      "isHot": true,
+      "detail": "<p>-</p>",
+      "published_at": "2026-08-28T19:29:23+08:00"
     },
     {
       "id": "781ce80b4e5b",
@@ -41,26 +59,6 @@
       "isHot": true,
       "detail": "<p>2026增值税法21条变化 #增值税法 #税收改革 #财务合规 #企业税务 #政策解读</p>",
       "published_at": "2026-08-28T14:01:15+08:00"
-    },
-    {
-      "id": "7177b416ab4c",
-      "title": "财税2026年13号公告，抵扣重组全厘清#政策解读#增值税法#2026年新规#税务风险#财税",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "佰仕通税所",
-      "url": "http://www.bilibili.com/video/av116224751047073",
-      "time": "2026-03-14 08:48",
-      "heat": 19,
-      "discussions": "0",
-      "tags": [
-        "税务",
-        "财税",
-        "增值税"
-      ],
-      "isHot": true,
-      "detail": "<p>-</p>",
-      "published_at": "2026-03-14T08:48:08+08:00"
     },
     {
       "id": "3d51505e530c",
@@ -140,6 +138,26 @@
       "published_at": "2026-02-26T16:54:27+08:00"
     },
     {
+      "id": "6098dd8ff7bb",
+      "title": "期末增值税留抵退税政策解读---财政部 税务总局公告2025年第7号、国家税务总局公告2025年第20号",
+      "summary": "这是试听课，想学习完整版V我：fewone001",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "跟刘老师学会计实操",
+      "url": "http://www.bilibili.com/video/av115105912065595",
+      "time": "2025-08-28 18:29",
+      "heat": 172,
+      "discussions": "1",
+      "tags": [
+        "税务",
+        "财政",
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>这是试听课，想学习完整版V我：fewone001</p>",
+      "published_at": "2025-08-28T18:29:56+08:00"
+    },
+    {
       "id": "976a0a267f45",
       "title": "税收政策更新太快？太繁杂？推荐小竹财税法规库，财税人的专属宝藏工具！",
       "summary": "税收政策更新太快？太繁杂？推荐小竹财税法规库，财税人的专属宝藏工具！",
@@ -196,24 +214,6 @@
       "isHot": false,
       "detail": "<p>-</p>",
       "published_at": "2023-05-17T22:26:44+08:00"
-    },
-    {
-      "id": "c2dd387fb918",
-      "title": "组合式税费政策有些什么内容？",
-      "summary": "组合式税费政策有些什么内容？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "杭州方格子财税",
-      "url": "http://www.bilibili.com/video/av728068315",
-      "time": "2022-07-04 16:27",
-      "heat": 22,
-      "discussions": "1",
-      "tags": [
-        "政策"
-      ],
-      "isHot": false,
-      "detail": "<p>组合式税费政策有些什么内容？</p>",
-      "published_at": "2022-07-04T16:27:46+08:00"
     }
   ]
 }
