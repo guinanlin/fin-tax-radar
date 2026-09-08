@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-08T12:19:48.384141+08:00",
-  "count": 24,
+  "updated_at": "2026-09-08T22:10:49.957330+08:00",
+  "count": 21,
   "topics": [
     {
       "id": "2cedf9968acb",
@@ -11,7 +11,7 @@
       "author": "ACCA考试小助手",
       "url": "http://www.bilibili.com/video/av87849501",
       "time": "2020-02-10 00:21",
-      "heat": 3666,
+      "heat": 3667,
       "discussions": "29",
       "tags": [
         "税务"
@@ -28,7 +28,7 @@
       "platform_class": "platform-official",
       "author": "国家税务总局",
       "url": "https://www.chinatax.gov.cn/",
-      "time": "2026-09-08 12:19",
+      "time": "2026-09-08 22:10",
       "heat": 1350,
       "discussions": "67",
       "tags": [
@@ -37,47 +37,7 @@
       ],
       "isHot": true,
       "detail": "<p>胡静林在新疆调研税务工作时强调 巩固拓展学习教育成果 更好服务高质量发展 努力完成“十五五”开局之年目标任务 国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍“十五五”时期税收改革发展有关情况 税务总局举行庆祝中国共产党成立105周年“七一”主题活动 国家税务总局召开 ...</p>",
-      "published_at": "2026-09-08T12:19:48.384141+08:00"
-    },
-    {
-      "id": "ab60948573b4",
-      "title": "网上办税 - 国家税务总局12366纳税服务平台",
-      "summary": "国家税务总局网上办税平台，提供便捷的税务办理服务，包括纳税申报、发票查验等功能。",
-      "source": "国家税务总局",
-      "platform_class": "platform-official",
-      "author": "国家税务总局",
-      "url": "https://12366.chinatax.gov.cn/bsfw/onlinetaxation/main",
-      "time": "2026-09-08 12:19",
-      "heat": 1350,
-      "discussions": "67",
-      "tags": [
-        "税务",
-        "纳税",
-        "发票"
-      ],
-      "isHot": true,
-      "detail": "<p>国家税务总局网上办税平台，提供便捷的税务办理服务，包括纳税申报、发票查验等功能。</p>",
-      "published_at": "2026-09-08T12:19:48.384141+08:00"
-    },
-    {
-      "id": "d654684c611c",
-      "title": "国家税务总局电子税务局",
-      "summary": "国家税务总局电子税务局提供在线税务服务、申报缴纳及相关业务，方便纳税人高效办理涉税事务。",
-      "source": "国家税务总局",
-      "platform_class": "platform-official",
-      "author": "国家税务总局",
-      "url": "https://etax.shanghai.chinatax.gov.cn:8443/",
-      "time": "2026-09-08 12:19",
-      "heat": 1350,
-      "discussions": "67",
-      "tags": [
-        "税务",
-        "纳税",
-        "申报"
-      ],
-      "isHot": false,
-      "detail": "<p>国家税务总局电子税务局提供在线税务服务、申报缴纳及相关业务，方便纳税人高效办理涉税事务。</p>",
-      "published_at": "2026-09-08T12:19:48.384141+08:00"
+      "published_at": "2026-09-08T22:10:49.957330+08:00"
     },
     {
       "id": "166d0ce19828",
@@ -87,7 +47,7 @@
       "platform_class": "platform-official",
       "author": "国家税务总局",
       "url": "https://12366.chinatax.gov.cn/",
-      "time": "2026-09-08 12:19",
+      "time": "2026-09-08 22:10",
       "heat": 1350,
       "discussions": "67",
       "tags": [
@@ -95,9 +55,29 @@
         "纳税",
         "办税"
       ],
-      "isHot": false,
+      "isHot": true,
       "detail": "<p>国家税务总局12366纳税服务平台，提供纳税咨询、政策解读、办税指南等综合服务，帮助纳税人高效便捷地完成涉税事项。</p>",
-      "published_at": "2026-09-08T12:19:48.384141+08:00"
+      "published_at": "2026-09-08T22:10:49.957330+08:00"
+    },
+    {
+      "id": "ab60948573b4",
+      "title": "网上办税 - 国家税务总局12366纳税服务平台",
+      "summary": "国家税务总局网上办税平台，提供便捷的税务办理服务，包括纳税申报、发票查验等功能。",
+      "source": "国家税务总局",
+      "platform_class": "platform-official",
+      "author": "国家税务总局",
+      "url": "https://12366.chinatax.gov.cn/bsfw/onlinetaxation/main",
+      "time": "2026-09-08 22:10",
+      "heat": 1350,
+      "discussions": "67",
+      "tags": [
+        "税务",
+        "纳税",
+        "发票"
+      ],
+      "isHot": false,
+      "detail": "<p>国家税务总局网上办税平台，提供便捷的税务办理服务，包括纳税申报、发票查验等功能。</p>",
+      "published_at": "2026-09-08T22:10:49.957330+08:00"
     },
     {
       "id": "ce992d93d85a",
@@ -107,7 +87,7 @@
       "platform_class": "platform-official",
       "author": "国家税务总局",
       "url": "http://www.etax.chinatax.gov.cn/",
-      "time": "2026-09-08 12:19",
+      "time": "2026-09-08 22:10",
       "heat": 1350,
       "discussions": "67",
       "tags": [
@@ -115,64 +95,64 @@
       ],
       "isHot": false,
       "detail": "<p>We're sorry but web-infra-demo doesn't work properly without JavaScript enabled. Please enable it to continue.</p>",
-      "published_at": "2026-09-08T12:19:48.384141+08:00"
+      "published_at": "2026-09-08T22:10:49.957330+08:00"
     },
     {
-      "id": "64ee969dc1aa",
-      "title": "国家税务总局陕西省税务局",
-      "summary": "国家税务总局陕西省税务局提供全面税务服务和政策资讯，助力纳税人高效便捷办理涉税业务。",
+      "id": "d654684c611c",
+      "title": "国家税务总局电子税务局",
+      "summary": "国家税务总局电子税务局提供在线税务服务、申报缴纳及相关业务，方便纳税人高效办理涉税事务。",
       "source": "国家税务总局",
       "platform_class": "platform-official",
       "author": "国家税务总局",
-      "url": "https://shaanxi.chinatax.gov.cn/",
-      "time": "2026-09-08 12:19",
+      "url": "https://etax.shanghai.chinatax.gov.cn:8443/",
+      "time": "2026-09-08 22:10",
       "heat": 1350,
       "discussions": "67",
       "tags": [
         "税务",
-        "纳税"
+        "纳税",
+        "申报"
       ],
       "isHot": false,
-      "detail": "<p>国家税务总局陕西省税务局提供全面税务服务和政策资讯，助力纳税人高效便捷办理涉税业务。</p>",
-      "published_at": "2026-09-08T12:19:48.384141+08:00"
+      "detail": "<p>国家税务总局电子税务局提供在线税务服务、申报缴纳及相关业务，方便纳税人高效办理涉税事务。</p>",
+      "published_at": "2026-09-08T22:10:49.957330+08:00"
     },
     {
       "id": "87a4cb5068fe",
       "title": "国家税务总局政策法规库",
-      "summary": "地址：北京市海淀区羊坊店西路5号",
+      "summary": "主办单位：国家税务总局版权所有：国家税务总局",
       "source": "国家税务总局",
       "platform_class": "platform-official",
       "author": "国家税务总局",
-      "url": "https://fgk.chinatax.gov.cn/zcfgk/",
-      "time": "2026-09-08 12:19",
+      "url": "https://fgk.chinatax.gov.cn/",
+      "time": "2026-09-08 22:10",
       "heat": 1350,
       "discussions": "67",
       "tags": [
         "税务"
       ],
       "isHot": false,
-      "detail": "<p>地址：北京市海淀区羊坊店西路5号</p>",
-      "published_at": "2026-09-08T12:19:48.384141+08:00"
+      "detail": "<p>主办单位：国家税务总局版权所有：国家税务总局</p>",
+      "published_at": "2026-09-08T22:10:49.957330+08:00"
     },
     {
-      "id": "4232d529b10a",
-      "title": "国家税务总局广东省税务局",
-      "summary": "中华人民共和国农业农村部 中华人民共和国财政部 中华人民共和国海关总署 国家税务总局 国家林业和草原局公告第1048号2026-09-03 商务部等9部门关于促进航空保税维修高质量发展的意见2026-09-01 财政部 税务总局关于外籍个人股息红利个人所得税政策有关事项的公告2026-09-01 财政部 税务总局 中国证监 ...",
+      "id": "1a91b4a30a05",
+      "title": "国家税务总局内蒙古自治区税务局",
+      "summary": "国家税务总局赤峰市税务局第一稽查局依法查处赤峰市千联商贸有限责任公司偷税案件 07-24",
       "source": "国家税务总局",
       "platform_class": "platform-official",
       "author": "国家税务总局",
-      "url": "https://guangdong.chinatax.gov.cn/",
-      "time": "2026-09-08 12:19",
+      "url": "https://neimenggu.chinatax.gov.cn/index.html",
+      "time": "2026-09-08 22:10",
       "heat": 1350,
       "discussions": "67",
       "tags": [
         "税务",
-        "财政",
-        "所得税"
+        "稽查"
       ],
       "isHot": false,
-      "detail": "<p>中华人民共和国农业农村部 中华人民共和国财政部 中华人民共和国海关总署 国家税务总局 国家林业和草原局公告第1048号2026-09-03 商务部等9部门关于促进航空保税维修高质量发展的意见2026-09-01 财政部 税务总局关于外籍个人股息红利个人所得税政策有关事项的公告2026-09-01 财政部 税务总局 中国证监 ...</p>",
-      "published_at": "2026-09-08T12:19:48.384141+08:00"
+      "detail": "<p>国家税务总局赤峰市税务局第一稽查局依法查处赤峰市千联商贸有限责任公司偷税案件 07-24</p>",
+      "published_at": "2026-09-08T22:10:49.957330+08:00"
     },
     {
       "id": "582a6ec43eff",
@@ -230,24 +210,6 @@
       "published_at": "2022-03-10T22:07:44+08:00"
     },
     {
-      "id": "725c16183f51",
-      "title": "【保姆级教程】如何填写YouTube的美国税务信息？",
-      "summary": "【保姆级教程】如何填写YouTube的美国税务信息？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "黄思平huangsiping",
-      "url": "http://www.bilibili.com/video/av112966682870745",
-      "time": "2024-08-15 23:35",
-      "heat": 926,
-      "discussions": "65",
-      "tags": [
-        "税务"
-      ],
-      "isHot": false,
-      "detail": "<p>【保姆级教程】如何填写YouTube的美国税务信息？</p>",
-      "published_at": "2024-08-15T23:35:43+08:00"
-    },
-    {
       "id": "ca3e2bc918be",
       "title": "B战所有UP主看过来！涉及到你的税务和激励金！！全网最强解读！",
       "summary": "B战所有UP主看过来！涉及到你的税务和激励金！！全网最强解读！",
@@ -256,7 +218,7 @@
       "author": "妮露玉金玉",
       "url": "http://www.bilibili.com/video/av117189424187229",
       "time": "2026-08-31 17:36",
-      "heat": 548,
+      "heat": 558,
       "discussions": "43",
       "tags": [
         "税务"
@@ -284,6 +246,25 @@
       "published_at": "2018-06-11T18:00:55+08:00"
     },
     {
+      "id": "a0e1858b431c",
+      "title": "新版电子税务局，新办企业税w登记全流程手把手教您做S务信息确认（保姆级教程），很多boss和会计小白在公司注册成功后，只知道sw信息需要进行登记，却不会弄？",
+      "summary": "新版电子税务局，新办企业税w登记全流程\n手把手教您做S务信息确认（保姆级教程），很多boss和会计小白在公司注册成功后，只知道sw信息需要进行登记，却不会弄？系统升级以后不知道在那个模块办理？boss和会计都要会，手把手教会你。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "西西财税",
+      "url": "http://www.bilibili.com/video/av114772330677367",
+      "time": "2025-06-30 20:37",
+      "heat": 626,
+      "discussions": "39",
+      "tags": [
+        "税务",
+        "会计"
+      ],
+      "isHot": false,
+      "detail": "<p>新版电子税务局，新办企业税w登记全流程\n手把手教您做S务信息确认（保姆级教程），很多boss和会计小白在公司注册成功后，只知道sw信息需要进行登记，却不会弄？系统升级以后不知道在那个模块办理？boss和会计都要会，手把手教会你。</p>",
+      "published_at": "2025-06-30T20:37:50+08:00"
+    },
+    {
       "id": "88faed755209",
       "title": "财税 【2026年】第25号文件解读",
       "summary": "财税 【2026年】第25号文件解读",
@@ -292,7 +273,7 @@
       "author": "财法价值圈",
       "url": "http://www.bilibili.com/video/av117177680266670",
       "time": "2026-08-29 19:00",
-      "heat": 353,
+      "heat": 362,
       "discussions": "1",
       "tags": [
         "财税"
@@ -300,6 +281,25 @@
       "isHot": false,
       "detail": "<p>财税 【2026年】第25号文件解读</p>",
       "published_at": "2026-08-29T19:00:00+08:00"
+    },
+    {
+      "id": "415c65d0ed08",
+      "title": "稽查六局 《最美的期待-税务版》",
+      "summary": "稽查六局 《最美的期待-税务版》",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "税团君小申",
+      "url": "http://www.bilibili.com/video/av24523289",
+      "time": "2018-06-11 18:00",
+      "heat": 362,
+      "discussions": "6",
+      "tags": [
+        "税务",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>稽查六局 《最美的期待-税务版》</p>",
+      "published_at": "2018-06-11T18:00:55+08:00"
     },
     {
       "id": "576b37e084d2",
@@ -320,76 +320,24 @@
       "published_at": "2022-05-07T00:31:52+08:00"
     },
     {
-      "id": "9da58f6410fd",
-      "title": "【放送文化】《中国税务之歌》国家税务总局(State Administration of Taxation)官方MV",
-      "summary": "中国税务之歌\n作词：集体\n作曲：印青\n中国税务意气风发\n为了祖国富强贡献力量\n中国税务奋进昂扬\n为了民族复兴共筑梦想\n为国聚财是我们的责任\n为民收税是我们的荣光\n忠诚担当崇法守纪\n兴税强国初心不忘\n我们是共和国的税务人\n前进的号角在征途上吹响\n我们是共和国的税务人\n信仰的旗帜在新时代飞扬",
+      "id": "368d2d01fedb",
+      "title": "总分公司汇总缴纳企业所得税备案及分公司汇算清缴申报办法#企业所得税 #总分公司 #合并报表 #税务小知识",
+      "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "永磁-老鼠",
-      "url": "http://www.bilibili.com/video/av115365455595949",
-      "time": "2025-10-13 14:36",
-      "heat": 222,
-      "discussions": "3",
+      "author": "喀什润物会计培训",
+      "url": "http://www.bilibili.com/video/av114342984944495",
+      "time": "2025-04-16 00:49",
+      "heat": 297,
+      "discussions": "1",
       "tags": [
-        "税务"
+        "税务",
+        "所得税",
+        "申报"
       ],
       "isHot": false,
-      "detail": "<p>中国税务之歌\n作词：集体\n作曲：印青\n中国税务意气风发\n为了祖国富强贡献力量\n中国税务奋进昂扬\n为了民族复兴共筑梦想\n为国聚财是我们的责任\n为民收税是我们的荣光\n忠诚担当崇法守纪\n兴税强国初心不忘\n我们是共和国的税务人\n前进的号角在征途上吹响\n我们是共和国的税务人\n信仰的旗帜在新时代飞扬</p>",
-      "published_at": "2025-10-13T14:36:37+08:00"
-    },
-    {
-      "id": "494a4fef226e",
-      "title": "财税2026年第26号公告解读",
-      "summary": "财税2026年第26号公告解读",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "财法价值圈",
-      "url": "http://www.bilibili.com/video/av117215596645561",
-      "time": "2026-09-05 08:31",
-      "heat": 87,
-      "discussions": "0",
-      "tags": [
-        "财税"
-      ],
-      "isHot": false,
-      "detail": "<p>财税2026年第26号公告解读</p>",
-      "published_at": "2026-09-05T08:31:08+08:00"
-    },
-    {
-      "id": "f740e633afc0",
-      "title": "2026增值税涉及购进农产品抵扣政策汇总",
-      "summary": "2026增值税涉及购进农产品抵扣政策汇总",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "AuditorNO-X",
-      "url": "http://www.bilibili.com/video/av116317310944564",
-      "time": "2026-03-30 17:03",
-      "heat": 54,
-      "discussions": "0",
-      "tags": [
-        "增值税"
-      ],
-      "isHot": false,
-      "detail": "<p>2026增值税涉及购进农产品抵扣政策汇总</p>",
-      "published_at": "2026-03-30T17:03:21+08:00"
-    },
-    {
-      "id": "469a0c054ab6",
-      "title": "税务监管加强的进度条",
-      "summary": "税务监管加强的进度条",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "春戈讲电商财税",
-      "url": "http://www.bilibili.com/video/av117228934533244",
-      "time": "2026-09-07 17:03",
-      "heat": 16,
-      "discussions": "0",
-      "tags": [
-        "税务"
-      ],
-      "isHot": false,
-      "detail": "<p>税务监管加强的进度条</p>",
-      "published_at": "2026-09-07T17:03:58+08:00"
+      "detail": "<p>-</p>",
+      "published_at": "2025-04-16T00:49:05+08:00"
     },
     {
       "id": "256542ce3a34",
@@ -400,7 +348,7 @@
       "author": "塑料掌中宝",
       "url": "http://www.bilibili.com/video/av117230209733107",
       "time": "2026-09-07 22:28",
-      "heat": 3,
+      "heat": 4,
       "discussions": "0",
       "tags": [
         "税务",
@@ -411,22 +359,23 @@
       "published_at": "2026-09-07T22:28:17+08:00"
     },
     {
-      "id": "160367969c05",
-      "title": "中南财经政法-税务专硕-433税务专业基础-陈橙学姐",
-      "summary": "主讲人：陈橙学姐（帮找学姐、了解专业课，请私xin或小关小注）\n主讲内容：\n① 近年考情分析\n② 初试/复试科目＆目标分析\n③ 真题赏析\n④ 复习计划\n⑤ 资料推荐\n⑥ 学长学姐答疑\n接考研专业课辅导哦！",
+      "id": "84869d815e71",
+      "title": "财政部 税务总局26年25号公告发布后企业对于历史业务应如何处理",
+      "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "研蜂专业课-上岸6班",
-      "url": "http://www.bilibili.com/video/av117218767541885",
-      "time": "2026-09-05 21:56",
-      "heat": 1,
+      "author": "海平财税智囊",
+      "url": "http://www.bilibili.com/video/av117185095733594",
+      "time": "2026-08-30 23:16",
+      "heat": 3,
       "discussions": "0",
       "tags": [
-        "税务"
+        "税务",
+        "财政"
       ],
       "isHot": false,
-      "detail": "<p>主讲人：陈橙学姐（帮找学姐、了解专业课，请私xin或小关小注）\n主讲内容：\n① 近年考情分析\n② 初试/复试科目＆目标分析\n③ 真题赏析\n④ 复习计划\n⑤ 资料推荐\n⑥ 学长学姐答疑\n接考研专业课辅导哦！</p>",
-      "published_at": "2026-09-05T21:56:50+08:00"
+      "detail": "<p>-</p>",
+      "published_at": "2026-08-30T23:16:13+08:00"
     },
     {
       "id": "18390f0e6a04",
