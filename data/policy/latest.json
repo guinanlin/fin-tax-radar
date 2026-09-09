@@ -1,43 +1,79 @@
 {
-  "updated_at": "2026-09-09T12:25:07.837232+08:00",
-  "count": 101,
+  "updated_at": "2026-09-09T22:11:43.103881+08:00",
+  "count": 77,
   "topics": [
     {
-      "id": "3687cf7e869c",
-      "title": "《企业会计准则——基本准则》朗朗上头",
+      "id": "6bc3ba4368cc",
+      "title": "《企业会计准则第1号——存货》学习记录",
       "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
       "author": "卟卟车上有etc卡",
-      "url": "http://www.bilibili.com/video/av117235595091361",
-      "time": "2026-09-08 21:17",
-      "heat": 8,
-      "discussions": "1",
+      "url": "http://www.bilibili.com/video/av117241232234431",
+      "time": "2026-09-09 21:13",
+      "heat": 0,
+      "discussions": "0",
       "tags": [
         "会计"
       ],
       "isHot": true,
       "detail": "<p>-</p>",
+      "published_at": "2026-09-09T21:13:30+08:00"
+    },
+    {
+      "id": "434aae504ca7",
+      "title": "税收征管法修订迈出关键一步",
+      "summary": "税收征管法修订迈出关键一步",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "石彦文细说财税",
+      "url": "http://www.bilibili.com/video/av117240577918442",
+      "time": "2026-09-09 18:28",
+      "heat": 6,
+      "discussions": "0",
+      "tags": [
+        "税收",
+        "修订"
+      ],
+      "isHot": true,
+      "detail": "<p>税收征管法修订迈出关键一步</p>",
+      "published_at": "2026-09-09T18:28:01+08:00"
+    },
+    {
+      "id": "3687cf7e869c",
+      "title": "《企业会计准则——基本准则》朗朗上头",
+      "summary": "谨以此视频记录学习生活～",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "卟卟车上有etc卡",
+      "url": "http://www.bilibili.com/video/av117235595091361",
+      "time": "2026-09-08 21:17",
+      "heat": 11,
+      "discussions": "1",
+      "tags": [
+        "会计"
+      ],
+      "isHot": true,
+      "detail": "<p>谨以此视频记录学习生活～</p>",
       "published_at": "2026-09-08T21:17:31+08:00"
     },
     {
-      "id": "ae081910d300",
-      "title": "民间非营利组织适合什么财务软件？适配2026新民非会计准则4款软件",
-      "summary": "下面对比四款适用于民办非企业、公益组织的财务软件：账信云会计，成本很低、支持自主免费试用，按最新民非准则自动出报表；用友好会计，智能做账，适配民非繁杂做账；金蝶精斗云，云端 SaaS，支持多设备多人协同；润衡，具备完整账务模块与数据分析。",
+      "id": "1d4e93e07197",
+      "title": "｜每日问答｜小企业会计准则下，坏账损失怎么处理？",
+      "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "注会哥财务软件",
-      "url": "http://www.bilibili.com/video/av117233346938871",
-      "time": "2026-09-08 11:46",
-      "heat": 11,
+      "author": "无限921",
+      "url": "http://www.bilibili.com/video/av117229706349660",
+      "time": "2026-09-07 20:17",
+      "heat": 2,
       "discussions": "0",
       "tags": [
-        "会计",
-        "财务"
+        "会计"
       ],
-      "isHot": true,
-      "detail": "<p>下面对比四款适用于民办非企业、公益组织的财务软件：账信云会计，成本很低、支持自主免费试用，按最新民非准则自动出报表；用友好会计，智能做账，适配民非繁杂做账；金蝶精斗云，云端 SaaS，支持多设备多人协同；润衡，具备完整账务模块与数据分析。</p>",
-      "published_at": "2026-09-08T11:46:13+08:00"
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-09-07T20:17:44+08:00"
     },
     {
       "id": "0565c52414f4",
@@ -53,82 +89,9 @@
       "tags": [
         "税务"
       ],
-      "isHot": true,
+      "isHot": false,
       "detail": "<p>2026税务新规！电商流水税局全部掌握</p>",
       "published_at": "2026-09-07T20:00:00+08:00"
-    },
-    {
-      "id": "22a590894ad4",
-      "title": "专家评审费到底要不要扣缴增值税？",
-      "summary": "专家评审费到底要不要扣缴增值税？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "鹰防通",
-      "url": "http://www.bilibili.com/video/av117228984932322",
-      "time": "2026-09-07 20:00",
-      "heat": 0,
-      "discussions": "0",
-      "tags": [
-        "增值税"
-      ],
-      "isHot": false,
-      "detail": "<p>专家评审费到底要不要扣缴增值税？</p>",
-      "published_at": "2026-09-07T20:00:00+08:00"
-    },
-    {
-      "id": "c127ed8138d1",
-      "title": "如果财务小课堂第39期 2026年第26号公告:限售股转让个税新规",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "小龙马ddbx",
-      "url": "http://www.bilibili.com/video/av117229320408116",
-      "time": "2026-09-07 18:38",
-      "heat": 18,
-      "discussions": "0",
-      "tags": [
-        "财务",
-        "公告"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-07T18:38:58+08:00"
-    },
-    {
-      "id": "962ce3e8634f",
-      "title": "方便的是谁",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "机车骑士笑姐夫",
-      "url": "http://www.bilibili.com/video/av117229202967136",
-      "time": "2026-09-07 18:11",
-      "heat": 1781,
-      "discussions": "117",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-07T18:11:29+08:00"
-    },
-    {
-      "id": "7d1a526f1e88",
-      "title": "【2026新大纲】导游资格考试备考【政策与法律法规】全科精讲！回归核心吃透考点基础速效通关拿证！",
-      "summary": "【文档资料】导游资格考试备考所需考试大纲、全国各地导游词汇总、备考必背考点、综合知识80问等：https://www.bilibili.com/read/cv42778523/?jump_opus=1\n【考试资讯】关于导游资格考试报名条件、报名时间、报名网址、最新考试公告、考试时间、考试合格分数线都可咨询。\n【报考指导】提供导游资格证考试报名指导、零基础备考方法、学习计划、最新视频课程、考前直播、",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "钉题库导游资格证",
-      "url": "http://www.bilibili.com/video/av117229068814102",
-      "time": "2026-09-07 17:41",
-      "heat": 112,
-      "discussions": "4",
-      "tags": [
-        "政策",
-        "法规",
-        "法律"
-      ],
-      "isHot": false,
-      "detail": "<p>【文档资料】导游资格考试备考所需考试大纲、全国各地导游词汇总、备考必背考点、综合知识80问等：https://www.bilibili.com/read/cv42778523/?jump_opus=1\n【考试资讯】关于导游资格考试报名条件、报名时间、报名网址、最新考试公告、考试时间、考试合格分数线都可咨询。\n【报考指导】提供导游资格证考试报名指导、零基础备考方法、学习计划、最新视频课程、考前直播、</p>",
-      "published_at": "2026-09-07T17:41:35+08:00"
     },
     {
       "id": "81c53ea454f2",
@@ -149,59 +112,6 @@
       "published_at": "2026-09-07T17:05:12+08:00"
     },
     {
-      "id": "e78c82c1729b",
-      "title": "三分钟搞定一个税务师考点—全年一次性奖金的个税政策",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "苗老师说会计",
-      "url": "http://www.bilibili.com/video/av117228515101272",
-      "time": "2026-09-07 15:16",
-      "heat": 4,
-      "discussions": "0",
-      "tags": [
-        "税务",
-        "政策"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-07T15:16:58+08:00"
-    },
-    {
-      "id": "34874e9fe9e7",
-      "title": "道交法修订草案：货运多项处罚拟加码！这些红线卡友一定要看清",
-      "summary": "道交法修订草案：货运多项处罚拟加码！这些红线卡友一定要看清",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "卡车之家",
-      "url": "http://www.bilibili.com/video/av117228313778896",
-      "time": "2026-09-07 14:25",
-      "heat": 82,
-      "discussions": "5",
-      "tags": [
-        "修订"
-      ],
-      "isHot": false,
-      "detail": "<p>道交法修订草案：货运多项处罚拟加码！这些红线卡友一定要看清</p>",
-      "published_at": "2026-09-07T14:25:37+08:00"
-    },
-    {
-      "id": "784f5e76fb94",
-      "title": "【完整版】2026年价格鉴证师-经济学与价格学基础理论-考点精讲班，视频讲义题库",
-      "summary": "创作不易，一键三连：关注+点赞+评论666\n考点精讲班，视频讲义题库",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "关关考证-不迷路",
-      "url": "http://www.bilibili.com/video/av117227474912845",
-      "time": "2026-09-07 10:54",
-      "heat": 8,
-      "discussions": "0",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>创作不易，一键三连：关注+点赞+评论666\n考点精讲班，视频讲义题库</p>",
-      "published_at": "2026-09-07T10:54:09+08:00"
-    },
-    {
       "id": "1d04bc798507",
       "title": "增值税简易和差额征税的--政策解读与账务处理",
       "summary": "这是试听课，想学习完整版V:fewone001",
@@ -210,7 +120,7 @@
       "author": "跟刘老师学会计实操",
       "url": "http://www.bilibili.com/video/av117227273717216",
       "time": "2026-09-07 10:02",
-      "heat": 43,
+      "heat": 44,
       "discussions": "1",
       "tags": [
         "增值税",
@@ -229,7 +139,7 @@
       "author": "羿文小蔡老师",
       "url": "http://www.bilibili.com/video/av117226971601034",
       "time": "2026-09-07 08:50",
-      "heat": 14,
+      "heat": 15,
       "discussions": "1",
       "tags": [
         "政策",
@@ -238,25 +148,6 @@
       "isHot": false,
       "detail": "<p>🔥2026版价格鉴证师全套课程上线 备课、录制、整理、剪辑、上传耗时超 200 小时，制作实属不易！ \n如果视频对你备考有帮助，麻烦一键三连、长按点赞支持 UP 主，对我真的很重要，万分感谢❤️\n✅课程零基础友好，适合在职备考人群。\n从入门知识点精讲，循序渐进梳理考点，打牢基础，告别盲目自学。\n星光不负赶路人，备考的路上坚持下去，相信付出终有回报，祝大家顺利上岸，一次拿证！</p>",
       "published_at": "2026-09-07T08:50:00+08:00"
-    },
-    {
-      "id": "f07436ed5f51",
-      "title": "#迟财神##财税知识##财税干货##利企财税#增值税新规这6种情况进项不能抵",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "迟梦笑讲财税",
-      "url": "http://www.bilibili.com/video/av117226770272648",
-      "time": "2026-09-07 07:52",
-      "heat": 7,
-      "discussions": "0",
-      "tags": [
-        "财税",
-        "增值税"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-07T07:52:26+08:00"
     },
     {
       "id": "758406b54e7c",
@@ -277,110 +168,41 @@
       "published_at": "2026-09-07T00:18:00+08:00"
     },
     {
-      "id": "3ffef156274e",
-      "title": "26年中级考试已结束，备考27年中级会计实务的同学，我们将先更新重点章节高频考点，再更新基础章节，最后更新跨章节考点，这样符合考试出题逻辑，需要完整课程联系我",
-      "summary": "-",
+      "id": "e37acdbfae0c",
+      "title": "加税？楼市828风头盖住的万亿税种——地方附加税丨税制改革迈出第一步",
+      "summary": "20260904直播01\n一税两费合并\n城建税+教育费附加+地方教育费附加合并为地方附加税。\n极大概率是加税政策（99%吧），被掩盖在828当天楼市的“新政”信息洪流中，\n很艺术的操作。\n宏观上来看，这是下阶段税制改革，乃至财税体制改革最重要的第一步。",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "CPA科目知识点讲解",
-      "url": "http://www.bilibili.com/video/av117224891225774",
-      "time": "2026-09-06 23:59",
-      "heat": 13,
-      "discussions": "0",
-      "tags": [
-        "会计"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-06T23:59:15+08:00"
-    },
-    {
-      "id": "b7a06a5a2e5f",
-      "title": "财税2026年25号文终于把进项抵扣争议明确了，但是也要注意别混淆！#增值税法#非应税交易#增值税#财税干货#进项抵扣",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "小袁言税",
-      "url": "http://www.bilibili.com/video/av117224287312739",
-      "time": "2026-09-06 21:19",
-      "heat": 2,
-      "discussions": "0",
+      "author": "欢欢吹牛小屋",
+      "url": "http://www.bilibili.com/video/av117224102825158",
+      "time": "2026-09-06 20:37",
+      "heat": 4095,
+      "discussions": "244",
       "tags": [
         "财税",
-        "增值税",
-        "税法"
+        "政策"
       ],
       "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-06T21:19:46+08:00"
+      "detail": "<p>20260904直播01\n一税两费合并\n城建税+教育费附加+地方教育费附加合并为地方附加税。\n极大概率是加税政策（99%吧），被掩盖在828当天楼市的“新政”信息洪流中，\n很艺术的操作。\n宏观上来看，这是下阶段税制改革，乃至财税体制改革最重要的第一步。</p>",
+      "published_at": "2026-09-06T20:37:02+08:00"
     },
     {
-      "id": "58321b9d1542",
-      "title": "不敢在东莞骑摩托车上高速了。",
-      "summary": "看看就好哈哈哈",
+      "id": "163086a71a49",
+      "title": "2026年财税五大新规",
+      "summary": "2026年财税五大新规",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "林小鱼是也",
-      "url": "http://www.bilibili.com/video/av117223851038758",
-      "time": "2026-09-06 19:33",
-      "heat": 7597,
-      "discussions": "473",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>看看就好哈哈哈</p>",
-      "published_at": "2026-09-06T19:33:25+08:00"
-    },
-    {
-      "id": "5a190c1c7543",
-      "title": "做电商的财税合规需要系统思考",
-      "summary": "做电商的财税合规需要系统思考",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "春戈讲电商财税",
-      "url": "http://www.bilibili.com/video/av117211570114774",
-      "time": "2026-09-06 17:00",
-      "heat": 11,
+      "author": "票一加",
+      "url": "http://www.bilibili.com/video/av117217828079349",
+      "time": "2026-09-05 17:59",
+      "heat": 0,
       "discussions": "0",
       "tags": [
         "财税"
       ],
       "isHot": false,
-      "detail": "<p>做电商的财税合规需要系统思考</p>",
-      "published_at": "2026-09-06T17:00:01+08:00"
-    },
-    {
-      "id": "deabbf52ff67",
-      "title": "哪些行业能享受税收减免？",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "玉鼠财务",
-      "url": "http://www.bilibili.com/video/av117221955275656",
-      "time": "2026-09-06 11:27",
-      "heat": 11,
-      "discussions": "0",
-      "tags": [
-        "税收"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-06T11:27:49+08:00"
-    },
-    {
-      "id": "11a9e3e5c341",
-      "title": "摩托车还有机会上高速吗？",
-      "summary": "以前只敢梦里想想，现在真有可能实现的时候我反而不敢伸手了，鼓起勇气！再努力一次吧！",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "百万骑行装备",
-      "url": "http://www.bilibili.com/video/av117218448776510",
-      "time": "2026-09-05 20:35",
-      "heat": 8915,
-      "discussions": "789",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>以前只敢梦里想想，现在真有可能实现的时候我反而不敢伸手了，鼓起勇气！再努力一次吧！</p>",
-      "published_at": "2026-09-05T20:35:45+08:00"
+      "detail": "<p>2026年财税五大新规</p>",
+      "published_at": "2026-09-05T17:59:35+08:00"
     },
     {
       "id": "d904ed39f08f",
@@ -403,93 +225,43 @@
       "published_at": "2026-09-05T10:19:07+08:00"
     },
     {
-      "id": "494a4fef226e",
-      "title": "财税2026年第26号公告解读",
-      "summary": "财税2026年第26号公告解读",
+      "id": "ca3949b6b1d6",
+      "title": "本周最新财税资讯汇总，涉及限售股个税政策、地方附加税法公开征求意见、税收征管法修订草案、外籍个人股息红利个税政策调整、税务行政复议规则修订征求意见。",
+      "summary": "本周最新财税资讯汇总，涉及限售股个税政策、地方附加税法公开征求意见、税收征管法修订草案、外籍个人股息红利个税政策调整、税务行政复议规则修订征求意见。",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "财法价值圈",
-      "url": "http://www.bilibili.com/video/av117215596645561",
-      "time": "2026-09-05 08:31",
-      "heat": 92,
+      "author": "刘天永税务律师",
+      "url": "http://www.bilibili.com/video/av117211754727174",
+      "time": "2026-09-04 16:11",
+      "heat": 0,
       "discussions": "0",
       "tags": [
-        "财税",
-        "公告"
+        "税收",
+        "税务",
+        "财税"
       ],
       "isHot": false,
-      "detail": "<p>财税2026年第26号公告解读</p>",
-      "published_at": "2026-09-05T08:31:08+08:00"
+      "detail": "<p>本周最新财税资讯汇总，涉及限售股个税政策、地方附加税法公开征求意见、税收征管法修订草案、外籍个人股息红利个税政策调整、税务行政复议规则修订征求意见。</p>",
+      "published_at": "2026-09-04T16:11:07+08:00"
     },
     {
-      "id": "4c7aa576b52e",
-      "title": "11月1日企业向个人支付价款需要扣缴增值税",
+      "id": "3a0caf9a1ed8",
+      "title": "新增值税申报表填报操作一般纳税人",
       "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "海平财税智囊",
-      "url": "http://www.bilibili.com/video/av117215344990042",
-      "time": "2026-09-05 07:28",
-      "heat": 3,
-      "discussions": "0",
+      "author": "凡小赛说财税",
+      "url": "http://www.bilibili.com/video/av117207124150354",
+      "time": "2026-09-03 20:35",
+      "heat": 253,
+      "discussions": "7",
       "tags": [
+        "纳税",
         "增值税"
       ],
       "isHot": false,
       "detail": "<p>-</p>",
-      "published_at": "2026-09-05T07:28:23+08:00"
-    },
-    {
-      "id": "0fedcb27f8e3",
-      "title": "稽查高频雷区：读懂增值税法里面的 “对应的”#增值税#进项抵扣#财税避坑",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "郭伟税悟",
-      "url": "http://www.bilibili.com/video/av117212308309786",
-      "time": "2026-09-04 18:33",
-      "heat": 4,
-      "discussions": "0",
-      "tags": [
-        "财税",
-        "增值税",
-        "税法"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-04T18:33:36+08:00"
-    },
-    {
-      "id": "2c83cbb75e6f",
-      "title": "新版道交法草案，有望促成解禁摩？ 道交法草案出台，意见征集中，三处和禁摩相关！",
-      "summary": "新版道交法草案，有望促成解禁摩？ 道交法草案出台，意见征集中，三处和禁摩相关！",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "爱吹风的小胖子",
-      "url": "http://www.bilibili.com/video/av117202980181767",
-      "time": "2026-09-04 12:00",
-      "heat": 65,
-      "discussions": "5",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>新版道交法草案，有望促成解禁摩？ 道交法草案出台，意见征集中，三处和禁摩相关！</p>",
-      "published_at": "2026-09-04T12:00:00+08:00"
-    },
-    {
-      "id": "7df398214f90",
-      "title": "有些事他们也看不下去了",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "机车骑士笑姐夫",
-      "url": "http://www.bilibili.com/video/av117206520168632",
-      "time": "2026-09-03 18:09",
-      "heat": 6612,
-      "discussions": "696",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-03T18:09:58+08:00"
+      "published_at": "2026-09-03T20:35:44+08:00"
     },
     {
       "id": "0b28df65fc15",
@@ -511,24 +283,6 @@
       "published_at": "2026-09-03T17:33:07+08:00"
     },
     {
-      "id": "4d1fcda167d9",
-      "title": "新规速递丨增值税新规来了！非应税交易进项抵扣已明确",
-      "summary": "新规速递丨增值税新规来了！非应税交易进项抵扣已明确",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "财税金幕府",
-      "url": "http://www.bilibili.com/video/av117204523679834",
-      "time": "2026-09-03 13:00",
-      "heat": 6,
-      "discussions": "0",
-      "tags": [
-        "增值税"
-      ],
-      "isHot": false,
-      "detail": "<p>新规速递丨增值税新规来了！非应税交易进项抵扣已明确</p>",
-      "published_at": "2026-09-03T13:00:00+08:00"
-    },
-    {
       "id": "459e8a364b4a",
       "title": "企业会计准则2026年新版 全3册 企业会计准则原文解释+企业会计准则案例讲解+企业会计准则应用指南 立信会计出版社正版",
       "summary": "企业会计准则2026年新版 全3册 企业会计准则原文解释+企业会计准则案例讲解+企业会计准则应用指南 立信会计出版社正版",
@@ -547,56 +301,6 @@
       "published_at": "2026-09-03T11:44:13+08:00"
     },
     {
-      "id": "f0221aa5b795",
-      "title": "就差你了，复制粘贴就行",
-      "summary": "提过的还可以再提意见，我们继续。\n意见征集链接：http://www.npc.gov.cn/flcaw/userIndex.html?lid=ff8081819ff54ab801a03d624f823cc3",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "-钢筋",
-      "url": "http://www.bilibili.com/video/av117196369958536",
-      "time": "2026-09-01 23:03",
-      "heat": 1407,
-      "discussions": "78",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>提过的还可以再提意见，我们继续。\n意见征集链接：http://www.npc.gov.cn/flcaw/userIndex.html?lid=ff8081819ff54ab801a03d624f823cc3</p>",
-      "published_at": "2026-09-01T23:03:02+08:00"
-    },
-    {
-      "id": "f71ce4377ecb",
-      "title": "新增值税表申报详细完整流程",
-      "summary": "新增值税表申报详细完整流程",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "晗妈会计",
-      "url": "http://www.bilibili.com/video/av117195933751820",
-      "time": "2026-09-01 21:09",
-      "heat": 239,
-      "discussions": "3",
-      "tags": [
-        "增值税"
-      ],
-      "isHot": false,
-      "detail": "<p>新增值税表申报详细完整流程</p>",
-      "published_at": "2026-09-01T21:09:13+08:00"
-    },
-    {
-      "id": "bc303229a5e0",
-      "title": "道交法草案，闯禁可扣证，摩托车闯禁也可扣证",
-      "summary": "道交法草案，闯禁可扣证，摩托车闯禁也可扣证",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "星野寻舟",
-      "url": "http://www.bilibili.com/video/av117193920612513",
-      "time": "2026-09-01 16:30",
-      "heat": 168,
-      "discussions": "17",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>道交法草案，闯禁可扣证，摩托车闯禁也可扣证</p>",
-      "published_at": "2026-09-01T16:30:00+08:00"
-    },
-    {
       "id": "5adf4d26d7c1",
       "title": "税改",
       "summary": "税改",
@@ -605,128 +309,51 @@
       "author": "熊哥有干货",
       "url": "http://www.bilibili.com/video/av117194021214857",
       "time": "2026-09-01 13:04",
-      "heat": 1515,
-      "discussions": "32",
+      "heat": 1514,
+      "discussions": "31",
       "tags": [],
       "isHot": false,
       "detail": "<p>税改</p>",
       "published_at": "2026-09-01T13:04:42+08:00"
     },
     {
-      "id": "21431235d87e",
-      "title": "第二部分来了，他们看的和我们看的不一样",
+      "id": "316ca4b1eceb",
+      "title": "26年企业会计准则实务会计科目设置+财务报表编制+会计核算方法等...，一文给讲清楚了，直接按照这个做就行，小白看懂也没问题！",
       "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "机车骑士笑姐夫",
-      "url": "http://www.bilibili.com/video/av117193853373909",
-      "time": "2026-09-01 12:22",
-      "heat": 2604,
-      "discussions": "230",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-01T12:22:45+08:00"
-    },
-    {
-      "id": "8708bbd41d64",
-      "title": "想挂个牌子禁摩，没门！",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "不务正耶的小龙",
-      "url": "http://www.bilibili.com/video/av117190598662156",
-      "time": "2026-08-31 22:30",
-      "heat": 687,
-      "discussions": "36",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-08-31T22:30:52+08:00"
-    },
-    {
-      "id": "789f56cb11e8",
-      "title": "道交法大修，还要对屋里的“两轮大象”装瞎多久？",
-      "summary": "http://www.npc.gov.cn/flcaw/",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "INKBLE",
-      "url": "http://www.bilibili.com/video/av117189608804845",
-      "time": "2026-08-31 18:27",
-      "heat": 9686,
-      "discussions": "912",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>http://www.npc.gov.cn/flcaw/</p>",
-      "published_at": "2026-08-31T18:27:06+08:00"
-    },
-    {
-      "id": "7f147e5fe8c6",
-      "title": "电商缺成本票税负高？该如何降低税负？核定征收来解决",
-      "summary": "电商缺成本票税负高？该如何降低税负？核定征收来解决",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "优税宝",
-      "url": "http://www.bilibili.com/video/av117187679423259",
-      "time": "2026-08-31 10:09",
-      "heat": 0,
-      "discussions": "0",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>电商缺成本票税负高？该如何降低税负？核定征收来解决</p>",
-      "published_at": "2026-08-31T10:09:00+08:00"
-    },
-    {
-      "id": "6c36f8889188",
-      "title": "25号公告解读！可抵扣和不得抵扣非应税交易终于有答案！#9月开始，无偿服务不视同销售，进项税还可抵扣？#股权转让及股息红利#新法落地6种情况进项可以抵4种不能抵",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "中税企",
-      "url": "http://www.bilibili.com/video/av117183552167358",
-      "time": "2026-08-30 16:42",
-      "heat": 33,
+      "author": "会计小星星",
+      "url": "http://www.bilibili.com/video/av117190816697252",
+      "time": "2026-09-01 09:35",
+      "heat": 3,
       "discussions": "0",
       "tags": [
-        "公告"
+        "会计",
+        "财务"
       ],
       "isHot": false,
       "detail": "<p>-</p>",
-      "published_at": "2026-08-30T16:42:13+08:00"
+      "published_at": "2026-09-01T09:35:00+08:00"
     },
     {
-      "id": "16dea468f06e",
-      "title": "道路交通安全法修订草案公开征求意见 首次迎来系统性“大修”",
-      "summary": "道路交通安全法修订草案公开征求意见 首次迎来系统性“大修”",
+      "id": "ce286a7d343e",
+      "title": "【P01】2026年新修订增值税法及实施条例相关政策内容讲解（36页）9.9￥",
+      "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "央视财经",
-      "url": "http://www.bilibili.com/video/av117182964965111",
-      "time": "2026-08-30 14:16",
-      "heat": 1476,
-      "discussions": "37",
+      "author": "丸子ppt素材",
+      "url": "http://www.bilibili.com/video/av117185330545350",
+      "time": "2026-08-31 00:14",
+      "heat": 5,
+      "discussions": "0",
       "tags": [
-        "修订"
+        "增值税",
+        "税法",
+        "政策"
       ],
       "isHot": false,
-      "detail": "<p>道路交通安全法修订草案公开征求意见 首次迎来系统性“大修”</p>",
-      "published_at": "2026-08-30T14:16:03+08:00"
-    },
-    {
-      "id": "cb7f90321c70",
-      "title": "大家都很棒！",
-      "summary": "意见征集链接：http://www.npc.gov.cn/flcaw/userIndex.html?lid=ff8081819ff54ab801a03d624f823cc3",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "-钢筋",
-      "url": "http://www.bilibili.com/video/av117182260451505",
-      "time": "2026-08-30 11:13",
-      "heat": 5515,
-      "discussions": "166",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>意见征集链接：http://www.npc.gov.cn/flcaw/userIndex.html?lid=ff8081819ff54ab801a03d624f823cc3</p>",
-      "published_at": "2026-08-30T11:13:15+08:00"
+      "detail": "<p>-</p>",
+      "published_at": "2026-08-31T00:14:14+08:00"
     },
     {
       "id": "e584a628eb09",
@@ -748,42 +375,6 @@
       "published_at": "2026-08-29T19:24:02+08:00"
     },
     {
-      "id": "88faed755209",
-      "title": "财税 【2026年】第25号文件解读",
-      "summary": "财税 【2026年】第25号文件解读",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "财法价值圈",
-      "url": "http://www.bilibili.com/video/av117177680266670",
-      "time": "2026-08-29 19:00",
-      "heat": 377,
-      "discussions": "1",
-      "tags": [
-        "财税"
-      ],
-      "isHot": false,
-      "detail": "<p>财税 【2026年】第25号文件解读</p>",
-      "published_at": "2026-08-29T19:00:00+08:00"
-    },
-    {
-      "id": "dc186ae9e44b",
-      "title": "8月29日道交法修订意见分享",
-      "summary": "9 月 26 日截止，人人都可在全国人大网提交",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "骑摩托的赵万里",
-      "url": "http://www.bilibili.com/video/av117178150030265",
-      "time": "2026-08-29 17:48",
-      "heat": 510,
-      "discussions": "18",
-      "tags": [
-        "修订"
-      ],
-      "isHot": false,
-      "detail": "<p>9 月 26 日截止，人人都可在全国人大网提交</p>",
-      "published_at": "2026-08-29T17:48:10+08:00"
-    },
-    {
       "id": "0ef95f15f0fb",
       "title": "财务报表列报准则（2026）主要变化解读",
       "summary": "7月，财政部发表财务报表列报准则（2026）。本视频简要分析了新财务报表列报准则的主要变化。",
@@ -792,7 +383,7 @@
       "author": "韩恒瑞Henry",
       "url": "http://www.bilibili.com/video/av117173871709423",
       "time": "2026-08-28 23:41",
-      "heat": 42,
+      "heat": 46,
       "discussions": "0",
       "tags": [
         "财政",
@@ -803,40 +394,22 @@
       "published_at": "2026-08-28T23:41:20+08:00"
     },
     {
-      "id": "adb44afa9109",
-      "title": "道交法修订：自动驾驶违法，责任终于归车企了？",
-      "summary": "正在征求意见的道路交通安全法修订草案，首次设置“自动驾驶汽车特别规定”专章。草案提出，真正的自动驾驶功能激活期间发生交通违法，由生产企业或进口企业接受处理；车辆只有辅助驾驶功能，责任仍按普通汽车处理。",
+      "id": "d68afc39a9c1",
+      "title": "地方附加税法意见稿落地",
+      "summary": "地方附加税法意见稿落地",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "A趣闻猎手",
-      "url": "http://www.bilibili.com/video/av117173418724254",
-      "time": "2026-08-28 21:47",
-      "heat": 6,
-      "discussions": "0",
+      "author": "熊哥有干货",
+      "url": "http://www.bilibili.com/video/av117172110104823",
+      "time": "2026-08-28 16:19",
+      "heat": 3667,
+      "discussions": "137",
       "tags": [
-        "修订"
+        "税法"
       ],
       "isHot": false,
-      "detail": "<p>正在征求意见的道路交通安全法修订草案，首次设置“自动驾驶汽车特别规定”专章。草案提出，真正的自动驾驶功能激活期间发生交通违法，由生产企业或进口企业接受处理；车辆只有辅助驾驶功能，责任仍按普通汽车处理。</p>",
-      "published_at": "2026-08-28T21:47:05+08:00"
-    },
-    {
-      "id": "0ce3e58fcdd5",
-      "title": "车主、骑手必读，道交法修订草案六点干货速看！",
-      "summary": "车主、骑手必读，道交法修订草案六点干货速看！",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "潮车昊昊二手车",
-      "url": "http://www.bilibili.com/video/av117173083374128",
-      "time": "2026-08-28 20:17",
-      "heat": 58,
-      "discussions": "1",
-      "tags": [
-        "修订"
-      ],
-      "isHot": false,
-      "detail": "<p>车主、骑手必读，道交法修订草案六点干货速看！</p>",
-      "published_at": "2026-08-28T20:17:06+08:00"
+      "detail": "<p>地方附加税法意见稿落地</p>",
+      "published_at": "2026-08-28T16:19:22+08:00"
     },
     {
       "id": "cbe48c414c7e",
@@ -859,159 +432,42 @@
       "published_at": "2026-08-27T16:47:54+08:00"
     },
     {
-      "id": "d239806fefa8",
-      "title": "摩托车在广东省清远上高速。看看交警和民警怎么说？",
-      "summary": "-",
+      "id": "38e2b5b73824",
+      "title": "企业会计准则第30号——财务报表列报｜Chill Jazz 学习专辑",
+      "summary": "把《企业会计准则第30号——财务报表列报》（财会〔2026〕11号）做成了一张 Chill Jazz 学习专辑。\n\n章节：\n00:00 第1—3条｜总则\n03:13 第4—8条｜持续经营与列报一致\n07:40 第9—10条｜汇总分解与重要性\n11:51 第11—15条｜抵销比较与标识\n15:40 第16—18条｜资产流动性\n19:48 第19—20条｜负债流动性\n22:21 第21—24条｜展期契",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "狙神__",
-      "url": "http://www.bilibili.com/video/av117166137411784",
-      "time": "2026-08-27 14:56",
-      "heat": 3965,
-      "discussions": "571",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-08-27T14:56:52+08:00"
-    },
-    {
-      "id": "7b955c65644c",
-      "title": "道路交通安全法修订草案： 非机动车道电动车限速 “拟从15公里上调至20公里”",
-      "summary": "更酷的是，草案专设“自动驾驶”一章，自动驾驶模式下违章，车企来担责！辅助驾驶依旧按照普通机动车管理，为智能汽车上路划定清晰的法律边界。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "海报视频",
-      "url": "http://www.bilibili.com/video/av117159325931372",
-      "time": "2026-08-26 10:01",
-      "heat": 30,
-      "discussions": "2",
+      "author": "neyham",
+      "url": "http://www.bilibili.com/video/av117147632146251",
+      "time": "2026-08-24 08:28",
+      "heat": 11,
+      "discussions": "0",
       "tags": [
-        "法律",
-        "修订"
+        "会计",
+        "财务"
       ],
       "isHot": false,
-      "detail": "<p>更酷的是，草案专设“自动驾驶”一章，自动驾驶模式下违章，车企来担责！辅助驾驶依旧按照普通机动车管理，为智能汽车上路划定清晰的法律边界。</p>",
-      "published_at": "2026-08-26T10:01:06+08:00"
+      "detail": "<p>把《企业会计准则第30号——财务报表列报》（财会〔2026〕11号）做成了一张 Chill Jazz 学习专辑。\n\n章节：\n00:00 第1—3条｜总则\n03:13 第4—8条｜持续经营与列报一致\n07:40 第9—10条｜汇总分解与重要性\n11:51 第11—15条｜抵销比较与标识\n15:40 第16—18条｜资产流动性\n19:48 第19—20条｜负债流动性\n22:21 第21—24条｜展期契</p>",
+      "published_at": "2026-08-24T08:28:14+08:00"
     },
     {
-      "id": "8a9bbd785ac8",
-      "title": "【粤语新闻】道交法修订草案初审：拟将电动车非机动车道限速提至20公里/时",
-      "summary": "gdtv\n2026年8月25日",
+      "id": "4b856ce36ef8",
+      "title": "4_高新企业税收优惠政策",
+      "summary": "4_高新企业税收优惠政策",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "2333T_V文體電視",
-      "url": "http://www.bilibili.com/video/av117156339584554",
-      "time": "2026-08-25 21:22",
-      "heat": 611,
-      "discussions": "41",
+      "author": "进步的番茄",
+      "url": "http://www.bilibili.com/video/av117144276703186",
+      "time": "2026-08-23 18:14",
+      "heat": 3,
+      "discussions": "0",
       "tags": [
-        "修订"
+        "税收",
+        "政策"
       ],
       "isHot": false,
-      "detail": "<p>gdtv\n2026年8月25日</p>",
-      "published_at": "2026-08-25T21:22:05+08:00"
-    },
-    {
-      "id": "a1c6dee45f71",
-      "title": "新道交法自动驾驶一读，L3交规大概率明年一季度可通过",
-      "summary": "新道交法自动驾驶一读，L3交规大概率明年一季度可通过",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "中国之神话",
-      "url": "http://www.bilibili.com/video/av117155853043486",
-      "time": "2026-08-25 19:15",
-      "heat": 366,
-      "discussions": "28",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>新道交法自动驾驶一读，L3交规大概率明年一季度可通过</p>",
-      "published_at": "2026-08-25T19:15:31+08:00"
-    },
-    {
-      "id": "a07285ea5eff",
-      "title": "道交法草案公布，对电动自行车加强管理，我双手赞同和支持",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "Mr辉玩摩托",
-      "url": "http://www.bilibili.com/video/av117155131561876",
-      "time": "2026-08-25 16:14",
-      "heat": 388,
-      "discussions": "32",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-08-25T16:14:23+08:00"
-    },
-    {
-      "id": "9c908289c9b8",
-      "title": "电动自行车时速限制拟上调为20公里，道交法修订草案",
-      "summary": "电动自行车时速限制拟上调为20公里，道交法修订草案",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "游明消息",
-      "url": "http://www.bilibili.com/video/av117154326251669",
-      "time": "2026-08-25 12:48",
-      "heat": 68,
-      "discussions": "2",
-      "tags": [
-        "修订"
-      ],
-      "isHot": false,
-      "detail": "<p>电动自行车时速限制拟上调为20公里，道交法修订草案</p>",
-      "published_at": "2026-08-25T12:48:33+08:00"
-    },
-    {
-      "id": "b79fffe7c66d",
-      "title": "道交法修订草案：自动驾驶汽车在自动驾驶功能激活状态下，发生道路交通安全违法行为！",
-      "summary": "道交法修订草案：自动驾驶汽车在自动驾驶功能激活状态下，发生道路交通安全违法行为！",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "陕视新闻",
-      "url": "http://www.bilibili.com/video/av117153973933936",
-      "time": "2026-08-25 11:19",
-      "heat": 18,
-      "discussions": "1",
-      "tags": [
-        "修订"
-      ],
-      "isHot": false,
-      "detail": "<p>道交法修订草案：自动驾驶汽车在自动驾驶功能激活状态下，发生道路交通安全违法行为！</p>",
-      "published_at": "2026-08-25T11:19:36+08:00"
-    },
-    {
-      "id": "a1cd8b3d9e98",
-      "title": "道交法修订草案:自动驾驶汽车功能激活状态下,发生道交安全违法行为,由其生产企业、进口企业接受处理！",
-      "summary": "道交法修订草案:自动驾驶汽车功能激活状态下,发生道交安全违法行为,由其生产企业、进口企业接受处理！",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "华商报",
-      "url": "http://www.bilibili.com/video/av117153739314612",
-      "time": "2026-08-25 10:20",
-      "heat": 358,
-      "discussions": "20",
-      "tags": [
-        "修订"
-      ],
-      "isHot": false,
-      "detail": "<p>道交法修订草案:自动驾驶汽车功能激活状态下,发生道交安全违法行为,由其生产企业、进口企业接受处理！</p>",
-      "published_at": "2026-08-25T10:20:38+08:00"
-    },
-    {
-      "id": "d747c68943c2",
-      "title": "播客01，路权真相。理解路权规则，少一些事故与争执",
-      "summary": "尝试做一些有意思的播客，以交通为主，其余方面也会涉猎",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "通行能力MAX",
-      "url": "http://www.bilibili.com/video/av117149142095488",
-      "time": "2026-08-24 14:49",
-      "heat": 50,
-      "discussions": "2",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>尝试做一些有意思的播客，以交通为主，其余方面也会涉猎</p>",
-      "published_at": "2026-08-24T14:49:57+08:00"
+      "detail": "<p>4_高新企业税收优惠政策</p>",
+      "published_at": "2026-08-23T18:14:00+08:00"
     },
     {
       "id": "e04a3c063e3b",
@@ -1022,7 +478,7 @@
       "author": "课件讲义818",
       "url": "http://www.bilibili.com/video/av117131509304265",
       "time": "2026-08-21 12:07",
-      "heat": 74,
+      "heat": 77,
       "discussions": "0",
       "tags": [
         "财税"
@@ -1040,7 +496,7 @@
       "author": "财税汪小姐",
       "url": "http://www.bilibili.com/video/av117120000201844",
       "time": "2026-08-19 11:18",
-      "heat": 56,
+      "heat": 57,
       "discussions": "0",
       "tags": [
         "财税",
@@ -1060,8 +516,8 @@
       "author": "爱考证的熙熙",
       "url": "http://www.bilibili.com/video/av117092384769585",
       "time": "2026-08-14 14:15",
-      "heat": 252,
-      "discussions": "19",
+      "heat": 260,
+      "discussions": "20",
       "tags": [
         "财税"
       ],
@@ -1078,7 +534,7 @@
       "author": "夜天使的眼泪",
       "url": "http://www.bilibili.com/video/av117091160035784",
       "time": "2026-08-14 09:05",
-      "heat": 7,
+      "heat": 8,
       "discussions": "0",
       "tags": [
         "政策"
@@ -1108,20 +564,41 @@
       "published_at": "2026-08-06T12:15:50+08:00"
     },
     {
-      "id": "af0a5d25df9c",
-      "title": "辅警考试必看之道路交通安全法（上）",
-      "summary": "辅警考试，道路交通安全法重点法条梳理",
+      "id": "0af54764db4f",
+      "title": "【税务师·税法Ⅰ】考点太多记不住？王唤唤考前考点背诵宝典｜持续更新中（附配套讲义）",
+      "summary": "备考税务师《税法Ⅰ》总感觉越背越乱？\n税目税率多到分不清，整本教材内容量大，全部背诵根本不现实——盲目记忆浪费时间，还抓不住出题重心。\n\n王唤唤老师带你用背诵宝典理清考点！依托考生回忆真题，深度剖析近五年命题规律，筛选考查2次及以上高频核心考点，同步纳入教材新增内容。\n课程以表格、要点标注形式浓缩考点精华，利用晨读碎片时间巩固记忆。\n\n不管强化阶段系统复盘，还是临考快速查漏补缺，把时间聚焦在得分关",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "公考冯弋",
-      "url": "http://www.bilibili.com/video/av116930484640654",
-      "time": "2026-07-17 00:02",
-      "heat": 479,
-      "discussions": "13",
-      "tags": [],
+      "author": "斯尔教育",
+      "url": "http://www.bilibili.com/video/av116978752689174",
+      "time": "2026-07-25 12:41",
+      "heat": 1294,
+      "discussions": "17",
+      "tags": [
+        "税务",
+        "税法"
+      ],
       "isHot": false,
-      "detail": "<p>辅警考试，道路交通安全法重点法条梳理</p>",
-      "published_at": "2026-07-17T00:02:45+08:00"
+      "detail": "<p>备考税务师《税法Ⅰ》总感觉越背越乱？\n税目税率多到分不清，整本教材内容量大，全部背诵根本不现实——盲目记忆浪费时间，还抓不住出题重心。\n\n王唤唤老师带你用背诵宝典理清考点！依托考生回忆真题，深度剖析近五年命题规律，筛选考查2次及以上高频核心考点，同步纳入教材新增内容。\n课程以表格、要点标注形式浓缩考点精华，利用晨读碎片时间巩固记忆。\n\n不管强化阶段系统复盘，还是临考快速查漏补缺，把时间聚焦在得分关</p>",
+      "published_at": "2026-07-25T12:41:06+08:00"
+    },
+    {
+      "id": "b56489af901d",
+      "title": "电商法修订草案，增设比例罚",
+      "summary": "电商法修订草案，增设比例罚",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "血刀喵祖",
+      "url": "http://www.bilibili.com/video/av116899480341262",
+      "time": "2026-07-11 12:35",
+      "heat": 618,
+      "discussions": "9",
+      "tags": [
+        "修订"
+      ],
+      "isHot": false,
+      "detail": "<p>电商法修订草案，增设比例罚</p>",
+      "published_at": "2026-07-11T12:35:43+08:00"
     },
     {
       "id": "f0bd6f9bb805",
@@ -1142,20 +619,23 @@
       "published_at": "2026-07-03T20:10:00+08:00"
     },
     {
-      "id": "93e9f62c342f",
-      "title": "《道路交通事故赔偿解释（二）》深度解读",
-      "summary": "《道路交通赔偿解释（二）》深度解读授课讲义（法考、法硕通用）\n链接：https://pan.baidu.com/s/1HSEur99jHx5425JUJKS08A \n提取码：8888",
+      "id": "51bfbd916eed",
+      "title": "【东奥一备两考】2026年税务师&amp;注会《税法》双向跨考指导直播回放-王颖",
+      "summary": "免费领取初级&amp;中级&amp;注会&amp;税务师知识点总结/学习计划/章节习题/跨考对比等备考资料大全，快戳链接详细了解一下吧👉https://www.bilibili.com/opus/942027976066727976",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "民法杨烁_",
-      "url": "http://www.bilibili.com/video/av116550967235617",
-      "time": "2026-05-10 23:31",
-      "heat": 2178,
-      "discussions": "78",
-      "tags": [],
+      "author": "东奥教育",
+      "url": "http://www.bilibili.com/video/av116718219302622",
+      "time": "2026-06-09 18:00",
+      "heat": 92,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "税法"
+      ],
       "isHot": false,
-      "detail": "<p>《道路交通赔偿解释（二）》深度解读授课讲义（法考、法硕通用）\n链接：https://pan.baidu.com/s/1HSEur99jHx5425JUJKS08A \n提取码：8888</p>",
-      "published_at": "2026-05-10T23:31:14+08:00"
+      "detail": "<p>免费领取初级&amp;中级&amp;注会&amp;税务师知识点总结/学习计划/章节习题/跨考对比等备考资料大全，快戳链接详细了解一下吧👉https://www.bilibili.com/opus/942027976066727976</p>",
+      "published_at": "2026-06-09T18:00:00+08:00"
     },
     {
       "id": "868b4040e9e2",
@@ -1166,7 +646,7 @@
       "author": "喀什润物会计培训",
       "url": "http://www.bilibili.com/video/av116542629020312",
       "time": "2026-05-09 12:09",
-      "heat": 144,
+      "heat": 145,
       "discussions": "1",
       "tags": [
         "会计",
@@ -1185,7 +665,7 @@
       "author": "学考易通",
       "url": "http://www.bilibili.com/video/av116420625173178",
       "time": "2026-04-17 23:06",
-      "heat": 4732,
+      "heat": 4764,
       "discussions": "79",
       "tags": [
         "财税"
@@ -1195,36 +675,61 @@
       "published_at": "2026-04-17T23:06:58+08:00"
     },
     {
-      "id": "d229e26a1a14",
-      "title": "《道路安全条例全解》这些扣分你必须知道！",
-      "summary": "全网超清晰《中华人民共和国道路交通安全法实施条例》精讲！逐条划重点、避扣分、防违章，新手老司机都能用，看完少踩 90% 交通坑。",
+      "id": "0ceeeee43c36",
+      "title": "2026新增值税法下EPC工程13%OR9%到底怎么选?   郑老师",
+      "summary": "2026新增值税法下EPC工程13%OR9%到底怎么选?  郑老师",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "瀚林课堂",
-      "url": "http://www.bilibili.com/video/av116346721408925",
-      "time": "2026-04-04 21:44",
-      "heat": 186,
+      "author": "建筑财税带教",
+      "url": "http://www.bilibili.com/video/av116329206059305",
+      "time": "2026-04-01 19:28",
+      "heat": 57,
       "discussions": "1",
-      "tags": [],
+      "tags": [
+        "增值税",
+        "税法"
+      ],
       "isHot": false,
-      "detail": "<p>全网超清晰《中华人民共和国道路交通安全法实施条例》精讲！逐条划重点、避扣分、防违章，新手老司机都能用，看完少踩 90% 交通坑。</p>",
-      "published_at": "2026-04-04T21:44:23+08:00"
+      "detail": "<p>2026新增值税法下EPC工程13%OR9%到底怎么选?  郑老师</p>",
+      "published_at": "2026-04-01T19:28:31+08:00"
     },
     {
-      "id": "814ee12e3826",
-      "title": "2026《道路交通安全法》大修：事故只看过错、不看身份，彻底告别“谁弱谁有理”",
-      "summary": "-",
+      "id": "cbb8044b570c",
+      "title": "Darcy同学讲中会：经济法第7章 财政法律制度 国家的钱袋子怎么管？",
+      "summary": "Darcy同学讲中会：经济法第7章 财政法律制度 国家的钱袋子怎么管？",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "律法万家",
-      "url": "http://www.bilibili.com/video/av116220573585720",
-      "time": "2026-03-13 15:02",
-      "heat": 148,
+      "author": "Darcy同学讲会计",
+      "url": "http://www.bilibili.com/video/av116296456865905",
+      "time": "2026-03-27 00:40",
+      "heat": 51,
       "discussions": "0",
-      "tags": [],
+      "tags": [
+        "财政",
+        "法律"
+      ],
       "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-03-13T15:02:34+08:00"
+      "detail": "<p>Darcy同学讲中会：经济法第7章 财政法律制度 国家的钱袋子怎么管？</p>",
+      "published_at": "2026-03-27T00:40:31+08:00"
+    },
+    {
+      "id": "c871eccb5dba",
+      "title": "2026年最新：农业会计（种植业、养殖业）--政策解读、全盘账务处理、报税（5税2费）",
+      "summary": "这是试听课，想学习完整版V我：fewone001或beardear7",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "跟刘老师学会计实操",
+      "url": "http://www.bilibili.com/video/av116248675354487",
+      "time": "2026-03-18 14:12",
+      "heat": 237,
+      "discussions": "1",
+      "tags": [
+        "会计",
+        "政策"
+      ],
+      "isHot": false,
+      "detail": "<p>这是试听课，想学习完整版V我：fewone001或beardear7</p>",
+      "published_at": "2026-03-18T14:12:37+08:00"
     },
     {
       "id": "70fa724261c6",
@@ -1235,7 +740,7 @@
       "author": "侯哥讲财税",
       "url": "http://www.bilibili.com/video/av116136083457574",
       "time": "2026-02-26 16:54",
-      "heat": 1463,
+      "heat": 1464,
       "discussions": "30",
       "tags": [
         "财税",
@@ -1247,20 +752,43 @@
       "published_at": "2026-02-26T16:54:27+08:00"
     },
     {
-      "id": "de2a7bd23a5b",
-      "title": "禁摩可以一标管全城吗？CD的硬核科普",
-      "summary": "禁摩可以一标管全城吗？CD的硬核科普",
+      "id": "fbf397c6c9de",
+      "title": "增值税优惠最新| 财税2026年10号公告增值税优惠政策衔接大白话解读",
+      "summary": "欢迎评论区交流，会员朋友获取视频素材，可私信~",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "CD_katana",
-      "url": "http://www.bilibili.com/video/av116023458074695",
-      "time": "2026-02-06 19:32",
-      "heat": 15108,
-      "discussions": "1194",
-      "tags": [],
+      "author": "misyusensei",
+      "url": "http://www.bilibili.com/video/av116039228724883",
+      "time": "2026-02-09 14:26",
+      "heat": 1028,
+      "discussions": "10",
+      "tags": [
+        "财税",
+        "增值税",
+        "政策"
+      ],
       "isHot": false,
-      "detail": "<p>禁摩可以一标管全城吗？CD的硬核科普</p>",
-      "published_at": "2026-02-06T19:32:49+08:00"
+      "detail": "<p>欢迎评论区交流，会员朋友获取视频素材，可私信~</p>",
+      "published_at": "2026-02-09T14:26:07+08:00"
+    },
+    {
+      "id": "c1cc10fc8ce7",
+      "title": "新会计准则带来新暗语：财务人必懂的七大概念",
+      "summary": "#财务 #会计准则 #会计实务 #财务分析 #金融工具 #数据资产 #租赁负债 #财务管理 #财经",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "财知道课堂",
+      "url": "http://www.bilibili.com/video/av116029984347568",
+      "time": "2026-02-08 08:00",
+      "heat": 338,
+      "discussions": "7",
+      "tags": [
+        "会计",
+        "财务"
+      ],
+      "isHot": false,
+      "detail": "<p>#财务 #会计准则 #会计实务 #财务分析 #金融工具 #数据资产 #租赁负债 #财务管理 #财经</p>",
+      "published_at": "2026-02-08T08:00:00+08:00"
     },
     {
       "id": "69754e3fd084",
@@ -1290,7 +818,7 @@
       "author": "逻辑会计",
       "url": "http://www.bilibili.com/video/av115916671029154",
       "time": "2026-01-18 23:00",
-      "heat": 57,
+      "heat": 58,
       "discussions": "1",
       "tags": [
         "税务",
@@ -1302,56 +830,98 @@
       "published_at": "2026-01-18T23:00:58+08:00"
     },
     {
-      "id": "6226bbc8c786",
-      "title": "财务报表列报准则征求意见，利润表发生大变化。",
-      "summary": "-",
+      "id": "395d7f95236d",
+      "title": "会计准则别硬背！吃透会计准则原理，财会备考效率翻倍",
+      "summary": "会计准则别硬背！吃透会计准则原理，财会备考效率翻倍",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "gpqg",
-      "url": "http://www.bilibili.com/video/av115853840356710",
-      "time": "2026-01-08 08:30",
-      "heat": 928,
-      "discussions": "16",
+      "author": "斯尔教育",
+      "url": "http://www.bilibili.com/video/av115892629279158",
+      "time": "2026-01-14 19:05",
+      "heat": 345,
+      "discussions": "2",
       "tags": [
-        "财务"
+        "会计"
       ],
       "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-01-08T08:30:00+08:00"
+      "detail": "<p>会计准则别硬背！吃透会计准则原理，财会备考效率翻倍</p>",
+      "published_at": "2026-01-14T19:05:00+08:00"
     },
     {
-      "id": "74c9189ce7f7",
-      "title": "14省高速不禁摩，道交法39条不能用长期对市区禁摩，以防抬杠，把一些主要问题写在标题里",
-      "summary": "-",
+      "id": "e53ca0f2f556",
+      "title": "企业会计准则第30号-财务报表列报修订与难点解析",
+      "summary": "上海国家会计学院1月22-23日举办企业会计准则行政策：CAS30准则修订与难点解析的培训课程。\n 上海国家会计学院",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "机车骑士笑姐夫",
-      "url": "http://www.bilibili.com/video/av115507709675088",
-      "time": "2025-11-07 17:31",
-      "heat": 4402,
-      "discussions": "199",
-      "tags": [],
+      "author": "会计liumiao",
+      "url": "http://www.bilibili.com/video/av115851206334653",
+      "time": "2026-01-07 09:28",
+      "heat": 12,
+      "discussions": "0",
+      "tags": [
+        "会计",
+        "财务",
+        "政策"
+      ],
       "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2025-11-07T17:31:47+08:00"
+      "detail": "<p>上海国家会计学院1月22-23日举办企业会计准则行政策：CAS30准则修订与难点解析的培训课程。\n 上海国家会计学院</p>",
+      "published_at": "2026-01-07T09:28:38+08:00"
     },
     {
-      "id": "bab947d34d99",
-      "title": "什么是财税合规？",
-      "summary": "什么是财税合规？",
+      "id": "79fc16fd85a6",
+      "title": "第九讲 税收优惠政策与实务（一）",
+      "summary": "解读常见税收优惠政策、实操重点、风险控制注意事项",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "娜姐有个财税公司",
-      "url": "http://www.bilibili.com/video/av115009241746029",
-      "time": "2025-08-13 09:00",
-      "heat": 158,
-      "discussions": "2",
+      "author": "财法价值圈",
+      "url": "http://www.bilibili.com/video/av115837046359944",
+      "time": "2026-01-04 21:29",
+      "heat": 78,
+      "discussions": "1",
+      "tags": [
+        "税收",
+        "政策"
+      ],
+      "isHot": false,
+      "detail": "<p>解读常见税收优惠政策、实操重点、风险控制注意事项</p>",
+      "published_at": "2026-01-04T21:29:14+08:00"
+    },
+    {
+      "id": "feca003cac9a",
+      "title": "财税合规是底线！齐昊高手养成，筑牢企业根基",
+      "summary": "财税合规是底线！齐昊高手养成，筑牢企业根基",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "账号已注销",
+      "url": "http://www.bilibili.com/video/av115582519222125",
+      "time": "2025-11-20 22:49",
+      "heat": 238,
+      "discussions": "0",
       "tags": [
         "财税"
       ],
       "isHot": false,
-      "detail": "<p>什么是财税合规？</p>",
-      "published_at": "2025-08-13T09:00:00+08:00"
+      "detail": "<p>财税合规是底线！齐昊高手养成，筑牢企业根基</p>",
+      "published_at": "2025-11-20T22:49:11+08:00"
+    },
+    {
+      "id": "f982dcf93502",
+      "title": "@CPAer，注会《税法》跨考税务师补充知识——税法的溯及力",
+      "summary": "免费领取中级&amp;注会知识点总结/学习计划/章节习题/跨考对比等备考资料大全，快戳链接详细了解一下吧👉https://www.bilibili.com/opus/993275190832005125",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "东奥教育",
+      "url": "http://www.bilibili.com/video/av115190335019459",
+      "time": "2025-09-13 19:30",
+      "heat": 28,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "税法"
+      ],
+      "isHot": false,
+      "detail": "<p>免费领取中级&amp;注会知识点总结/学习计划/章节习题/跨考对比等备考资料大全，快戳链接详细了解一下吧👉https://www.bilibili.com/opus/993275190832005125</p>",
+      "published_at": "2025-09-13T19:30:00+08:00"
     },
     {
       "id": "776f281eb63d",
@@ -1362,7 +932,7 @@
       "author": "导优优导游资格证",
       "url": "http://www.bilibili.com/video/av114923292067965",
       "time": "2025-07-27 12:43",
-      "heat": 14399,
+      "heat": 14432,
       "discussions": "250",
       "tags": [
         "政策",
@@ -1393,39 +963,23 @@
       "published_at": "2025-06-12T17:54:12+08:00"
     },
     {
-      "id": "240999c61dbb",
-      "title": "坏了，遇到懂法的了。",
-      "summary": "-",
+      "id": "75d45a6a4ed7",
+      "title": "征管法要修订啦：10个重要变化点",
+      "summary": "征管法要修订啦：10个重要变化点\n①平台企业信息报送\n②规范核定征收\n③增加一般反避税条款\n④滞纳金改迟纳金\n⑤向投资人穿透征税\n⑥偷税改逃税\n⑦增加虚开发票\n⑧增加教唆诱导帮助偷逃税的处罚\n⑨增加主动纠正错误的处理\n⑩取消行政复议清税前置的要求",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "Me-me-X",
-      "url": "http://www.bilibili.com/video/av114418448861554",
-      "time": "2025-04-29 11:30",
-      "heat": 127696,
-      "discussions": "3436",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2025-04-29T11:30:58+08:00"
-    },
-    {
-      "id": "161bc0d01089",
-      "title": "《中华人民共和国道路交通安全法实施条例》全文诵读学习-磨耳朵",
-      "summary": "《中华人民共和国道路交通安全法实施条例》（2004年4月30日中华人民共和国国务院令第405号公布，根据2017年10月7日《国务院关于修改部分行政法规的决定》修订）",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "我们的法律日常Law",
-      "url": "http://www.bilibili.com/video/av114155264673049",
-      "time": "2025-03-13 21:07",
-      "heat": 5604,
-      "discussions": "56",
+      "author": "懂点税",
+      "url": "http://www.bilibili.com/video/av114250559263614",
+      "time": "2025-03-30 19:05",
+      "heat": 239,
+      "discussions": "0",
       "tags": [
-        "法规",
+        "发票",
         "修订"
       ],
       "isHot": false,
-      "detail": "<p>《中华人民共和国道路交通安全法实施条例》（2004年4月30日中华人民共和国国务院令第405号公布，根据2017年10月7日《国务院关于修改部分行政法规的决定》修订）</p>",
-      "published_at": "2025-03-13T21:07:45+08:00"
+      "detail": "<p>征管法要修订啦：10个重要变化点\n①平台企业信息报送\n②规范核定征收\n③增加一般反避税条款\n④滞纳金改迟纳金\n⑤向投资人穿透征税\n⑥偷税改逃税\n⑦增加虚开发票\n⑧增加教唆诱导帮助偷逃税的处罚\n⑨增加主动纠正错误的处理\n⑩取消行政复议清税前置的要求</p>",
+      "published_at": "2025-03-30T19:05:00+08:00"
     },
     {
       "id": "39a85f37d7bc",
@@ -1436,7 +990,7 @@
       "author": "启航课堂计算机等考",
       "url": "http://www.bilibili.com/video/av113974104293730",
       "time": "2025-02-09 21:18",
-      "heat": 459,
+      "heat": 460,
       "discussions": "0",
       "tags": [
         "会计"
@@ -1446,22 +1000,23 @@
       "published_at": "2025-02-09T21:18:28+08:00"
     },
     {
-      "id": "2cfff308ced3",
-      "title": "2025年3月企业合规师考试：《财税合规基础知识 》第一章 绪论",
-      "summary": "2025年3月企业合规师职业能力水平考试，合规研学社督学班视频课件，更多备考资料请联系班长进督学群。",
+      "id": "8db19ed8292c",
+      "title": "【26税务专硕】税务专硕税法必须全程跟着CPA税法学吗？有没有效率更高的方式呢？",
+      "summary": "26小班课预售：26小班通识课72+课时+定向课50课时左右共计定校39所，另外还免费赠送专业规划师山岳老师全程一对一择校规划指导（尽早规划，少走弯路）+后期可以根据自身复习情况和院校免费变动一次！备考1所院校其他39所院校为你兜底！\n详情皆在工粽号【433税务专硕笑开研】",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "合规研学社",
-      "url": "http://www.bilibili.com/video/av113617974334963",
-      "time": "2024-12-08 23:52",
-      "heat": 338,
+      "author": "433税务专硕笑开研",
+      "url": "http://www.bilibili.com/video/av113673171375618",
+      "time": "2024-12-18 17:42",
+      "heat": 96,
       "discussions": "4",
       "tags": [
-        "财税"
+        "税务",
+        "税法"
       ],
       "isHot": false,
-      "detail": "<p>2025年3月企业合规师职业能力水平考试，合规研学社督学班视频课件，更多备考资料请联系班长进督学群。</p>",
-      "published_at": "2024-12-08T23:52:25+08:00"
+      "detail": "<p>26小班课预售：26小班通识课72+课时+定向课50课时左右共计定校39所，另外还免费赠送专业规划师山岳老师全程一对一择校规划指导（尽早规划，少走弯路）+后期可以根据自身复习情况和院校免费变动一次！备考1所院校其他39所院校为你兜底！\n详情皆在工粽号【433税务专硕笑开研】</p>",
+      "published_at": "2024-12-18T17:42:46+08:00"
     },
     {
       "id": "1c9ce8080eeb",
@@ -1472,7 +1027,7 @@
       "author": "房地产估价师考证",
       "url": "http://www.bilibili.com/video/av113402202554789",
       "time": "2024-10-31 21:21",
-      "heat": 3842,
+      "heat": 3845,
       "discussions": "0",
       "tags": [
         "政策",
@@ -1481,24 +1036,6 @@
       "isHot": false,
       "detail": "<p>网络\n65+4+654</p>",
       "published_at": "2024-10-31T21:21:19+08:00"
-    },
-    {
-      "id": "950590acd0b8",
-      "title": "辅警可以骑警车吗？禁摩的法律依据真的有人能出示吗？",
-      "summary": "视频已将身份信息打码+消音，本视频不产生任何利益，仅作为个人在路上与交警同志们的一些交流参考。\n感谢全国各地禁区的摩友为法治建设做出的贡献，也感谢辛勤工作在一线的交通指挥员们！",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "折翼艹天使",
-      "url": "http://www.bilibili.com/video/av113226964535072",
-      "time": "2024-09-30 23:02",
-      "heat": 28294,
-      "discussions": "3225",
-      "tags": [
-        "法律"
-      ],
-      "isHot": false,
-      "detail": "<p>视频已将身份信息打码+消音，本视频不产生任何利益，仅作为个人在路上与交警同志们的一些交流参考。\n感谢全国各地禁区的摩友为法治建设做出的贡献，也感谢辛勤工作在一线的交通指挥员们！</p>",
-      "published_at": "2024-09-30T23:02:09+08:00"
     },
     {
       "id": "9c320f14bd79",
@@ -1520,38 +1057,79 @@
       "published_at": "2024-09-29T17:46:49+08:00"
     },
     {
-      "id": "9247be8efd09",
-      "title": "合法骑行？来看看道交法自行车相关的规定吧。",
-      "summary": "简介里面放几个重要点的吧：\n 1. 分道而行，在有划分非机动车道的路段应当在非机动车道内行驶。\n2. 非机动车道被占用的，可以借用机动车道通行，机动车应当减速礼让。\n3. 自行车没有争对车型限速，只需要遵守道路限速。\n4. 自行车不得在公路上追逐竞驶，双手离把，转弯时应当通过手势提醒后车，不得猛拐。\n5. 在没有非机动车道的道路行驶，自行车应当在道路右侧行驶。道路右侧 1.5 米内行驶是地方性法规",
+      "id": "dc14ea953015",
+      "title": "《企业会计准则第30号财务报表列报》风趣解读",
+      "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "折腾不起来联盟",
-      "url": "http://www.bilibili.com/video/av113018222414072",
-      "time": "2024-08-25 08:00",
-      "heat": 3755,
-      "discussions": "463",
+      "author": "账号已注销",
+      "url": "http://www.bilibili.com/video/av113081959059286",
+      "time": "2024-09-05 07:57",
+      "heat": 15,
+      "discussions": "0",
       "tags": [
-        "法规"
+        "会计",
+        "财务"
       ],
       "isHot": false,
-      "detail": "<p>简介里面放几个重要点的吧：\n 1. 分道而行，在有划分非机动车道的路段应当在非机动车道内行驶。\n2. 非机动车道被占用的，可以借用机动车道通行，机动车应当减速礼让。\n3. 自行车没有争对车型限速，只需要遵守道路限速。\n4. 自行车不得在公路上追逐竞驶，双手离把，转弯时应当通过手势提醒后车，不得猛拐。\n5. 在没有非机动车道的道路行驶，自行车应当在道路右侧行驶。道路右侧 1.5 米内行驶是地方性法规</p>",
-      "published_at": "2024-08-25T08:00:05+08:00"
+      "detail": "<p>-</p>",
+      "published_at": "2024-09-05T07:57:43+08:00"
     },
     {
-      "id": "f1dcf5b478c1",
-      "title": "01.责任认定-交通事故实务",
-      "summary": "01.责任认定-交通事故实务",
+      "id": "4282e71eb191",
+      "title": "考呀呀｜第四章　知识点8　增值税的税收优惠",
+      "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "龙虾不在家",
-      "url": "http://www.bilibili.com/video/av112965340627975",
-      "time": "2024-08-15 17:40",
-      "heat": 755,
-      "discussions": "9",
-      "tags": [],
+      "author": "糖糖ttsw",
+      "url": "http://www.bilibili.com/video/av112908348690385",
+      "time": "2024-08-05 16:06",
+      "heat": 43,
+      "discussions": "0",
+      "tags": [
+        "税收",
+        "增值税"
+      ],
       "isHot": false,
-      "detail": "<p>01.责任认定-交通事故实务</p>",
-      "published_at": "2024-08-15T17:40:14+08:00"
+      "detail": "<p>-</p>",
+      "published_at": "2024-08-05T16:06:16+08:00"
+    },
+    {
+      "id": "9d55e80f65ad",
+      "title": "【培训视频1】财税审赛项-第一阶段财税审操作讲解",
+      "summary": "【培训视频1】财税审赛项-第一阶段财税审操作讲解",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "稚北ょ",
+      "url": "http://www.bilibili.com/video/av1104792158",
+      "time": "2024-05-22 21:31",
+      "heat": 2744,
+      "discussions": "20",
+      "tags": [
+        "财税"
+      ],
+      "isHot": false,
+      "detail": "<p>【培训视频1】财税审赛项-第一阶段财税审操作讲解</p>",
+      "published_at": "2024-05-22T21:31:15+08:00"
+    },
+    {
+      "id": "bd271c62a227",
+      "title": "十分钟掌握「企业所得税」纳税调整",
+      "summary": "十分钟掌握「企业所得税」纳税调整",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "是巧巧老师呀",
+      "url": "http://www.bilibili.com/video/av1200236305",
+      "time": "2024-01-30 18:44",
+      "heat": 1901,
+      "discussions": "12",
+      "tags": [
+        "纳税",
+        "所得税"
+      ],
+      "isHot": false,
+      "detail": "<p>十分钟掌握「企业所得税」纳税调整</p>",
+      "published_at": "2024-01-30T18:44:39+08:00"
     },
     {
       "id": "35c7c473ecc3",
@@ -1574,6 +1152,66 @@
       "published_at": "2024-01-24T15:00:04+08:00"
     },
     {
+      "id": "683e871b6978",
+      "title": "10分钟：一个故事搞定增值税税收优惠条款",
+      "summary": "10分钟用一个故事搞定增值税税收优惠条款，CPA税务师中级税法",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "CPA老夏不瞎说",
+      "url": "http://www.bilibili.com/video/av581150474",
+      "time": "2024-01-11 20:45",
+      "heat": 550,
+      "discussions": "24",
+      "tags": [
+        "税收",
+        "税务",
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>10分钟用一个故事搞定增值税税收优惠条款，CPA税务师中级税法</p>",
+      "published_at": "2024-01-11T20:45:18+08:00"
+    },
+    {
+      "id": "39ca59e34053",
+      "title": "税务师《税法一》增值税的类型",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "神奇的考点母题乐乐",
+      "url": "http://www.bilibili.com/video/av707985313",
+      "time": "2023-12-28 06:56",
+      "heat": 154,
+      "discussions": "1",
+      "tags": [
+        "税务",
+        "增值税",
+        "税法"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2023-12-28T06:56:54+08:00"
+    },
+    {
+      "id": "3bcc647b6c75",
+      "title": "高途财经济法&amp;税法讲师刘佳辉！曾斩获三家“四大”offer！SKIP学习法创始人，主打幽默高效让你学会税法，快一键三连，评论区领取试听课！",
+      "summary": "高途财经经济法&amp;税法讲师刘佳辉：上海财经大学全日制法律硕士，优秀硕士毕业论文、律师、上海注协会员，注册会计师全科合格证持有银行、证券、基金、期货金融资格证。SKIP学习法创始人，曾被三家“四大”录用！",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "高途财经冲锋营",
+      "url": "http://www.bilibili.com/video/av452463259",
+      "time": "2023-12-17 17:41",
+      "heat": 172,
+      "discussions": "2",
+      "tags": [
+        "会计",
+        "税法",
+        "法律"
+      ],
+      "isHot": false,
+      "detail": "<p>高途财经经济法&amp;税法讲师刘佳辉：上海财经大学全日制法律硕士，优秀硕士毕业论文、律师、上海注协会员，注册会计师全科合格证持有银行、证券、基金、期货金融资格证。SKIP学习法创始人，曾被三家“四大”录用！</p>",
+      "published_at": "2023-12-17T17:41:31+08:00"
+    },
+    {
       "id": "c2a410ee6f79",
       "title": "重点人群优惠政策：招用重点人群税收减免",
       "summary": "重点人群优惠政策：招用重点人群税收减免",
@@ -1593,52 +1231,116 @@
       "published_at": "2023-12-12T13:56:56+08:00"
     },
     {
-      "id": "81f62f321296",
-      "title": "交通事故实务100问",
-      "summary": "交通事故实务100问",
+      "id": "b3f4799105d1",
+      "title": "31.税收优惠之税会差异处理-符合条件的股息、红利等权益性投资收益优惠",
+      "summary": "31.税收优惠之税会差异处理-符合条件的股息、红利等权益性投资收益优惠",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "陌路陌路law",
-      "url": "http://www.bilibili.com/video/av963879702",
-      "time": "2023-11-26 06:29",
-      "heat": 12504,
-      "discussions": "308",
-      "tags": [],
+      "author": "雨暹",
+      "url": "http://www.bilibili.com/video/av578498132",
+      "time": "2023-11-15 11:26",
+      "heat": 42,
+      "discussions": "0",
+      "tags": [
+        "税收"
+      ],
       "isHot": false,
-      "detail": "<p>交通事故实务100问</p>",
-      "published_at": "2023-11-26T06:29:54+08:00"
+      "detail": "<p>31.税收优惠之税会差异处理-符合条件的股息、红利等权益性投资收益优惠</p>",
+      "published_at": "2023-11-15T11:26:26+08:00"
     },
     {
-      "id": "113385588284",
-      "title": "交通安全学习视频合集",
-      "summary": "交通安全学习视频合集",
+      "id": "9155f04c4eae",
+      "title": "【时政热点】一个视频讲清楚个人所得税专项附加扣除、应纳税所得额是什么！",
+      "summary": "一个视频讲清楚个人所得税专项附加扣除、应纳税所得额是什么！\n必修2 经济与社会\n时政热点 国务院8月31日发布了提高个人所得税有关专项附加扣除标准政策的公告",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "远离一切理想乡",
-      "url": "http://www.bilibili.com/video/av533153517",
-      "time": "2023-09-07 22:54",
-      "heat": 1297,
-      "discussions": "10",
-      "tags": [],
+      "author": "FredTao高考政治",
+      "url": "http://www.bilibili.com/video/av745869312",
+      "time": "2023-09-10 17:27",
+      "heat": 2895,
+      "discussions": "132",
+      "tags": [
+        "纳税",
+        "所得税",
+        "政策"
+      ],
       "isHot": false,
-      "detail": "<p>交通安全学习视频合集</p>",
-      "published_at": "2023-09-07T22:54:23+08:00"
+      "detail": "<p>一个视频讲清楚个人所得税专项附加扣除、应纳税所得额是什么！\n必修2 经济与社会\n时政热点 国务院8月31日发布了提高个人所得税有关专项附加扣除标准政策的公告</p>",
+      "published_at": "2023-09-10T17:27:31+08:00"
     },
     {
-      "id": "7507f5054991",
-      "title": "《中华人民共和国道路交通安全法》",
-      "summary": "中华人民共和国道路交通安全法，全文听法条",
+      "id": "cad7a4f35328",
+      "title": "05-财税法（用时7分29秒）",
+      "summary": "05-财税法（用时7分29秒）",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "阿拉小明",
-      "url": "http://www.bilibili.com/video/av745117923",
-      "time": "2023-08-21 16:55",
-      "heat": 4821,
-      "discussions": "56",
+      "author": "商经法刘安琪",
+      "url": "http://www.bilibili.com/video/av405407787",
+      "time": "2023-09-01 20:15",
+      "heat": 1729,
+      "discussions": "5",
+      "tags": [
+        "财税",
+        "税法"
+      ],
+      "isHot": false,
+      "detail": "<p>05-财税法（用时7分29秒）</p>",
+      "published_at": "2023-09-01T20:15:04+08:00"
+    },
+    {
+      "id": "d7e8ab6c043b",
+      "title": "23年CPA税法-增值税法11-①资管产品的增值税处理办法丨王亭喜",
+      "summary": "23年CPA税法-增值税法11-①资管产品的增值税处理办法丨王亭喜",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "小途带你学财经",
+      "url": "http://www.bilibili.com/video/av444846641",
+      "time": "2023-06-14 11:48",
+      "heat": 31,
+      "discussions": "0",
+      "tags": [
+        "增值税",
+        "税法",
+        "办法"
+      ],
+      "isHot": false,
+      "detail": "<p>23年CPA税法-增值税法11-①资管产品的增值税处理办法丨王亭喜</p>",
+      "published_at": "2023-06-14T11:48:49+08:00"
+    },
+    {
+      "id": "d163fcfe9576",
+      "title": "6. 取得的津贴、补贴要不要交个税？",
+      "summary": "6. 取得的津贴、补贴要不要交个税？",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "tian149454",
+      "url": "http://www.bilibili.com/video/av911609882",
+      "time": "2023-05-27 12:13",
+      "heat": 161,
+      "discussions": "0",
       "tags": [],
       "isHot": false,
-      "detail": "<p>中华人民共和国道路交通安全法，全文听法条</p>",
-      "published_at": "2023-08-21T16:55:56+08:00"
+      "detail": "<p>6. 取得的津贴、补贴要不要交个税？</p>",
+      "published_at": "2023-05-27T12:13:12+08:00"
+    },
+    {
+      "id": "5511ed7cda61",
+      "title": "享受税收优惠政策的集成电路企业或项目、软件企业",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "安财聊财税",
+      "url": "http://www.bilibili.com/video/av952284954",
+      "time": "2023-04-10 23:04",
+      "heat": 29,
+      "discussions": "0",
+      "tags": [
+        "税收",
+        "政策"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2023-04-10T23:04:04+08:00"
     },
     {
       "id": "e2847356187f",
@@ -1661,57 +1363,6 @@
       "published_at": "2023-03-16T17:51:57+08:00"
     },
     {
-      "id": "e73fcd2f4dc3",
-      "title": "十条摩友必知的法律法规知识，你看看知道几条？",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "机车骑士笑姐夫",
-      "url": "http://www.bilibili.com/video/av568161809",
-      "time": "2023-03-09 20:27",
-      "heat": 17815,
-      "discussions": "787",
-      "tags": [
-        "法规",
-        "法律"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2023-03-09T20:27:25+08:00"
-    },
-    {
-      "id": "5ec3fa0cc96c",
-      "title": "道路交通安全法培训",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "L阿修罗",
-      "url": "http://www.bilibili.com/video/av645849139",
-      "time": "2022-09-23 16:56",
-      "heat": 1478,
-      "discussions": "3",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2022-09-23T16:56:47+08:00"
-    },
-    {
-      "id": "26a9269f3152",
-      "title": "道路交通管理 - 河南警察学院(国家精品课)",
-      "summary": "www.icourses.cn/web/sword/portal/shareIntroduction?courseId=7169\n感恩视频中的老师们，搬运，侵删。对视频感兴趣的话可以上慕课学习（有配套作业）",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "大学自修室",
-      "url": "http://www.bilibili.com/video/av815369012",
-      "time": "2022-09-09 17:04",
-      "heat": 1208,
-      "discussions": "9",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>www.icourses.cn/web/sword/portal/shareIntroduction?courseId=7169\n感恩视频中的老师们，搬运，侵删。对视频感兴趣的话可以上慕课学习（有配套作业）</p>",
-      "published_at": "2022-09-09T17:04:20+08:00"
-    },
-    {
       "id": "7c8dc140cce4",
       "title": "【微观经济学】税收负担和税收转嫁",
       "summary": "【微观经济学】税收负担和税收转嫁",
@@ -1720,7 +1371,7 @@
       "author": "经管老邢",
       "url": "http://www.bilibili.com/video/av728404368",
       "time": "2022-07-14 20:28",
-      "heat": 10808,
+      "heat": 10810,
       "discussions": "236",
       "tags": [
         "税收"
@@ -1756,7 +1407,7 @@
       "author": "西红圣女果",
       "url": "http://www.bilibili.com/video/av718333521",
       "time": "2021-10-03 22:17",
-      "heat": 3828,
+      "heat": 3829,
       "discussions": "107",
       "tags": [
         "财税",
@@ -1767,22 +1418,23 @@
       "published_at": "2021-10-03T22:17:29+08:00"
     },
     {
-      "id": "c7cd69ecfe8e",
-      "title": "考点：税金及附加",
-      "summary": "最新会计职称考试《初级会计实务》高频考点分享与经典例题解析，为了帮助广大考生高效备考，高顿老师手把手带你突破难关，快学起来吧！",
+      "id": "250ede4958cd",
+      "title": "新会计准则之财务报表列报",
+      "summary": "新会计准则之财务报表列报",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "高顿教育",
-      "url": "http://www.bilibili.com/video/av883139938",
-      "time": "2020-05-11 12:21",
-      "heat": 1769,
-      "discussions": "10",
+      "author": "杰克与rose",
+      "url": "http://www.bilibili.com/video/av501743429",
+      "time": "2021-02-10 16:55",
+      "heat": 35,
+      "discussions": "1",
       "tags": [
-        "会计"
+        "会计",
+        "财务"
       ],
       "isHot": false,
-      "detail": "<p>最新会计职称考试《初级会计实务》高频考点分享与经典例题解析，为了帮助广大考生高效备考，高顿老师手把手带你突破难关，快学起来吧！</p>",
-      "published_at": "2020-05-11T12:21:01+08:00"
+      "detail": "<p>新会计准则之财务报表列报</p>",
+      "published_at": "2021-02-10T16:55:29+08:00"
     },
     {
       "id": "4be52be5b480",
