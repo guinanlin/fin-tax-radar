@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-19T12:23:42.996517+08:00",
-  "count": 99,
+  "updated_at": "2026-09-19T21:42:38.833786+08:00",
+  "count": 77,
   "topics": [
     {
       "id": "cd78724b523a",
@@ -11,7 +11,7 @@
       "author": "之了课堂",
       "url": "http://www.bilibili.com/video/av53836971",
       "time": "2019-05-28 10:03",
-      "heat": 4874281,
+      "heat": 4874664,
       "discussions": "15.9万",
       "tags": [
         "会计",
@@ -31,7 +31,7 @@
       "author": "对啊网",
       "url": "http://www.bilibili.com/video/av8074643",
       "time": "2017-01-18 14:13",
-      "heat": 677971,
+      "heat": 677977,
       "discussions": "1.1万",
       "tags": [
         "会计",
@@ -42,38 +42,6 @@
       "published_at": "2017-01-18T14:13:19+08:00"
     },
     {
-      "id": "f05d4a7722ba",
-      "title": "9月15日开始，中国正式闭关锁国，禁止中国人出国？造你老冯的谣！",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "ZAZIFLY",
-      "url": "http://www.bilibili.com/video/av117038127325171",
-      "time": "2026-08-05 00:21",
-      "heat": 98936,
-      "discussions": "1970",
-      "tags": [],
-      "isHot": true,
-      "detail": "<p>-</p>",
-      "published_at": "2026-08-05T00:21:16+08:00"
-    },
-    {
-      "id": "c2ff9cd15bd1",
-      "title": "新规凭什么不让我出国，还可以不告诉我原因？",
-      "summary": "新规凭什么不让我出国，还可以不告诉我原因？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "桃矢王唯",
-      "url": "http://www.bilibili.com/video/av117108910333858",
-      "time": "2026-08-17 12:22",
-      "heat": 97264,
-      "discussions": "2686",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>新规凭什么不让我出国，还可以不告诉我原因？</p>",
-      "published_at": "2026-08-17T12:22:20+08:00"
-    },
-    {
       "id": "caa780e85ac6",
       "title": "零基础学会计/初级/会计实务/会计基础/会计实务/经济法基础/会计实操方宁",
       "summary": "免费领取配套课程讲义+资料+答疑+VX号f19198051963；配套纸质资料《零基础学会计》 在淘宝搜索：会计学堂图书旗舰店，即可购买！",
@@ -82,15 +50,35 @@
       "author": "会计学堂实操课堂",
       "url": "http://www.bilibili.com/video/av303525930",
       "time": "2022-09-30 16:52",
-      "heat": 70413,
+      "heat": 70416,
       "discussions": "1869",
       "tags": [
         "会计",
         "实务"
       ],
-      "isHot": false,
+      "isHot": true,
       "detail": "<p>免费领取配套课程讲义+资料+答疑+VX号f19198051963；配套纸质资料《零基础学会计》 在淘宝搜索：会计学堂图书旗舰店，即可购买！</p>",
       "published_at": "2022-09-30T16:52:26+08:00"
+    },
+    {
+      "id": "d1bbb6ebeae0",
+      "title": "财会实操： 金税盘增值税专票开具、电子税务局纳税申报、个税自然人税收管理、汇算清缴、纳税申报、工商年检",
+      "summary": "财会实操： 金税盘增值税专票开具、电子税务局纳税申报、汇算清缴、纳税申报、工商年检",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "金蝶培训",
+      "url": "http://www.bilibili.com/video/av545857498",
+      "time": "2021-05-25 16:27",
+      "heat": 34900,
+      "discussions": "286",
+      "tags": [
+        "税收",
+        "税务",
+        "纳税"
+      ],
+      "isHot": false,
+      "detail": "<p>财会实操： 金税盘增值税专票开具、电子税务局纳税申报、汇算清缴、纳税申报、工商年检</p>",
+      "published_at": "2021-05-25T16:27:50+08:00"
     },
     {
       "id": "80deccdc8e04",
@@ -101,7 +89,7 @@
       "author": "小辉教你开公司",
       "url": "http://www.bilibili.com/video/av747946955",
       "time": "2023-11-03 11:00",
-      "heat": 26307,
+      "heat": 26310,
       "discussions": "249",
       "tags": [],
       "isHot": false,
@@ -117,7 +105,7 @@
       "author": "ZTSAP干货铺",
       "url": "http://www.bilibili.com/video/av249721167",
       "time": "2021-08-09 23:44",
-      "heat": 23378,
+      "heat": 23382,
       "discussions": "824",
       "tags": [
         "会计",
@@ -128,68 +116,22 @@
       "published_at": "2021-08-09T23:44:00+08:00"
     },
     {
-      "id": "c49e1d857fe0",
-      "title": "9月起 这些新规将影响你我生活",
-      "summary": "https://www.yspapp.cn/6b8I（央视频号：新闻来了）",
+      "id": "6a55a49ed31e",
+      "title": "企业税务生命线",
+      "summary": "企业税务生命线",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "央视频",
-      "url": "http://www.bilibili.com/video/av117194709074497",
-      "time": "2026-09-01 15:58",
-      "heat": 17378,
-      "discussions": "430",
-      "tags": [],
+      "author": "涛哥嘎三胡",
+      "url": "http://www.bilibili.com/video/av117148890434580",
+      "time": "2026-08-24 13:43",
+      "heat": 10297,
+      "discussions": "60",
+      "tags": [
+        "税务"
+      ],
       "isHot": false,
-      "detail": "<p>https://www.yspapp.cn/6b8I（央视频号：新闻来了）</p>",
-      "published_at": "2026-09-01T15:58:15+08:00"
-    },
-    {
-      "id": "15a9c3eb2942",
-      "title": "劝阻出境提法引莫名惊诧？出入境新规整体更规范无需担忧",
-      "summary": "近日关于即将实施的出入境管理新规引发关注，不过一些网友和自媒体对新规存在误解，尤其是对“劝阻出境”被一些人担忧，其实劝阻出境并不是什么新手段，此次新规只是做了规范化的规定，这里分享一点信息供参考。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "老梁不郁闷",
-      "url": "http://www.bilibili.com/video/av117041180772932",
-      "time": "2026-08-05 13:17",
-      "heat": 16709,
-      "discussions": "833",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>近日关于即将实施的出入境管理新规引发关注，不过一些网友和自媒体对新规存在误解，尤其是对“劝阻出境”被一些人担忧，其实劝阻出境并不是什么新手段，此次新规只是做了规范化的规定，这里分享一点信息供参考。</p>",
-      "published_at": "2026-08-05T13:17:26+08:00"
-    },
-    {
-      "id": "7b085a35d735",
-      "title": "出入境新规9月15号执行，很多人，怕办不到护照，提前去办",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "80后观点",
-      "url": "http://www.bilibili.com/video/av117025946997129",
-      "time": "2026-08-02 20:43",
-      "heat": 14792,
-      "discussions": "817",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-08-02T20:43:20+08:00"
-    },
-    {
-      "id": "1095ec2bccdb",
-      "title": "出入境管理新规：三类中国🇨🇳公民不准出境！",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "麦哥谈出国",
-      "url": "http://www.bilibili.com/video/av117039821817056",
-      "time": "2026-08-05 07:32",
-      "heat": 13392,
-      "discussions": "327",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-08-05T07:32:02+08:00"
+      "detail": "<p>企业税务生命线</p>",
+      "published_at": "2026-08-24T13:43:57+08:00"
     },
     {
       "id": "c01ee377d1a5",
@@ -200,7 +142,7 @@
       "author": "账号已注销",
       "url": "http://www.bilibili.com/video/av113396062094359",
       "time": "2024-11-02 09:30",
-      "heat": 10577,
+      "heat": 10578,
       "discussions": "65",
       "tags": [
         "会计"
@@ -210,88 +152,22 @@
       "published_at": "2024-11-02T09:30:00+08:00"
     },
     {
-      "id": "9ea0ed96e028",
-      "title": "外媒报道普通人出国难，富人飞出国后，才敢官宣，实际情况有点不同",
-      "summary": "外媒报道普通人出国难，富人飞出国后，才敢官宣，实际情况有点不同",
+      "id": "ab551bd2e949",
+      "title": "实用的发票登记管理表使用方法",
+      "summary": "实用的发票登记管理表使用方法",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "海叔在路上",
-      "url": "http://www.bilibili.com/video/av117153973996693",
-      "time": "2026-08-25 11:22",
-      "heat": 8820,
-      "discussions": "270",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>外媒报道普通人出国难，富人飞出国后，才敢官宣，实际情况有点不同</p>",
-      "published_at": "2026-08-25T11:22:36+08:00"
-    },
-    {
-      "id": "44b0189d9c7f",
-      "title": "出入境新规，从走出去到留得住 ‖ 国家在下什么棋？‖ 三道文件里的40年转向",
-      "summary": "大家好，我是在B站生活了14年的Clanker，本期带各位小伙伴们解读一下出入境新规和同业发布的三道文件。一起聊一聊，在我的理解中，国家在下什么棋？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "Clanker老师",
-      "url": "http://www.bilibili.com/video/av117094280664966",
-      "time": "2026-08-14 22:25",
-      "heat": 9537,
-      "discussions": "283",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>大家好，我是在B站生活了14年的Clanker，本期带各位小伙伴们解读一下出入境新规和同业发布的三道文件。一起聊一聊，在我的理解中，国家在下什么棋？</p>",
-      "published_at": "2026-08-14T22:25:08+08:00"
-    },
-    {
-      "id": "1296f3c372de",
-      "title": "新《出入境管理规定》出台背后最大的意义！",
-      "summary": "新《出入境管理规定》出台背后最大的意义！",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "苏离是酥梨",
-      "url": "http://www.bilibili.com/video/av117037254837340",
-      "time": "2026-08-04 20:34",
-      "heat": 7906,
-      "discussions": "150",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>新《出入境管理规定》出台背后最大的意义！</p>",
-      "published_at": "2026-08-04T20:34:58+08:00"
-    },
-    {
-      "id": "bc7e780e0531",
-      "title": "会计实操：纳税筹划（税务筹划）技巧与案例精讲",
-      "summary": "这是试听课，完整版共计36节，一直有效，免费更新，了解完整课程V我15221199445或13818768033",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "跟刘老师学会计实操",
-      "url": "http://www.bilibili.com/video/av839689633",
-      "time": "2020-09-28 14:44",
-      "heat": 7433,
-      "discussions": "62",
+      "author": "优越做表格",
+      "url": "http://www.bilibili.com/video/av949966791",
+      "time": "2023-02-25 10:57",
+      "heat": 9123,
+      "discussions": "902",
       "tags": [
-        "税务",
-        "会计",
-        "纳税"
+        "发票"
       ],
       "isHot": false,
-      "detail": "<p>这是试听课，完整版共计36节，一直有效，免费更新，了解完整课程V我15221199445或13818768033</p>",
-      "published_at": "2020-09-28T14:44:08+08:00"
-    },
-    {
-      "id": "c603be6134ea",
-      "title": "中国出入境新规太绝了，5大漏洞全焊死，想来中国作乱的外籍人员绝望了！#出境入境管理规定 #9月15日新规 #签证#移民 #技术封锁 #人才外流",
-      "summary": "中国出入境新规太绝了，5大漏洞全焊死，想来中国作乱的外籍人员绝望了！#出境入境管理规定 #9月15日新规 #签证#移民 #技术封锁 #人才外流",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "小懒哈哈哈",
-      "url": "http://www.bilibili.com/video/av117081043370137",
-      "time": "2026-08-12 14:11",
-      "heat": 7383,
-      "discussions": "190",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>中国出入境新规太绝了，5大漏洞全焊死，想来中国作乱的外籍人员绝望了！#出境入境管理规定 #9月15日新规 #签证#移民 #技术封锁 #人才外流</p>",
-      "published_at": "2026-08-12T14:11:51+08:00"
+      "detail": "<p>实用的发票登记管理表使用方法</p>",
+      "published_at": "2023-02-25T10:57:47+08:00"
     },
     {
       "id": "6bbf85aea13e",
@@ -302,7 +178,7 @@
       "author": "财经类考试备考",
       "url": "http://www.bilibili.com/video/av116735063625074",
       "time": "2026-06-12 12:05",
-      "heat": 7216,
+      "heat": 7255,
       "discussions": "28",
       "tags": [
         "税务",
@@ -314,100 +190,23 @@
       "published_at": "2026-06-12T12:05:30+08:00"
     },
     {
-      "id": "1c78e9b1b421",
-      "title": "办理过三国移民的华人，如何看待最新的出入境管理条例？",
-      "summary": "办理过三国移民的华人，如何看待最新的出入境管理条例？",
+      "id": "3b82dc735acc",
+      "title": "增值税专用发票和普通发票的区别",
+      "summary": "老板都应该要知道两者的区别，毕竟，这与钱直接挂钩呀！",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "海叔在路上",
-      "url": "http://www.bilibili.com/video/av117039301657834",
-      "time": "2026-08-05 05:17",
-      "heat": 5985,
-      "discussions": "164",
-      "tags": [],
+      "author": "已经是老汪了",
+      "url": "http://www.bilibili.com/video/av969663283",
+      "time": "2020-09-20 01:12",
+      "heat": 4657,
+      "discussions": "37",
+      "tags": [
+        "发票",
+        "增值税"
+      ],
       "isHot": false,
-      "detail": "<p>办理过三国移民的华人，如何看待最新的出入境管理条例？</p>",
-      "published_at": "2026-08-05T05:17:42+08:00"
-    },
-    {
-      "id": "fb305dcd40c0",
-      "title": "新版出入境规定即将实施，很多人过度解读！美国华人说说真实看法！这真是个大好事啊！",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "张司令sammy",
-      "url": "http://www.bilibili.com/video/av117035610671084",
-      "time": "2026-08-04 13:40",
-      "heat": 5865,
-      "discussions": "387",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-08-04T13:40:12+08:00"
-    },
-    {
-      "id": "fe1b06da9070",
-      "title": "9月15日新规落地！网传500人赴美被拦、护照被撕角？｜金钥匙",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "金钥匙V",
-      "url": "http://www.bilibili.com/video/av117284114860965",
-      "time": "2026-09-17 11:00",
-      "heat": 2919,
-      "discussions": "67",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-17T11:00:43+08:00"
-    },
-    {
-      "id": "ff392bae3520",
-      "title": "台湾说大陆出入境新法全面锁国?大家禁止出国?台湾人不能回家?",
-      "summary": "台湾说大陆出入境新法全面锁国?大家禁止出国?台湾人不能回家?",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "寒国人台湾官方",
-      "url": "http://www.bilibili.com/video/av117053210041232",
-      "time": "2026-08-07 16:14",
-      "heat": 4862,
-      "discussions": "220",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>台湾说大陆出入境新法全面锁国?大家禁止出国?台湾人不能回家?</p>",
-      "published_at": "2026-08-07T16:14:58+08:00"
-    },
-    {
-      "id": "0750d013de0f",
-      "title": "美国打击非洲华人电诈园，真相和细节来了！｜美国司法部｜马达加斯加｜新币担保｜孙宇晨｜波场｜Tether｜915出入境新规",
-      "summary": "美国打击非洲华人电诈园，真相和细节来了！｜美国司法部｜马达加斯加｜新币担保｜孙宇晨｜波场｜Tether｜915出入境新规",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "海叔在路上",
-      "url": "http://www.bilibili.com/video/av117282974008398",
-      "time": "2026-09-17 06:06",
-      "heat": 2667,
-      "discussions": "118",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>美国打击非洲华人电诈园，真相和细节来了！｜美国司法部｜马达加斯加｜新币担保｜孙宇晨｜波场｜Tether｜915出入境新规</p>",
-      "published_at": "2026-09-17T06:06:53+08:00"
-    },
-    {
-      "id": "2751ad4d8542",
-      "title": "中国突然宣布严管出入境政策，几大漏洞一次性全堵上了",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "善良的哆啦A梦儿",
-      "url": "http://www.bilibili.com/video/av117048210493657",
-      "time": "2026-08-06 19:07",
-      "heat": 4575,
-      "discussions": "100",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-08-06T19:07:26+08:00"
+      "detail": "<p>老板都应该要知道两者的区别，毕竟，这与钱直接挂钩呀！</p>",
+      "published_at": "2020-09-20T01:12:13+08:00"
     },
     {
       "id": "8257b0b35fb4",
@@ -418,7 +217,7 @@
       "author": "晗妈会计",
       "url": "http://www.bilibili.com/video/av114640730195595",
       "time": "2025-06-07 14:50",
-      "heat": 4151,
+      "heat": 4153,
       "discussions": "149",
       "tags": [
         "税务"
@@ -436,7 +235,7 @@
       "author": "国学资源文化大本营",
       "url": "http://www.bilibili.com/video/av115596310088264",
       "time": "2025-11-23 09:04",
-      "heat": 4032,
+      "heat": 4034,
       "discussions": "5",
       "tags": [
         "会计",
@@ -446,22 +245,6 @@
       "isHot": false,
       "detail": "<p>【2025会计实操】金蝶（全集）做账、账务处理、报税、节税、报表、发票、财务软件实际操作、就业指导 出纳实操上岗</p>",
       "published_at": "2025-11-23T09:04:13+08:00"
-    },
-    {
-      "id": "a3ecdbe6d225",
-      "title": "9月15日起，出入境新规将影响每一个准备出国的人",
-      "summary": "9月15日起，出入境新规将影响每一个准备出国的人",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "纽村迪哥",
-      "url": "http://www.bilibili.com/video/av117034822147514",
-      "time": "2026-08-04 20:00",
-      "heat": 3387,
-      "discussions": "90",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>9月15日起，出入境新规将影响每一个准备出国的人</p>",
-      "published_at": "2026-08-04T20:00:00+08:00"
     },
     {
       "id": "20cdab3b3e43",
@@ -482,6 +265,24 @@
       "published_at": "2020-06-17T12:38:02+08:00"
     },
     {
+      "id": "2a9267d5a2c4",
+      "title": "你们要的新办纳税人开业完整流程来啦",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "晗妈会计",
+      "url": "http://www.bilibili.com/video/av113666510817398",
+      "time": "2024-12-17 13:33",
+      "heat": 3272,
+      "discussions": "103",
+      "tags": [
+        "纳税"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2024-12-17T13:33:11+08:00"
+    },
+    {
       "id": "0fbe0fb4e397",
       "title": "2026最新财税系统课：零基础入门到实战（含企业+个税），127集构建完整知识框架，破解知识碎片化难题，助你快速构建职场硬技能，实现升职加薪",
       "summary": "制作不易，大家觉得视频对你有帮助记得点点关注，一键三连呀【点赞、投币、收藏】感谢支持！\n本视频针对财税零基础快速入门教程，手把手教学，无论是新手小白还是有一定经验的选手都可以查漏补缺，温故而知新。\n注：本视频仅供学习，请遵守《网络安全法》！\n注：本视频不含任何广告营销内容，所有课程配套资料无偿分享。\nps：相关源码，案例和学习笔记看评论区。",
@@ -490,7 +291,7 @@
       "author": "财务番茄酱小姐",
       "url": "http://www.bilibili.com/video/av115919925807009",
       "time": "2026-01-20 19:30",
-      "heat": 3185,
+      "heat": 3188,
       "discussions": "125",
       "tags": [
         "财税"
@@ -508,7 +309,7 @@
       "author": "vv是law2981423577",
       "url": "http://www.bilibili.com/video/av229124161",
       "time": "2023-06-09 19:33",
-      "heat": 3140,
+      "heat": 3142,
       "discussions": "45",
       "tags": [
         "实务",
@@ -527,7 +328,7 @@
       "author": "郑书记讲会计",
       "url": "http://www.bilibili.com/video/av113972376308225",
       "time": "2025-02-09 14:03",
-      "heat": 2883,
+      "heat": 2892,
       "discussions": "73",
       "tags": [
         "会计"
@@ -537,134 +338,42 @@
       "published_at": "2025-02-09T14:03:40+08:00"
     },
     {
-      "id": "b129e7988ce0",
-      "title": "7月31日，《国务院关于出境入境管理的规定》公布！这几点值得关注！",
-      "summary": "7月31日，《国务院关于出境入境管理的规定》公布！这几点值得关注！",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "小琳警官",
-      "url": "http://www.bilibili.com/video/av117030963382569",
-      "time": "2026-08-03 17:57",
-      "heat": 2776,
-      "discussions": "76",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>7月31日，《国务院关于出境入境管理的规定》公布！这几点值得关注！</p>",
-      "published_at": "2026-08-03T17:57:19+08:00"
-    },
-    {
-      "id": "15ced6a8b035",
-      "title": "日媒报道中国从今天开始实施出入境新规(2026.9.15)",
-      "summary": "日媒报道中国从今天开始实施出入境新规(2026.9.15)",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "Blucy-",
-      "url": "http://www.bilibili.com/video/av117272404297085",
-      "time": "2026-09-15 09:20",
-      "heat": 1605,
-      "discussions": "26",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>日媒报道中国从今天开始实施出入境新规(2026.9.15)</p>",
-      "published_at": "2026-09-15T09:20:07+08:00"
-    },
-    {
-      "id": "9c1e1f891aac",
-      "title": "2026年9月开始，关于8类人群不再允许出国，请大家提前做好自查，避免影响到海外出行#海外移民#出入境新规",
+      "id": "08b0dc01460d",
+      "title": "3秒钟解决登记发票的方法你还不学嘛＆减少财务工作的重复枯燥性~",
       "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "Huatonggroup888",
-      "url": "http://www.bilibili.com/video/av117196940381625",
-      "time": "2026-09-02 01:27",
-      "heat": 1815,
-      "discussions": "40",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-02T01:27:47+08:00"
-    },
-    {
-      "id": "b8515d5d1f67",
-      "title": "国门要关上了？出入境管理进一步收紧，普通人出国将受到什么影响？",
-      "summary": "国门要关上了？出入境管理进一步收紧，普通人出国将受到什么影响？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "别远说",
-      "url": "http://www.bilibili.com/video/av117117852589860",
-      "time": "2026-08-19 10:14",
-      "heat": 2352,
-      "discussions": "60",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>国门要关上了？出入境管理进一步收紧，普通人出国将受到什么影响？</p>",
-      "published_at": "2026-08-19T10:14:00+08:00"
-    },
-    {
-      "id": "8f3ca6716ac7",
-      "title": "9月15日，出入境新规，护照还在人却不一定出的去",
-      "summary": "钱有、护照在、签证也没问题，为什么仍可能出不了国？9月15日起，出入境管理新规正式实施。公务员、企业老板、海外工作者和频繁出境的人，都该提前弄清哪些行为可能触发限制。别等站在机场柜台前，才发现自己毫无准备。\n#出入境新规 #出境限制 #跨境生意 #海外身份 #企业老板 #护照签证",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "迪拜5D拆房山姆",
-      "url": "http://www.bilibili.com/video/av117134193596502",
-      "time": "2026-08-21 23:31",
-      "heat": 2228,
-      "discussions": "78",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>钱有、护照在、签证也没问题，为什么仍可能出不了国？9月15日起，出入境管理新规正式实施。公务员、企业老板、海外工作者和频繁出境的人，都该提前弄清哪些行为可能触发限制。别等站在机场柜台前，才发现自己毫无准备。\n#出入境新规 #出境限制 #跨境生意 #海外身份 #企业老板 #护照签证</p>",
-      "published_at": "2026-08-21T23:31:40+08:00"
-    },
-    {
-      "id": "f65fa890c4f9",
-      "title": "新出入境管理办法是要闭关锁国？",
-      "summary": "新出入境管理办法是要闭关锁国？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "伯侯视野",
-      "url": "http://www.bilibili.com/video/av117053881065350",
-      "time": "2026-08-07 19:06",
-      "heat": 1942,
-      "discussions": "97",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>新出入境管理办法是要闭关锁国？</p>",
-      "published_at": "2026-08-07T19:06:56+08:00"
-    },
-    {
-      "id": "f31780b4e36a",
-      "title": "存量博弈下的社会要素重构：从反垄断治理、跨境资产税收与出入境新规看宏观大变局",
-      "summary": "存量博弈下的社会要素重构：从反垄断治理、跨境资产税收与出入境新规看宏观大变局",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "知库",
-      "url": "http://www.bilibili.com/video/av117111544419996",
-      "time": "2026-08-17 23:29",
-      "heat": 1851,
-      "discussions": "5",
+      "author": "莹莹の职场闯关记",
+      "url": "http://www.bilibili.com/video/av517866230",
+      "time": "2022-11-21 20:00",
+      "heat": 2513,
+      "discussions": "79",
       "tags": [
-        "税收"
+        "发票",
+        "财务"
       ],
       "isHot": false,
-      "detail": "<p>存量博弈下的社会要素重构：从反垄断治理、跨境资产税收与出入境新规看宏观大变局</p>",
-      "published_at": "2026-08-17T23:29:28+08:00"
+      "detail": "<p>-</p>",
+      "published_at": "2022-11-21T20:00:00+08:00"
     },
     {
-      "id": "1f24d2f91c1a",
-      "title": "油管中国大V实测915出入境新规后出镜现状，都问了啥？",
+      "id": "88cbb8e772a9",
+      "title": "新注册公司老板自助网上税务登记保姆级教程含一般纳税人和小规模纳税人自动筹划模板及教程#注册公司 #税务登记 #小规模 #法人 #电子税务局",
       "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "YT情报员",
-      "url": "http://www.bilibili.com/video/av117223045861777",
-      "time": "2026-09-06 16:09",
-      "heat": 1235,
-      "discussions": "43",
-      "tags": [],
+      "author": "喀什润物会计培训",
+      "url": "http://www.bilibili.com/video/av115417515360356",
+      "time": "2025-10-22 19:17",
+      "heat": 2032,
+      "discussions": "77",
+      "tags": [
+        "税务",
+        "纳税"
+      ],
       "isHot": false,
       "detail": "<p>-</p>",
-      "published_at": "2026-09-06T16:09:48+08:00"
+      "published_at": "2025-10-22T19:17:51+08:00"
     },
     {
       "id": "737ad6daa114",
@@ -686,23 +395,24 @@
       "published_at": "2025-04-10T17:41:34+08:00"
     },
     {
-      "id": "51fdc56e9fe6",
-      "title": "【全24讲】李军：国企合规管理实务指南（23年国企改革业务专家精讲）李军合集",
-      "summary": "国企合规管理实务指南（23年国企改革业务专家精讲）李军合集；更多课看祝、业、详~~情~~\n声明：资源收集于网络，仅用于试学及购买课程之参考，切勿用于其他用途！如若侵权，请留言告知删除，谢谢！投稿为自制是为了防止二次搬运添加水印，敬请理解。",
+      "id": "30c13419402d",
+      "title": "25年税务师《财会》10H光速串讲课【1-19章全】",
+      "summary": "10H带你快速学完税务师《财务与会计》90%考点！",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "法学工坊kwd813",
-      "url": "http://www.bilibili.com/video/av114504381765179",
-      "time": "2025-05-14 17:45",
-      "heat": 1508,
-      "discussions": "3",
+      "author": "考证的袁叔叔",
+      "url": "http://www.bilibili.com/video/av115520711957787",
+      "time": "2025-11-10 00:38",
+      "heat": 1453,
+      "discussions": "17",
       "tags": [
-        "实务",
-        "合规"
+        "税务",
+        "会计",
+        "财务"
       ],
       "isHot": false,
-      "detail": "<p>国企合规管理实务指南（23年国企改革业务专家精讲）李军合集；更多课看祝、业、详~~情~~\n声明：资源收集于网络，仅用于试学及购买课程之参考，切勿用于其他用途！如若侵权，请留言告知删除，谢谢！投稿为自制是为了防止二次搬运添加水印，敬请理解。</p>",
-      "published_at": "2025-05-14T17:45:00+08:00"
+      "detail": "<p>10H带你快速学完税务师《财务与会计》90%考点！</p>",
+      "published_at": "2025-11-10T00:38:18+08:00"
     },
     {
       "id": "8ab7f18c6840",
@@ -713,8 +423,8 @@
       "author": "融水公子",
       "url": "http://www.bilibili.com/video/av117195984148395",
       "time": "2026-09-01 21:23",
-      "heat": 981,
-      "discussions": "58",
+      "heat": 994,
+      "discussions": "59",
       "tags": [
         "税务",
         "增值税",
@@ -725,36 +435,41 @@
       "published_at": "2026-09-01T21:23:17+08:00"
     },
     {
-      "id": "830c4a09dfb4",
-      "title": "9月15日新规出国更难了？别被带节奏了，新规到底管什么？",
-      "summary": "9月15日新规出国更难了？别被带节奏了，新规到底管什么？",
+      "id": "54be68274e23",
+      "title": "千万别用Excel做发票台账了，这样做1秒搞定，快学习下吧~",
+      "summary": "千万别用Excel做发票台账了，这样做1秒搞定，快学习下吧~",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "留学曹妈妈在美国",
-      "url": "http://www.bilibili.com/video/av117256499562484",
-      "time": "2026-09-12 13:54",
-      "heat": 749,
-      "discussions": "24",
-      "tags": [],
+      "author": "中兴通简税",
+      "url": "http://www.bilibili.com/video/av388591897",
+      "time": "2022-09-30 17:14",
+      "heat": 1118,
+      "discussions": "13",
+      "tags": [
+        "发票"
+      ],
       "isHot": false,
-      "detail": "<p>9月15日新规出国更难了？别被带节奏了，新规到底管什么？</p>",
-      "published_at": "2026-09-12T13:54:12+08:00"
+      "detail": "<p>千万别用Excel做发票台账了，这样做1秒搞定，快学习下吧~</p>",
+      "published_at": "2022-09-30T17:14:30+08:00"
     },
     {
-      "id": "8bddf5e270cd",
-      "title": "出入境新规对普通人影响",
-      "summary": "出入境新规对普通人影响",
+      "id": "7bc3b0bcaee8",
+      "title": "初级会计2027备考《实务》马勇零基础精讲课程第一章第一节：会计基本理论（1）#零基础小白入门初级会计",
+      "summary": "初级会计2027备考《实务》马勇零基础精讲课程第一章第一节：会计基本理论（1）#零基础小白入门初级会计",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "清华学姐讲量化",
-      "url": "http://www.bilibili.com/video/av117031852643505",
-      "time": "2026-08-04 12:00",
-      "heat": 1203,
-      "discussions": "25",
-      "tags": [],
+      "author": "马勇老师讲会计",
+      "url": "http://www.bilibili.com/video/av117279517838185",
+      "time": "2026-09-16 20:00",
+      "heat": 639,
+      "discussions": "13",
+      "tags": [
+        "会计",
+        "实务"
+      ],
       "isHot": false,
-      "detail": "<p>出入境新规对普通人影响</p>",
-      "published_at": "2026-08-04T12:00:00+08:00"
+      "detail": "<p>初级会计2027备考《实务》马勇零基础精讲课程第一章第一节：会计基本理论（1）#零基础小白入门初级会计</p>",
+      "published_at": "2026-09-16T20:00:00+08:00"
     },
     {
       "id": "95d93d5af0dd",
@@ -783,7 +498,7 @@
       "author": "国学资源文化大本营",
       "url": "http://www.bilibili.com/video/av117029386455550",
       "time": "2026-08-04 15:30",
-      "heat": 1085,
+      "heat": 1089,
       "discussions": "4",
       "tags": [
         "会计",
@@ -794,55 +509,58 @@
       "published_at": "2026-08-04T15:30:00+08:00"
     },
     {
-      "id": "dfd5e240fc49",
-      "title": "出境入境管理规定9月施行，公职人员将受更大约束",
-      "summary": "其实这个规定是《出境入境管理法》配套行政法规，属于对上位法的细化、补全实操规则，不改变普通公民正常出境权利。所以说收紧出境倒不至于，正常旅游、留学、商务、探亲，都没啥问题。重点还是针对乱象补制度短板，尤其是公职人员违规出境等限制还是比较明确的。",
+      "id": "5606c0af3bda",
+      "title": "吐槽在税务师事务所的打杂工作，干税务还是老老实实考证吧",
+      "summary": "税务师事务所，在外人眼里是一个好单位，应届毕业生毕业后前程似锦的开始；实习生学到丰富的技能技巧的平台。但是，如果你们都有这种想法的话真是太天真了，我建议还是老老实实考个税务师证吧，不然，我觉得不太能混下去",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "推石头的林律师",
-      "url": "http://www.bilibili.com/video/av117037389055015",
-      "time": "2026-08-04 21:12",
-      "heat": 1063,
-      "discussions": "12",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>其实这个规定是《出境入境管理法》配套行政法规，属于对上位法的细化、补全实操规则，不改变普通公民正常出境权利。所以说收紧出境倒不至于，正常旅游、留学、商务、探亲，都没啥问题。重点还是针对乱象补制度短板，尤其是公职人员违规出境等限制还是比较明确的。</p>",
-      "published_at": "2026-08-04T21:12:26+08:00"
-    },
-    {
-      "id": "7bc3b0bcaee8",
-      "title": "初级会计2027备考《实务》马勇零基础精讲课程第一章第一节：会计基本理论（1）#零基础小白入门初级会计",
-      "summary": "初级会计2027备考《实务》马勇零基础精讲课程第一章第一节：会计基本理论（1）#零基础小白入门初级会计",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "马勇老师讲会计",
-      "url": "http://www.bilibili.com/video/av117279517838185",
-      "time": "2026-09-16 20:00",
-      "heat": 569,
-      "discussions": "13",
+      "author": "漫漫无绝期杞",
+      "url": "http://www.bilibili.com/video/av1050232308",
+      "time": "2024-02-02 11:14",
+      "heat": 1077,
+      "discussions": "47",
       "tags": [
-        "会计",
-        "实务"
+        "税务"
       ],
       "isHot": false,
-      "detail": "<p>初级会计2027备考《实务》马勇零基础精讲课程第一章第一节：会计基本理论（1）#零基础小白入门初级会计</p>",
-      "published_at": "2026-09-16T20:00:00+08:00"
+      "detail": "<p>税务师事务所，在外人眼里是一个好单位，应届毕业生毕业后前程似锦的开始；实习生学到丰富的技能技巧的平台。但是，如果你们都有这种想法的话真是太天真了，我建议还是老老实实考个税务师证吧，不然，我觉得不太能混下去</p>",
+      "published_at": "2024-02-02T11:14:35+08:00"
     },
     {
-      "id": "b9d66e0b2cf8",
-      "title": "中国出入境新规9月15日落地，华人回国与出境将迎来哪些重大调整？",
-      "summary": "-",
+      "id": "3fa2bcdae67e",
+      "title": "电商税税款应该如何计算，有没有靠谱的解决方案",
+      "summary": "电商税税款应该如何计算，有没有靠谱的解决方案",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "明天会更好186",
-      "url": "http://www.bilibili.com/video/av117277471022834",
-      "time": "2026-09-16 06:47",
-      "heat": 519,
-      "discussions": "3",
+      "author": "清风讲师-淘系",
+      "url": "http://www.bilibili.com/video/av115213873449123",
+      "time": "2025-09-17 11:50",
+      "heat": 1020,
+      "discussions": "20",
       "tags": [],
       "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-16T06:47:42+08:00"
+      "detail": "<p>电商税税款应该如何计算，有没有靠谱的解决方案</p>",
+      "published_at": "2025-09-17T11:50:00+08:00"
+    },
+    {
+      "id": "ef100988cdf1",
+      "title": "【税务师·财务与会计】章节多、知识点杂？童小航背诵宝典晨读，帮你抓重点｜已完结（附配套讲义）",
+      "summary": "税务师【财务与会计】备考冲刺考生看过来📖 \n《背诵宝典》专为冲刺阶段打造高效复习指南！ \n依托考生回忆真题，深度剖析近 5 年考题，筛选重复考查 2 次以上核心考点，精准把握命题规律；同步收录本年度教材新增考点，备考不遗漏新内容。 通过表格、重点标注梳理知识点，拒绝盲目通篇背诵。 \n晨读课带大家浓缩考点精华，短时高效复盘，适合日常强化、考前查漏补缺。 \n碎片化时间跟着晨读，牢牢抓住得分要点，从容迎",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "斯尔教育",
+      "url": "http://www.bilibili.com/video/av117013548898405",
+      "time": "2026-07-31 16:09",
+      "heat": 977,
+      "discussions": "7",
+      "tags": [
+        "税务",
+        "会计",
+        "财务"
+      ],
+      "isHot": false,
+      "detail": "<p>税务师【财务与会计】备考冲刺考生看过来📖 \n《背诵宝典》专为冲刺阶段打造高效复习指南！ \n依托考生回忆真题，深度剖析近 5 年考题，筛选重复考查 2 次以上核心考点，精准把握命题规律；同步收录本年度教材新增考点，备考不遗漏新内容。 通过表格、重点标注梳理知识点，拒绝盲目通篇背诵。 \n晨读课带大家浓缩考点精华，短时高效复盘，适合日常强化、考前查漏补缺。 \n碎片化时间跟着晨读，牢牢抓住得分要点，从容迎</p>",
+      "published_at": "2026-07-31T16:09:45+08:00"
     },
     {
       "id": "d1f02af02aba",
@@ -864,6 +582,25 @@
       "published_at": "2018-11-16T13:14:02+08:00"
     },
     {
+      "id": "f0797975f8a1",
+      "title": "会计实操，新开业公司怎么做税务登记！",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "娜姐聊财税带教",
+      "url": "http://www.bilibili.com/video/av115865903171574",
+      "time": "2026-01-09 23:48",
+      "heat": 783,
+      "discussions": "12",
+      "tags": [
+        "税务",
+        "会计"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-01-09T23:48:11+08:00"
+    },
+    {
       "id": "3cfe3cd2154e",
       "title": "2025年中小微企业实用税收筹划方法第一讲（上集）",
       "summary": "2025年中小微企业实用税收筹划方法第一讲（上集）",
@@ -882,54 +619,41 @@
       "published_at": "2025-03-20T15:17:14+08:00"
     },
     {
-      "id": "ac678feb71d9",
-      "title": "9月15出入境新规",
-      "summary": "-",
+      "id": "319e350e2b05",
+      "title": "发票合并打印超级简单，【真】免费",
+      "summary": "被发票合并打印困扰的同学们有福了，这个操作简单易用又免费的工具来解救你！\n资源链接：https://pan.baidu.com/s/13-dzuGuU6MEvzemqoq01Zg?pwd=4fat 提取码: 4fat",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "夯美_海外定制化服务",
-      "url": "http://www.bilibili.com/video/av117262170265256",
-      "time": "2026-09-13 13:57",
-      "heat": 357,
-      "discussions": "7",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-13T13:57:04+08:00"
-    },
-    {
-      "id": "b714b3143e5b",
-      "title": "企业合规师考试直播课：从最高检典型案例看涉案企业合规重点问题p1",
-      "summary": "企业合规师考试网\n企业合规师考试直播课：从最高检典型案例看涉案企业合规重点问题p1",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "企业合规师考试网",
-      "url": "http://www.bilibili.com/video/av382028530",
-      "time": "2022-03-07 12:56",
-      "heat": 570,
-      "discussions": "3",
+      "author": "开心大表哥来啦",
+      "url": "http://www.bilibili.com/video/av113719761700637",
+      "time": "2024-12-26 23:11",
+      "heat": 669,
+      "discussions": "26",
       "tags": [
-        "合规"
+        "发票"
       ],
       "isHot": false,
-      "detail": "<p>企业合规师考试网\n企业合规师考试直播课：从最高检典型案例看涉案企业合规重点问题p1</p>",
-      "published_at": "2022-03-07T12:56:06+08:00"
+      "detail": "<p>被发票合并打印困扰的同学们有福了，这个操作简单易用又免费的工具来解救你！\n资源链接：https://pan.baidu.com/s/13-dzuGuU6MEvzemqoq01Zg?pwd=4fat 提取码: 4fat</p>",
+      "published_at": "2024-12-26T23:11:43+08:00"
     },
     {
-      "id": "d0d29a28be17",
-      "title": "普通人出国变难了？9月15日新规落地，只有这几类人受影响",
-      "summary": "出入境新规落地，不是限制正常出行，而是要筑牢国门更有序。",
+      "id": "0a101bd28722",
+      "title": "盘点近期税收新规",
+      "summary": "盘点近期税收新规①地方附加税；②非应税交易；③上市公司限售股；④外籍个人股息红利；⑤代扣代缴自然人增值税；⑥完善商品住房现房销售；⑦对电池产品分步征收消费税；⑧征管法修订草案地方地方附加税地方附加税附加税",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "照理说事",
-      "url": "http://www.bilibili.com/video/av117251684435532",
-      "time": "2026-09-11 17:28",
-      "heat": 315,
-      "discussions": "0",
-      "tags": [],
+      "author": "懂点税",
+      "url": "http://www.bilibili.com/video/av117240359820561",
+      "time": "2026-09-09 18:50",
+      "heat": 362,
+      "discussions": "13",
+      "tags": [
+        "税收",
+        "增值税"
+      ],
       "isHot": false,
-      "detail": "<p>出入境新规落地，不是限制正常出行，而是要筑牢国门更有序。</p>",
-      "published_at": "2026-09-11T17:28:35+08:00"
+      "detail": "<p>盘点近期税收新规①地方附加税；②非应税交易；③上市公司限售股；④外籍个人股息红利；⑤代扣代缴自然人增值税；⑥完善商品住房现房销售；⑦对电池产品分步征收消费税；⑧征管法修订草案地方地方附加税地方附加税附加税</p>",
+      "published_at": "2026-09-09T18:50:00+08:00"
     },
     {
       "id": "a63287956acc",
@@ -971,6 +695,24 @@
       "published_at": "2017-02-25T23:32:54+08:00"
     },
     {
+      "id": "296638630a7f",
+      "title": "用Budibase 创建业务应用APP",
+      "summary": "用开源免费软件Budibase 管理企业进项报销发票，集成其他企业业务系统，实现企业数智化管理，改善个人工作效率和组织协同。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "观海91",
+      "url": "http://www.bilibili.com/video/av112744116325400",
+      "time": "2024-07-07 15:59",
+      "heat": 358,
+      "discussions": "3",
+      "tags": [
+        "发票"
+      ],
+      "isHot": false,
+      "detail": "<p>用开源免费软件Budibase 管理企业进项报销发票，集成其他企业业务系统，实现企业数智化管理，改善个人工作效率和组织协同。</p>",
+      "published_at": "2024-07-07T15:59:05+08:00"
+    },
+    {
       "id": "2cfff308ced3",
       "title": "2025年3月企业合规师考试：《财税合规基础知识 》第一章 绪论",
       "summary": "2025年3月企业合规师职业能力水平考试，合规研学社督学班视频课件，更多备考资料请联系班长进督学群。",
@@ -988,24 +730,6 @@
       "isHot": false,
       "detail": "<p>2025年3月企业合规师职业能力水平考试，合规研学社督学班视频课件，更多备考资料请联系班长进督学群。</p>",
       "published_at": "2024-12-08T23:52:25+08:00"
-    },
-    {
-      "id": "c7b058308914",
-      "title": "一带一路金砖第四届业财税融合大数据与生成式AI应用",
-      "summary": "后续内容看我主页课堂",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "清风流水QAQ",
-      "url": "http://www.bilibili.com/video/av114397007583898",
-      "time": "2025-04-25 13:46",
-      "heat": 320,
-      "discussions": "11",
-      "tags": [
-        "财税"
-      ],
-      "isHot": false,
-      "detail": "<p>后续内容看我主页课堂</p>",
-      "published_at": "2025-04-25T13:46:34+08:00"
     },
     {
       "id": "2de8ea397af8",
@@ -1028,42 +752,42 @@
       "published_at": "2026-09-18T10:40:26+08:00"
     },
     {
-      "id": "368d2d01fedb",
-      "title": "总分公司汇总缴纳企业所得税备案及分公司汇算清缴申报办法#企业所得税 #总分公司 #合并报表 #税务小知识",
-      "summary": "-",
+      "id": "1858310b49b1",
+      "title": "【会计实操】总分公司的涉税处理及税收筹划策略：什么是分公司独立核算与非独立核算？",
+      "summary": "【财会成长学苑】\n总分公司的涉税处理及税收筹划策略\n1、什么是分公司独立核算与非独立核算？\n2、总分公司增值税及企业所得税涉税分析\n3、总分公司人员委派社保个税筹划策略\n讲义领取可加V：youxiaochi01\n#会计实操 #财税干货",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "喀什润物会计培训",
-      "url": "http://www.bilibili.com/video/av114342984944495",
-      "time": "2025-04-16 00:49",
-      "heat": 300,
-      "discussions": "1",
+      "author": "财会成长学苑",
+      "url": "http://www.bilibili.com/video/av208270259",
+      "time": "2021-10-07 14:00",
+      "heat": 303,
+      "discussions": "3",
       "tags": [
-        "税务",
-        "所得税",
-        "申报"
+        "税收",
+        "财税",
+        "会计"
       ],
       "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2025-04-16T00:49:05+08:00"
+      "detail": "<p>【财会成长学苑】\n总分公司的涉税处理及税收筹划策略\n1、什么是分公司独立核算与非独立核算？\n2、总分公司增值税及企业所得税涉税分析\n3、总分公司人员委派社保个税筹划策略\n讲义领取可加V：youxiaochi01\n#会计实操 #财税干货</p>",
+      "published_at": "2021-10-07T14:00:09+08:00"
     },
     {
-      "id": "28fa7f65e477",
-      "title": "邓金华：公司经营法律风险与合规指引",
-      "summary": "邓金华：公司经营法律风险与合规指引",
+      "id": "5282905757a5",
+      "title": "免费零代码！用飞书多维表格和kimi搭建发票管理系统",
+      "summary": "还在手动处理发票？今天教你用飞书多维表格 + AI 工具 Kimi，10 分钟搭建全自动报销系统！✨\n✅ 批量上传秒提取：导入发票图片，Kimi 自动识别开票日期、金额、税率等信息，精准度超高！\n✅ 智能公式算数据：文本金额一键转数字，自动计算含税 / 不含税金额，告别手动计算错误！\n✅ 团队协作超轻松：分享表格给同事，上传信息实时同步，行政再也不用催单～\n✅ 定时提醒不遗漏：设置每月报销闹钟，系",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "法师小帮手",
-      "url": "http://www.bilibili.com/video/av115785523601082",
-      "time": "2025-12-26 19:20",
-      "heat": 283,
-      "discussions": "1",
+      "author": "六六AI研究所",
+      "url": "http://www.bilibili.com/video/av114529128153163",
+      "time": "2025-05-18 21:45",
+      "heat": 297,
+      "discussions": "3",
       "tags": [
-        "合规"
+        "发票"
       ],
       "isHot": false,
-      "detail": "<p>邓金华：公司经营法律风险与合规指引</p>",
-      "published_at": "2025-12-26T19:20:35+08:00"
+      "detail": "<p>还在手动处理发票？今天教你用飞书多维表格 + AI 工具 Kimi，10 分钟搭建全自动报销系统！✨\n✅ 批量上传秒提取：导入发票图片，Kimi 自动识别开票日期、金额、税率等信息，精准度超高！\n✅ 智能公式算数据：文本金额一键转数字，自动计算含税 / 不含税金额，告别手动计算错误！\n✅ 团队协作超轻松：分享表格给同事，上传信息实时同步，行政再也不用催单～\n✅ 定时提醒不遗漏：设置每月报销闹钟，系</p>",
+      "published_at": "2025-05-18T21:45:16+08:00"
     },
     {
       "id": "6339e6f5f552",
@@ -1074,7 +798,7 @@
       "author": "1620谷爱凌",
       "url": "http://www.bilibili.com/video/av117097417938966",
       "time": "2026-08-15 12:29",
-      "heat": 281,
+      "heat": 286,
       "discussions": "2",
       "tags": [
         "税务",
@@ -1094,7 +818,7 @@
       "author": "账号已注销",
       "url": "http://www.bilibili.com/video/av115582519222125",
       "time": "2025-11-20 22:49",
-      "heat": 243,
+      "heat": 244,
       "discussions": "0",
       "tags": [
         "财税",
@@ -1105,25 +829,6 @@
       "published_at": "2025-11-20T22:49:11+08:00"
     },
     {
-      "id": "730aa1e1ac90",
-      "title": "初级会计2027备考《实务》马勇零基础精讲课程第一章第一节：会计核算基础#零基础小白入门初级会计",
-      "summary": "初级会计2027备考《实务》马勇零基础精讲课程第一章第一节：会计核算基础#零基础小白入门初级会计",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "马勇老师讲会计",
-      "url": "http://www.bilibili.com/video/av117285121426225",
-      "time": "2026-09-18 20:00",
-      "heat": 117,
-      "discussions": "0",
-      "tags": [
-        "会计",
-        "实务"
-      ],
-      "isHot": false,
-      "detail": "<p>初级会计2027备考《实务》马勇零基础精讲课程第一章第一节：会计核算基础#零基础小白入门初级会计</p>",
-      "published_at": "2026-09-18T20:00:00+08:00"
-    },
-    {
       "id": "c85075ab66e4",
       "title": "【30天学完】2027零基础学会计/初级/会计实务/会计基础/会计实务/经济法基础/会计实操",
       "summary": "【30天学完】2027零基础学会计/初级/会计实务/会计基础/会计实务/经济法基础/会计实操",
@@ -1132,7 +837,7 @@
       "author": "文职上岸笔记",
       "url": "http://www.bilibili.com/video/av117280021223491",
       "time": "2026-09-16 17:52",
-      "heat": 116,
+      "heat": 134,
       "discussions": "1",
       "tags": [
         "会计",
@@ -1163,75 +868,6 @@
       "published_at": "2023-10-14T18:50:30+08:00"
     },
     {
-      "id": "07cfdff2a64f",
-      "title": "9月出入境新规解读，对普通人有影响吗？",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "艾伦老师是也",
-      "url": "http://www.bilibili.com/video/av117189155756284",
-      "time": "2026-08-31 16:29",
-      "heat": 148,
-      "discussions": "0",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-08-31T16:29:51+08:00"
-    },
-    {
-      "id": "db8f6f31f4e0",
-      "title": "出入境管理处 宣传片",
-      "summary": "出入境管理处 宣传片",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "MT_C_M",
-      "url": "http://www.bilibili.com/video/av380376992",
-      "time": "2022-01-04 16:01",
-      "heat": 193,
-      "discussions": "3",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>出入境管理处 宣传片</p>",
-      "published_at": "2022-01-04T16:01:11+08:00"
-    },
-    {
-      "id": "fc1054378425",
-      "title": "2026跨境电商财务实操课程+跨境多平台财务实操营",
-      "summary": "2026跨境电商财务实操课程+跨境多平台财务实操营",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "学霸动画知识课堂",
-      "url": "http://www.bilibili.com/video/av117228515235424",
-      "time": "2026-09-07 15:19",
-      "heat": 122,
-      "discussions": "0",
-      "tags": [
-        "财务"
-      ],
-      "isHot": false,
-      "detail": "<p>2026跨境电商财务实操课程+跨境多平台财务实操营</p>",
-      "published_at": "2026-09-07T15:19:49+08:00"
-    },
-    {
-      "id": "6c50f7e0d13e",
-      "title": "《中级财务会计》0基础速成 补考救急/期末考试速成资源 /考研基础复习/期末复习 通俗易懂",
-      "summary": "免费讲义见：弓重耗“GUO期末不挂科”，回复“讲义”获取！",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "一只淮南的橘子",
-      "url": "http://www.bilibili.com/video/av117258596654073",
-      "time": "2026-09-12 22:48",
-      "heat": 110,
-      "discussions": "2",
-      "tags": [
-        "会计",
-        "财务"
-      ],
-      "isHot": false,
-      "detail": "<p>免费讲义见：弓重耗“GUO期末不挂科”，回复“讲义”获取！</p>",
-      "published_at": "2026-09-12T22:48:55+08:00"
-    },
-    {
       "id": "c52f8fe57beb",
       "title": "利用设立分公司和子公司进行税务筹划",
       "summary": "利用设立分公司和子公司进行税务筹划",
@@ -1258,7 +894,7 @@
       "author": "慧识学堂",
       "url": "http://www.bilibili.com/video/av117205329057373",
       "time": "2026-09-03 13:00",
-      "heat": 127,
+      "heat": 128,
       "discussions": "1",
       "tags": [
         "合规"
@@ -1268,103 +904,112 @@
       "published_at": "2026-09-03T13:00:36+08:00"
     },
     {
-      "id": "1d5493ebfaa2",
-      "title": "出入境管理MG动画",
-      "summary": "出入境管理MG动画",
+      "id": "1e05028f4da6",
+      "title": "《中华人民共和国发票管理办法》全文 读法条",
+      "summary": "中华人民共和国发票管理办法\n根据2023年7月20日《国务院关于修改和废止部分行政法规的决定》第三次修订）\n施行日期：2023-07-20\n公布日期：2023-07-20",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "承接商业动画",
-      "url": "http://www.bilibili.com/video/av472284602",
-      "time": "2022-09-02 12:49",
-      "heat": 173,
-      "discussions": "1",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>出入境管理MG动画</p>",
-      "published_at": "2022-09-02T12:49:00+08:00"
-    },
-    {
-      "id": "97dca4810017",
-      "title": "2026出境新规改变了什么 普通人需要担心吗",
-      "summary": "最近，新的出境管理规定引发讨论。\n 很多人关心：\n以后普通人还能不能正常出国？\n本期视频不讨论简单的情绪判断，而是从普通人的角度分析：\n这项规定到底改变了什么？\n哪些人可能受到影响？\n未来中国人的跨境流动会出现什么变化？\n希望通过理性分析，帮助大家理解这项政策背后的逻辑。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "解读君说",
-      "url": "http://www.bilibili.com/video/av117085472563155",
-      "time": "2026-08-13 18:30",
-      "heat": 133,
-      "discussions": "14",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>最近，新的出境管理规定引发讨论。\n 很多人关心：\n以后普通人还能不能正常出国？\n本期视频不讨论简单的情绪判断，而是从普通人的角度分析：\n这项规定到底改变了什么？\n哪些人可能受到影响？\n未来中国人的跨境流动会出现什么变化？\n希望通过理性分析，帮助大家理解这项政策背后的逻辑。</p>",
-      "published_at": "2026-08-13T18:30:00+08:00"
-    },
-    {
-      "id": "2a4a196c1f71",
-      "title": "9月15日出境新规：普通人真的会更难出国吗？",
-      "summary": "9月15日起，《国务院关于出境入境管理的规定》正式施行。网上“普通人以后更难出境”的说法，容易把针对高风险目的地、虚假非法出境和特定违法情形的管理，扩大成全民限制。\n\n这条视频用1分43秒讲清三个真正变化：高风险目的地提醒、申请事由真实性、不准出境情形的进一步完善；最后给出一套“四查法”，以后看到“政策全面收紧”先判断它到底管不管你。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "认知拆解",
-      "url": "http://www.bilibili.com/video/av117269317289613",
-      "time": "2026-09-14 20:12",
-      "heat": 78,
+      "author": "阿拉小明",
+      "url": "http://www.bilibili.com/video/av665656471",
+      "time": "2024-01-02 19:00",
+      "heat": 135,
       "discussions": "0",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>9月15日起，《国务院关于出境入境管理的规定》正式施行。网上“普通人以后更难出境”的说法，容易把针对高风险目的地、虚假非法出境和特定违法情形的管理，扩大成全民限制。\n\n这条视频用1分43秒讲清三个真正变化：高风险目的地提醒、申请事由真实性、不准出境情形的进一步完善；最后给出一套“四查法”，以后看到“政策全面收紧”先判断它到底管不管你。</p>",
-      "published_at": "2026-09-14T20:12:12+08:00"
-    },
-    {
-      "id": "3c92d63479ed",
-      "title": "出入境新规背后，真正值得关注的是什么",
-      "summary": "出入境新规背后，真正值得关注的是什么",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "草台班子大统领",
-      "url": "http://www.bilibili.com/video/av117098072247660",
-      "time": "2026-09-01 20:00",
-      "heat": 89,
-      "discussions": "0",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>出入境新规背后，真正值得关注的是什么</p>",
-      "published_at": "2026-09-01T20:00:00+08:00"
-    },
-    {
-      "id": "9bb7f91373ca",
-      "title": "841号令出入境新规解读详细版",
-      "summary": "国务院841号新规落地，对正常出国没有影响。今天正好坐下来跟大家聊得更细一点。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "安拙赴德",
-      "url": "http://www.bilibili.com/video/av117121694700817",
-      "time": "2026-08-19 18:36",
-      "heat": 115,
-      "discussions": "2",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>国务院841号新规落地，对正常出国没有影响。今天正好坐下来跟大家聊得更细一点。</p>",
-      "published_at": "2026-08-19T18:36:51+08:00"
-    },
-    {
-      "id": "a3cfee0ea334",
-      "title": "企业合规实务专题课",
-      "summary": "企业合规实务专题课",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "会计学习吧",
-      "url": "http://www.bilibili.com/video/av113588580916009",
-      "time": "2024-12-03 19:13",
-      "heat": 114,
-      "discussions": "1",
       "tags": [
-        "实务",
-        "合规"
+        "发票"
       ],
       "isHot": false,
-      "detail": "<p>企业合规实务专题课</p>",
-      "published_at": "2024-12-03T19:13:35+08:00"
+      "detail": "<p>中华人民共和国发票管理办法\n根据2023年7月20日《国务院关于修改和废止部分行政法规的决定》第三次修订）\n施行日期：2023-07-20\n公布日期：2023-07-20</p>",
+      "published_at": "2024-01-02T19:00:00+08:00"
+    },
+    {
+      "id": "7e22a959f937",
+      "title": "新注册公司票种核定（首次申领发票）自助流程#发票 #票种核定 #领票 #新注册公司 #数电票",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "喀什润物会计培训",
+      "url": "http://www.bilibili.com/video/av115724219647915",
+      "time": "2025-12-15 23:17",
+      "heat": 125,
+      "discussions": "1",
+      "tags": [
+        "发票"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2025-12-15T23:17:08+08:00"
+    },
+    {
+      "id": "d053ea438e61",
+      "title": "发票管理系统更新",
+      "summary": "本系统用于企业管理进项发票，可以实现以下功能\n1、利用二维码快速录入发票\n2、发票自动核验，有效防止假票\n3、发票查重，防止重复报销\n4、发票档案管理，用于发票的备查",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "oldxwolf",
+      "url": "http://www.bilibili.com/video/av666434234",
+      "time": "2024-01-19 15:29",
+      "heat": 113,
+      "discussions": "5",
+      "tags": [
+        "发票"
+      ],
+      "isHot": false,
+      "detail": "<p>本系统用于企业管理进项发票，可以实现以下功能\n1、利用二维码快速录入发票\n2、发票自动核验，有效防止假票\n3、发票查重，防止重复报销\n4、发票档案管理，用于发票的备查</p>",
+      "published_at": "2024-01-19T15:29:21+08:00"
+    },
+    {
+      "id": "72b763987dd1",
+      "title": "避免发票重复报销的发票管理系统",
+      "summary": "避免发票重复报销的发票管理系统",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "green-2022",
+      "url": "http://www.bilibili.com/video/av533047139",
+      "time": "2023-09-03 20:21",
+      "heat": 97,
+      "discussions": "12",
+      "tags": [
+        "发票"
+      ],
+      "isHot": false,
+      "detail": "<p>避免发票重复报销的发票管理系统</p>",
+      "published_at": "2023-09-03T20:21:00+08:00"
+    },
+    {
+      "id": "9d177b49d9bd",
+      "title": "发票盒子APP｜打工人/报销人必备！智能收集发票+自动生成报销单+合并打印发票，这个发票管理工具也太香了吧！",
+      "summary": "发票满天飞？报销单难填？打印格式总出错？\n打工人救星来了！「发票盒子APP」一站式解决发票难题~\n\n智能收集：自动归集微信、邮箱的电子发票，告别手动保存\n一键报销：自动生成标准报销单，告别手动制表\n合并打印：多张发票智能排版到一张纸，省纸省事\n\n操作简单，早用早享受，赶紧体验~",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "发票盒子APP",
+      "url": "http://www.bilibili.com/video/av115778560989712",
+      "time": "2025-12-25 13:31",
+      "heat": 78,
+      "discussions": "2",
+      "tags": [
+        "发票"
+      ],
+      "isHot": false,
+      "detail": "<p>发票满天飞？报销单难填？打印格式总出错？\n打工人救星来了！「发票盒子APP」一站式解决发票难题~\n\n智能收集：自动归集微信、邮箱的电子发票，告别手动保存\n一键报销：自动生成标准报销单，告别手动制表\n合并打印：多张发票智能排版到一张纸，省纸省事\n\n操作简单，早用早享受，赶紧体验~</p>",
+      "published_at": "2025-12-25T13:31:03+08:00"
+    },
+    {
+      "id": "9aae26ce4bf2",
+      "title": "中源财税企业宣传片",
+      "summary": "中源的宣传片来啦~",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "中源财税",
+      "url": "http://www.bilibili.com/video/av846266417",
+      "time": "2021-06-23 16:48",
+      "heat": 76,
+      "discussions": "0",
+      "tags": [
+        "财税"
+      ],
+      "isHot": false,
+      "detail": "<p>中源的宣传片来啦~</p>",
+      "published_at": "2021-06-23T16:48:26+08:00"
     },
     {
       "id": "e892b62c82da",
@@ -1375,7 +1020,7 @@
       "author": "考必过az",
       "url": "http://www.bilibili.com/video/av117178787431113",
       "time": "2026-09-13 20:27",
-      "heat": 41,
+      "heat": 44,
       "discussions": "0",
       "tags": [
         "会计",
@@ -1404,6 +1049,44 @@
       "published_at": "2025-10-28T12:23:20+08:00"
     },
     {
+      "id": "0f598325f76a",
+      "title": "税务筹划系列课程（七）-企业设立时的税收筹划",
+      "summary": "税收筹划是企业财务管理的核心技能之一。在遵守税法的前提下，合理降低税负，优化税收结构，是每个企业都需要面对的挑战。本课程将带你了解税收筹划的基本原则和方法，包括税收优惠政策的利用、税收风险管理等。通过本课程，你将能够掌握税收筹划的技巧和策略，为企业的财务健康和可持续发展贡献力量。加入我们的课程，一起探索税收筹划的奥秘，让企业在合规的前提下实现税收优化。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "道合智行",
+      "url": "http://www.bilibili.com/video/av113582759089986",
+      "time": "2024-12-02 18:30",
+      "heat": 50,
+      "discussions": "0",
+      "tags": [
+        "税收",
+        "税务",
+        "税法"
+      ],
+      "isHot": false,
+      "detail": "<p>税收筹划是企业财务管理的核心技能之一。在遵守税法的前提下，合理降低税负，优化税收结构，是每个企业都需要面对的挑战。本课程将带你了解税收筹划的基本原则和方法，包括税收优惠政策的利用、税收风险管理等。通过本课程，你将能够掌握税收筹划的技巧和策略，为企业的财务健康和可持续发展贡献力量。加入我们的课程，一起探索税收筹划的奥秘，让企业在合规的前提下实现税收优化。</p>",
+      "published_at": "2024-12-02T18:30:50+08:00"
+    },
+    {
+      "id": "4a83f8bc4173",
+      "title": "全自动登记发票信息到excel表格#发票管理表格 #发票管理系统 #发票怎么开 #发票登记表 #发票台账",
+      "summary": "全自动登记发票信息到excel表格#发票管理表格 #发票管理系统 #发票怎么开 #发票登记表 #发票台账",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "green-2022",
+      "url": "http://www.bilibili.com/video/av115876690926263",
+      "time": "2026-01-11 21:32",
+      "heat": 44,
+      "discussions": "3",
+      "tags": [
+        "发票"
+      ],
+      "isHot": false,
+      "detail": "<p>全自动登记发票信息到excel表格#发票管理表格 #发票管理系统 #发票怎么开 #发票登记表 #发票台账</p>",
+      "published_at": "2026-01-11T21:32:09+08:00"
+    },
+    {
       "id": "34e2a1a68cab",
       "title": "财务会计实务 第五5版 高丽萍 PDF 电子版下载 详情见简介",
       "summary": "#我们都爱搞学习#创作灵感 \n链接: https://pan.baidu.com/s/1S0lUvSiaI6xtRitbwow_bQ?pwd=xh3n 提取码: xh3n\n小额有偿介意勿扰",
@@ -1424,75 +1107,22 @@
       "published_at": "2026-04-19T09:26:23+08:00"
     },
     {
-      "id": "27d61defc82d",
-      "title": "第十六讲 企业生产环节的税务筹划",
-      "summary": "聚焦企业生产环节的税务筹划，合理生产业务布局，有效降低税负",
+      "id": "93138f042555",
+      "title": "发票管理办法实施细则，新增风险与系统性的优化（二）",
+      "summary": "发票管理办法实施细则，新增风险与系统性的优化（二）",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "财法价值圈",
-      "url": "http://www.bilibili.com/video/av115864712056604",
-      "time": "2026-01-09 18:44",
-      "heat": 35,
-      "discussions": "0",
-      "tags": [
-        "税务"
-      ],
-      "isHot": false,
-      "detail": "<p>聚焦企业生产环节的税务筹划，合理生产业务布局，有效降低税负</p>",
-      "published_at": "2026-01-09T18:44:06+08:00"
-    },
-    {
-      "id": "c2f8274fefde",
-      "title": "GI-202628｜出入境管理新规深度解读。",
-      "summary": "Hello，大家好，我是中加达-leo；\n2026年7月31日，国务院公布了一部重磅法规——《关于出境入境管理的规定》，国令第841号，9月15日正式施行。这部法规一共19条，是2013年《出境入境管理法》出台以来，出入境领域最重要的配套行政法规。今天这期的内容，我想尽量讲清楚三件事：新规说了什么、对移民中介公司意味着什么、对准备办移民的家庭又有什么影响。内容比较重要，建议可以收藏。\n \n首先这部",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "中加达出国_Leo",
-      "url": "http://www.bilibili.com/video/av117098542077592",
-      "time": "2026-08-15 16:31",
-      "heat": 31,
-      "discussions": "0",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>Hello，大家好，我是中加达-leo；\n2026年7月31日，国务院公布了一部重磅法规——《关于出境入境管理的规定》，国令第841号，9月15日正式施行。这部法规一共19条，是2013年《出境入境管理法》出台以来，出入境领域最重要的配套行政法规。今天这期的内容，我想尽量讲清楚三件事：新规说了什么、对移民中介公司意味着什么、对准备办移民的家庭又有什么影响。内容比较重要，建议可以收藏。\n \n首先这部</p>",
-      "published_at": "2026-08-15T16:31:13+08:00"
-    },
-    {
-      "id": "dfc1dd414f3c",
-      "title": "温洁老师《新公司法下，企业税务原罪化解之道及合规建设》",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "数字化转型与数据分析",
-      "url": "http://www.bilibili.com/video/av1254812919",
-      "time": "2024-05-24 17:48",
-      "heat": 30,
-      "discussions": "0",
-      "tags": [
-        "税务",
-        "合规"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2024-05-24T17:48:04+08:00"
-    },
-    {
-      "id": "9b8621d1f32d",
-      "title": "电商全合规方案路径解析和问题解决",
-      "summary": "电商全合规方案路径解析和问题解决",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "晓涛聊电商财税",
-      "url": "http://www.bilibili.com/video/av116464849853785",
-      "time": "2026-04-25 20:20",
+      "author": "简言帐务",
+      "url": "http://www.bilibili.com/video/av1150229682",
+      "time": "2024-02-02 18:29",
       "heat": 25,
       "discussions": "0",
       "tags": [
-        "合规"
+        "发票"
       ],
       "isHot": false,
-      "detail": "<p>电商全合规方案路径解析和问题解决</p>",
-      "published_at": "2026-04-25T20:20:00+08:00"
+      "detail": "<p>发票管理办法实施细则，新增风险与系统性的优化（二）</p>",
+      "published_at": "2024-02-02T18:29:43+08:00"
     },
     {
       "id": "43ca3c1e6b36",
@@ -1503,7 +1133,7 @@
       "author": "你好-我不是肖战",
       "url": "http://www.bilibili.com/video/av117234840110975",
       "time": "2026-09-08 18:04",
-      "heat": 15,
+      "heat": 16,
       "discussions": "0",
       "tags": [
         "税务",
@@ -1512,6 +1142,45 @@
       "isHot": false,
       "detail": "<p>跨境电商税务合规100问</p>",
       "published_at": "2026-09-08T18:04:45+08:00"
+    },
+    {
+      "id": "ce881f754277",
+      "title": "2026油气开采业：税种、优惠及筹划解读",
+      "summary": "2026年石油天然气开采业核心涉税重点是4大税种、行业专属优惠及合规筹划。企业需精准掌握各税种计税规则，充分适配优惠政策，规范成本核算与关联交易，在合规前提下开展筹划，既降低税负，又规避税务风险，保障企业稳健运营。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "坚果财税",
+      "url": "http://www.bilibili.com/video/av117227089102335",
+      "time": "2026-09-09 20:15",
+      "heat": 15,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "合规"
+      ],
+      "isHot": false,
+      "detail": "<p>2026年石油天然气开采业核心涉税重点是4大税种、行业专属优惠及合规筹划。企业需精准掌握各税种计税规则，充分适配优惠政策，规范成本核算与关联交易，在合规前提下开展筹划，既降低税负，又规避税务风险，保障企业稳健运营。</p>",
+      "published_at": "2026-09-09T20:15:00+08:00"
+    },
+    {
+      "id": "c55359dfb15f",
+      "title": "2026注册税务师-财务与会计冯雅竹-基础精讲班(有讲义)",
+      "summary": "2026注册税务师-财务与会计冯雅竹-基础精讲班(有讲义)",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "爱喝蒙牛的奶龙",
+      "url": "http://www.bilibili.com/video/av117272437918437",
+      "time": "2026-09-15 09:28",
+      "heat": 13,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "会计",
+        "财务"
+      ],
+      "isHot": false,
+      "detail": "<p>2026注册税务师-财务与会计冯雅竹-基础精讲班(有讲义)</p>",
+      "published_at": "2026-09-15T09:28:41+08:00"
     },
     {
       "id": "e0f70e860381",
@@ -1534,26 +1203,6 @@
       "published_at": "2026-09-16T15:00:39+08:00"
     },
     {
-      "id": "f5d924a7187e",
-      "title": "以数治税背景下的企业财税管控体系搭建与税务合规",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "业法财税学院",
-      "url": "http://www.bilibili.com/video/av117258009511882",
-      "time": "2026-09-12 20:18",
-      "heat": 9,
-      "discussions": "0",
-      "tags": [
-        "税务",
-        "财税",
-        "合规"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-12T20:18:55+08:00"
-    },
-    {
       "id": "1912b8189087",
       "title": "2026燃气企业税与惠筹划手册",
       "summary": "2026年燃气生产和供应业的核心税务关键词是：进口退税延续，即征即退分化，小企业红利不变，政策变化需提前应对。进口天然气增值税先征后返政策延续至2030年，为相关企业提供长期稳定的现金流支持。但煤层气和煤制天然气的即征即退政策已经取消，直接影响企业利润。小型微利企业所得税优惠延续至2027年底，是绝大多数中小型燃气生产和供应企业最为直接的减负通道。建议企业在守住合规底线的前提下，聚焦进口退税、小微",
@@ -1574,23 +1223,24 @@
       "published_at": "2026-08-28T20:08:00+08:00"
     },
     {
-      "id": "c49f1c4dd515",
-      "title": "印刷复制业 2026 年税费优惠及合规税收筹划全解",
-      "summary": "2026年印刷和记录媒介复制业企业，应全面掌握全税种缴纳规则，用好小微企业、研发加计扣除、环保设备抵免等政策，从采购到销售全流程合规筹划，严控涉税风险，切实降低企业综合税负。",
+      "id": "1e2a8558500e",
+      "title": "和创企赢财税集团介绍",
+      "summary": "和创企赢财税集团创立于2010年，是深圳市龙岗区财税服务行业协会发起单位及会长单位。深耕财税服务行业十六载，是国内专注行业细分赛道，极具品牌影响力的高端财税服务集团。\n\t集团秉持“诚信为本、专业第一”的核心价值观，革新传统粗放型财税服务模式，聚焦各行业经营特性与发展需求，为企业定制专业化、精细化、全维度的财税合规解决方案。依托完善的业务结构，设立七大核心业务板块，覆盖全品类财税服务需求：\n\t跨境电",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "坚果财税",
-      "url": "http://www.bilibili.com/video/av117272454629580",
-      "time": "2026-09-17 20:32",
-      "heat": 6,
+      "author": "和创企赢财税",
+      "url": "http://www.bilibili.com/video/av117136676621772",
+      "time": "2026-08-22 10:01",
+      "heat": 10,
       "discussions": "0",
       "tags": [
-        "税收",
+        "财税",
+        "财务",
         "合规"
       ],
       "isHot": false,
-      "detail": "<p>2026年印刷和记录媒介复制业企业，应全面掌握全税种缴纳规则，用好小微企业、研发加计扣除、环保设备抵免等政策，从采购到销售全流程合规筹划，严控涉税风险，切实降低企业综合税负。</p>",
-      "published_at": "2026-09-17T20:32:00+08:00"
+      "detail": "<p>和创企赢财税集团创立于2010年，是深圳市龙岗区财税服务行业协会发起单位及会长单位。深耕财税服务行业十六载，是国内专注行业细分赛道，极具品牌影响力的高端财税服务集团。\n\t集团秉持“诚信为本、专业第一”的核心价值观，革新传统粗放型财税服务模式，聚焦各行业经营特性与发展需求，为企业定制专业化、精细化、全维度的财税合规解决方案。依托完善的业务结构，设立七大核心业务板块，覆盖全品类财税服务需求：\n\t跨境电</p>",
+      "published_at": "2026-08-22T10:01:41+08:00"
     },
     {
       "id": "06397436d6dc",
@@ -1613,6 +1263,42 @@
       "published_at": "2026-09-16T10:34:08+08:00"
     },
     {
+      "id": "10ac5a4151d6",
+      "title": "考呀呀｜第七章 知识点3：凭证、账簿管理和发票管理",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "糖糖ttsw",
+      "url": "http://www.bilibili.com/video/av112915109646251",
+      "time": "2024-08-06 20:43",
+      "heat": 10,
+      "discussions": "0",
+      "tags": [
+        "发票"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2024-08-06T20:43:45+08:00"
+    },
+    {
+      "id": "699a766e26c8",
+      "title": "泛微.业票通-数智化发票管理平台",
+      "summary": "泛微.业票通-数智化发票管理平台",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "泛微网络官方账号",
+      "url": "http://www.bilibili.com/video/av113665755841284",
+      "time": "2024-12-17 10:18",
+      "heat": 9,
+      "discussions": "0",
+      "tags": [
+        "发票"
+      ],
+      "isHot": false,
+      "detail": "<p>泛微.业票通-数智化发票管理平台</p>",
+      "published_at": "2024-12-17T10:18:40+08:00"
+    },
+    {
       "id": "7c84b0744002",
       "title": "03企业财税合规管理",
       "summary": "介绍财税合规管理目标、要求、及财税合规体系建设注意问题。",
@@ -1630,6 +1316,24 @@
       "isHot": false,
       "detail": "<p>介绍财税合规管理目标、要求、及财税合规体系建设注意问题。</p>",
       "published_at": "2024-07-22T20:36:43+08:00"
+    },
+    {
+      "id": "31eeaed6ddc7",
+      "title": "新版申报中未开票如何填报等互动答疑",
+      "summary": "新版申报中未开票如何填报等互动答疑",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "风雪韵梅",
+      "url": "http://www.bilibili.com/video/av117286329388132",
+      "time": "2026-09-17 20:19",
+      "heat": 5,
+      "discussions": "0",
+      "tags": [
+        "申报"
+      ],
+      "isHot": false,
+      "detail": "<p>新版申报中未开票如何填报等互动答疑</p>",
+      "published_at": "2026-09-17T20:19:19+08:00"
     },
     {
       "id": "2012f5c06a66",
@@ -1651,39 +1355,42 @@
       "published_at": "2026-08-12T13:51:47+08:00"
     },
     {
-      "id": "f483ecc923cf",
-      "title": "9月15日出入境新规落地！不止管控出境，海外买房渠道要变天？",
-      "summary": "9月15日起，国务院《出境入境管理新规》正式施行，共19条。很多人以为出国要收紧，其实还藏着海外房产信号。\n\n新规加强出境管理，劝阻高风险目的地，同时优化普通旅客通关和留学生出境手续。重点严控黑中介假材料、电诈偷渡、公职违规办证。\n\n以前不少人出国看房买房靠中介包办材料，如今这条路被卡住。尤其新加坡，中国客户一直是高档私宅最大海外买家，而带看房、购房的中介服务属出入境中介范畴。新规下，海外房产中介",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "河南山河商贸",
-      "url": "http://www.bilibili.com/video/av117275390646413",
-      "time": "2026-09-15 21:57",
-      "heat": 4,
-      "discussions": "0",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>9月15日起，国务院《出境入境管理新规》正式施行，共19条。很多人以为出国要收紧，其实还藏着海外房产信号。\n\n新规加强出境管理，劝阻高风险目的地，同时优化普通旅客通关和留学生出境手续。重点严控黑中介假材料、电诈偷渡、公职违规办证。\n\n以前不少人出国看房买房靠中介包办材料，如今这条路被卡住。尤其新加坡，中国客户一直是高档私宅最大海外买家，而带看房、购房的中介服务属出入境中介范畴。新规下，海外房产中介</p>",
-      "published_at": "2026-09-15T21:57:37+08:00"
-    },
-    {
-      "id": "6334e2a1a72b",
-      "title": "税务合规计划案例第62招",
+      "id": "63c2b2752cc1",
+      "title": "第0201讲会计账务处理程序",
       "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "甬税无忧法律服务团队",
-      "url": "http://www.bilibili.com/video/av117232692627709",
-      "time": "2026-09-08 09:00",
+      "author": "鸡毛的财会码头",
+      "url": "http://www.bilibili.com/video/av117280273014319",
+      "time": "2026-09-18 20:43",
       "heat": 3,
       "discussions": "0",
       "tags": [
-        "税务",
-        "合规"
+        "会计"
       ],
       "isHot": false,
       "detail": "<p>-</p>",
-      "published_at": "2026-09-08T09:00:09+08:00"
+      "published_at": "2026-09-18T20:43:00+08:00"
+    },
+    {
+      "id": "bd1c4d8f6deb",
+      "title": "企业租用办公用房发生的水、电费用，想要在企业所得税税前扣除，应该取得何种凭证？#瑞川企服#税收合规计划#经营财税",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "世成财税",
+      "url": "http://www.bilibili.com/video/av117279148742436",
+      "time": "2026-09-16 13:50",
+      "heat": 1,
+      "discussions": "0",
+      "tags": [
+        "税收",
+        "财税",
+        "所得税"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-09-16T13:50:42+08:00"
     },
     {
       "id": "fffab6640e08",
@@ -1704,36 +1411,24 @@
       "published_at": "2026-09-08T17:29:43+08:00"
     },
     {
-      "id": "019753f4413e",
-      "title": "深度解析：谁在制造出境恐慌？|出境治理·大国博弈·技术安全|真实监管对象揭晓",
-      "summary": "时局解码·深度解析 | 一条所谓“出境政策全面收紧”的传言为何在短时间内搅动舆论？本期从传言源头切入，拆解普通合法出行、黑中介产业链、跨境犯罪与技术安全风险之间的关键分野，揭示出入境管理规范化的真实监管逻辑。\n\n一场围绕“出境自由”的舆论恐慌，恰恰暴露了治理现代化进程中最容易被误读的一环：规范化不是收紧，而是精准化。\n\n本期核心洞察：\n- 出境限制谣言的扩散机制，本质上是一次信息真空下的情绪共振，",
+      "id": "882acecad838",
+      "title": "母公司向子公司无偿划转房产，视同销售缴纳增值税吗？",
+      "summary": "母公司向子公司无偿划转房产，视同销售缴纳增值税吗？\n答：《中华人民共和国增值税法》（主席令第四十一号）第五条规定，有下列情形之一的，视同应税交易，应当依照本法规定缴纳增值税：\n（一）单位和个体工商户将自产或者委托加工的货物用于集体福利或者个人消费；\n（二）单位和个体工商户无偿转让货物；\n（三）单位和个人无偿转让无形资产、不动产或者金融商品。\n根据上述规定，母公司向子公司无偿划转房产属于无偿转让不动",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "时局解码",
-      "url": "http://www.bilibili.com/video/av117149561521221",
-      "time": "2026-08-24 16:40",
-      "heat": 1,
-      "discussions": "0",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>时局解码·深度解析 | 一条所谓“出境政策全面收紧”的传言为何在短时间内搅动舆论？本期从传言源头切入，拆解普通合法出行、黑中介产业链、跨境犯罪与技术安全风险之间的关键分野，揭示出入境管理规范化的真实监管逻辑。\n\n一场围绕“出境自由”的舆论恐慌，恰恰暴露了治理现代化进程中最容易被误读的一环：规范化不是收紧，而是精准化。\n\n本期核心洞察：\n- 出境限制谣言的扩散机制，本质上是一次信息真空下的情绪共振，</p>",
-      "published_at": "2026-08-24T16:40:53+08:00"
-    },
-    {
-      "id": "7477bf60cdfc",
-      "title": "企业外籍用工必看：出入境新规变化与实操提醒",
-      "summary": "企业外籍用工必看：出入境新规变化与实操提醒",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "上海登尼特企业",
-      "url": "http://www.bilibili.com/video/av117284030909685",
-      "time": "2026-09-17 10:35",
+      "author": "正保财智",
+      "url": "http://www.bilibili.com/video/av117212408973202",
+      "time": "2026-09-08 00:00",
       "heat": 0,
       "discussions": "0",
-      "tags": [],
+      "tags": [
+        "财税",
+        "会计",
+        "增值税"
+      ],
       "isHot": false,
-      "detail": "<p>企业外籍用工必看：出入境新规变化与实操提醒</p>",
-      "published_at": "2026-09-17T10:35:48+08:00"
+      "detail": "<p>母公司向子公司无偿划转房产，视同销售缴纳增值税吗？\n答：《中华人民共和国增值税法》（主席令第四十一号）第五条规定，有下列情形之一的，视同应税交易，应当依照本法规定缴纳增值税：\n（一）单位和个体工商户将自产或者委托加工的货物用于集体福利或者个人消费；\n（二）单位和个体工商户无偿转让货物；\n（三）单位和个人无偿转让无形资产、不动产或者金融商品。\n根据上述规定，母公司向子公司无偿划转房产属于无偿转让不动</p>",
+      "published_at": "2026-09-08T00:00:00+08:00"
     },
     {
       "id": "dc51ca025e3c",
