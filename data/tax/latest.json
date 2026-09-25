@@ -1,7 +1,85 @@
 {
-  "updated_at": "2026-09-24T22:39:15.582337+08:00",
-  "count": 21,
+  "updated_at": "2026-09-25T12:41:43.760037+08:00",
+  "count": 77,
   "topics": [
+    {
+      "id": "8644e59146bb",
+      "title": "假如你来当税务局，管一万家企业，怎么查？",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "齐小圣讲税",
+      "url": "http://www.bilibili.com/video/av117103357139052",
+      "time": "2026-08-16 12:50",
+      "heat": 70822,
+      "discussions": "1352",
+      "tags": [
+        "税务"
+      ],
+      "isHot": true,
+      "detail": "<p>-</p>",
+      "published_at": "2026-08-16T12:50:10+08:00"
+    },
+    {
+      "id": "25fbce6f8c2f",
+      "title": "消费上不去，根源竟在财政央地博弈？税改怎破消费困局",
+      "summary": "参考稿件：\n \n财新观察｜以消费税立法为契机 力促消费转型升级_财新周刊频道_财新网\n \n财政部：2026年做好地方附加税法制定工作 积极配合消费税立法_经济频道_财新网\n \n事权财权不对等导致驻京办冲动-支振锋的财新博客-财新网\n \n分税制不是土地财政的原因，政绩考核才是_观点频道_财新网\n \n地方附加税，一个新的万亿级税种——南方周末\n \n万亿消费税再改革：探路五年，攻坚征管难题——南方周末\n",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "点金小侯",
+      "url": "http://www.bilibili.com/video/av117190095280836",
+      "time": "2026-08-31 20:37",
+      "heat": 37534,
+      "discussions": "2239",
+      "tags": [
+        "财税",
+        "财政",
+        "税法"
+      ],
+      "isHot": true,
+      "detail": "<p>参考稿件：\n \n财新观察｜以消费税立法为契机 力促消费转型升级_财新周刊频道_财新网\n \n财政部：2026年做好地方附加税法制定工作 积极配合消费税立法_经济频道_财新网\n \n事权财权不对等导致驻京办冲动-支振锋的财新博客-财新网\n \n分税制不是土地财政的原因，政绩考核才是_观点频道_财新网\n \n地方附加税，一个新的万亿级税种——南方周末\n \n万亿消费税再改革：探路五年，攻坚征管难题——南方周末\n</p>",
+      "published_at": "2026-08-31T20:37:43+08:00"
+    },
+    {
+      "id": "d1bbb6ebeae0",
+      "title": "财会实操： 金税盘增值税专票开具、电子税务局纳税申报、个税自然人税收管理、汇算清缴、纳税申报、工商年检",
+      "summary": "财会实操： 金税盘增值税专票开具、电子税务局纳税申报、汇算清缴、纳税申报、工商年检",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "金蝶培训",
+      "url": "http://www.bilibili.com/video/av545857498",
+      "time": "2021-05-25 16:27",
+      "heat": 34994,
+      "discussions": "286",
+      "tags": [
+        "税收",
+        "税务",
+        "纳税"
+      ],
+      "isHot": true,
+      "detail": "<p>财会实操： 金税盘增值税专票开具、电子税务局纳税申报、汇算清缴、纳税申报、工商年检</p>",
+      "published_at": "2021-05-25T16:27:50+08:00"
+    },
+    {
+      "id": "b84e1705ba72",
+      "title": "【晓夕手把手带你填写】一般纳税人申报表全流程详解！会计实操\\0基础会计出纳入门",
+      "summary": "本课程分成两大板块：\r\n一、申报流程+七张报表的逻辑关系 \r\n二、15个案例分享：账务处理+发票开具+申报表填写",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "晓铃铛课堂",
+      "url": "http://www.bilibili.com/video/av1901011080",
+      "time": "2024-03-01 18:20",
+      "heat": 33292,
+      "discussions": "581",
+      "tags": [
+        "会计",
+        "纳税",
+        "发票"
+      ],
+      "isHot": false,
+      "detail": "<p>本课程分成两大板块：\r\n一、申报流程+七张报表的逻辑关系 \r\n二、15个案例分享：账务处理+发票开具+申报表填写</p>",
+      "published_at": "2024-03-01T18:20:04+08:00"
+    },
     {
       "id": "b16a2fc01f55",
       "title": "税务部门依法对司马南偷税案件进行处理",
@@ -16,9 +94,196 @@
       "tags": [
         "税务"
       ],
-      "isHot": true,
+      "isHot": false,
       "detail": "<p>https://w.yangshipin.cn/video?type=0&amp;vid=o000095qpkr（央视频号：新闻来了）</p>",
       "published_at": "2025-03-21T11:40:28+08:00"
+    },
+    {
+      "id": "8d6402248972",
+      "title": "翻旧账了！24税务稽查倒推三年，经不起查的烂账，被主管员问到哑口无言！会计都快转行吧，我要先拿CPA跑路了...",
+      "summary": "今年，税务监管的严格性达到了前所未有，税务机关倒查时间跨度之长、力度之大，让人震惊！大清早就接到税务局的电话，查账2019年到2024年固定资产的账。翻了一上午的账，下午又接到通知，今天必须把所有资料寄过去，前段时间看到税局倒查的帖子，还不以为然，才过多久，就发生在自己身上了，果然会计都是赚着卖白菜的钱操着卖白粉的心。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "-笨蛋小777",
+      "url": "http://www.bilibili.com/video/av112964787110970",
+      "time": "2024-08-15 15:14",
+      "heat": 23234,
+      "discussions": "613",
+      "tags": [
+        "税务",
+        "会计",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>今年，税务监管的严格性达到了前所未有，税务机关倒查时间跨度之长、力度之大，让人震惊！大清早就接到税务局的电话，查账2019年到2024年固定资产的账。翻了一上午的账，下午又接到通知，今天必须把所有资料寄过去，前段时间看到税局倒查的帖子，还不以为然，才过多久，就发生在自己身上了，果然会计都是赚着卖白菜的钱操着卖白粉的心。</p>",
+      "published_at": "2024-08-15T15:14:14+08:00"
+    },
+    {
+      "id": "ad5aecf514e2",
+      "title": "【网中网财务决策】微课09-税务管理部分（报税）",
+      "summary": "【网中网财务决策】微课09-税务管理部分（报税）",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "笑嫣然一醉浮生",
+      "url": "http://www.bilibili.com/video/av209739184",
+      "time": "2021-12-06 22:16",
+      "heat": 18877,
+      "discussions": "235",
+      "tags": [
+        "税务",
+        "财务"
+      ],
+      "isHot": false,
+      "detail": "<p>【网中网财务决策】微课09-税务管理部分（报税）</p>",
+      "published_at": "2021-12-06T22:16:51+08:00"
+    },
+    {
+      "id": "6b5e44bdbcd6",
+      "title": "2.26亿元！税务部门查处重大虚开发票偷税骗补案件",
+      "summary": "国家税务总局今天（21日）公布一起网络主播管理机构伙同不法中介虚开、偷税、骗补重大案件。经查，广东惠州高赋帅文化传媒有限公司通过设立空壳企业虚开发票1196份，价税合计2.26亿元，为700余名主播偷逃个人所得税3200余万元，公司少缴各项税费合计约2100万元。近日，惠州市税务局稽查局依法对该公司进行了处罚。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "央视网快看",
+      "url": "http://www.bilibili.com/video/av114373167157816",
+      "time": "2025-04-21 08:48",
+      "heat": 12250,
+      "discussions": "291",
+      "tags": [
+        "税务",
+        "发票",
+        "所得税"
+      ],
+      "isHot": false,
+      "detail": "<p>国家税务总局今天（21日）公布一起网络主播管理机构伙同不法中介虚开、偷税、骗补重大案件。经查，广东惠州高赋帅文化传媒有限公司通过设立空壳企业虚开发票1196份，价税合计2.26亿元，为700余名主播偷逃个人所得税3200余万元，公司少缴各项税费合计约2100万元。近日，惠州市税务局稽查局依法对该公司进行了处罚。</p>",
+      "published_at": "2025-04-21T08:48:02+08:00"
+    },
+    {
+      "id": "087afa687c34",
+      "title": "恭喜你又一次发明了税务稽查",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "齐小圣讲税",
+      "url": "http://www.bilibili.com/video/av116927464739168",
+      "time": "2026-07-16 18:00",
+      "heat": 9291,
+      "discussions": "216",
+      "tags": [
+        "税务",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-07-16T18:00:00+08:00"
+    },
+    {
+      "id": "d291cf2faf70",
+      "title": "增值税怎么算？看一遍就会！",
+      "summary": "增值税怎么算？看一遍就会！",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "小麦吉2060",
+      "url": "http://www.bilibili.com/video/av117283712212927",
+      "time": "2026-09-17 18:00",
+      "heat": 3682,
+      "discussions": "78",
+      "tags": [
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>增值税怎么算？看一遍就会！</p>",
+      "published_at": "2026-09-17T18:00:00+08:00"
+    },
+    {
+      "id": "605d99d846f2",
+      "title": "增值税新政，超详细解读",
+      "summary": "增值税新政，超详细解读",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "血刀喵祖",
+      "url": "http://www.bilibili.com/video/av116151619158045",
+      "time": "2026-03-01 10:49",
+      "heat": 4796,
+      "discussions": "43",
+      "tags": [
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>增值税新政，超详细解读</p>",
+      "published_at": "2026-03-01T10:49:26+08:00"
+    },
+    {
+      "id": "8e3648a8c518",
+      "title": "央视权威报道：新能源车购置税减免新规定！关注中国国际汽车改装博览会，了解更多汽车行业资讯！",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "中国汽车改装博览会",
+      "url": "http://www.bilibili.com/video/av117245460089063",
+      "time": "2026-09-10 15:06",
+      "heat": 3297,
+      "discussions": "11",
+      "tags": [],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-09-10T15:06:29+08:00"
+    },
+    {
+      "id": "0c2dc8f66d5e",
+      "title": "【增值税新政】20讲吃透所有配套政策！注会+税务师都适用",
+      "summary": "一、课程特点 \n变动高度聚焦：聚焦增值税法核心变动点，摒弃冗余内容，直击可直接背诵的考点；讲解时会简要提及旧政策，清晰对比新旧差异，帮你快速掌握变动核心、轻松记考点。 • 短时高效：单节 3 分钟左右，利用碎片时间即可学完一个变动考点，轻松无压力 • 通俗好懂：摒弃晦涩法条原文，用生活化案例 + 直白语言拆解复杂变动 • 体系完整：20 个视频覆盖增值税法全维度重要变动，一套学透新增与调整\n二、课",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "斯尔教育",
+      "url": "http://www.bilibili.com/video/av116243810029832",
+      "time": "2026-03-17 17:35",
+      "heat": 4230,
+      "discussions": "22",
+      "tags": [
+        "税务",
+        "财税",
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>一、课程特点 \n变动高度聚焦：聚焦增值税法核心变动点，摒弃冗余内容，直击可直接背诵的考点；讲解时会简要提及旧政策，清晰对比新旧差异，帮你快速掌握变动核心、轻松记考点。 • 短时高效：单节 3 分钟左右，利用碎片时间即可学完一个变动考点，轻松无压力 • 通俗好懂：摒弃晦涩法条原文，用生活化案例 + 直白语言拆解复杂变动 • 体系完整：20 个视频覆盖增值税法全维度重要变动，一套学透新增与调整\n二、课</p>",
+      "published_at": "2026-03-17T17:35:57+08:00"
+    },
+    {
+      "id": "8257b0b35fb4",
+      "title": "2025年新版电子税务局税务注销全流程",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "晗妈会计",
+      "url": "http://www.bilibili.com/video/av114640730195595",
+      "time": "2025-06-07 14:50",
+      "heat": 4178,
+      "discussions": "149",
+      "tags": [
+        "税务"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2025-06-07T14:50:23+08:00"
+    },
+    {
+      "id": "04c022776279",
+      "title": "（更新）税务稽查实务系列课程--带您无痛开启稽查大门",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "税务稽查小马",
+      "url": "http://www.bilibili.com/video/av114051816363015",
+      "time": "2025-02-23 14:37",
+      "heat": 3739,
+      "discussions": "38",
+      "tags": [
+        "税务",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2025-02-23T14:37:58+08:00"
     },
     {
       "id": "2cedf9968acb",
@@ -34,143 +299,44 @@
       "tags": [
         "税务"
       ],
-      "isHot": true,
+      "isHot": false,
       "detail": "<p>CFA-FRM-价值提升网课\r\n期待大家对本视频的评论与互动哦，大家有问题可以给我留言也可以私信给我，我们一起进步，一起学习吧。</p>",
       "published_at": "2020-02-10T00:21:32+08:00"
     },
     {
-      "id": "d654684c611c",
-      "title": "国家税务总局电子税务局",
-      "summary": "四川省电子税务局提供便捷的网上办税、纳税服务和信息查询功能。",
-      "source": "国家税务总局",
-      "platform_class": "platform-official",
-      "author": "国家税务总局",
-      "url": "https://etax.sichuan.chinatax.gov.cn/",
-      "time": "2026-09-24 22:39",
-      "heat": 1350,
-      "discussions": "67",
+      "id": "57530061a66f",
+      "title": "新高考政治《经济与社会》热点重难点术语精讲——增值税、增值税留抵退税",
+      "summary": "材料整理来源自网络，仅供学习交流使用。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "爱吃汉堡的小晗哥",
+      "url": "http://www.bilibili.com/video/av865564063",
+      "time": "2023-03-06 09:56",
+      "heat": 2890,
+      "discussions": "143",
       "tags": [
-        "税务",
-        "纳税",
-        "办税"
-      ],
-      "isHot": true,
-      "detail": "<p>四川省电子税务局提供便捷的网上办税、纳税服务和信息查询功能。</p>",
-      "published_at": "2026-09-24T22:39:15.582337+08:00"
-    },
-    {
-      "id": "ebf13070d723",
-      "title": "国家税务总局",
-      "summary": "税务总局召开党委（扩大）会议暨党建工作领导小组会议 总结全国税务系统树立和践行正确政绩观学习教育 研究部署巩固拓展学习教育成... 胡静林在新疆调研税务工作时强调 巩固拓展学习教育成果 更好服务高质量发展 努力完成“十五五”开局之年目标任务 国新办举行“开局起步‘十五五 ...",
-      "source": "国家税务总局",
-      "platform_class": "platform-official",
-      "author": "国家税务总局",
-      "url": "https://www.chinatax.gov.cn/",
-      "time": "2026-09-24 22:39",
-      "heat": 1350,
-      "discussions": "67",
-      "tags": [
-        "税务"
-      ],
-      "isHot": false,
-      "detail": "<p>税务总局召开党委（扩大）会议暨党建工作领导小组会议 总结全国税务系统树立和践行正确政绩观学习教育 研究部署巩固拓展学习教育成... 胡静林在新疆调研税务工作时强调 巩固拓展学习教育成果 更好服务高质量发展 努力完成“十五五”开局之年目标任务 国新办举行“开局起步‘十五五 ...</p>",
-      "published_at": "2026-09-24T22:39:15.582337+08:00"
-    },
-    {
-      "id": "c1c0295bc1f1",
-      "title": "国家税务总局广东省电子税务局",
-      "summary": "实名认证可以通过广东税务手机APP进行办理，也可以携带相关证件信息到基层税务局进行实名认证后在广东省电子税务局网页或广东电子税务局手机APP进行实名制绑定。 未实名的个人用户，只能申请授权办理个税社保业务。",
-      "source": "国家税务总局",
-      "platform_class": "platform-official",
-      "author": "国家税务总局",
-      "url": "https://etax.guangdong.chinatax.gov.cn:8443/xxmh/html/index.html",
-      "time": "2026-09-24 22:39",
-      "heat": 1350,
-      "discussions": "67",
-      "tags": [
-        "税务"
-      ],
-      "isHot": false,
-      "detail": "<p>实名认证可以通过广东税务手机APP进行办理，也可以携带相关证件信息到基层税务局进行实名认证后在广东省电子税务局网页或广东电子税务局手机APP进行实名制绑定。 未实名的个人用户，只能申请授权办理个税社保业务。</p>",
-      "published_at": "2026-09-24T22:39:15.582337+08:00"
-    },
-    {
-      "id": "1a91b4a30a05",
-      "title": "国家税务总局内蒙古自治区税务局",
-      "summary": "国家税务总局赤峰市税务局第一稽查局依法查处赤峰市千联商贸有限责任公司偷税案件 07-24",
-      "source": "国家税务总局",
-      "platform_class": "platform-official",
-      "author": "国家税务总局",
-      "url": "http://neimenggu.chinatax.gov.cn/",
-      "time": "2026-09-24 22:39",
-      "heat": 1350,
-      "discussions": "67",
-      "tags": [
-        "税务",
-        "稽查"
-      ],
-      "isHot": false,
-      "detail": "<p>国家税务总局赤峰市税务局第一稽查局依法查处赤峰市千联商贸有限责任公司偷税案件 07-24</p>",
-      "published_at": "2026-09-24T22:39:15.582337+08:00"
-    },
-    {
-      "id": "ed9f54d9da6a",
-      "title": "国家税务总局山西省税务局",
-      "summary": "国家税务总局山西省税务局 国家税务总局最新发票数据显示 今年前8个月全国统一大市场建设稳步推进 省际贸易销售额稳步增长 09-23 服务前移添活力 合规引导促发展 09-22 国家税务总局最新发票数据显示 1—8月份全国企业销售收入呈现四方面亮点 09-21 2026年国家税务总局致全国税务系统教育培训工作 ...",
-      "source": "国家税务总局",
-      "platform_class": "platform-official",
-      "author": "国家税务总局",
-      "url": "https://shanxi.chinatax.gov.cn/",
-      "time": "2026-09-24 22:39",
-      "heat": 1350,
-      "discussions": "67",
-      "tags": [
-        "税务",
-        "发票"
-      ],
-      "isHot": false,
-      "detail": "<p>国家税务总局山西省税务局 国家税务总局最新发票数据显示 今年前8个月全国统一大市场建设稳步推进 省际贸易销售额稳步增长 09-23 服务前移添活力 合规引导促发展 09-22 国家税务总局最新发票数据显示 1—8月份全国企业销售收入呈现四方面亮点 09-21 2026年国家税务总局致全国税务系统教育培训工作 ...</p>",
-      "published_at": "2026-09-24T22:39:15.582337+08:00"
-    },
-    {
-      "id": "c84cd40c7be2",
-      "title": "国家税务总局四川省税务局",
-      "summary": "09-15 “税路通·海纳百川”赴印度投资主题活动在成都举办 09-04 《税务行政复议规则（征求意见稿）》向社会公开征求意见 08-27 税务部门连续第13年开展“便民办税春风行动”16条便民利企服务举措落地解决办税缴费难题 08-14 前7月四川离境退税人次同比增长350% 08-07 国家税务总局首个跨境税收行业类 ...",
-      "source": "国家税务总局",
-      "platform_class": "platform-official",
-      "author": "国家税务总局",
-      "url": "https://sichuan.chinatax.gov.cn/",
-      "time": "2026-09-24 22:39",
-      "heat": 1350,
-      "discussions": "67",
-      "tags": [
-        "税收",
-        "税务",
+        "增值税",
         "退税"
       ],
       "isHot": false,
-      "detail": "<p>09-15 “税路通·海纳百川”赴印度投资主题活动在成都举办 09-04 《税务行政复议规则（征求意见稿）》向社会公开征求意见 08-27 税务部门连续第13年开展“便民办税春风行动”16条便民利企服务举措落地解决办税缴费难题 08-14 前7月四川离境退税人次同比增长350% 08-07 国家税务总局首个跨境税收行业类 ...</p>",
-      "published_at": "2026-09-24T22:39:15.582337+08:00"
+      "detail": "<p>材料整理来源自网络，仅供学习交流使用。</p>",
+      "published_at": "2023-03-06T09:56:00+08:00"
     },
     {
-      "id": "952f90571973",
-      "title": "国家税务总局宁夏回族自治区税务局",
-      "summary": "国家税务总局关于境内单位代扣代缴自然人增值税有关申报事项的公告 财政部 税务总局关于发布《境内单位代扣代缴自然人增值税管理办法》的公... 财政部 税务总局关于外籍个人股息红利个人所得税政策有关事项的公告 财政部 税务总局 中国证监会关于规范转让上市公司限售股个人所得税政策 ...",
-      "source": "国家税务总局",
-      "platform_class": "platform-official",
-      "author": "国家税务总局",
-      "url": "http://ningxia.chinatax.gov.cn/",
-      "time": "2026-09-24 22:39",
-      "heat": 1350,
-      "discussions": "67",
-      "tags": [
-        "税务",
-        "财政",
-        "增值税"
-      ],
+      "id": "1b6add308d7e",
+      "title": "年轻人还要不要去大城市？这次地方税改革，已经把路给你划出来了（修剪版）",
+      "summary": "年轻人还要不要去大城市？这次地方税改革，已经把路给你划出来了（修剪版）",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "别远说",
+      "url": "http://www.bilibili.com/video/av116290467470739",
+      "time": "2026-03-25 23:17",
+      "heat": 2735,
+      "discussions": "81",
+      "tags": [],
       "isHot": false,
-      "detail": "<p>国家税务总局关于境内单位代扣代缴自然人增值税有关申报事项的公告 财政部 税务总局关于发布《境内单位代扣代缴自然人增值税管理办法》的公... 财政部 税务总局关于外籍个人股息红利个人所得税政策有关事项的公告 财政部 税务总局 中国证监会关于规范转让上市公司限售股个人所得税政策 ...</p>",
-      "published_at": "2026-09-24T22:39:15.582337+08:00"
+      "detail": "<p>年轻人还要不要去大城市？这次地方税改革，已经把路给你划出来了（修剪版）</p>",
+      "published_at": "2026-03-25T23:17:51+08:00"
     },
     {
       "id": "582a6ec43eff",
@@ -192,6 +358,24 @@
       "published_at": "2022-03-09T20:30:00+08:00"
     },
     {
+      "id": "202e880b1b0a",
+      "title": "分税制之后，最重要的一次财税重构来了｜中央与地方，重新算账",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "账房观潮人",
+      "url": "http://www.bilibili.com/video/av117172898630146",
+      "time": "2026-08-28 19:29",
+      "heat": 2031,
+      "discussions": "85",
+      "tags": [
+        "财税"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-08-28T19:29:23+08:00"
+    },
+    {
       "id": "1ecc1733dd02",
       "title": "奉贤税务《奔跑》（税务改编版）",
       "summary": "奉贤税务《奔跑》（税务改编版）",
@@ -208,6 +392,44 @@
       "isHot": false,
       "detail": "<p>奉贤税务《奔跑》（税务改编版）</p>",
       "published_at": "2018-06-11T18:00:55+08:00"
+    },
+    {
+      "id": "b68982754996",
+      "title": "纳税申报实训任务一",
+      "summary": "学校",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "梨绘橙沐",
+      "url": "http://www.bilibili.com/video/av980323971",
+      "time": "2022-04-01 12:33",
+      "heat": 1757,
+      "discussions": "21",
+      "tags": [
+        "纳税",
+        "申报"
+      ],
+      "isHot": false,
+      "detail": "<p>学校</p>",
+      "published_at": "2022-04-01T12:33:23+08:00"
+    },
+    {
+      "id": "9a4080c01549",
+      "title": "接到举报，税务是如何稽查，税务稽查流程是怎么样的（真实案例收藏版）",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "钦哥谈股权说税务",
+      "url": "http://www.bilibili.com/video/av530145033",
+      "time": "2023-06-25 12:07",
+      "heat": 1054,
+      "discussions": "14",
+      "tags": [
+        "税务",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2023-06-25T12:07:41+08:00"
     },
     {
       "id": "1dfc235375b4",
@@ -228,6 +450,213 @@
       "published_at": "2022-03-10T22:07:44+08:00"
     },
     {
+      "id": "f80c39c2c70c",
+      "title": "增值税一点也不难！搞懂增值税底层逻辑，学起来比啥都还简单！",
+      "summary": "增值税一点也不难！搞懂增值税底层逻辑，学起来比啥都还简单！",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "马勇老师讲会计",
+      "url": "http://www.bilibili.com/video/av114102986932416",
+      "time": "2025-03-04 21:00",
+      "heat": 958,
+      "discussions": "8",
+      "tags": [
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>增值税一点也不难！搞懂增值税底层逻辑，学起来比啥都还简单！</p>",
+      "published_at": "2025-03-04T21:00:00+08:00"
+    },
+    {
+      "id": "577290960877",
+      "title": "影刀RPA_国家税务总局全国增值税发票查验平台验证码解决方案_实战教程",
+      "summary": "# 使用提醒:\n# 1. xbot包提供软件自动化、数据表格、Excel、日志、AI等功能\n# 2. package包提供访问当前应用数据的功能，如获取元素、访问全局变量、获取资源文件等功能\n# 3. 当此模块作为流程独立运行时执行main函数\n# 4. 可视化流程中可以通过&quot;调用模块&quot;的指令使用此模块\n\nimport xbot\nfrom xbot import print, ",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "小可耐教你学影刀RPA",
+      "url": "http://www.bilibili.com/video/av492710418",
+      "time": "2023-10-26 19:14",
+      "heat": 773,
+      "discussions": "17",
+      "tags": [
+        "税务",
+        "发票",
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p># 使用提醒:\n# 1. xbot包提供软件自动化、数据表格、Excel、日志、AI等功能\n# 2. package包提供访问当前应用数据的功能，如获取元素、访问全局变量、获取资源文件等功能\n# 3. 当此模块作为流程独立运行时执行main函数\n# 4. 可视化流程中可以通过&quot;调用模块&quot;的指令使用此模块\n\nimport xbot\nfrom xbot import print, </p>",
+      "published_at": "2023-10-26T19:14:18+08:00"
+    },
+    {
+      "id": "a5fe12793c77",
+      "title": "新电子税务局增值税及附加税申报申报（一般纳税人适用）-（确认式，补录式，填表式）",
+      "summary": "国家税务局\n最近电子税务局一直在更新，上线了很多功能，我们来看看，在新电子税务局如何做增值税及附加税申报申报，（一般纳税人适用）-（确认式，补录式，填表式）",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "小财分享师",
+      "url": "http://www.bilibili.com/video/av112889927107226",
+      "time": "2024-08-02 09:57",
+      "heat": 745,
+      "discussions": "10",
+      "tags": [
+        "税务",
+        "纳税",
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>国家税务局\n最近电子税务局一直在更新，上线了很多功能，我们来看看，在新电子税务局如何做增值税及附加税申报申报，（一般纳税人适用）-（确认式，补录式，填表式）</p>",
+      "published_at": "2024-08-02T09:57:11+08:00"
+    },
+    {
+      "id": "39e864e85c04",
+      "title": "以案说税：国家税务总局再通报4起涉税案例【又是研发和小微惹的祸】",
+      "summary": "以案说税：总局通报4起案例【研发和小微】\n①骗享研发费用加计扣除\n②骗享研发费用加计扣除\n③骗享小微企业税收优惠\n④骗享小微企业税收优惠",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "懂点税",
+      "url": "http://www.bilibili.com/video/av114803754473721",
+      "time": "2025-07-06 18:41",
+      "heat": 737,
+      "discussions": "5",
+      "tags": [
+        "税收",
+        "税务"
+      ],
+      "isHot": false,
+      "detail": "<p>以案说税：总局通报4起案例【研发和小微】\n①骗享研发费用加计扣除\n②骗享研发费用加计扣除\n③骗享小微企业税收优惠\n④骗享小微企业税收优惠</p>",
+      "published_at": "2025-07-06T18:41:00+08:00"
+    },
+    {
+      "id": "fa0ebb6399a4",
+      "title": "又到报税期咯，手把手教你在手机端申报增值税及个税",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "苏州也晴_教你办执照",
+      "url": "http://www.bilibili.com/video/av115824648001369",
+      "time": "2026-01-02 16:53",
+      "heat": 726,
+      "discussions": "12",
+      "tags": [
+        "增值税",
+        "申报"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-01-02T16:53:10+08:00"
+    },
+    {
+      "id": "94368a875ce1",
+      "title": "国家税务总局重庆市税务局稽查局《黑名单》短剧",
+      "summary": "剧情讲述企业有能力纳税而拒绝纳税，从而企业法人被纳入黑名单。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "重庆沃尔克斯传媒",
+      "url": "http://www.bilibili.com/video/av80607961",
+      "time": "2019-12-25 16:04",
+      "heat": 707,
+      "discussions": "6",
+      "tags": [
+        "税务",
+        "纳税",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>剧情讲述企业有能力纳税而拒绝纳税，从而企业法人被纳入黑名单。</p>",
+      "published_at": "2019-12-25T16:04:49+08:00"
+    },
+    {
+      "id": "f9543b4bc68d",
+      "title": "资金管理月初纳税申报",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "书籍分享",
+      "url": "http://www.bilibili.com/video/av518294078",
+      "time": "2022-12-02 17:43",
+      "heat": 701,
+      "discussions": "18",
+      "tags": [
+        "纳税",
+        "申报"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2022-12-02T17:43:09+08:00"
+    },
+    {
+      "id": "d1d76929bc97",
+      "title": "《巾帼税务蓝 共筑中国梦》选送单位：洞口县税务局",
+      "summary": "《巾帼税务蓝 共筑中国梦》选送单位：洞口县税务局",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "bili_1843760312",
+      "url": "http://www.bilibili.com/video/av844691701",
+      "time": "2021-03-18 13:09",
+      "heat": 684,
+      "discussions": "0",
+      "tags": [
+        "税务"
+      ],
+      "isHot": false,
+      "detail": "<p>《巾帼税务蓝 共筑中国梦》选送单位：洞口县税务局</p>",
+      "published_at": "2021-03-18T13:09:36+08:00"
+    },
+    {
+      "id": "0a101bd28722",
+      "title": "盘点近期税收新规",
+      "summary": "盘点近期税收新规①地方附加税；②非应税交易；③上市公司限售股；④外籍个人股息红利；⑤代扣代缴自然人增值税；⑥完善商品住房现房销售；⑦对电池产品分步征收消费税；⑧征管法修订草案地方地方附加税地方附加税附加税",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "懂点税",
+      "url": "http://www.bilibili.com/video/av117240359820561",
+      "time": "2026-09-09 18:50",
+      "heat": 419,
+      "discussions": "13",
+      "tags": [
+        "税收",
+        "增值税",
+        "征管"
+      ],
+      "isHot": false,
+      "detail": "<p>盘点近期税收新规①地方附加税；②非应税交易；③上市公司限售股；④外籍个人股息红利；⑤代扣代缴自然人增值税；⑥完善商品住房现房销售；⑦对电池产品分步征收消费税；⑧征管法修订草案地方地方附加税地方附加税附加税</p>",
+      "published_at": "2026-09-09T18:50:00+08:00"
+    },
+    {
+      "id": "88faed755209",
+      "title": "财税 【2026年】第25号文件解读",
+      "summary": "财税 【2026年】第25号文件解读",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "财法价值圈",
+      "url": "http://www.bilibili.com/video/av117177680266670",
+      "time": "2026-08-29 19:00",
+      "heat": 522,
+      "discussions": "1",
+      "tags": [
+        "财税"
+      ],
+      "isHot": false,
+      "detail": "<p>财税 【2026年】第25号文件解读</p>",
+      "published_at": "2026-08-29T19:00:00+08:00"
+    },
+    {
+      "id": "d7448bde20cc",
+      "title": "高盛研报刺穿的真相 一份关于中国税制改革的深度报告",
+      "summary": "高盛最新研报:中国税制改革的深度报告，2026年9月，中国长达30年的”低成本套利时代”正式终结，财富重构的洗牌已经开始!",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "John聊资产",
+      "url": "http://www.bilibili.com/video/av117308978758021",
+      "time": "2026-09-21 20:20",
+      "heat": 324,
+      "discussions": "3",
+      "tags": [],
+      "isHot": false,
+      "detail": "<p>高盛最新研报:中国税制改革的深度报告，2026年9月，中国长达30年的”低成本套利时代”正式终结，财富重构的洗牌已经开始!</p>",
+      "published_at": "2026-09-21T20:20:54+08:00"
+    },
+    {
       "id": "55f8acbb842d",
       "title": "税务时政热点超精讲！",
       "summary": "旗帜遴选唯一官方主账号  遴选备考详询：18301473116（齐鸣老师）18810899585（金檀老师）手微信同号",
@@ -244,6 +673,62 @@
       "isHot": false,
       "detail": "<p>旗帜遴选唯一官方主账号  遴选备考详询：18301473116（齐鸣老师）18810899585（金檀老师）手微信同号</p>",
       "published_at": "2023-08-26T22:25:02+08:00"
+    },
+    {
+      "id": "cb9a8e7ec6f2",
+      "title": "财务会计实操月度季度纳税申报集训营",
+      "summary": "www.baidu.com",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "会计考证实操",
+      "url": "http://www.bilibili.com/video/av115913886013277",
+      "time": "2026-01-18 11:13",
+      "heat": 405,
+      "discussions": "11",
+      "tags": [
+        "会计",
+        "纳税",
+        "财务"
+      ],
+      "isHot": false,
+      "detail": "<p>www.baidu.com</p>",
+      "published_at": "2026-01-18T11:13:17+08:00"
+    },
+    {
+      "id": "2da103e95269",
+      "title": "会计实操-纳税申报“我要办税”页面详细讲解",
+      "summary": "会计实操-纳税申报“我要办税”页面详细讲解，全面解析。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "会计实操课vip账号出租",
+      "url": "http://www.bilibili.com/video/av938565183",
+      "time": "2022-04-29 07:29",
+      "heat": 405,
+      "discussions": "1",
+      "tags": [
+        "会计",
+        "纳税",
+        "申报"
+      ],
+      "isHot": false,
+      "detail": "<p>会计实操-纳税申报“我要办税”页面详细讲解，全面解析。</p>",
+      "published_at": "2022-04-29T07:29:48+08:00"
+    },
+    {
+      "id": "c85fd5a2248d",
+      "title": "9.8车辆购置税学习。涉税实务·小税种手记第8期，知识点复盘，边学边记，用自己的话多说两遍。",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "潘舒澄",
+      "url": "http://www.bilibili.com/video/av117196873271521",
+      "time": "2026-09-08 17:00",
+      "heat": 236,
+      "discussions": "8",
+      "tags": [],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-09-08T17:00:00+08:00"
     },
     {
       "id": "576b37e084d2",
@@ -264,6 +749,101 @@
       "published_at": "2022-05-07T00:31:52+08:00"
     },
     {
+      "id": "03539aea55d4",
+      "title": "税务稽查重点及税务疑难争议案例解析-2026年度宁波",
+      "summary": "税务稽查重点及税务疑难争议案例解析-2026年度宁波",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "税务律师汪道平",
+      "url": "http://www.bilibili.com/video/av117133036033396",
+      "time": "2026-08-21 18:34",
+      "heat": 210,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>税务稽查重点及税务疑难争议案例解析-2026年度宁波</p>",
+      "published_at": "2026-08-21T18:34:04+08:00"
+    },
+    {
+      "id": "65f0cf9b9f7b",
+      "title": "【会计/财务实操课堂】城建税及教育费附加计算纳税申报（最新版）",
+      "summary": "【会计/财务实操课堂】城建税及教育费附加计算纳税申报（最新版）",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "纽带同学",
+      "url": "http://www.bilibili.com/video/av252130540",
+      "time": "2021-12-07 22:50",
+      "heat": 182,
+      "discussions": "1",
+      "tags": [
+        "会计",
+        "纳税",
+        "财务"
+      ],
+      "isHot": false,
+      "detail": "<p>【会计/财务实操课堂】城建税及教育费附加计算纳税申报（最新版）</p>",
+      "published_at": "2021-12-07T22:50:03+08:00"
+    },
+    {
+      "id": "70e67a7673bb",
+      "title": "报税达人——车船税纳税申报",
+      "summary": "2020年全税种纳税申报项目详解之车船税申报填写",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "是卷卷卷啊",
+      "url": "http://www.bilibili.com/video/av542789170",
+      "time": "2020-11-12 11:25",
+      "heat": 172,
+      "discussions": "0",
+      "tags": [
+        "纳税",
+        "申报"
+      ],
+      "isHot": false,
+      "detail": "<p>2020年全税种纳税申报项目详解之车船税申报填写</p>",
+      "published_at": "2020-11-12T11:25:53+08:00"
+    },
+    {
+      "id": "5c883b01671c",
+      "title": "上半年稽查数据—最先进的系统，抓最笨的招",
+      "summary": "上半年稽查数据—最先进的系统，抓最笨的招",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "税务律师李芳",
+      "url": "http://www.bilibili.com/video/av117302032864593",
+      "time": "2026-09-22 11:00",
+      "heat": 75,
+      "discussions": "0",
+      "tags": [
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>上半年稽查数据—最先进的系统，抓最笨的招</p>",
+      "published_at": "2026-09-22T11:00:00+08:00"
+    },
+    {
+      "id": "54a17eb95862",
+      "title": "【财税中国要闻联播】财税专题20230224最新消息 资讯 会计",
+      "summary": "【财税中国要闻联播】财税专题20230224#最新消息 #资讯 #会计",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "中财国培",
+      "url": "http://www.bilibili.com/video/av267966223",
+      "time": "2023-03-03 12:26",
+      "heat": 128,
+      "discussions": "2",
+      "tags": [
+        "财税",
+        "会计"
+      ],
+      "isHot": false,
+      "detail": "<p>【财税中国要闻联播】财税专题20230224#最新消息 #资讯 #会计</p>",
+      "published_at": "2023-03-03T12:26:45+08:00"
+    },
+    {
       "id": "880dadf05288",
       "title": "金税四期智慧税务系统让企业隐匿收入无处可藏，保证企业合理合规的交税",
       "summary": "-",
@@ -282,22 +862,342 @@
       "published_at": "2022-10-21T16:52:54+08:00"
     },
     {
-      "id": "0d043a63f7a9",
-      "title": "国考税务局待遇属地化？公务员考试，国考金管局，证监会，人民银行，公考领域的趋势",
+      "id": "13eefd89bdf2",
+      "title": "每天一个税收优惠：增值税统借统还",
+      "summary": "每天一个税收优惠：增值税统借统还",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "懂点税",
+      "url": "http://www.bilibili.com/video/av116917264193183",
+      "time": "2026-07-14 20:00",
+      "heat": 117,
+      "discussions": "0",
+      "tags": [
+        "税收",
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>每天一个税收优惠：增值税统借统还</p>",
+      "published_at": "2026-07-14T20:00:00+08:00"
+    },
+    {
+      "id": "c45bdd27a0e7",
+      "title": "新版增值税申报表本年累计数怎么查询？",
+      "summary": "新版增值税申报表本年累计数怎么查询？",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "计学计会",
+      "url": "http://www.bilibili.com/video/av117251349092049",
+      "time": "2026-09-13 07:00",
+      "heat": 73,
+      "discussions": "2",
+      "tags": [
+        "增值税",
+        "申报"
+      ],
+      "isHot": false,
+      "detail": "<p>新版增值税申报表本年累计数怎么查询？</p>",
+      "published_at": "2026-09-13T07:00:00+08:00"
+    },
+    {
+      "id": "1fae07b4e4fd",
+      "title": "2026年7月起增值税申报表大变，5省市已率先试点，一般纳税人小规模纳税人合用一张表！#增值税申报表大改 #财务人必看 #财税新规2026 #电商财税",
       "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "公考学霸",
-      "url": "http://www.bilibili.com/video/av117039553322985",
-      "time": "2026-08-05 06:21",
-      "heat": 39,
+      "author": "中税企",
+      "url": "http://www.bilibili.com/video/av117050995383854",
+      "time": "2026-08-07 06:48",
+      "heat": 107,
+      "discussions": "0",
+      "tags": [
+        "财税",
+        "纳税",
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-08-07T06:48:41+08:00"
+    },
+    {
+      "id": "5e896b9bb3e3",
+      "title": "开票报税大练兵-电子税务局个人版2",
+      "summary": "电子税务局个人版2比电子税务局个人版1业务较简单, 同样需要注意检查仔细数据是否同步",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "学而时习芝士年糕1",
+      "url": "http://www.bilibili.com/video/av116883374282776",
+      "time": "2026-07-08 16:19",
+      "heat": 106,
       "discussions": "1",
       "tags": [
         "税务"
       ],
       "isHot": false,
+      "detail": "<p>电子税务局个人版2比电子税务局个人版1业务较简单, 同样需要注意检查仔细数据是否同步</p>",
+      "published_at": "2026-07-08T16:19:51+08:00"
+    },
+    {
+      "id": "c076846dad2e",
+      "title": "第六届“税官讲税法”青少年普法视频展播——《发票小剧场 - 校园奇遇记》",
+      "summary": "第六届“税官讲税法”青少年普法视频展播——《发票小剧场 - 校园奇遇记》",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "烟台新闻",
+      "url": "http://www.bilibili.com/video/av115655231735221",
+      "time": "2025-12-03 18:53",
+      "heat": 69,
+      "discussions": "1",
+      "tags": [
+        "发票",
+        "税法"
+      ],
+      "isHot": false,
+      "detail": "<p>第六届“税官讲税法”青少年普法视频展播——《发票小剧场 - 校园奇遇记》</p>",
+      "published_at": "2025-12-03T18:53:14+08:00"
+    },
+    {
+      "id": "79d30a3711a9",
+      "title": "31.税务局追税760万被撤销：税务局的4个执法瑕疵",
+      "summary": "31.税务局追税760万被撤销：税务局的4个执法瑕疵",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "合规王老板",
+      "url": "http://www.bilibili.com/video/av117223314234869",
+      "time": "2026-09-10 17:01",
+      "heat": 46,
+      "discussions": "0",
+      "tags": [
+        "税务"
+      ],
+      "isHot": false,
+      "detail": "<p>31.税务局追税760万被撤销：税务局的4个执法瑕疵</p>",
+      "published_at": "2026-09-10T17:01:00+08:00"
+    },
+    {
+      "id": "e33205950ecc",
+      "title": "稽查人员一进门就让你填《廉政反馈表》？千万别急着填！＃税务＃税务稽查",
+      "summary": "稽查人员一进门就让你填《廉政反馈表》？千万别急着填！",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "钰姐聊财税",
+      "url": "http://www.bilibili.com/video/av117306663371527",
+      "time": "2026-09-21 10:27",
+      "heat": 36,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>稽查人员一进门就让你填《廉政反馈表》？千万别急着填！</p>",
+      "published_at": "2026-09-21T10:27:34+08:00"
+    },
+    {
+      "id": "f740e633afc0",
+      "title": "2026增值税涉及购进农产品抵扣政策汇总",
+      "summary": "2026增值税涉及购进农产品抵扣政策汇总",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "AuditorNO-X",
+      "url": "http://www.bilibili.com/video/av116317310944564",
+      "time": "2026-03-30 17:03",
+      "heat": 59,
+      "discussions": "0",
+      "tags": [
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>2026增值税涉及购进农产品抵扣政策汇总</p>",
+      "published_at": "2026-03-30T17:03:21+08:00"
+    },
+    {
+      "id": "2bf65b94dfcc",
+      "title": "税务稽查流程是什么？",
+      "summary": "税务稽查流程是什么？",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "成都宋乾罡律师",
+      "url": "http://www.bilibili.com/video/av115179060723942",
+      "time": "2025-09-15 18:00",
+      "heat": 52,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>税务稽查流程是什么？</p>",
+      "published_at": "2025-09-15T18:00:00+08:00"
+    },
+    {
+      "id": "18f75bcf2e1b",
+      "title": "税务稽查重点及税务疑难争议案例解析1",
+      "summary": "税务稽查重点及税务疑难争议案例解析1",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "税务律师汪道平",
+      "url": "http://www.bilibili.com/video/av117133035967838",
+      "time": "2026-08-21 18:34",
+      "heat": 43,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>税务稽查重点及税务疑难争议案例解析1</p>",
+      "published_at": "2026-08-21T18:34:12+08:00"
+    },
+    {
+      "id": "8fa5bec9715d",
+      "title": "税务稽查（三）稽查的随机名录库",
+      "summary": "税务稽查（三）稽查的随机名录库",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "成都宋乾罡律师",
+      "url": "http://www.bilibili.com/video/av114081881133049",
+      "time": "2025-02-28 22:12",
+      "heat": 42,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>税务稽查（三）稽查的随机名录库</p>",
+      "published_at": "2025-02-28T22:12:23+08:00"
+    },
+    {
+      "id": "f973274a133a",
+      "title": "增值税申报表大变身，填写要点看过来",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "财务沫茉",
+      "url": "http://www.bilibili.com/video/av117319917504931",
+      "time": "2026-09-23 18:41",
+      "heat": 23,
+      "discussions": "0",
+      "tags": [
+        "增值税",
+        "申报"
+      ],
+      "isHot": false,
       "detail": "<p>-</p>",
-      "published_at": "2026-08-05T06:21:37+08:00"
+      "published_at": "2026-09-23T18:41:59+08:00"
+    },
+    {
+      "id": "d7e617a452da",
+      "title": "2026年增值税13号、25号公告学习。我把13号和25号公告放在一起结合复盘学习了一遍，目前还不太熟练，之后得多学几遍巩固下。",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "潘舒澄",
+      "url": "http://www.bilibili.com/video/av117255643858932",
+      "time": "2026-09-15 17:00",
+      "heat": 20,
+      "discussions": "1",
+      "tags": [
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-09-15T17:00:00+08:00"
+    },
+    {
+      "id": "eaa0462ac79a",
+      "title": "税务问题翻旧账，很多历史流水大的都补税了",
+      "summary": "税务问题翻旧账，很多历史流水大的都补税了",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "春戈讲电商财税",
+      "url": "http://www.bilibili.com/video/av117289466795998",
+      "time": "2026-09-19 10:00",
+      "heat": 18,
+      "discussions": "0",
+      "tags": [
+        "税务"
+      ],
+      "isHot": false,
+      "detail": "<p>税务问题翻旧账，很多历史流水大的都补税了</p>",
+      "published_at": "2026-09-19T10:00:00+08:00"
+    },
+    {
+      "id": "62c351aa463a",
+      "title": "证据为什么还打不赢？因为你争的是对错，不是输赢＃税务稽查",
+      "summary": "证据为什么还打不赢？因为你争的是对错，不是输赢",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "钰姐聊财税",
+      "url": "http://www.bilibili.com/video/av117328909961454",
+      "time": "2026-09-25 08:49",
+      "heat": 12,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>证据为什么还打不赢？因为你争的是对错，不是输赢</p>",
+      "published_at": "2026-09-25T08:49:00+08:00"
+    },
+    {
+      "id": "ad5cda83805c",
+      "title": "增值税一般纳税人申报",
+      "summary": "增值税一般纳税人申报",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "acx2345",
+      "url": "http://www.bilibili.com/video/av117321091843940",
+      "time": "2026-09-23 23:41",
+      "heat": 10,
+      "discussions": "0",
+      "tags": [
+        "纳税",
+        "增值税",
+        "申报"
+      ],
+      "isHot": false,
+      "detail": "<p>增值税一般纳税人申报</p>",
+      "published_at": "2026-09-23T23:41:55+08:00"
+    },
+    {
+      "id": "e584a628eb09",
+      "title": "注意9月新规#增值税#财税知识",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "娜姐解财税",
+      "url": "http://www.bilibili.com/video/av117178485448026",
+      "time": "2026-08-29 19:24",
+      "heat": 16,
+      "discussions": "0",
+      "tags": [
+        "财税",
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-08-29T19:24:02+08:00"
+    },
+    {
+      "id": "c300c65272f6",
+      "title": "11月起新规实施，这七项服务由单位代你缴增值税",
+      "summary": "11月起新规实施，这七项服务由单位代你缴增值税",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "石彦文细说财税",
+      "url": "http://www.bilibili.com/video/av117325621692474",
+      "time": "2026-09-24 18:51",
+      "heat": 9,
+      "discussions": "0",
+      "tags": [
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>11月起新规实施，这七项服务由单位代你缴增值税</p>",
+      "published_at": "2026-09-24T18:51:46+08:00"
     },
     {
       "id": "e36705556a03",
@@ -318,60 +1218,100 @@
       "published_at": "2026-09-09T20:00:00+08:00"
     },
     {
-      "id": "0a24cdf495ce",
-      "title": "香港炒美股，税务局到底知道你的什么信息？",
-      "summary": "香港炒美股，税务局到底知道你的什么信息？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "张七言在香港",
-      "url": "http://www.bilibili.com/video/av117324296295954",
-      "time": "2026-09-24 13:12",
-      "heat": 5,
-      "discussions": "0",
-      "tags": [
-        "税务"
-      ],
-      "isHot": false,
-      "detail": "<p>香港炒美股，税务局到底知道你的什么信息？</p>",
-      "published_at": "2026-09-24T13:12:30+08:00"
-    },
-    {
-      "id": "a38e83803a8c",
-      "title": "国新办最高级别税务发布会，局长亲自定调",
-      "summary": "#税务稽查 #财税合规 #税务争议 #企业",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "陈言税事",
-      "url": "http://www.bilibili.com/video/av117267085921840",
-      "time": "2026-09-14 10:43",
-      "heat": 5,
-      "discussions": "0",
-      "tags": [
-        "税务",
-        "财税",
-        "稽查"
-      ],
-      "isHot": false,
-      "detail": "<p>#税务稽查 #财税合规 #税务争议 #企业</p>",
-      "published_at": "2026-09-14T10:43:18+08:00"
-    },
-    {
-      "id": "a9c3b537f074",
-      "title": "股东借款税务注意⚠️事项",
+      "id": "060ace7b6b23",
+      "title": "兰州老板注意最新的税务预警下发",
       "summary": "-",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "福元财务潘老师",
-      "url": "http://www.bilibili.com/video/av117319934219361",
-      "time": "2026-09-23 18:44",
-      "heat": 3,
+      "author": "大司会计",
+      "url": "http://www.bilibili.com/video/av117319078516842",
+      "time": "2026-09-23 15:06",
+      "heat": 5,
       "discussions": "0",
       "tags": [
         "税务"
       ],
       "isHot": false,
       "detail": "<p>-</p>",
-      "published_at": "2026-09-23T18:44:18+08:00"
+      "published_at": "2026-09-23T15:06:31+08:00"
+    },
+    {
+      "id": "d9a2cbdbf282",
+      "title": "国家税务总局公告2025年第2号文：关于调整增值税纳税申报事项。",
+      "summary": "国家税务总局公告2025年第2号文：关于调整增值税纳税申报事项。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "益税捷22",
+      "url": "http://www.bilibili.com/video/av114017792164662",
+      "time": "2025-02-17 14:28",
+      "heat": 7,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "纳税",
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>国家税务总局公告2025年第2号文：关于调整增值税纳税申报事项。</p>",
+      "published_at": "2025-02-17T14:28:03+08:00"
+    },
+    {
+      "id": "98449ff3010c",
+      "title": "税务稽查宣传视频",
+      "summary": "税务稽查宣传视频",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "Punk1988",
+      "url": "http://www.bilibili.com/video/av114301629238175",
+      "time": "2025-04-08 17:31",
+      "heat": 5,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>税务稽查宣传视频</p>",
+      "published_at": "2025-04-08T17:31:28+08:00"
+    },
+    {
+      "id": "5617bbd17be9",
+      "title": "税务稽查与大数据预警，不是想查你，是系统预警提醒必须查！",
+      "summary": "税务稽查与大数据预警，不是想查你，是系统预警提醒必须查！",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "金米财税",
+      "url": "http://www.bilibili.com/video/av1356543224",
+      "time": "2026-08-26 16:44",
+      "heat": 4,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>税务稽查与大数据预警，不是想查你，是系统预警提醒必须查！</p>",
+      "published_at": "2026-08-26T16:44:01+08:00"
+    },
+    {
+      "id": "d76edaefc9e8",
+      "title": "财税 2026年第25号 非应税交易等增值税事项实务解读",
+      "summary": "财政部 税务总局关于明确非应税交易等增值税有关事项的公告\n财政部 税务总局公告2026年第25号\n \n 成文日期：2026-08-27\n根据《中华人民共和国增值税法》（以下简称增值税法）和《中华人民共和国增值税法实施条例》（以下简称增值税法实施条例）有关规定，现将非应税交易等增值税有关事项公告如下：\n 一、纳税人有下列情形的，不属于增值税法实施条例第二十二条所称不得抵扣非应税交易，对应的进项税额可",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "林山LSq",
+      "url": "http://www.bilibili.com/video/av117329077803567",
+      "time": "2026-09-25 09:28",
+      "heat": 2,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "财税",
+        "财政"
+      ],
+      "isHot": false,
+      "detail": "<p>财政部 税务总局关于明确非应税交易等增值税有关事项的公告\n财政部 税务总局公告2026年第25号\n \n 成文日期：2026-08-27\n根据《中华人民共和国增值税法》（以下简称增值税法）和《中华人民共和国增值税法实施条例》（以下简称增值税法实施条例）有关规定，现将非应税交易等增值税有关事项公告如下：\n 一、纳税人有下列情形的，不属于增值税法实施条例第二十二条所称不得抵扣非应税交易，对应的进项税额可</p>",
+      "published_at": "2026-09-25T09:28:47+08:00"
     },
     {
       "id": "098ed87a17a5",
@@ -392,6 +1332,116 @@
       "isHot": false,
       "detail": "<p>#税务稽查 #财税合规 #企业 #老板</p>",
       "published_at": "2026-09-11T17:47:00+08:00"
+    },
+    {
+      "id": "53d4a74494ea",
+      "title": "多地稽查结果出来了",
+      "summary": "上海 1200 家企业被查 #税务稽查 #财税合规 #企业",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "税案观察室",
+      "url": "http://www.bilibili.com/video/av117166489865250",
+      "time": "2026-08-27 16:37",
+      "heat": 1,
+      "discussions": "0",
+      "tags": [
+        "税务",
+        "财税",
+        "稽查"
+      ],
+      "isHot": false,
+      "detail": "<p>上海 1200 家企业被查 #税务稽查 #财税合规 #企业</p>",
+      "published_at": "2026-08-27T16:37:52+08:00"
+    },
+    {
+      "id": "aa895764aa11",
+      "title": "税务宣传片",
+      "summary": "税务宣传片",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "colcc程驰",
+      "url": "http://www.bilibili.com/video/av116978803083252",
+      "time": "2026-07-25 12:52",
+      "heat": 1,
+      "discussions": "0",
+      "tags": [
+        "税务"
+      ],
+      "isHot": false,
+      "detail": "<p>税务宣传片</p>",
+      "published_at": "2026-07-25T12:52:35+08:00"
+    },
+    {
+      "id": "e15ae412eec6",
+      "title": "2026年巴西增值税改革",
+      "summary": "-",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "商易跨境",
+      "url": "http://www.bilibili.com/video/av116062045733179",
+      "time": "2026-02-13 15:06",
+      "heat": 1,
+      "discussions": "0",
+      "tags": [
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>-</p>",
+      "published_at": "2026-02-13T15:06:31+08:00"
+    },
+    {
+      "id": "8138a622d17c",
+      "title": "2026增值税新政｜8大变化直接省税",
+      "summary": "2026 增值税新政迎来 8 大变化，涉及纳税义务、资产重组、进项抵扣、挂靠经营、代扣代缴等实务要点，老板和财务建议认真研读，守住财税合规底线。",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "中正企航",
+      "url": "http://www.bilibili.com/video/av117325051206263",
+      "time": "2026-09-24 16:26",
+      "heat": 0,
+      "discussions": "0",
+      "tags": [
+        "财税",
+        "纳税",
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>2026 增值税新政迎来 8 大变化，涉及纳税义务、资产重组、进项抵扣、挂靠经营、代扣代缴等实务要点，老板和财务建议认真研读，守住财税合规底线。</p>",
+      "published_at": "2026-09-24T16:26:10+08:00"
+    },
+    {
+      "id": "88d240571450",
+      "title": "某钢铁公司6.96亿补税案",
+      "summary": "某钢铁公司6.96亿补税案",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "方正税务师",
+      "url": "http://www.bilibili.com/video/av117319883886714",
+      "time": "2026-09-23 18:41",
+      "heat": 0,
+      "discussions": "0",
+      "tags": [],
+      "isHot": false,
+      "detail": "<p>某钢铁公司6.96亿补税案</p>",
+      "published_at": "2026-09-23T18:41:07+08:00"
+    },
+    {
+      "id": "0b28df65fc15",
+      "title": "学增值税新规享优惠政策",
+      "summary": "进项抵扣正负面清单、资产重组接收方转让重组相关金融商品的计税基础等增值税优惠新政策，未处理的可自2026年1月1日起适用",
+      "source": "B站",
+      "platform_class": "platform-bilibili",
+      "author": "张律来了",
+      "url": "http://www.bilibili.com/video/av117206402864743",
+      "time": "2026-09-03 17:33",
+      "heat": 0,
+      "discussions": "0",
+      "tags": [
+        "增值税"
+      ],
+      "isHot": false,
+      "detail": "<p>进项抵扣正负面清单、资产重组接收方转让重组相关金融商品的计税基础等增值税优惠新政策，未处理的可自2026年1月1日起适用</p>",
+      "published_at": "2026-09-03T17:33:07+08:00"
     }
   ]
 }
