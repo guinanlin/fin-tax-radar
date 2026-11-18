@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-18T02:57:37.204316+08:00",
-  "count": 77,
+  "updated_at": "2026-11-18T15:05:07.446024+08:00",
+  "count": 12,
   "topics": [
     {
       "id": "1db2d4e90e43",
@@ -11,7 +11,7 @@
       "author": "经管老邢",
       "url": "http://www.bilibili.com/video/av316870624",
       "time": "2023-08-05 08:18",
-      "heat": 296392,
+      "heat": 296552,
       "discussions": "1.5万",
       "tags": [
         "宏观",
@@ -22,44 +22,6 @@
       "published_at": "2023-08-05T08:18:46+08:00"
     },
     {
-      "id": "6b650df6f41c",
-      "title": "土地财政狂跌不止，中国经济吃什么？",
-      "summary": "土地财政狂跌不止，中国经济吃什么？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "章北海official",
-      "url": "http://www.bilibili.com/video/av117540655208125",
-      "time": "2026-11-01 18:28",
-      "heat": 123755,
-      "discussions": "7942",
-      "tags": [
-        "财政",
-        "经济"
-      ],
-      "isHot": true,
-      "detail": "<p>土地财政狂跌不止，中国经济吃什么？</p>",
-      "published_at": "2026-11-01T18:28:39+08:00"
-    },
-    {
-      "id": "2bd6d02892b1",
-      "title": "【宏观经济学】经济增长",
-      "summary": "【宏观经济学】经济增长",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "小卷毛爱学习",
-      "url": "http://www.bilibili.com/video/av333265053",
-      "time": "2021-05-30 09:53",
-      "heat": 41144,
-      "discussions": "2126",
-      "tags": [
-        "宏观",
-        "经济"
-      ],
-      "isHot": true,
-      "detail": "<p>【宏观经济学】经济增长</p>",
-      "published_at": "2021-05-30T09:53:08+08:00"
-    },
-    {
       "id": "5a7701f5dd76",
       "title": "宏观经济政策（1）",
       "summary": "宏观经济政策（1）",
@@ -68,233 +30,34 @@
       "author": "小卷毛爱学习",
       "url": "http://www.bilibili.com/video/av418213646",
       "time": "2021-05-23 23:44",
-      "heat": 40702,
+      "heat": 40706,
       "discussions": "1245",
       "tags": [
         "宏观",
         "经济"
       ],
-      "isHot": false,
+      "isHot": true,
       "detail": "<p>宏观经济政策（1）</p>",
       "published_at": "2021-05-23T23:44:58+08:00"
     },
     {
-      "id": "e30b9115724d",
-      "title": "「高盛」今年最值得看的研报，2027年中国经济展望，外强内弱、重回通缩吗？",
-      "summary": "「高盛」今年最值得看的研报，2027年中国经济展望，外强内弱、重回通缩吗？",
+      "id": "38b465d2382e",
+      "title": "【宏观经济学】宏观经济政策（2）[主要知识点：货币创造乘数]",
+      "summary": "【宏观经济学】宏观经济政策（2）[主要知识点：货币创造乘数]",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "减肥秃了头",
-      "url": "http://www.bilibili.com/video/av117618014946975",
-      "time": "2026-11-15 10:17",
-      "heat": 6758,
-      "discussions": "292",
-      "tags": [
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>「高盛」今年最值得看的研报，2027年中国经济展望，外强内弱、重回通缩吗？</p>",
-      "published_at": "2026-11-15T10:17:20+08:00"
-    },
-    {
-      "id": "88df04cbe236",
-      "title": "【重磅】资金总量比GDP更靠谱●2023上半年城市资金总量TOP20",
-      "summary": "【资金总量】概念 : 金融机构各项存款余额。其反映了一座城市对资金的吸附能力，资金总量越大，说明城市吸引力越强，发展动力越足，是衡量城市综合实力的重要指标。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "天林榜单",
-      "url": "http://www.bilibili.com/video/av404677511",
-      "time": "2023-08-11 23:51",
-      "heat": 10134,
-      "discussions": "543",
-      "tags": [
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>【资金总量】概念 : 金融机构各项存款余额。其反映了一座城市对资金的吸附能力，资金总量越大，说明城市吸引力越强，发展动力越足，是衡量城市综合实力的重要指标。</p>",
-      "published_at": "2023-08-11T23:51:31+08:00"
-    },
-    {
-      "id": "902b9bce1780",
-      "title": "从百城房价看中国楼市这26年【2000-2026】【特效数据可视化】",
-      "summary": "从2000年福利分房终结、个人按揭贷款普及，到2008年四万亿救市与7折房贷、2011年温州炒房团泡沫破裂、2015年棚改货币化“涨价去库存”史诗级狂飙，再到2020年“三道红线”、2021年历史大顶、恒大2.44万亿暴雷、许家印被捕入狱，直至2026年迈入存量分化时代——\n本片耗时打磨，以全帧率特效数据可视化（K线流光+央行历年房贷利率/LPR仪表盘+核心城市房价前五实时竞速+暴跌回撤树状图），",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "鲸龙猫猫酱",
-      "url": "http://www.bilibili.com/video/av117600667306627",
-      "time": "2026-11-12 08:42",
-      "heat": 5953,
-      "discussions": "206",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>从2000年福利分房终结、个人按揭贷款普及，到2008年四万亿救市与7折房贷、2011年温州炒房团泡沫破裂、2015年棚改货币化“涨价去库存”史诗级狂飙，再到2020年“三道红线”、2021年历史大顶、恒大2.44万亿暴雷、许家印被捕入狱，直至2026年迈入存量分化时代——\n本片耗时打磨，以全帧率特效数据可视化（K线流光+央行历年房贷利率/LPR仪表盘+核心城市房价前五实时竞速+暴跌回撤树状图），</p>",
-      "published_at": "2026-11-12T08:42:37+08:00"
-    },
-    {
-      "id": "63f50b71e723",
-      "title": "【中字】日本公布2026年第三季度GDP负增长0.1%, 时隔四个季度首次出现负增长(2026.11.16)",
-      "summary": "【中字】日本公布2026年第三季度GDP负增长0.1%, 时隔四个季度首次出现负增长(2026.11.16)",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "Blucy-",
-      "url": "http://www.bilibili.com/video/av117623501227499",
-      "time": "2026-11-16 09:29",
-      "heat": 5041,
-      "discussions": "374",
-      "tags": [
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>【中字】日本公布2026年第三季度GDP负增长0.1%, 时隔四个季度首次出现负增长(2026.11.16)</p>",
-      "published_at": "2026-11-16T09:29:03+08:00"
-    },
-    {
-      "id": "149707066f44",
-      "title": "【私人局】为什么经济增长的机会越来越向头部集中？",
-      "summary": "【私人局】为什么经济增长的机会越来越向头部集中？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "私人局频道",
-      "url": "http://www.bilibili.com/video/av117541628284211",
-      "time": "2026-11-01 22:30",
-      "heat": 5966,
-      "discussions": "67",
-      "tags": [
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>【私人局】为什么经济增长的机会越来越向头部集中？</p>",
-      "published_at": "2026-11-01T22:30:12+08:00"
-    },
-    {
-      "id": "efcd0efbfd65",
-      "title": "地方财政危机指数分省报告解读20261114",
-      "summary": "以《地方财政危机指数（LFCRI）分省评估报告（2026 年前三季度）》为底稿，回答三个问题：28 个省份在同一把标尺上各处于什么位置，压力集中在哪些部位，过去一年的分值变动究竟由什么驱动。国家口径首期综合分为 59.4 分，处在黄区上沿；分省结果的均值 58.0 分与之接近，说明分省口径没有系统性抬高或压低压力，但省际离散程度远高于总量指标所暗示的水平。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "旷野先声",
-      "url": "http://www.bilibili.com/video/av117614693254534",
-      "time": "2026-11-14 20:20",
-      "heat": 4712,
-      "discussions": "170",
-      "tags": [
-        "财政"
-      ],
-      "isHot": false,
-      "detail": "<p>以《地方财政危机指数（LFCRI）分省评估报告（2026 年前三季度）》为底稿，回答三个问题：28 个省份在同一把标尺上各处于什么位置，压力集中在哪些部位，过去一年的分值变动究竟由什么驱动。国家口径首期综合分为 59.4 分，处在黄区上沿；分省结果的均值 58.0 分与之接近，说明分省口径没有系统性抬高或压低压力，但省际离散程度远高于总量指标所暗示的水平。</p>",
-      "published_at": "2026-11-14T20:20:00+08:00"
-    },
-    {
-      "id": "f27c0a4126e5",
-      "title": "1.2.3名义GDP、实际GDP、GDP平减指数和通货膨胀率-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
-      "summary": "名义GDP、实际GDP、GDP平减指数和通货膨胀率-宏观经济学-高鸿业、马工程《西方经济学》-板书授课",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "有我你不樊",
-      "url": "http://www.bilibili.com/video/av890294988",
-      "time": "2021-09-02 22:43",
-      "heat": 7797,
-      "discussions": "251",
+      "author": "小卷毛爱学习",
+      "url": "http://www.bilibili.com/video/av375762833",
+      "time": "2021-05-25 00:17",
+      "heat": 33298,
+      "discussions": "1235",
       "tags": [
         "宏观",
-        "经济",
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>名义GDP、实际GDP、GDP平减指数和通货膨胀率-宏观经济学-高鸿业、马工程《西方经济学》-板书授课</p>",
-      "published_at": "2021-09-02T22:43:35+08:00"
-    },
-    {
-      "id": "c069470a2a46",
-      "title": "世界经济奇迹（1760-2020s）",
-      "summary": "仅历史视频，谢谢了！",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "HanDynastyBall",
-      "url": "http://www.bilibili.com/video/av116511037456545",
-      "time": "2026-05-03 22:16",
-      "heat": 5786,
-      "discussions": "39",
-      "tags": [
         "经济"
       ],
-      "isHot": false,
-      "detail": "<p>仅历史视频，谢谢了！</p>",
-      "published_at": "2026-05-03T22:16:42+08:00"
-    },
-    {
-      "id": "c903238e434d",
-      "title": "【宏观经济学】名义GDP和实际GDP",
-      "summary": "【宏观经济学】名义GDP和实际GDP",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "经管老邢",
-      "url": "http://www.bilibili.com/video/av817591548",
-      "time": "2022-11-12 19:15",
-      "heat": 5251,
-      "discussions": "27",
-      "tags": [
-        "宏观",
-        "经济",
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>【宏观经济学】名义GDP和实际GDP</p>",
-      "published_at": "2022-11-12T19:15:00+08:00"
-    },
-    {
-      "id": "3ce1b8d5a46f",
-      "title": "6846万人：中国财政供养人员规模估算与结构分析",
-      "summary": "2020年，中国由财政发工资、发养老金的人大约有6846万，比2004年多了1600多万，每100个中国人里有将近5个。2013年起“财政供养人员只减不增”说了很多次，总数在2013、2014年停住过，之后又接着往上涨。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "老张在修仙",
-      "url": "http://www.bilibili.com/video/av117598654045183",
-      "time": "2026-11-12 08:00",
-      "heat": 2486,
-      "discussions": "112",
-      "tags": [
-        "财政"
-      ],
-      "isHot": false,
-      "detail": "<p>2020年，中国由财政发工资、发养老金的人大约有6846万，比2004年多了1600多万，每100个中国人里有将近5个。2013年起“财政供养人员只减不增”说了很多次，总数在2013、2014年停住过，之后又接着往上涨。</p>",
-      "published_at": "2026-11-12T08:00:00+08:00"
-    },
-    {
-      "id": "707c5b225ce0",
-      "title": "祖国心脏——北京市各区GDP、人均GDP分布图（2025）",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "丶rcissu-_-",
-      "url": "http://www.bilibili.com/video/av117359494892302",
-      "time": "2026-10-01 15:00",
-      "heat": 4008,
-      "discussions": "546",
-      "tags": [
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-10-01T15:00:00+08:00"
-    },
-    {
-      "id": "01101435cb67",
-      "title": "严查税、补社保只是序章：土地财政退潮后，钱从哪里来？",
-      "summary": "严查税、补社保只是序章：土地财政退潮后，钱从哪里来？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "Alpha茶水间",
-      "url": "http://www.bilibili.com/video/av117627007541185",
-      "time": "2026-11-17 00:21",
-      "heat": 2174,
-      "discussions": "54",
-      "tags": [
-        "财政"
-      ],
-      "isHot": false,
-      "detail": "<p>严查税、补社保只是序章：土地财政退潮后，钱从哪里来？</p>",
-      "published_at": "2026-11-17T00:21:59+08:00"
+      "isHot": true,
+      "detail": "<p>【宏观经济学】宏观经济政策（2）[主要知识点：货币创造乘数]</p>",
+      "published_at": "2021-05-25T00:17:37+08:00"
     },
     {
       "id": "a8835b351379",
@@ -316,124 +79,44 @@
       "published_at": "2023-04-03T20:25:17+08:00"
     },
     {
-      "id": "c27323707b9d",
-      "title": "上海财政自给率跌破90%",
-      "summary": "上海财政自给率跌破90%",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "熊猫智研社",
-      "url": "http://www.bilibili.com/video/av117521797617775",
-      "time": "2026-10-29 10:21",
-      "heat": 2839,
-      "discussions": "56",
+      "id": "03b84a6de43f",
+      "title": "中华人民共和国财政部",
+      "summary": "重点专题 财政部-中国国债、地方政府债券收益率曲线 学习贯彻习近平新时代中国特色社会主义思想主题教育 会计法宣传贯彻 注册会计师法宣传贯彻 深入学习宣传贯彻党的二十大精神 服务全国人大代表全国政协委员网络平台 全国政府性基金和行政事业性收费目录清单",
+      "source": "财政部",
+      "platform_class": "platform-official",
+      "author": "财政部",
+      "url": "https://www.mof.gov.cn/index.htm",
+      "time": "2026-11-18 15:05",
+      "heat": 1350,
+      "discussions": "67",
       "tags": [
-        "财政"
+        "财政",
+        "会计",
+        "国债"
       ],
       "isHot": false,
-      "detail": "<p>上海财政自给率跌破90%</p>",
-      "published_at": "2026-10-29T10:21:04+08:00"
+      "detail": "<p>重点专题 财政部-中国国债、地方政府债券收益率曲线 学习贯彻习近平新时代中国特色社会主义思想主题教育 会计法宣传贯彻 注册会计师法宣传贯彻 深入学习宣传贯彻党的二十大精神 服务全国人大代表全国政协委员网络平台 全国政府性基金和行政事业性收费目录清单</p>",
+      "published_at": "2026-11-18T15:05:07.446024+08:00"
     },
     {
-      "id": "b50770a68e6e",
-      "title": "二战，但是德国走经济增长优先",
-      "summary": "二战，但是德国走经济增长优先",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "ChocolateCurtis",
-      "url": "http://www.bilibili.com/video/av116833311070906",
-      "time": "2026-06-29 20:15",
-      "heat": 3634,
-      "discussions": "68",
+      "id": "ea74c86713c7",
+      "title": "财政部会计财务评价中心",
+      "summary": "财政部会计财务评价中心成立于2001年8月，负责组织全国会计资格考试与会计人员水平评价工作；建立考试信息系统和合格人员库，开展考试后优秀会计人员跟踪评价；建立会计人员流动配置平台；研究提出会计职称制度改革政策建议、会计人员水平评价指标体系以及高级会计资格考试后评审指引；开展会计资格考试与评价国际交流与合作。",
+      "source": "财政部",
+      "platform_class": "platform-official",
+      "author": "财政部",
+      "url": "http://kzp.mof.gov.cn/",
+      "time": "2026-11-18 15:05",
+      "heat": 1350,
+      "discussions": "67",
       "tags": [
-        "经济"
+        "财政",
+        "会计",
+        "财务"
       ],
       "isHot": false,
-      "detail": "<p>二战，但是德国走经济增长优先</p>",
-      "published_at": "2026-06-29T20:15:10+08:00"
-    },
-    {
-      "id": "ed1a81f075ed",
-      "title": "《2025年国民经济和社会发展统计公报》今日发布，一起来看2025中国经济新答卷！ #统计公报解读",
-      "summary": "《2025年国民经济和社会发展统计公报》今日发布，一起来看2025中国经济新答卷！ #统计公报解读",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "国家统计局",
-      "url": "http://www.bilibili.com/video/av116148146345310",
-      "time": "2026-02-28 20:07",
-      "heat": 3613,
-      "discussions": "115",
-      "tags": [
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>《2025年国民经济和社会发展统计公报》今日发布，一起来看2025中国经济新答卷！ #统计公报解读</p>",
-      "published_at": "2026-02-28T20:07:06+08:00"
-    },
-    {
-      "id": "0a9d6516c29a",
-      "title": "提到sakee？APMOZART发布新曲《Wickman Remix》“他买假数据骗自己”",
-      "summary": "mmsk",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "慢慢升空-",
-      "url": "http://www.bilibili.com/video/av117551443019756",
-      "time": "2026-11-03 16:02",
-      "heat": 2232,
-      "discussions": "122",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>mmsk</p>",
-      "published_at": "2026-11-03T16:02:23+08:00"
-    },
-    {
-      "id": "d03b8cd2ebb4",
-      "title": "阿哈网正式发布——星穹铁道打桩数据一站式查看，再也不必为了检索零散数据感到麻烦了！",
-      "summary": "网站地址：https把://a我ha-web删site.掉win/\n该网站的立项者不是我，开发者也是我的朋友完成的，我只是最大的数据上传者和指导者\n对此，我由衷感谢所有开发人员和上传者的辛苦付出！\n交流＆反馈群：1125唧唧2495啊啊48\n\n为保证网站安全，真珠数据会在明早十一点才发布（游客可查看），以后任何beta数据都这样，想提前看进群",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "AAA超级知更鸟大王",
-      "url": "http://www.bilibili.com/video/av117343237706078",
-      "time": "2026-09-27 21:48",
-      "heat": 2664,
-      "discussions": "87",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>网站地址：https把://a我ha-web删site.掉win/\n该网站的立项者不是我，开发者也是我的朋友完成的，我只是最大的数据上传者和指导者\n对此，我由衷感谢所有开发人员和上传者的辛苦付出！\n交流＆反馈群：1125唧唧2495啊啊48\n\n为保证网站安全，真珠数据会在明早十一点才发布（游客可查看），以后任何beta数据都这样，想提前看进群</p>",
-      "published_at": "2026-09-27T21:48:45+08:00"
-    },
-    {
-      "id": "3e6ff006e15f",
-      "title": "什么是财政联邦主义？财政联邦主义在长期运行中又会发生什么变化？",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "昔人有云",
-      "url": "http://www.bilibili.com/video/av117297066874727",
-      "time": "2026-09-19 17:51",
-      "heat": 2651,
-      "discussions": "52",
-      "tags": [
-        "财政"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-09-19T17:51:08+08:00"
-    },
-    {
-      "id": "f47ca8ac157a",
-      "title": "洛克王国s5异色性格定向刷 生命干货篇 图一为这赛季能刷异色的全部生命数值图2-9为更具体S5赛季异色生命值稍后发布一些加双攻的数据",
-      "summary": "洛克王国s5异色性格定向刷 生命干货篇 图一为这赛季能刷异色的全部生命数值图2-9为更具体S5赛季异色生命值稍后发布一些加双攻的数据",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "洛克王国-脚皮",
-      "url": "http://www.bilibili.com/video/av117572968122156",
-      "time": "2026-11-07 11:13",
-      "heat": 1567,
-      "discussions": "17",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>洛克王国s5异色性格定向刷 生命干货篇 图一为这赛季能刷异色的全部生命数值图2-9为更具体S5赛季异色生命值稍后发布一些加双攻的数据</p>",
-      "published_at": "2026-11-07T11:13:19+08:00"
+      "detail": "<p>财政部会计财务评价中心成立于2001年8月，负责组织全国会计资格考试与会计人员水平评价工作；建立考试信息系统和合格人员库，开展考试后优秀会计人员跟踪评价；建立会计人员流动配置平台；研究提出会计职称制度改革政策建议、会计人员水平评价指标体系以及高级会计资格考试后评审指引；开展会计资格考试与评价国际交流与合作。</p>",
+      "published_at": "2026-11-18T15:05:07.446024+08:00"
     },
     {
       "id": "75913f805a96",
@@ -444,7 +127,7 @@
       "author": "慧考智学官网课程",
       "url": "http://www.bilibili.com/video/av116199383899716",
       "time": "2026-03-09 21:20",
-      "heat": 2154,
+      "heat": 2162,
       "discussions": "19",
       "tags": [
         "宏观",
@@ -455,90 +138,22 @@
       "published_at": "2026-03-09T21:20:49+08:00"
     },
     {
-      "id": "3c978cc5f556",
-      "title": "《财政学 全集》（已更新完结）考前期末复习速成课资源  附赠资料 | 考研适用 假期逆袭 | 真题带练 | 知识点底层逻辑 【不挂科系列】",
-      "summary": "讲义及更多复习资料见评论区置顶\n财政学 https://pan.quark.cn/s/e532b68f3138",
+      "id": "82f64c3451a9",
+      "title": "10月经济数据简评：内需指标再度全面转弱，居民部门开始“过日子”，全年经济增速预计定格在4.6%",
+      "summary": "10月经济数据全景拆解：在9月季末冲刺过后，内需核心指标全线回落，官方定调退回8月“延续总体平稳”，首次点出“供强需弱仍较突出”。\n\n• 外贸独秀：10月出口同比+35.2%，进口同比+41.6%，规上工增回落至4.8%\n• 消费转弱：社零单月回落至0.4%，季调环比仅万分之二，双十一前置难挽疲态\n• 固投探底：1-10月固投累计同比跌至-8.1%，单月环比跌2.93%逼近年内极值\n• 真实体感：",
       "source": "B站",
       "platform_class": "platform-bilibili",
-      "author": "没冇耳朵的兔子",
-      "url": "http://www.bilibili.com/video/av114845529676995",
-      "time": "2025-07-13 20:55",
-      "heat": 2104,
-      "discussions": "38",
-      "tags": [
-        "财政"
-      ],
-      "isHot": false,
-      "detail": "<p>讲义及更多复习资料见评论区置顶\n财政学 https://pan.quark.cn/s/e532b68f3138</p>",
-      "published_at": "2025-07-13T20:55:00+08:00"
-    },
-    {
-      "id": "58e719c362f2",
-      "title": "低欲望时代来临：从扩张式增长，到保守式过日子 #低欲望社会 #中国经济 #降本增效 #消费观念 #就业压力 #收入预期 #预防性储蓄 #生活成本 #低增长时代",
-      "summary": "过去，我们希望房子越换越大、收入越来越高、生意越做越好。现在，越来越多人开始减少消费、回避负债、保留现金，只希望把已有的日子过稳。\n降本增效，正在从企业的经营策略，变成普通人的生活策略。\n商品便宜了，为什么生活的长期负担依然沉重？当企业和家庭同时压缩支出，又会怎样影响彼此的订单、工作和收入？\n本期聊聊我的一个判断：中国社会正在从扩张式增长，转向保守式过日子。当自保成为普遍选择，低欲望就可能从个人生",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "大汪和园子",
-      "url": "http://www.bilibili.com/video/av117583890093500",
-      "time": "2026-11-09 09:36",
-      "heat": 1283,
-      "discussions": "47",
+      "author": "老厉害了财经",
+      "url": "http://www.bilibili.com/video/av117631587717585",
+      "time": "2026-11-17 19:47",
+      "heat": 1197,
+      "discussions": "27",
       "tags": [
         "经济"
       ],
       "isHot": false,
-      "detail": "<p>过去，我们希望房子越换越大、收入越来越高、生意越做越好。现在，越来越多人开始减少消费、回避负债、保留现金，只希望把已有的日子过稳。\n降本增效，正在从企业的经营策略，变成普通人的生活策略。\n商品便宜了，为什么生活的长期负担依然沉重？当企业和家庭同时压缩支出，又会怎样影响彼此的订单、工作和收入？\n本期聊聊我的一个判断：中国社会正在从扩张式增长，转向保守式过日子。当自保成为普遍选择，低欲望就可能从个人生</p>",
-      "published_at": "2026-11-09T09:36:12+08:00"
-    },
-    {
-      "id": "e931e38e5e6d",
-      "title": "10 月数据里最冷的地方，不是消费",
-      "summary": "10 月数据里最冷的地方，不是消费",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "四季茶话社",
-      "url": "http://www.bilibili.com/video/av117629725450231",
-      "time": "2026-11-17 17:00",
-      "heat": 805,
-      "discussions": "17",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>10 月数据里最冷的地方，不是消费</p>",
-      "published_at": "2026-11-17T17:00:00+08:00"
-    },
-    {
-      "id": "96d84f23a468",
-      "title": "金融理论与政策_中央财经大学（完整）",
-      "summary": "https://www.icourse163.org/course/CUFE-1205808827\r\n金融理论与政策_中央财经大学（更新中）\r\n硕士研究生课程",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "iiWilson",
-      "url": "http://www.bilibili.com/video/av455176017",
-      "time": "2020-04-12 03:39",
-      "heat": 1399,
-      "discussions": "13",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>https://www.icourse163.org/course/CUFE-1205808827\r\n金融理论与政策_中央财经大学（更新中）\r\n硕士研究生课程</p>",
-      "published_at": "2020-04-12T03:39:41+08:00"
-    },
-    {
-      "id": "34b6a3021fe1",
-      "title": "统计局公布十月经济数据，全面低于预期",
-      "summary": "10月社零只涨0.4%，固投、工业增加值也全部低于预期。以旧换新的钱发完了，消费为什么还是起不来？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "老张在修仙",
-      "url": "http://www.bilibili.com/video/av117631084470024",
-      "time": "2026-11-17 17:33",
-      "heat": 656,
-      "discussions": "7",
-      "tags": [
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>10月社零只涨0.4%，固投、工业增加值也全部低于预期。以旧换新的钱发完了，消费为什么还是起不来？</p>",
-      "published_at": "2026-11-17T17:33:23+08:00"
+      "detail": "<p>10月经济数据全景拆解：在9月季末冲刺过后，内需核心指标全线回落，官方定调退回8月“延续总体平稳”，首次点出“供强需弱仍较突出”。\n\n• 外贸独秀：10月出口同比+35.2%，进口同比+41.6%，规上工增回落至4.8%\n• 消费转弱：社零单月回落至0.4%，季调环比仅万分之二，双十一前置难挽疲态\n• 固投探底：1-10月固投累计同比跌至-8.1%，单月环比跌2.93%逼近年内极值\n• 真实体感：</p>",
+      "published_at": "2026-11-17T19:47:56+08:00"
     },
     {
       "id": "b1d686597cd7",
@@ -549,220 +164,14 @@
       "author": "减肥秃了头",
       "url": "http://www.bilibili.com/video/av117631101502008",
       "time": "2026-11-17 17:40",
-      "heat": 529,
-      "discussions": "15",
+      "heat": 792,
+      "discussions": "25",
       "tags": [
         "经济"
       ],
       "isHot": false,
       "detail": "<p>10月经济数据简评内需指标、居民部门资产负债表与全年增长节奏！居民部门悄然转向“精细化防御”？有效需求不足?</p>",
       "published_at": "2026-11-17T17:40:26+08:00"
-    },
-    {
-      "id": "ae9845fa0ceb",
-      "title": "2026年上半年华东地区地方财政收入15强城市，看看哪个城市的财政表现让你意外！",
-      "summary": "2026年上半年华东地区地方财政收入15强城市，看看哪个城市的财政表现让你意外！",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "大数据百科",
-      "url": "http://www.bilibili.com/video/av117284836284211",
-      "time": "2026-09-17 13:58",
-      "heat": 795,
-      "discussions": "16",
-      "tags": [
-        "财政"
-      ],
-      "isHot": false,
-      "detail": "<p>2026年上半年华东地区地方财政收入15强城市，看看哪个城市的财政表现让你意外！</p>",
-      "published_at": "2026-09-17T13:58:29+08:00"
-    },
-    {
-      "id": "9714ee090c6e",
-      "title": "财政科普 | 如何查找省市县的预决算数据（地方政府网站→信息公开栏→财政预决算栏）",
-      "summary": "省市县由于各地数据公开程度不同，所以查找的便捷度会有差异。不过近些年各地的数据公开情况都在逐渐变好，财政数据变得更加公开透明。\n感谢大家的支持！",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "经济小分子",
-      "url": "http://www.bilibili.com/video/av212587740",
-      "time": "2022-03-23 23:25",
-      "heat": 755,
-      "discussions": "8",
-      "tags": [
-        "财政"
-      ],
-      "isHot": false,
-      "detail": "<p>省市县由于各地数据公开程度不同，所以查找的便捷度会有差异。不过近些年各地的数据公开情况都在逐渐变好，财政数据变得更加公开透明。\n感谢大家的支持！</p>",
-      "published_at": "2022-03-23T23:25:58+08:00"
-    },
-    {
-      "id": "3d84575ed781",
-      "title": "什么是财政政策(Fiscal Policy)？国家发行国债意味着啥？对经济有何影响？",
-      "summary": "什么是财政政策？发行国债意味着什么？对经济又有何影响？1条视频带你搞懂Fiscal Policy。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "顾存孝讲CFA",
-      "url": "http://www.bilibili.com/video/av1805252747",
-      "time": "2024-06-03 18:45",
-      "heat": 742,
-      "discussions": "53",
-      "tags": [
-        "财政",
-        "经济",
-        "国债"
-      ],
-      "isHot": false,
-      "detail": "<p>什么是财政政策？发行国债意味着什么？对经济又有何影响？1条视频带你搞懂Fiscal Policy。</p>",
-      "published_at": "2024-06-03T18:45:00+08:00"
-    },
-    {
-      "id": "0cc3a1ed5694",
-      "title": "47.宏观经济学：财政政策",
-      "summary": "本课程是宏观经济学的基础课程，参考书为曼昆《经济学原理（宏观）》，主要以中国视角展开，我在其中加入了自己的一些理解、研究。本课程适合经济、管理类本科一年级同学，高校其他专业对经济学感兴趣的同学，以及其他希望对经济学有所了解的同学。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "李三石教授",
-      "url": "http://www.bilibili.com/video/av898511173",
-      "time": "2022-07-19 18:32",
-      "heat": 736,
-      "discussions": "4",
-      "tags": [
-        "财政",
-        "宏观",
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>本课程是宏观经济学的基础课程，参考书为曼昆《经济学原理（宏观）》，主要以中国视角展开，我在其中加入了自己的一些理解、研究。本课程适合经济、管理类本科一年级同学，高校其他专业对经济学感兴趣的同学，以及其他希望对经济学有所了解的同学。</p>",
-      "published_at": "2022-07-19T18:32:40+08:00"
-    },
-    {
-      "id": "e5ba883a99c0",
-      "title": "一个视频告诉你都市天际线2城市财政收支！",
-      "summary": "一个视频告诉你都市天际线2城市财政收支！",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "杭电光头学长",
-      "url": "http://www.bilibili.com/video/av113728099981012",
-      "time": "2024-12-28 10:38",
-      "heat": 682,
-      "discussions": "24",
-      "tags": [
-        "财政",
-        "财政收支"
-      ],
-      "isHot": false,
-      "detail": "<p>一个视频告诉你都市天际线2城市财政收支！</p>",
-      "published_at": "2024-12-28T10:38:53+08:00"
-    },
-    {
-      "id": "03c09e5ccab4",
-      "title": "波兰GDP为什么增长这么快？人均将突破3万美元#波蘭#GDP#",
-      "summary": "波兰，曾经是欧洲比较穷的国家，然而，近年来正越来越受到关注。2025年，波兰名义GDP约为1.04万亿美元，突破1万亿美元。已经跻身全球约前20大的经济体。世界银行数据显示，波兰2025年人均GDP约为28,420美元。国际货币基金组织（IMF）2026年4月《世界经济展望》则预计，波兰2026年人均GDP将达到约31,340美元，跨过3万美元门槛。需要注意，这属于预测值。与此同时，波兰经济仍保持",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "嘉言666",
-      "url": "http://www.bilibili.com/video/av117453598235301",
-      "time": "2026-10-17 09:21",
-      "heat": 661,
-      "discussions": "15",
-      "tags": [
-        "经济",
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>波兰，曾经是欧洲比较穷的国家，然而，近年来正越来越受到关注。2025年，波兰名义GDP约为1.04万亿美元，突破1万亿美元。已经跻身全球约前20大的经济体。世界银行数据显示，波兰2025年人均GDP约为28,420美元。国际货币基金组织（IMF）2026年4月《世界经济展望》则预计，波兰2026年人均GDP将达到约31,340美元，跨过3万美元门槛。需要注意，这属于预测值。与此同时，波兰经济仍保持</p>",
-      "published_at": "2026-10-17T09:21:57+08:00"
-    },
-    {
-      "id": "3ef4c12bb321",
-      "title": "高盛大报告测算：卖地收入未来十年再降 90%，房产税最早将于十五五末期全国推开，广义地产占 GDP 降至 8%",
-      "summary": "高盛宏观研究团队在地产团队中长期展望与 828 预售制度改革落地基础上，重新校准宏观影响模型，量化回答房地产对经济的拖累与出清终点：\n• 供给加速出清：今年前 9 月新开工同比降 25%（较峰值累降近 90%），二手房价累降不到 40%\n• 广义体量腰斩：广义地产占 GDP 比重从峰值 30% 回落至 15%，2030 年稳态降至 8%（发达国家常态）\n• 宏观拖累峰值：今年房地产拖累实际 GDP",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "连横财经",
-      "url": "http://www.bilibili.com/video/av117518509284276",
-      "time": "2026-10-28 20:32",
-      "heat": 511,
-      "discussions": "4",
-      "tags": [
-        "宏观",
-        "经济",
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>高盛宏观研究团队在地产团队中长期展望与 828 预售制度改革落地基础上，重新校准宏观影响模型，量化回答房地产对经济的拖累与出清终点：\n• 供给加速出清：今年前 9 月新开工同比降 25%（较峰值累降近 90%），二手房价累降不到 40%\n• 广义体量腰斩：广义地产占 GDP 比重从峰值 30% 回落至 15%，2030 年稳态降至 8%（发达国家常态）\n• 宏观拖累峰值：今年房地产拖累实际 GDP</p>",
-      "published_at": "2026-10-28T20:32:06+08:00"
-    },
-    {
-      "id": "82f64c3451a9",
-      "title": "10月经济数据简评：内需指标再度全面转弱，居民部门开始“过日子”，全年经济增速预计定格在4.6%",
-      "summary": "10月经济数据全景拆解：在9月季末冲刺过后，内需核心指标全线回落，官方定调退回8月“延续总体平稳”，首次点出“供强需弱仍较突出”。\n\n• 外贸独秀：10月出口同比+35.2%，进口同比+41.6%，规上工增回落至4.8%\n• 消费转弱：社零单月回落至0.4%，季调环比仅万分之二，双十一前置难挽疲态\n• 固投探底：1-10月固投累计同比跌至-8.1%，单月环比跌2.93%逼近年内极值\n• 真实体感：",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "老厉害了财经",
-      "url": "http://www.bilibili.com/video/av117631587717585",
-      "time": "2026-11-17 19:47",
-      "heat": 354,
-      "discussions": "8",
-      "tags": [
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>10月经济数据全景拆解：在9月季末冲刺过后，内需核心指标全线回落，官方定调退回8月“延续总体平稳”，首次点出“供强需弱仍较突出”。\n\n• 外贸独秀：10月出口同比+35.2%，进口同比+41.6%，规上工增回落至4.8%\n• 消费转弱：社零单月回落至0.4%，季调环比仅万分之二，双十一前置难挽疲态\n• 固投探底：1-10月固投累计同比跌至-8.1%，单月环比跌2.93%逼近年内极值\n• 真实体感：</p>",
-      "published_at": "2026-11-17T19:47:56+08:00"
-    },
-    {
-      "id": "d17dd8a2356e",
-      "title": "2024.11.25寇宗来，数据如何定价：从数据资产到数据资本；徐翔，建设中国特色数据要素一体化市场-2024数据资产管理峰会",
-      "summary": "2024.11.25寇宗来，数据如何定价：从数据资产到数据资本；徐翔，建设中国特色数据要素一体化市场-2024数据资产管理峰会",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "经管小吉",
-      "url": "http://www.bilibili.com/video/av113560697116801",
-      "time": "2024-11-28 21:03",
-      "heat": 596,
-      "discussions": "13",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>2024.11.25寇宗来，数据如何定价：从数据资产到数据资本；徐翔，建设中国特色数据要素一体化市场-2024数据资产管理峰会</p>",
-      "published_at": "2024-11-28T21:03:32+08:00"
-    },
-    {
-      "id": "e98780241cfe",
-      "title": "西方经济学-宏观 第十一章 宏观经济政策",
-      "summary": "宏观经济学（英文名称：Macroeconomics）是使用国民收入、经济整体的投资和消费等总体性的统计概念来分析经济运行规律的一个经济学领域。宏观经济学是相对于微观经济学而言的。西方经济学中研究一国经济总量、总需求与总供给、国民收入总量及构成、货币与财政、人口与就业、要素与禀赋、经济周期与经济增长、经济预期与经济政策、国际贸易与国际经济等宏观经济现象的学科。\n宏观经济学是约翰·梅纳德·凯恩斯的《就",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "雪碧频3300",
-      "url": "http://www.bilibili.com/video/av498470654",
-      "time": "2020-06-08 09:51",
-      "heat": 572,
-      "discussions": "8",
-      "tags": [
-        "财政",
-        "宏观",
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>宏观经济学（英文名称：Macroeconomics）是使用国民收入、经济整体的投资和消费等总体性的统计概念来分析经济运行规律的一个经济学领域。宏观经济学是相对于微观经济学而言的。西方经济学中研究一国经济总量、总需求与总供给、国民收入总量及构成、货币与财政、人口与就业、要素与禀赋、经济周期与经济增长、经济预期与经济政策、国际贸易与国际经济等宏观经济现象的学科。\n宏观经济学是约翰·梅纳德·凯恩斯的《就</p>",
-      "published_at": "2020-06-08T09:51:11+08:00"
-    },
-    {
-      "id": "080a3938e984",
-      "title": "「10月经济数据简评」20261116：内需指标再度全面放缓，居民部门开始“过日子”，全年经济增速预计定格在4.6%｜国有大行地方分行投",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "农夫三拳不是水",
-      "url": "http://www.bilibili.com/video/av117630883143559",
-      "time": "2026-11-17 16:48",
-      "heat": 297,
-      "discussions": "1",
-      "tags": [
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-11-17T16:48:01+08:00"
     },
     {
       "id": "aaa2c0836e7c",
@@ -784,25 +193,6 @@
       "published_at": "2024-03-26T18:24:40+08:00"
     },
     {
-      "id": "4e7d7f45f37d",
-      "title": "【宏观】十七章宏观经济政策 第四节两种政策混用",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "锐宝爱学习",
-      "url": "http://www.bilibili.com/video/av542477400",
-      "time": "2020-10-12 15:17",
-      "heat": 510,
-      "discussions": "11",
-      "tags": [
-        "宏观",
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2020-10-12T15:17:14+08:00"
-    },
-    {
       "id": "e8ab2f327914",
       "title": "【课程学习】马工程宏观经济学-第15章宏观经济政策",
       "summary": "【课程学习】马工程宏观经济学-第15章宏观经济政策",
@@ -822,210 +212,6 @@
       "published_at": "2025-02-03T17:12:19+08:00"
     },
     {
-      "id": "8fa574756e5a",
-      "title": "简报：国民经济2026年4月份要点数据，运行情况发布数据。今年多项数据发布。",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "科技实现宇宙共产大同",
-      "url": "http://www.bilibili.com/video/av116593682023699",
-      "time": "2026-05-18 12:30",
-      "heat": 430,
-      "discussions": "7",
-      "tags": [
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-05-18T12:30:34+08:00"
-    },
-    {
-      "id": "e0d916c7c593",
-      "title": "GDP负增长😫，这回真是消费疲软了吧😋",
-      "summary": "每日更新日本文化/生活/社会新闻。\n各位观众大大点点赞吧这对我真的很重要。\n（目前日更5条左右，粉丝涨到1w就日更10条😋）\n\n原链：https://www.youtube.com/watch?v=GxZYhpgcGiQ\n发布：2026-11-16",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "老日TV",
-      "url": "http://www.bilibili.com/video/av117627997390062",
-      "time": "2026-11-17 14:00",
-      "heat": 232,
-      "discussions": "1",
-      "tags": [
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>每日更新日本文化/生活/社会新闻。\n各位观众大大点点赞吧这对我真的很重要。\n（目前日更5条左右，粉丝涨到1w就日更10条😋）\n\n原链：https://www.youtube.com/watch?v=GxZYhpgcGiQ\n发布：2026-11-16</p>",
-      "published_at": "2026-11-17T14:00:00+08:00"
-    },
-    {
-      "id": "ac1b4d5bf428",
-      "title": "全国一般公共财政和政府性基金决算（2010-2017）",
-      "summary": "数据可视化模板来自 @狸子LePtC 大佬的开源",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "账号已注销",
-      "url": "http://www.bilibili.com/video/av49549083",
-      "time": "2019-04-17 02:09",
-      "heat": 382,
-      "discussions": "7",
-      "tags": [
-        "财政"
-      ],
-      "isHot": false,
-      "detail": "<p>数据可视化模板来自 @狸子LePtC 大佬的开源</p>",
-      "published_at": "2019-04-17T02:09:17+08:00"
-    },
-    {
-      "id": "86cacb1f76f3",
-      "title": "国家统计局发布10月经济数据深度解读",
-      "summary": "国家统计局发布10月经济数据深度解读",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "AI和宏观笔记",
-      "url": "http://www.bilibili.com/video/av117624793006865",
-      "time": "2026-11-16 16:55",
-      "heat": 212,
-      "discussions": "2",
-      "tags": [
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>国家统计局发布10月经济数据深度解读</p>",
-      "published_at": "2026-11-16T16:55:00+08:00"
-    },
-    {
-      "id": "35e64f0659f7",
-      "title": "2026年前三季度合肥蜀山区GDP推算：突破4000亿，增速爆炸！",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "小杨闲谈",
-      "url": "http://www.bilibili.com/video/av117597597140767",
-      "time": "2026-11-11 19:36",
-      "heat": 215,
-      "discussions": "6",
-      "tags": [
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-11-11T19:36:15+08:00"
-    },
-    {
-      "id": "6265f77e0314",
-      "title": "【宏观】第17章宏观经济政策 第七节 供给管理政策",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "锐宝爱学习",
-      "url": "http://www.bilibili.com/video/av669902642",
-      "time": "2020-10-18 21:15",
-      "heat": 332,
-      "discussions": "5",
-      "tags": [
-        "宏观",
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2020-10-18T21:15:24+08:00"
-    },
-    {
-      "id": "7f293b9ae620",
-      "title": "经济学基础-第十章-宏观经济调控-财政政策",
-      "summary": "经济学基础-第十章-宏观经济调控-财政政策",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "笨重小飞象Applejuan",
-      "url": "http://www.bilibili.com/video/av815293774",
-      "time": "2022-09-07 18:02",
-      "heat": 311,
-      "discussions": "1",
-      "tags": [
-        "财政",
-        "宏观",
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>经济学基础-第十章-宏观经济调控-财政政策</p>",
-      "published_at": "2022-09-07T18:02:34+08:00"
-    },
-    {
-      "id": "bbdcc410c582",
-      "title": "【GDP预测】超越四川指日可待！2026年河南省GDP数据预测",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "魅力魔都",
-      "url": "http://www.bilibili.com/video/av117631957010171",
-      "time": "2026-11-17 21:18",
-      "heat": 131,
-      "discussions": "40",
-      "tags": [
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-11-17T21:18:23+08:00"
-    },
-    {
-      "id": "164c12d52674",
-      "title": "债务经济与GDP增长",
-      "summary": "【银行小土豆】债务经济与GDP增长。债务的促进作用具有两面性，当你获得他的好处的时候，他的副作用也可能在发酵#债务#GDP#经济#负债",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "钱庄小土豆",
-      "url": "http://www.bilibili.com/video/av115579365102611",
-      "time": "2025-11-20 09:14",
-      "heat": 212,
-      "discussions": "5",
-      "tags": [
-        "经济",
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>【银行小土豆】债务经济与GDP增长。债务的促进作用具有两面性，当你获得他的好处的时候，他的副作用也可能在发酵#债务#GDP#经济#负债</p>",
-      "published_at": "2025-11-20T09:14:27+08:00"
-    },
-    {
-      "id": "be39aaad4bc8",
-      "title": "财政政策转向积极：2026年政府将加力举债扩内需",
-      "summary": "财政政策转向积极：2026年政府将加力举债扩内需#宏观经济形势分析来了 #财税政策解读避坑指南 #财政 #财经知识科普避坑指南 #宏观经济",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "明天会更好186",
-      "url": "http://www.bilibili.com/video/av115811008124758",
-      "time": "2025-12-31 07:04",
-      "heat": 172,
-      "discussions": "3",
-      "tags": [
-        "财税",
-        "财政",
-        "宏观"
-      ],
-      "isHot": false,
-      "detail": "<p>财政政策转向积极：2026年政府将加力举债扩内需#宏观经济形势分析来了 #财税政策解读避坑指南 #财政 #财经知识科普避坑指南 #宏观经济</p>",
-      "published_at": "2025-12-31T07:04:31+08:00"
-    },
-    {
-      "id": "7f13d4fd48c9",
-      "title": "10月经济数据冰与火… # 薇观察",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "吴薇观察",
-      "url": "http://www.bilibili.com/video/av117631587786002",
-      "time": "2026-11-17 19:42",
-      "heat": 93,
-      "discussions": "0",
-      "tags": [
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-11-17T19:42:49+08:00"
-    },
-    {
       "id": "37a196833259",
       "title": "【2027咨询精讲合集】郑春秋：宏观经济政策与发展规划：备考指导（直播）",
       "summary": "2027 咨询工程师考试【宏观经济政策与发展规划】：备考指导，更新啦！\n咨询工程师新考季已开启，同学准备好了吗？\n评论区置顶领取【咨询工程师免费资料】和【2027备考计划】\n祝各位考生在新的考季万事胜意~",
@@ -1034,7 +220,7 @@
       "author": "环球网校",
       "url": "http://www.bilibili.com/video/av117488880720830",
       "time": "2026-10-23 14:52",
-      "heat": 117,
+      "heat": 118,
       "discussions": "5",
       "tags": [
         "宏观",
@@ -1043,371 +229,6 @@
       "isHot": false,
       "detail": "<p>2027 咨询工程师考试【宏观经济政策与发展规划】：备考指导，更新啦！\n咨询工程师新考季已开启，同学准备好了吗？\n评论区置顶领取【咨询工程师免费资料】和【2027备考计划】\n祝各位考生在新的考季万事胜意~</p>",
       "published_at": "2026-10-23T14:52:11+08:00"
-    },
-    {
-      "id": "3e7008775862",
-      "title": "各地财政自给率【数据可视化】",
-      "summary": "各地财政自给率【数据可视化】",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "夹克mnnm",
-      "url": "http://www.bilibili.com/video/av1755790522",
-      "time": "2024-06-19 12:25",
-      "heat": 111,
-      "discussions": "5",
-      "tags": [
-        "财政"
-      ],
-      "isHot": false,
-      "detail": "<p>各地财政自给率【数据可视化】</p>",
-      "published_at": "2024-06-19T12:25:00+08:00"
-    },
-    {
-      "id": "d660377ee492",
-      "title": "美国商务部新规：远程算力超1200万须许可；阿里发布Qwen4-Max【科技夜报 11-17】",
-      "summary": "配音由AI生成。\n\n今日目录\n头条：美国商务部工业与安全局周一公布临时最终规则，远程调用超过 1200 万总处理性能的先进算力须申请许可证，覆盖向国家组别 D:5 或澳门总部企业供算的数据中心。向印尼、马来西亚、新加坡、泰国或巴西出口先进芯片也须许可，美国总部企业在满足报告要求时可豁免。已运营相关数据中心须在规则生效后 90 天内取证。\n快讯 1：阿里巴巴发布旗舰模型 Qwen4-Max，总参数 ",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "ReminDream",
-      "url": "http://www.bilibili.com/video/av117627678629620",
-      "time": "2026-11-17 07:00",
-      "heat": 57,
-      "discussions": "0",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>配音由AI生成。\n\n今日目录\n头条：美国商务部工业与安全局周一公布临时最终规则，远程调用超过 1200 万总处理性能的先进算力须申请许可证，覆盖向国家组别 D:5 或澳门总部企业供算的数据中心。向印尼、马来西亚、新加坡、泰国或巴西出口先进芯片也须许可，美国总部企业在满足报告要求时可豁免。已运营相关数据中心须在规则生效后 90 天内取证。\n快讯 1：阿里巴巴发布旗舰模型 Qwen4-Max，总参数 </p>",
-      "published_at": "2026-11-17T07:00:00+08:00"
-    },
-    {
-      "id": "5b9c82a1f061",
-      "title": "（经济学基础）40.第八章 第三节 货币政策及其效果与财政政策综合运用",
-      "summary": "（经济学基础）40.第八章 第三节 货币政策及其效果与财政政策综合运用",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "一个达不牛牪犇",
-      "url": "http://www.bilibili.com/video/av113514089811771",
-      "time": "2024-11-20 15:27",
-      "heat": 101,
-      "discussions": "0",
-      "tags": [
-        "财政",
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>（经济学基础）40.第八章 第三节 货币政策及其效果与财政政策综合运用</p>",
-      "published_at": "2024-11-20T15:27:57+08:00"
-    },
-    {
-      "id": "ac663a9f3a94",
-      "title": "CHARLS第六轮数据正式发布，新增三大重磅数据模块🔥",
-      "summary": "CHARLS第六轮数据正式发布，新增三大重磅数据模块🔥",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "统计之光公开课",
-      "url": "http://www.bilibili.com/video/av117608602998697",
-      "time": "2026-11-15 10:00",
-      "heat": 49,
-      "discussions": "1",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>CHARLS第六轮数据正式发布，新增三大重磅数据模块🔥</p>",
-      "published_at": "2026-11-15T10:00:00+08:00"
-    },
-    {
-      "id": "4a985a765062",
-      "title": "【GDP】前四城持续高增速增量占全省的一半！2026年合芜滁阜和剩下的安徽省前三季度GDP数据公布",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "china_江苏",
-      "url": "http://www.bilibili.com/video/av117630883070566",
-      "time": "2026-11-17 16:42",
-      "heat": 41,
-      "discussions": "0",
-      "tags": [
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-11-17T16:42:30+08:00"
-    },
-    {
-      "id": "672811b5eafc",
-      "title": "2026APEC经济增长高于全球预期，增长比例高于预期。2026年11月17日。",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "科技实现宇宙共产大同",
-      "url": "http://www.bilibili.com/video/av117630060987201",
-      "time": "2026-11-17 13:15",
-      "heat": 37,
-      "discussions": "0",
-      "tags": [
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-11-17T13:15:07+08:00"
-    },
-    {
-      "id": "89e1e8bd3319",
-      "title": "【GDP】整体增速放缓？2026年南柳桂玉和剩下的广西区前三季度GDP数据公布",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "china_江苏",
-      "url": "http://www.bilibili.com/video/av117632074319383",
-      "time": "2026-11-17 21:44",
-      "heat": 36,
-      "discussions": "2",
-      "tags": [
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-11-17T21:44:12+08:00"
-    },
-    {
-      "id": "29f0b4b27bcc",
-      "title": "银行笔试｜宏观经济学 第三章 宏观经济政策分析",
-      "summary": "讲解宏观经济四大目标、财政政策、货币政策，自动稳定器、货币政策三大法宝是银行笔试高频考点。\n📖本节核心考点： \n✅宏观经济政策四大最终目标：经济增长、充分就业、物价稳定、国际收支平衡 \n✅财政政策：工具、自动稳定器含义与机制 \n✅货币政策：三大法宝（法定存款准备金率、再贴现率、公开市场业务） \n✅扩张 / 紧缩政策分别如何操作\n第三章课程结束，下一章更新第四章宏观经济现象（失业、通胀、菲利普斯曲线",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "考银行国企找德叔",
-      "url": "http://www.bilibili.com/video/av117410044642381",
-      "time": "2026-10-09 16:46",
-      "heat": 52,
-      "discussions": "0",
-      "tags": [
-        "财政",
-        "宏观",
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>讲解宏观经济四大目标、财政政策、货币政策，自动稳定器、货币政策三大法宝是银行笔试高频考点。\n📖本节核心考点： \n✅宏观经济政策四大最终目标：经济增长、充分就业、物价稳定、国际收支平衡 \n✅财政政策：工具、自动稳定器含义与机制 \n✅货币政策：三大法宝（法定存款准备金率、再贴现率、公开市场业务） \n✅扩张 / 紧缩政策分别如何操作\n第三章课程结束，下一章更新第四章宏观经济现象（失业、通胀、菲利普斯曲线</p>",
-      "published_at": "2026-10-09T16:46:28+08:00"
-    },
-    {
-      "id": "556d54bcce08",
-      "title": "透视财政数据，能得到什么什么信息？",
-      "summary": "透视财政数据，能得到什么什么信息？",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "平凡学习笔记",
-      "url": "http://www.bilibili.com/video/av1355455311",
-      "time": "2024-06-02 11:46",
-      "heat": 52,
-      "discussions": "0",
-      "tags": [
-        "财政"
-      ],
-      "isHot": false,
-      "detail": "<p>透视财政数据，能得到什么什么信息？</p>",
-      "published_at": "2024-06-02T11:46:33+08:00"
-    },
-    {
-      "id": "d9189ad2e79a",
-      "title": "2026年人均GDP有望突破1.6万美金，低位蛰伏期结束",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "有趣人间",
-      "url": "http://www.bilibili.com/video/av117481414855688",
-      "time": "2026-10-22 07:10",
-      "heat": 43,
-      "discussions": "2",
-      "tags": [
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-10-22T07:10:26+08:00"
-    },
-    {
-      "id": "b9c5fc113db6",
-      "title": "日本GDP时隔四季度再转负，70%的人为何不敢花钱#日本GDP负增长 #经济热点 #民生话题",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "社会更新",
-      "url": "http://www.bilibili.com/video/av117628953697637",
-      "time": "2026-11-17 08:36",
-      "heat": 17,
-      "discussions": "0",
-      "tags": [
-        "经济",
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-11-17T08:36:27+08:00"
-    },
-    {
-      "id": "b1e14bed72a8",
-      "title": "XX市202X年度本级预算执行和其他财政收支的审计工作报告",
-      "summary": "XX市202X年度本级预算执行和其他财政收支的审计工作报告",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "公文写作啊",
-      "url": "http://www.bilibili.com/video/av1550326420",
-      "time": "2024-02-08 12:31",
-      "heat": 28,
-      "discussions": "0",
-      "tags": [
-        "财政",
-        "财政收支",
-        "预算"
-      ],
-      "isHot": false,
-      "detail": "<p>XX市202X年度本级预算执行和其他财政收支的审计工作报告</p>",
-      "published_at": "2024-02-08T12:31:18+08:00"
-    },
-    {
-      "id": "739a88ad4adc",
-      "title": "下周即将发布三大核心数据、美联储密集讲话，北京时间精准时间表！",
-      "summary": "过去一周惊心动魄：美国全国停飞、微软全球宕机。下周重磅数据又密集轰炸！具体是北京时间几点？对盘面有什么影响？做交易的朋友务必收藏，谨防黑天鹅。\n70后职业交易。专注K线技术分析，深度解读美国核心经济数据与国际大事，推演黄金走势与股市交易逻辑。陪你快乐交易！\n关注我。带你穿透迷雾，读懂人性，看清底层逻辑，洞悉顶级交易生态。\n个人观点，不构成投资建议。\n 快乐交易大师！\n#宏观经济 #美联储 #交易逻",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "快乐交易大师",
-      "url": "http://www.bilibili.com/video/av117620313494953",
-      "time": "2026-11-15 19:56",
-      "heat": 14,
-      "discussions": "0",
-      "tags": [
-        "宏观",
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>过去一周惊心动魄：美国全国停飞、微软全球宕机。下周重磅数据又密集轰炸！具体是北京时间几点？对盘面有什么影响？做交易的朋友务必收藏，谨防黑天鹅。\n70后职业交易。专注K线技术分析，深度解读美国核心经济数据与国际大事，推演黄金走势与股市交易逻辑。陪你快乐交易！\n关注我。带你穿透迷雾，读懂人性，看清底层逻辑，洞悉顶级交易生态。\n个人观点，不构成投资建议。\n 快乐交易大师！\n#宏观经济 #美联储 #交易逻</p>",
-      "published_at": "2026-11-15T19:56:04+08:00"
-    },
-    {
-      "id": "e41bb4e6738e",
-      "title": "GDP是什么？经济增长百分之五增长的是什么",
-      "summary": "经济增长百分之五，增长的到底是什么？一分钟讲清楚GDP。 #财经知识 #GDP #vibe知识大赏",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "失落的大蒜",
-      "url": "http://www.bilibili.com/video/av117541225634747",
-      "time": "2026-11-01 20:42",
-      "heat": 12,
-      "discussions": "0",
-      "tags": [
-        "经济",
-        "GDP"
-      ],
-      "isHot": false,
-      "detail": "<p>经济增长百分之五，增长的到底是什么？一分钟讲清楚GDP。 #财经知识 #GDP #vibe知识大赏</p>",
-      "published_at": "2026-11-01T20:42:56+08:00"
-    },
-    {
-      "id": "31583e428768",
-      "title": "国家数据集团成立：数据怎样才能变成现金流？",
-      "summary": "10月20日，国家数据集团有限公司在河北雄安新区成立。数据资源开发利用迎来新的产业参与者，但数据被称为重要生产要素，并不意味着拥有数据就能轻松赚钱。原始数据如何合规使用，怎样经过治理加工成为可用的产品，又如何找到愿意持续付费的客户？本文从企业经营的真实场景出发，拆解数据从资源走向收入的关键环节，分析数据持有者、技术服务商与场景应用企业可能创造的不同价值，并讨论国家数据集团成立后值得持续观察的方向。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "二十笔画生Pro",
-      "url": "http://www.bilibili.com/video/av117477421946868",
-      "time": "2026-10-21 14:18",
-      "heat": 11,
-      "discussions": "0",
-      "tags": [],
-      "isHot": false,
-      "detail": "<p>10月20日，国家数据集团有限公司在河北雄安新区成立。数据资源开发利用迎来新的产业参与者，但数据被称为重要生产要素，并不意味着拥有数据就能轻松赚钱。原始数据如何合规使用，怎样经过治理加工成为可用的产品，又如何找到愿意持续付费的客户？本文从企业经营的真实场景出发，拆解数据从资源走向收入的关键环节，分析数据持有者、技术服务商与场景应用企业可能创造的不同价值，并讨论国家数据集团成立后值得持续观察的方向。</p>",
-      "published_at": "2026-10-21T14:18:01+08:00"
-    },
-    {
-      "id": "ef0b907ca87a",
-      "title": "经济增长从哪里来？化债的钱从哪些增长中来？看懂中国经济的未来方向",
-      "summary": "经济增长从哪里来？化债的钱从哪些增长中来？看懂中国经济的未来方向",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "杨梅YOLO",
-      "url": "http://www.bilibili.com/video/av117631537514367",
-      "time": "2026-11-17 19:35",
-      "heat": 3,
-      "discussions": "0",
-      "tags": [
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>经济增长从哪里来？化债的钱从哪些增长中来？看懂中国经济的未来方向</p>",
-      "published_at": "2026-11-17T19:35:51+08:00"
-    },
-    {
-      "id": "2166e1451e14",
-      "title": "宏观经济学 宏观经济政策",
-      "summary": "-",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "清丽真心咕噜蟹",
-      "url": "http://www.bilibili.com/video/av117524867844472",
-      "time": "2026-10-29 23:26",
-      "heat": 4,
-      "discussions": "0",
-      "tags": [
-        "宏观",
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>-</p>",
-      "published_at": "2026-10-29T23:26:08+08:00"
-    },
-    {
-      "id": "344192853ab1",
-      "title": "土地财政退潮：依赖度降了，债务涨了",
-      "summary": "2025 年地方政府国有土地使用权出让收入 41518 亿元，同比下降 14.7%，较 2021 年峰值 8.7 万亿元累计下降 52.3%。 按全国汇总口径计算土地财政依赖度：2015 年 16.7%、2020 年峰值 30.4%、2025 年 15.2%。 但依赖度下降不等于依赖消失。2025 年全国政府性基金预算本级收入 57704 亿元，加上结转收入、超长期特别国债、中央金融机构注资特别国",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "太对了dd",
-      "url": "http://www.bilibili.com/video/av117629457014431",
-      "time": "2026-11-17 10:40",
-      "heat": 2,
-      "discussions": "0",
-      "tags": [
-        "财政",
-        "预算",
-        "国债"
-      ],
-      "isHot": false,
-      "detail": "<p>2025 年地方政府国有土地使用权出让收入 41518 亿元，同比下降 14.7%，较 2021 年峰值 8.7 万亿元累计下降 52.3%。 按全国汇总口径计算土地财政依赖度：2015 年 16.7%、2020 年峰值 30.4%、2025 年 15.2%。 但依赖度下降不等于依赖消失。2025 年全国政府性基金预算本级收入 57704 亿元，加上结转收入、超长期特别国债、中央金融机构注资特别国</p>",
-      "published_at": "2026-11-17T10:40:44+08:00"
-    },
-    {
-      "id": "85ee2184a363",
-      "title": "11月17日 经济政策要闻",
-      "summary": "11月17日 经济政策要闻",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "老胡命里啥都有",
-      "url": "http://www.bilibili.com/video/av117632258867890",
-      "time": "2026-11-17 22:38",
-      "heat": 0,
-      "discussions": "0",
-      "tags": [
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>11月17日 经济政策要闻</p>",
-      "published_at": "2026-11-17T22:38:47+08:00"
-    },
-    {
-      "id": "3814a5efdef9",
-      "title": "前三季度十强城市经济数据发布",
-      "summary": "2026年前三季度全国城市经济数据陆续披露。十强城市位次基本稳定，成都守住第七位，深圳站上3万亿元台阶，合肥在万亿城市中增速领先。整体数据显示，头部城市动能换挡特征显现，城市竞争正从总量扩张转入产业动能比拼阶段。",
-      "source": "B站",
-      "platform_class": "platform-bilibili",
-      "author": "经观东北政研院",
-      "url": "http://www.bilibili.com/video/av117629054360443",
-      "time": "2026-11-17 08:57",
-      "heat": 0,
-      "discussions": "0",
-      "tags": [
-        "经济"
-      ],
-      "isHot": false,
-      "detail": "<p>2026年前三季度全国城市经济数据陆续披露。十强城市位次基本稳定，成都守住第七位，深圳站上3万亿元台阶，合肥在万亿城市中增速领先。整体数据显示，头部城市动能换挡特征显现，城市竞争正从总量扩张转入产业动能比拼阶段。</p>",
-      "published_at": "2026-11-17T08:57:48+08:00"
     }
   ]
 }
